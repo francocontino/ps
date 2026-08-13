@@ -1,11 +1,9 @@
 
 # COPIA PREVIEW
 
-git remote set-url origin https://github.com/francocontino/rcestilistas.git
+git remote set-url origin https://github.com/francocontino/primestore.git
 
 
-# SITIO PULICADO
-git remote set-url origin https://github.com/francocontino/robertocontino.git
 
 
 git remote -v
