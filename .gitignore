@@ -10,7 +10,7 @@ Thumbs.db
 *.njsproj
 *.sln
 *.sw?
-commands_github.md
 
-.private/
-.grafica/
+# Private source material and design assets (kept locally, not published)
+private/
+grafica/
