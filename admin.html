@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#faf9fb" />
+    <title>Prime Admin · Variables</title>
+            <link rel="icon" type="image/png" href="./ps.png" />
+
+    <style>
+      :root {
+        color: #17171a;
+        background: #faf9fb;
+        font-family: Inter, "SF Pro Text", system-ui, -apple-system, sans-serif;
+        --purple: #81638b;
+        --purple-strong: #674b72;
+        --line: rgba(129, 99, 139, 0.2);
+        --muted: #6c6870;
+        --success: #267a51;
+        --danger: #b43d3d;
+      }
+      * { box-sizing: border-box; }
+      body {
+        min-width: 320px;
+        min-height: 100dvh;
+        margin: 0;
+        padding: 18px 14px 40px;
+        background:
+          radial-gradient(circle at 92% -5%, rgba(129, 201, 250, 0.16), transparent 26rem),
+          radial-gradient(circle at -5% 12%, rgba(218, 201, 223, 0.28), transparent 24rem),
+          #faf9fb;
+      }
+      button, input, select { font: inherit; }
+      button { cursor: pointer; }
+      :focus-visible { outline: 3px solid rgba(33, 150, 243, 0.34); outline-offset: 2px; }
+      .page { width: min(100%, 680px); margin: 0 auto; }
+      .topbar { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-bottom: 20px; }
+      .brand { display: flex; align-items: center; gap: 11px; }
+      .mark { width: 42px; height: 42px; border: 1px solid var(--line); border-radius: 14px; background: #fff url("./ps.png") center/30px no-repeat; }
+      h1 { margin: 0; font-size: 1rem; letter-spacing: -.03em; }
+      .subtitle { margin: 3px 0 0; color: var(--muted); font-size: .73rem; }
+      .back { min-height: 42px; display: inline-flex; align-items: center; padding: 0 13px; border: 1px solid var(--line); border-radius: 11px; background: #fff; color: var(--purple-strong); font-size: .76rem; font-weight: 800; text-decoration: none; }
+      #adminSheet { margin-top: 18px; overflow: hidden; border: 1px solid var(--line); border-radius: 22px; background: rgba(255,255,255,.94); box-shadow: 0 18px 48px rgba(42,31,47,.1); }
+      .sheet-header { padding: 0; border-bottom: 1px solid var(--line); }
+      .sheet-header h2 { margin: 0; font-size: 1.15rem; }
+      .sheet-header p { margin: 5px 0 0; color: var(--muted); font-size: .76rem; }
+      .sheet-body { padding: 20px; }
+      .fields { display: grid; grid-template-columns: 1fr; gap: 16px; }
+      .field { display: flex; flex-direction: column; gap: 7px; }
+      .field label { color: var(--muted); font-size: .72rem; font-weight: 750; }
+      .field input, .field select { width: 100%; min-height: 46px; padding: 0 12px; border: 1px solid var(--line); border-radius: 11px; background: #fff; color: #17171a; }
+      .mode-field { min-height: 54px; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 12px; background: #fff; }
+      .mode-copy { display: flex; flex-direction: column; gap: 3px; }
+      .mode-copy strong { font-size: .78rem; }
+      .mode-copy small { color: var(--muted); font-size: .66rem; }
+      .switch { position: relative; width: 48px; height: 28px; flex: 0 0 auto; }
+      .switch input { position: absolute; opacity: 0; pointer-events: none; }
+      .switch span { position: absolute; inset: 0; border-radius: 999px; background: #d8d3da; transition: .18s ease; }
+      .switch span::after { position: absolute; top: 4px; left: 4px; width: 20px; height: 20px; border-radius: 50%; background: #fff; box-shadow: 0 2px 7px rgba(0,0,0,.18); content: ""; transition: .18s ease; }
+      .switch input:checked + span { background: var(--purple); }
+      .switch input:checked + span::after { transform: translateX(20px); }
+      .note { margin: 18px 0 0; padding: 12px; border-radius: 11px; background: rgba(129,99,139,.07); color: var(--muted); font-size: .72rem; line-height: 1.5; }
+      .status { min-height: 22px; margin: 13px 0 0; color: var(--muted); font-size: .73rem; font-weight: 700; }
+      .status.success { color: var(--success); }
+      .status.error { color: var(--danger); }
+      .sheet-footer { display: grid; grid-template-columns: 1fr; gap: 9px; padding: 16px 20px calc(16px + env(safe-area-inset-bottom, 0px)); border-top: 1px solid var(--line); background: rgba(250,249,251,.82); }
+      .button { min-height: 46px; border-radius: 11px; font-weight: 800; }
+      .secondary { border: 1px solid var(--line); background: #fff; color: var(--purple-strong); }
+      .primary { border: 0; background: linear-gradient(135deg, #81638b, #6d71bd 52%, #2196f3); color: #fff; }
+      .stock-panel { margin-top: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 20px; background: rgba(255,255,255,.94); box-shadow: 0 14px 38px rgba(42,31,47,.07); }
+      .stock-header { padding: 0; border-bottom: 1px solid var(--line); }
+      .stock-header h2 { margin: 0; font-size: 1rem; }
+      .stock-summary { margin: 5px 0 0; color: var(--muted); font-size: .72rem; }
+      .section-toggle { width: 100%; min-height: 70px; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 16px 20px; border: 0; background: transparent; color: inherit; text-align: left; }
+      .section-toggle:hover { background: rgba(129,99,139,.045); }
+      .section-toggle > span:first-child { min-width: 0; }
+      .section-toggle-copy { display: flex; flex-direction: column; align-items: flex-start; }
+      .section-title { font-size: 1rem; font-weight: 800; }
+      .section-description { margin-top: 5px; color: var(--muted); font-size: .72rem; }
+      .section-chevron { flex: 0 0 auto; color: var(--purple); font-size: 1rem; font-weight: 900; }
+      .stock-controls { display: grid; grid-template-columns: 1fr; gap: 9px; padding: 14px; border-bottom: 1px solid var(--line); background: rgba(250,249,251,.72); }
+      .stock-controls input, .stock-controls select { width: 100%; min-height: 42px; padding: 0 11px; border: 1px solid var(--line); border-radius: 10px; background: #fff; }
+      .table-wrap { max-height: 68dvh; overflow: auto; }
+      .stock-table { width: 100%; min-width: 760px; border-collapse: collapse; font-size: .7rem; }
+      .stock-table th { position: sticky; top: 0; z-index: 2; padding: 0; border-bottom: 1px solid var(--line); background: #f6f4f7; text-align: left; }
+      .stock-table th button { width: 100%; min-height: 42px; padding: 8px 10px; border: 0; background: transparent; color: var(--muted); font-size: .66rem; font-weight: 850; text-align: left; white-space: nowrap; }
+      .stock-table td { padding: 10px; border-bottom: 1px solid rgba(129,99,139,.09); vertical-align: middle; }
+      .stock-row { cursor: pointer; }
+      .stock-row:hover { background: rgba(129,99,139,.055); }
+      .stock-row:focus { outline: 2px solid rgba(33,150,243,.35); outline-offset: -2px; }
+      .stock-model { font-weight: 800; }
+      .stock-units { font-weight: 850; color: var(--success); }
+      .stock-units.low { color: #b56c11; }
+      .stock-empty { padding: 28px !important; color: var(--muted); text-align: center; }
+      .modal-backdrop { position: fixed; inset: 0; z-index: 20; display: grid; place-items: end center; padding: 12px; background: rgba(23,23,26,.38); backdrop-filter: blur(5px); }
+      .modal-backdrop[hidden] { display: none; }
+      .stock-modal { width: min(100%, 560px); max-height: calc(100dvh - 24px); overflow: auto; border: 1px solid var(--line); border-radius: 22px; background: #fff; box-shadow: 0 24px 70px rgba(20,15,24,.26); }
+      .modal-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; padding: 18px 20px; border-bottom: 1px solid var(--line); }
+      .modal-header h2 { margin: 0; font-size: 1rem; }
+      .modal-header p { margin: 4px 0 0; color: var(--muted); font-size: .7rem; }
+      .modal-close { width: 40px; height: 40px; flex: 0 0 auto; border: 1px solid var(--line); border-radius: 11px; background: #fff; color: var(--muted); font-size: 1.2rem; }
+      .detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; padding: 1px; background: var(--line); }
+      .detail-item { min-height: 72px; padding: 12px 14px; background: #fff; }
+      .detail-item small { display: block; margin-bottom: 5px; color: var(--muted); font-size: .63rem; font-weight: 750; }
+      .detail-item strong { font-size: .76rem; overflow-wrap: anywhere; }
+      .detail-raw { margin: 0; padding: 14px; background: #f7f5f8; color: var(--muted); font: .66rem/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; white-space: pre-wrap; }
+      @media (min-width: 560px) {
+        body { padding-top: 34px; }
+        .fields { grid-template-columns: 1fr 1fr; }
+        .field-wide { grid-column: 1 / -1; }
+        .sheet-footer { grid-template-columns: 1fr; }
+        .stock-controls { grid-template-columns: minmax(190px, 1.5fr) repeat(3, 1fr); }
+        .modal-backdrop { place-items: center; }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <header class="topbar">
+        <div class="brand"><div class="mark" aria-hidden="true"></div><div><h1>Prime Store</h1><p class="subtitle">Administración del catálogo</p></div></div>
+        <a class="back" href="./stock-widget.html">← Volver</a>
+      </header>
+
+
+      <section class="stock-panel" aria-labelledby="stockTitle" >
+        <header class="stock-header"><button class="section-toggle" type="button" data-section-toggle="stockPanelContent" aria-expanded="true"><span class="section-toggle-copy"><span id="stockTitle" class="section-title">Stock parametrizado</span><span id="stockSummary" class="stock-summary">Cargando catálogo…</span></span><span class="section-chevron" aria-hidden="true">⌃</span></button></header>
+        <div id="stockPanelContent"><div class="stock-controls">
+          <input id="stockSearch" type="search" placeholder="Buscar modelo, color, capacidad…" aria-label="Buscar stock" />
+          <select id="stockBrand" aria-label="Filtrar por marca"><option value="">Todas las marcas</option></select>
+          <select id="stockType" aria-label="Filtrar por tipo"><option value="">Todos los tipos</option></select>
+          <select id="stockFamily" aria-label="Filtrar por familia"><option value="">Todas las familias</option></select>
+        </div>
+        <div class="table-wrap">
+          <table class="stock-table ">
+            <thead><tr><th><button type="button" data-sort="model">Modelo</button></th><th><button type="button" data-sort="storage">Almacenam.</button></th><th><button type="button" data-sort="sim">SIM</button></th><th><button type="button" data-sort="ram">RAM</button></th><th><button type="button" data-sort="color">Variante</button></th><th><button type="button" data-sort="stockQuantity">Unidades</button></th><th><button type="button" data-sort="priceUsd">Precio</button></th></tr></thead>
+            <tbody id="stockRows"></tbody>
+          </table>
+        </div>
+        </div>
+      </section>
+      <section id="adminSheet" aria-labelledby="adminTitle">
+        <header class="sheet-header mb-22"><button class="section-toggle" type="button" data-section-toggle="pricePanelContent" aria-expanded="true"><span class="section-toggle-copy"><span id="adminTitle" class="section-title">Variables de precio</span><span class="section-description">Configuración local de precios y disponibilidad visible.</span></span><span class="section-chevron" aria-hidden="true">⌃</span></button></header>
+        <div id="pricePanelContent"><div class="sheet-body">
+          <div class="fields">
+            <div class="mode-field field-wide"><span class="mode-copy"><strong>Suma fija</strong><small>OFF: porcentaje · ON: monto fijo en USD</small></span><label class="switch" aria-label="Usar suma fija"><input id="adminFixedMode" type="checkbox" /><span aria-hidden="true"></span></label></div>
+            <div class="field field-wide"><label id="profitLabel" for="adminProfit">Ganancia porcentual (%)</label><input id="adminProfit" type="number" min="-99" step="0.1" inputmode="decimal" /></div>
+            <div class="field"><label for="adminShowPrice">Mostrar precio</label><select id="adminShowPrice"><option value="S">Sí</option><option value="N">No</option></select></div>
+            <div class="field"><label for="adminShowUnits">Mostrar unidades</label><select id="adminShowUnits"><option value="S">Sí</option><option value="N">No</option></select></div>
+          </div>
+          <p id="status" class="status" role="status" aria-live="polite"></p>
+        </div>
+        <footer class="sheet-footer">
+          <button id="saveAdmin" class="button primary" type="button">Guardar cambios</button>
+        </footer>
+        </div>
+      </section>
+    </main>
+    <div id="stockModalBackdrop" class="modal-backdrop" hidden>
+      <article class="stock-modal" role="dialog" aria-modal="true" aria-labelledby="stockModalTitle">
+        <header class="modal-header"><div><h2 id="stockModalTitle">Detalle de stock</h2><p id="stockModalSubtitle"></p></div><button id="closeStockModal" class="modal-close" type="button" aria-label="Cerrar">×</button></header>
+        <div id="stockDetail" class="detail-grid"></div><pre id="stockRaw" class="detail-raw"></pre>
+      </article>
+    </div>
+    <script src="./src/data/catalog.browser.js"></script>
+    <script>
+      const STORAGE_KEY = "prime-store-price-settings";
+      const FILE = "./variable_precios.md";
+      const fields = {
+        profit: document.querySelector("#adminProfit"),
+        fixed: document.querySelector("#adminFixedMode"),
+        profitLabel: document.querySelector("#profitLabel"),
+        price: document.querySelector("#adminShowPrice"),
+        units: document.querySelector("#adminShowUnits"),
+      };
+      const status = document.querySelector("#status");
+      let fileSettings = { percentage: 0, showPrice: true, showAvailableUnits: true };
+
+      function parse(text) {
+        const profit = String(text).match(/^\s*\[ganancia\]\s*(?::|=|-)?\s*(?:USD\s*)?(-?\d+(?:[.,]\d+)?)\s*$/im);
+        const yesNo = (key, fallback = true) => {
+          const match = String(text).match(new RegExp(`^\\s*\\[${key}\\]\\s*(?::|=|-)\\s*([SN])\\s*$`, "im"));
+          return match ? match[1].toUpperCase() === "S" : fallback;
+        };
+        if (!profit) throw new Error("variable_precios.md no contiene [ganancia].");
+        const profitValue = Number(profit[1].replace(",", "."));
+        const profitMode = yesNo("suma_fija", false) ? "fixed" : "percentage";
+        return { percentage: profitMode === "percentage" ? profitValue : 0, profitMode, profitValue, showPrice: yesNo("mostrar_precio"), showAvailableUnits: yesNo("mostrar_uds_dispo") };
+      }
+      function readSaved() { try { return JSON.parse(sessionStorage.getItem(STORAGE_KEY)); } catch { return null; } }
+      function values() { const profitMode = fields.fixed.checked ? "fixed" : "percentage"; const profitValue = Number(fields.profit.value); return { percentage: profitMode === "percentage" ? profitValue : 0, profitMode, profitValue, showPrice: fields.price.value === "S", showAvailableUnits: fields.units.value === "S" }; }
+      function updateModeLabel() { const fixed = fields.fixed.checked; fields.profitLabel.textContent = fixed ? "Suma fija (US$)" : "Ganancia porcentual (%)"; fields.profit.step = fixed ? "1" : "0.1"; fields.profit.min = fixed ? "0" : "-99"; }
+      function fill(settings) { fields.fixed.checked = settings.profitMode === "fixed"; fields.profit.value = String(settings.profitValue ?? settings.percentage ?? 0); fields.price.value = settings.showPrice ? "S" : "N"; fields.units.value = settings.showAvailableUnits ? "S" : "N"; updateModeLabel(); }
+      function message(text, type = "") { status.textContent = text; status.className = `status ${type}`; }
+
+      document.querySelector("#saveAdmin").addEventListener("click", () => {
+        const settings = values();
+        if (!Number.isFinite(settings.profitValue) || (settings.profitMode === "percentage" && settings.profitValue <= -100) || (settings.profitMode === "fixed" && settings.profitValue < 0)) return message(settings.profitMode === "fixed" ? "Ingresá una suma fija válida." : "Ingresá un porcentaje mayor a -100.", "error");
+        sessionStorage.setItem(STORAGE_KEY, JSON.stringify(settings));
+        message("Cambios guardados. Se aplicarán al volver al widget.", "success");
+      });
+      fields.fixed.addEventListener("change", updateModeLabel);
+      document.querySelectorAll("[data-section-toggle]").forEach((button) => button.addEventListener("click", () => {
+        const content = document.querySelector(`#${button.dataset.sectionToggle}`);
+        const expanded = button.getAttribute("aria-expanded") === "true";
+        button.setAttribute("aria-expanded", String(!expanded));
+        content.hidden = expanded;
+        button.querySelector(".section-chevron").textContent = expanded ? "⌄" : "⌃";
+      }));
+      fetch(`${FILE}?v=${Date.now()}`, { cache: "no-store" }).then((response) => { if (!response.ok) throw new Error(`Error ${response.status}`); return response.text(); }).then((text) => { fileSettings = parse(text); fill({ ...fileSettings, ...readSaved() }); }).catch(() => { fill(readSaved() || fileSettings); });
+
+      const catalogProducts = (window.STOCK_DB?.products || []).map((product, index) => ({ ...product, _index: index }));
+      const stockUi = {
+        search: document.querySelector("#stockSearch"), brand: document.querySelector("#stockBrand"),
+        type: document.querySelector("#stockType"), family: document.querySelector("#stockFamily"),
+        rows: document.querySelector("#stockRows"), summary: document.querySelector("#stockSummary"),
+        backdrop: document.querySelector("#stockModalBackdrop"), title: document.querySelector("#stockModalTitle"),
+        subtitle: document.querySelector("#stockModalSubtitle"), detail: document.querySelector("#stockDetail"), raw: document.querySelector("#stockRaw"),
+      };
+      const stockState = { sort: "model", direction: 1 };
+      const normalize = (value) => String(value ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+      const escapeHtml = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;" })[char]);
+      const memory = (value) => value == null ? "—" : Number(value) >= 1024 ? `${Number(value) / 1024} TB` : `${value} GB`;
+      const money = (value) => `US$ ${new Intl.NumberFormat("es-AR", { maximumFractionDigits: 0 }).format(Number(value || 0))}`;
+      const color = (product) => product.variant?.color || product.colors?.[0] || "Standard";
+      const configuration = (product) => [
+        product.configuration?.storageGb != null ? memory(product.configuration.storageGb) : null,
+        product.configuration?.ramGb != null ? `${memory(product.configuration.ramGb)} RAM` : null,
+        product.configuration?.chip, product.configuration?.simMode,
+      ].filter(Boolean).join(" · ") || "Configuración única";
+      const uniqueSorted = (values) => [...new Set(values.filter(Boolean))].sort((a, b) => String(a).localeCompare(String(b), "es", { numeric: true, sensitivity: "base" }));
+      function fillStockSelect(select, values, firstLabel, preserveOrder = false) {
+        const options = preserveOrder ? [...new Set(values.filter(Boolean))] : uniqueSorted(values);
+        select.innerHTML = `<option value="">${firstLabel}</option>${options.map((value) => `<option value="${escapeHtml(value)}">${escapeHtml(value)}</option>`).join("")}`;
+      }
+      fillStockSelect(stockUi.brand, catalogProducts.map((product) => product.brand), "Todas las marcas");
+      fillStockSelect(stockUi.type, ["Smartphones", "Tablets", "Computadoras", "Consolas", "Drones", "Accesorios"].filter((group) => catalogProducts.some((product) => product.deviceGroup === group)), "Todos los tipos", true);
+      function refreshFamilyOptions() {
+        const current = stockUi.family.value;
+        const candidates = catalogProducts.filter((product) =>
+          (!stockUi.brand.value || product.brand === stockUi.brand.value) &&
+          (!stockUi.type.value || product.deviceGroup === stockUi.type.value));
+        const families = uniqueSorted(candidates.map((product) => product.family));
+        fillStockSelect(stockUi.family, families, "Todas las familias");
+        stockUi.family.value = families.includes(current) ? current : "";
+      }
+      refreshFamilyOptions();
+
+      function stockSortValue(product, key) {
+        if (key === "storage") return product.configuration?.storageGb ?? -1;
+        if (key === "sim") return product.configuration?.simMode ?? "";
+        if (key === "ram") return product.configuration?.ramGb ?? -1;
+        if (key === "color") return color(product);
+        return product[key] ?? "";
+      }
+      function visibleStock() {
+        const query = normalize(stockUi.search.value).split(/\s+/).filter(Boolean);
+        return catalogProducts.filter((product) => {
+          const text = normalize([product.brand, product.deviceType, product.family, product.model, configuration(product), color(product), product.stockQuantity, product.priceUsd].join(" "));
+          return (!stockUi.brand.value || product.brand === stockUi.brand.value) &&
+            (!stockUi.type.value || product.deviceGroup === stockUi.type.value) &&
+            (!stockUi.family.value || product.family === stockUi.family.value) && query.every((token) => text.includes(token));
+        }).sort((a, b) => {
+          const av = stockSortValue(a, stockState.sort), bv = stockSortValue(b, stockState.sort);
+          if (typeof av === "number" && typeof bv === "number") return (av - bv) * stockState.direction;
+          return String(av).localeCompare(String(bv), "es", { numeric: true, sensitivity: "base" }) * stockState.direction;
+        });
+      }
+      function renderStock() {
+        const products = visibleStock();
+        const units = products.reduce((sum, product) => sum + Number(product.stockQuantity || 0), 0);
+        const models = new Set(products.map((product) => `${product.brand}|${product.family}|${product.model}`)).size;
+        stockUi.summary.textContent = `${products.length} variantes · ${models} modelos · ${units} unidades`;
+        stockUi.rows.innerHTML = products.length ? products.map((product) => `<tr class="stock-row" tabindex="0" data-stock-index="${product._index}">
+          <td class="stock-model">${escapeHtml(product.model)}</td><td>${escapeHtml(memory(product.configuration?.storageGb))}</td><td>${escapeHtml(product.configuration?.simMode || "—")}</td><td>${escapeHtml(memory(product.configuration?.ramGb))}</td><td>${escapeHtml(color(product))}</td>
+          <td class="stock-units ${Number(product.stockQuantity) <= 3 ? "low" : ""}">${escapeHtml(product.stockQuantity)}</td><td>${escapeHtml(money(product.priceUsd))}</td>
+        </tr>`).join("") : '<tr><td class="stock-empty" colspan="7">No hay variantes para esta selección.</td></tr>';
+      }
+      function openStockDetail(index) {
+        const product = catalogProducts.find((item) => item._index === Number(index)); if (!product) return;
+        stockUi.title.textContent = product.model; stockUi.subtitle.textContent = `${product.brand} › ${product.deviceType} › ${product.family}`;
+        const details = [
+          ["Marca", product.brand], ["Grupo", product.deviceGroup], ["Tipo específico", product.deviceType], ["Familia", product.family], ["Modelo", product.model],
+          ["Almacenamiento", memory(product.configuration?.storageGb)], ["RAM", product.configuration?.ramGb != null ? `${memory(product.configuration.ramGb)} RAM` : "—"],
+          ["Chip", product.configuration?.chip || "—"], ["SIM", product.configuration?.simMode || "—"], ["Color / variante", color(product)],
+          ["Unidades", product.stockQuantity], ["Precio base", money(product.priceUsd)], ["ID", product.id],
+        ];
+        stockUi.detail.innerHTML = details.map(([label, value]) => `<div class="detail-item"><small>${escapeHtml(label)}</small><strong>${escapeHtml(value)}</strong></div>`).join("");
+        stockUi.raw.textContent = product.raw || product.description || ""; stockUi.backdrop.hidden = false; document.body.style.overflow = "hidden";
+        document.querySelector("#closeStockModal").focus();
+      }
+      function closeStockDetail() { stockUi.backdrop.hidden = true; document.body.style.overflow = ""; }
+      stockUi.search.addEventListener("input", renderStock);
+      [stockUi.brand, stockUi.type].forEach((control) => control.addEventListener("change", () => { refreshFamilyOptions(); renderStock(); }));
+      stockUi.family.addEventListener("change", renderStock);
+      document.querySelectorAll("[data-sort]").forEach((button) => button.addEventListener("click", () => { const key = button.dataset.sort; stockState.direction = stockState.sort === key ? -stockState.direction : 1; stockState.sort = key; renderStock(); }));
+      stockUi.rows.addEventListener("click", (event) => { const row = event.target.closest("[data-stock-index]"); if (row) openStockDetail(row.dataset.stockIndex); });
+      stockUi.rows.addEventListener("keydown", (event) => { if (!["Enter", " "].includes(event.key)) return; const row = event.target.closest("[data-stock-index]"); if (row) { event.preventDefault(); openStockDetail(row.dataset.stockIndex); } });
+      document.querySelector("#closeStockModal").addEventListener("click", closeStockDetail);
+      stockUi.backdrop.addEventListener("click", (event) => { if (event.target === stockUi.backdrop) closeStockDetail(); });
+      document.addEventListener("keydown", (event) => { if (event.key === "Escape" && !stockUi.backdrop.hidden) closeStockDetail(); });
+      renderStock();
+    </script>
+  </body>
+</html>

@@ -12,6 +12,8 @@
       content="Prime Store — Catálogo actualizado de iPhone, Samsung, MacBook, iPad y más. Consultá stock, compará precios y armá tu pedido."
     />
     <title>Prime Store · Stock</title>
+        <link rel="icon" type="image/png" href="./ps.png" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -158,7 +160,7 @@
         font-size: 0.72rem;
         font-weight: 900;
         letter-spacing: -0.04em;
-        content: "PS";
+        content: "";
         z-index: 0;
       }
       .brand-mark::before {
@@ -821,6 +823,9 @@
       }
       .hide-sale-prices .card-variant-price,
       .hide-sale-prices .variant-price,
+      .hide-sale-prices .variant-row-price,
+      .hide-sale-prices .hero-price,
+      .hide-sale-prices .compare-price,
       .hide-sale-prices .price,
       .hide-sale-prices .order-price,
       .hide-sale-prices .order-total {
@@ -1606,8 +1611,8 @@
         color: var(--purple);
         font-size: 0.7rem;
         font-weight: 820;
-        opacity: 0;
-        pointer-events: none;
+        opacity: 1;
+        pointer-events: auto;
         transition: opacity 300ms ease;
       }
       .admin-trigger.is-revealed {
@@ -1710,11 +1715,13 @@
       .grouped-product { cursor: pointer; }
       .grouped-product.is-expanded { border-color: var(--line-strong); }
       .grouped-product button, .grouped-product input, .grouped-product select { cursor: pointer; }
+      .group-variants { cursor: default; }
       .product-summary { width: 100%; min-height: 136px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 14px; padding: 16px; border: 0; background: transparent; color: inherit; text-align: left; }
       .summary-copy, .summary-side { display: flex; flex-direction: column; min-width: 0; }
       .summary-copy { gap: 6px; }
       .summary-side { align-items: flex-end; justify-content: center; gap: 7px; white-space: nowrap; }
       .summary-model { font-size: 1rem; line-height: 1.25; letter-spacing: -.025em; }
+      .model-meta { color: var(--muted); font-size: .72rem; line-height: 1.4; }
       .summary-configs { color: var(--muted); font-size: .76rem; line-height: 1.4; }
       .filter-stack { display: flex; align-items: center; flex-wrap: wrap; gap: 7px; }
       .filter-chip { min-height: 30px; padding: 5px 9px; border: 1px solid var(--line); border-radius: 9px; background: var(--surface-soft); color: var(--muted); font-size: .68rem; font-weight: 700; line-height: 1.2; text-align: left; }
@@ -1725,11 +1732,20 @@
       .summary-colors { display: flex; align-items: center; flex-wrap: wrap; column-gap: 13px; row-gap: 7px; color: var(--muted-2); font-size: .68rem; line-height: 1.25; }
       .color-label { display: inline-flex; align-items: center; gap: 7px; min-width: 0; line-height: 1.25; white-space: nowrap; }
       .color-swatch { width: 12px; height: 12px; flex: 0 0 12px; display: inline-block; border: 1px solid rgba(23,23,26,.18); border-radius: 50%; background: var(--swatch, #d7d2d9); box-shadow: inset 0 0 0 1px rgba(255,255,255,.25); }
-      .expand-label { min-height: 34px; margin-top: 3px; padding: 0 8px; border: 1px solid var(--line); border-radius: 9px; background: #fff; color: var(--purple-strong); font-size: .69rem; font-weight: 800; white-space: nowrap; }
+      .expand-label { min-height: 30px; display: inline-flex; align-items: center; margin-top: 3px; padding: 0 8px; border: 1px solid var(--line); border-radius: 9px; background: #fff; color: var(--purple-strong); font-size: .69rem; font-weight: 800; white-space: nowrap; }
       .group-variants { border-top: 1px solid var(--line); background: var(--surface-soft); }
-      .configuration-group { padding: 12px 14px; }
+      .configuration-group { padding: 0; }
       .configuration-group + .configuration-group { border-top: 1px solid var(--line); }
-      .configuration-group h3 { margin: 0 0 8px; font-size: .74rem; color: var(--muted); }
+      .configuration-toggle { width: 100%; min-height: 58px; display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 10px 14px; border: 0; background: rgba(255,255,255,.72); color: var(--ink); text-align: left; }
+      .configuration-toggle > span { display: flex; flex-direction: column; gap: 3px; }
+      .configuration-toggle strong { font-size: .8rem; }
+      .configuration-toggle small { color: var(--muted); font-size: .66rem; }
+      .configuration-toggle > b { color: var(--purple); font-size: .9rem; }
+      .configuration-group.is-open .configuration-toggle { background: rgba(129,99,139,.07); }
+      .configuration-content { padding: 0 14px 10px; background: rgba(255,255,255,.38); }
+      .subconfiguration-group { padding: 10px 0 2px; }
+      .subconfiguration-group + .subconfiguration-group { border-top: 1px dashed rgba(129,99,139,.15); }
+      .subconfiguration-group h4 { margin: 0 0 6px; color: var(--purple-strong); font-size: .69rem; font-weight: 800; letter-spacing: .01em; }
       .compact-variant-row { min-height: 48px; display: grid; grid-template-columns: minmax(90px,1fr) auto auto; grid-template-areas: "identity stock price" "identity compare copy" "add add add"; align-items: center; gap: 8px 10px; padding: 8px 0; border-top: 1px solid rgba(129,99,139,.09); font-size: .73rem; }
       .compact-variant-row .variant-identity { grid-area: identity; }
       .compact-variant-row .availability { grid-area: stock; }

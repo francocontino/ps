@@ -107,7 +107,10 @@ const selectedColors = new Map();
 const PRICE_VARIABLES_FILE = "./variable_precios.md";
 const ADMIN_STORAGE_KEY = "prime-store-price-settings";
 const basePrices = new WeakMap();
+const basePriceArrays = new WeakMap();
 let appliedProfitPercentage = 0;
+let appliedProfitMode = "percentage";
+let appliedProfitValue = 0;
 const priceSettings = {
   showPrice: true,
   showAvailableUnits: true,
@@ -133,24 +136,21 @@ function parseYesNoVariable(text, key, defaultValue = true) {
   return match ? match[1].toUpperCase() === "S" : defaultValue;
 }
 
-function addProfitToCatalog(percentage) {
+function addProfitToCatalog(mode, value) {
+  const calculate = (base) => mode === "fixed" ? base + value : base * (1 + value / 100);
   const adjusted = (owner, value) => {
     if (value == null || value === "") return value;
     const price = Number(value);
     if (!Number.isFinite(price)) return value;
-    if (!basePrices.has(owner))
-      basePrices.set(owner, price / (1 + appliedProfitPercentage / 100));
-    return basePrices.get(owner) * (1 + percentage / 100);
+    if (!basePrices.has(owner)) basePrices.set(owner, price);
+    return calculate(basePrices.get(owner));
   };
 
   for (const product of allProducts) {
     product.priceUsd = adjusted(product, product.priceUsd);
     if (Array.isArray(product.pricesUsd)) {
-      const factor =
-        (1 + percentage / 100) / (1 + appliedProfitPercentage / 100);
-      product.pricesUsd = product.pricesUsd.map((value) =>
-        Number.isFinite(Number(value)) ? Number(value) * factor : value,
-      );
+      if (!basePriceArrays.has(product)) basePriceArrays.set(product, [...product.pricesUsd]);
+      product.pricesUsd = basePriceArrays.get(product).map((price) => Number.isFinite(Number(price)) ? calculate(Number(price)) : price);
     }
     if (Array.isArray(product.variants)) {
       for (const variant of product.variants) {
@@ -158,12 +158,14 @@ function addProfitToCatalog(percentage) {
       }
     }
   }
-  appliedProfitPercentage = percentage;
+  appliedProfitMode = mode;
+  appliedProfitValue = value;
+  appliedProfitPercentage = mode === "percentage" ? value : 0;
 }
 
 function readAdminOverrides() {
   try {
-    const saved = JSON.parse(localStorage.getItem(ADMIN_STORAGE_KEY));
+    const saved = JSON.parse(sessionStorage.getItem(ADMIN_STORAGE_KEY));
     return saved && typeof saved === "object" ? saved : null;
   } catch {
     return null;
@@ -171,11 +173,12 @@ function readAdminOverrides() {
 }
 
 function applyPriceSettings(settings, { persist = false } = {}) {
-  const percentage = Number(settings.percentage);
-  if (!Number.isFinite(percentage) || percentage <= -100)
-    throw new Error("Ingresá un porcentaje mayor a -100.");
+  const mode = settings.profitMode === "fixed" ? "fixed" : "percentage";
+  const value = Number(settings.profitValue ?? settings.percentage ?? 0);
+  if (!Number.isFinite(value) || (mode === "percentage" && value <= -100))
+    throw new Error(mode === "fixed" ? "Ingresá una suma fija válida." : "Ingresá un porcentaje mayor a -100.");
 
-  addProfitToCatalog(percentage);
+  addProfitToCatalog(mode, value);
   priceSettings.showPrice = Boolean(settings.showPrice);
   priceSettings.showAvailableUnits = Boolean(settings.showAvailableUnits);
   document.body.classList.toggle("hide-sale-prices", !priceSettings.showPrice);
@@ -191,10 +194,12 @@ function applyPriceSettings(settings, { persist = false } = {}) {
   }
 
   if (persist)
-    localStorage.setItem(
+    sessionStorage.setItem(
       ADMIN_STORAGE_KEY,
       JSON.stringify({
-        percentage,
+        percentage: mode === "percentage" ? value : 0,
+        profitMode: mode,
+        profitValue: value,
         showPrice: priceSettings.showPrice,
         showAvailableUnits: priceSettings.showAvailableUnits,
       }),
@@ -202,7 +207,7 @@ function applyPriceSettings(settings, { persist = false } = {}) {
 }
 
 function variablesFileContent() {
-  return `# Variables de precios\n\n[ganancia]: ${appliedProfitPercentage}\n[mostrar_precio]: ${priceSettings.showPrice ? "S" : "N"}\n[mostrar_uds_dispo]: ${priceSettings.showAvailableUnits ? "S" : "N"}\n`;
+  return `# Variables de precios\n\n[ganancia]: ${appliedProfitValue}\n[suma_fija]: ${appliedProfitMode === "fixed" ? "S" : "N"}\n[mostrar_precio]: ${priceSettings.showPrice ? "S" : "N"}\n[mostrar_uds_dispo]: ${priceSettings.showAvailableUnits ? "S" : "N"}\n`;
 }
 
 async function loadPriceVariables() {
@@ -218,6 +223,8 @@ async function loadPriceVariables() {
   const variables = await response.text();
   const fileSettings = {
     percentage: parseProfitPercentage(variables),
+    profitValue: parseProfitPercentage(variables),
+    profitMode: parseYesNoVariable(variables, "suma_fija", false) ? "fixed" : "percentage",
     showPrice: parseYesNoVariable(variables, "mostrar_precio"),
     showAvailableUnits: parseYesNoVariable(variables, "mostrar_uds_dispo"),
   };
@@ -230,6 +237,7 @@ const state = {
   navType: "",
   navFamily: "",
   expandedModels: new Set(),
+  expandedConfigurations: new Set(),
   compareIds: [],
   activeSheet: null,
   variantProductId: null,
@@ -627,7 +635,7 @@ function navigationType(product) {
     notebook: "Notebooks", laptop: "Notebooks", consola: "Consolas",
     drone: "Drones", accesorio_drone: "Drones", accesorio_gaming: "Gaming",
     anteojos_inteligentes: "Anteojos", camara: "Cámaras", parlante: "Audio",
-    accesorio: "Accesorios", control: "Gaming", microfono: "Micrófonos",
+    accesorio: "Accesorios", joystick: "Gaming", microfono: "Micrófonos",
   };
   return labels[normalize(product.deviceType)] || humanType(product.deviceType);
 }
@@ -637,6 +645,7 @@ function navigationModel(product) {
 }
 
 function navigationGroup(product) {
+  if (product.deviceGroup) return product.deviceGroup;
   const type = navigationType(product);
   if (["Smartphones", "iPhone"].includes(type)) return "Smartphones";
   if (["Tablets", "iPad"].includes(type)) return "Tablets";
@@ -889,75 +898,104 @@ function groupVisibleProducts(products) {
   return [...groups.values()];
 }
 
+function structuralAttributes(product) {
+  const values = {
+    storage: product.configuration?.storageGb ?? product.memory?.storageGb,
+    ram: product.configuration?.ramGb ?? product.memory?.ramGb,
+    chip: product.configuration?.chip ?? product.chip,
+    sim: product.configuration?.simMode ?? getSimLabel(product),
+    connectivity: toArray(product.connectivity).filter(Boolean).join(" · "),
+  };
+  const labels = {
+    storage: values.storage != null ? memoryLabel(values.storage) : "",
+    ram: values.ram != null ? `${memoryLabel(values.ram)} RAM` : "",
+    chip: values.chip || "",
+    sim: values.sim || "",
+    connectivity: values.connectivity || "",
+  };
+  return Object.keys(values).filter((key) => values[key] != null && values[key] !== "").map((key) => ({ key, value: String(values[key]), label: labels[key] }));
+}
+
+function buildConfigurationHierarchy(records) {
+  const priority = ["notebook", "laptop"].includes(normalize(records[0]?.deviceType))
+    ? ["chip", "ram", "storage", "connectivity", "sim"]
+    : ["storage", "ram", "chip", "sim", "connectivity"];
+  const dimensions = priority.filter((key) => records.some((product) => structuralAttributes(product).some((attribute) => attribute.key === key)));
+  const primaryKey = dimensions.find((key) => unique(records.map((product) => structuralAttributes(product).find((attribute) => attribute.key === key)?.value).filter(Boolean)).length > 1) ?? dimensions[0] ?? "configuration";
+  const groups = new Map();
+  for (const product of records) {
+    const attributes = structuralAttributes(product);
+    const primary = attributes.find((attribute) => attribute.key === primaryKey) ?? { key: primaryKey, value: "standard", label: "Configuración única" };
+    if (!groups.has(primary.value)) groups.set(primary.value, { ...primary, products: [] });
+    groups.get(primary.value).products.push(product);
+  }
+  return [...groups.values()].map((group) => {
+    const subgroups = new Map();
+    for (const product of group.products) {
+      const secondary = structuralAttributes(product).filter((attribute) => attribute.key !== primaryKey);
+      const key = secondary.map((attribute) => `${attribute.key}:${attribute.value}`).join("|") || "standard";
+      if (!subgroups.has(key)) subgroups.set(key, { label: secondary.map((attribute) => attribute.label).join(" · "), products: [] });
+      subgroups.get(key).products.push(product);
+    }
+    return { ...group, subgroups: [...subgroups.values()] };
+  });
+}
+
 function productCard(group) {
   const records = group.products;
   const expanded = state.expandedModels.has(group.key);
+  const configurations = buildConfigurationHierarchy(records);
   const allVariants = records.flatMap((product) => getVariants(product).map((variant) => ({ product, variant })));
   const prices = allVariants.map(({ variant }) => Number(variant.priceUsd)).filter(Number.isFinite);
   const distinctPrices = unique(prices);
   const lowest = prices.length ? Math.min(...prices) : 0;
-  const configs = unique(records.map(configurationLabel));
-  const currentFilters = selectedFilters();
-  const configurationAttributes = [];
-  const seenAttributes = new Set();
-  const addConfigurationAttribute = (key, value, label) => {
-    if (value == null || value === "") return;
-    const identity = `${key}:${value}`;
-    if (seenAttributes.has(identity)) return;
-    seenAttributes.add(identity);
-    configurationAttributes.push({ key, value: String(value), label });
-  };
-  for (const product of records) {
-    addConfigurationAttribute("storage", product.memory?.storageGb, memoryLabel(product.memory?.storageGb));
-    addConfigurationAttribute("ram", product.memory?.ramGb, `${memoryLabel(product.memory?.ramGb)} RAM`);
-    addConfigurationAttribute("chip", product.chip, product.chip);
-    addConfigurationAttribute("sim", getSimLabel(product), getSimLabel(product));
-  }
-  const configurationGroups = new Map();
-  for (const product of records) {
-    const label = configurationLabel(product);
-    if (!configurationGroups.has(label)) configurationGroups.set(label, []);
-    configurationGroups.get(label).push(product);
-  }
-  const colors = unique(allVariants.map(({ variant }) => variant.color)).filter((color) => normalize(color) !== "standard");
-  const available = allVariants.some(({ product, variant }) => getAvailability(product, variant).available);
   const knownQuantities = allVariants.map(({ product, variant }) => getAvailability(product, variant).quantity).filter((quantity) => quantity != null);
   const totalQuantity = knownQuantities.length ? knownQuantities.reduce((sum, quantity) => sum + quantity, 0) : null;
   const showContext = !state.navBrand || !state.navType;
-  return `
-    <article class="product grouped-product ${expanded ? "is-expanded" : ""}" data-model-key="${escapeHtml(group.key)}">
-      <div class="product-summary">
-        <span class="summary-copy">
-          ${showContext ? `<span class="product-kicker">${escapeHtml(group.brand)} · ${escapeHtml(group.type)}</span>` : ""}
-          <strong class="summary-model">${escapeHtml(group.model)}</strong>
-          <span class="summary-configs filter-stack" aria-label="Filtrar por atributos de configuración">${configurationAttributes.map(({ key, value, label }) => `<button class="filter-chip config-filter-chip ${String(currentFilters[key]) === value ? "is-active" : ""}" type="button" data-filter-key="${key}" data-filter-value="${escapeHtml(value)}">${escapeHtml(label)}</button>`).join("")}</span>
-          <span class="summary-colors filter-stack" aria-label="Filtrar por color">${colors.slice(0, 8).map((color) => `<button class="color-label filter-chip color-filter-chip ${currentFilters.color === color ? "is-active" : ""}" type="button" data-filter-key="color" data-filter-value="${escapeHtml(color)}"><i class="color-swatch" style="--swatch:${colorToCss(color)}" aria-hidden="true"></i><span>${escapeHtml(color)}</span></button>`).join("")}${colors.length > 8 ? `<span>+${colors.length - 8}</span>` : ""}</span>
-        </span>
-        <span class="summary-side">
-          <strong class="hero-price">${distinctPrices.length > 1 ? "Desde " : ""}${formatMoney(lowest)}</strong>
-          <span class="availability ${available ? "" : "is-out"}">${available ? (priceSettings.showAvailableUnits && totalQuantity != null ? `${totalQuantity} ${totalQuantity === 1 ? "unidad total" : "unidades totales"}` : "Disponible") : "Sin stock"}</span>
-          <button class="expand-label" type="button" data-expand-model="${escapeHtml(group.key)}" aria-expanded="${expanded}">${expanded ? "Ocultar variantes ↑" : `Ver ${allVariants.length} ${allVariants.length === 1 ? "variante" : "variantes"} ↓`}</button>
-        </span>
-      </div>
-      <div class="group-variants" ${expanded ? "" : "hidden"}>
-        ${[...configurationGroups.entries()].map(([configuration, products]) => `
-          <section class="configuration-group">
-            <h3>${escapeHtml(configuration)}</h3>
-            ${products.flatMap((product) => getVariants(product).map((variant) => {
-              const availability = getAvailability(product, variant);
-              const compared = state.compareIds.includes(product.id);
-              return `<div class="compact-variant-row">
-                <strong class="variant-identity"><span class="color-label"><i class="color-swatch" style="--swatch:${colorToCss(variant.color)}" aria-hidden="true"></i><span>${escapeHtml(variant.color)}</span></span>${getSimLabel(product) ? `<small>${escapeHtml(getSimLabel(product))}</small>` : ""}</strong>
-                <span class="availability ${availability.className}">${escapeHtml(availability.label)}</span>
-                <span class="variant-row-price">${formatMoney(variant.priceUsd)}</span>
-                <button class="more-button ${compared ? "is-active" : ""}" type="button" data-compare="${escapeHtml(product.id)}" data-action-color="${escapeHtml(variant.color)}" aria-label="${compared ? "Quitar de comparación" : "Comparar"}" title="Comparar">${compared ? "✓" : "⇄"}</button>
-                <button class="more-button" type="button" data-copy-product="${escapeHtml(product.id)}" data-action-color="${escapeHtml(variant.color)}" aria-label="Copiar detalle" title="Copiar detalle">•••</button>
-                <button class="add-button compact-add" type="button" data-add-variant="${escapeHtml(product.id)}" data-add-color="${escapeHtml(variant.color)}" ${availability.available ? "" : "disabled"}>Agregar</button>
-              </div>`;
-            })).join("")}
-          </section>`).join("")}
-      </div>
-    </article>`;
+  return `<article class="product grouped-product ${expanded ? "is-expanded" : ""}" data-model-key="${escapeHtml(group.key)}">
+    <button class="product-summary" type="button" data-expand-model="${escapeHtml(group.key)}" aria-expanded="${expanded}">
+      <span class="summary-copy">
+        ${showContext ? `<span class="product-kicker">${escapeHtml(group.brand)} · ${escapeHtml(group.type)}</span>` : ""}
+        <strong class="summary-model">${escapeHtml(group.model)}</strong>
+        <span class="model-meta">${configurations.length} ${configurations.length === 1 ? "configuración" : "configuraciones"} · ${allVariants.length} ${allVariants.length === 1 ? "variante" : "variantes"}</span>
+      </span>
+      <span class="summary-side">
+        <strong class="hero-price">${distinctPrices.length > 1 ? "Desde " : ""}${formatMoney(lowest)}</strong>
+        <span class="availability">${priceSettings.showAvailableUnits && totalQuantity != null ? `${totalQuantity} ${totalQuantity === 1 ? "unidad" : "unidades"}` : "Disponible"}</span>
+        <span class="expand-label">${expanded ? "Ocultar ↑" : "Ver opciones ↓"}</span>
+      </span>
+    </button>
+    <div class="group-variants" ${expanded ? "" : "hidden"}>
+      ${configurations.map((configuration) => {
+        const configurationKey = `${group.key}::${configuration.key}:${configuration.value}`;
+        const isOpen = state.expandedConfigurations.has(configurationKey);
+        const variants = configuration.products.flatMap((product) => getVariants(product).map((variant) => ({ product, variant })));
+        const units = variants.map(({ product, variant }) => getAvailability(product, variant).quantity).filter((quantity) => quantity != null).reduce((sum, quantity) => sum + quantity, 0);
+        return `<section class="configuration-group ${isOpen ? "is-open" : ""}">
+          <button class="configuration-toggle" type="button" data-toggle-configuration="${escapeHtml(configurationKey)}" aria-expanded="${isOpen}">
+            <span><strong>${escapeHtml(configuration.label)}</strong><small>${variants.length} ${variants.length === 1 ? "variante" : "variantes"}${priceSettings.showAvailableUnits && units ? ` · ${units} unidades` : ""}</small></span><b aria-hidden="true">${isOpen ? "⌃" : "⌄"}</b>
+          </button>
+          <div class="configuration-content" ${isOpen ? "" : "hidden"}>
+            ${configuration.subgroups.map((subgroup) => `<div class="subconfiguration-group">
+              ${subgroup.label ? `<h4>${escapeHtml(subgroup.label)}</h4>` : ""}
+              ${subgroup.products.flatMap((product) => getVariants(product).map((variant) => {
+                const availability = getAvailability(product, variant);
+                const compared = state.compareIds.includes(product.id);
+                return `<div class="compact-variant-row">
+                  <strong class="variant-identity"><span class="color-label"><i class="color-swatch" style="--swatch:${colorToCss(variant.color)}" aria-hidden="true"></i><span>${escapeHtml(variant.color)}</span></span></strong>
+                  <span class="availability ${availability.className}">${escapeHtml(availability.label)}</span>
+                  <span class="variant-row-price">${formatMoney(variant.priceUsd)}</span>
+                  <button class="more-button ${compared ? "is-active" : ""}" type="button" data-compare="${escapeHtml(product.id)}" data-action-color="${escapeHtml(variant.color)}" aria-label="Comparar" title="Comparar">${compared ? "✓" : "⇄"}</button>
+                  <button class="more-button" type="button" data-copy-product="${escapeHtml(product.id)}" data-action-color="${escapeHtml(variant.color)}" aria-label="Copiar detalle" title="Copiar detalle">•••</button>
+                  <button class="add-button compact-add" type="button" data-add-variant="${escapeHtml(product.id)}" data-add-color="${escapeHtml(variant.color)}" ${availability.available ? "" : "disabled"}>Agregar</button>
+                </div>`;
+              })).join("")}
+            </div>`).join("")}
+          </div>
+        </section>`;
+      }).join("")}
+    </div>
+  </article>`;
 }
 
 function renderNavigationCards(products, level) {
@@ -1696,6 +1734,8 @@ ui.clearFilters.addEventListener("click", () =>
 
 ui.products.addEventListener("click", (event) => {
   const modelCard = event.target.closest(".grouped-product[data-model-key]");
+  const modelSummary = event.target.closest(".product-summary");
+  const configurationToggle = event.target.closest("[data-toggle-configuration]");
   const bodyNavigation = event.target.closest("[data-body-nav]");
   const attributeFilter = event.target.closest("[data-filter-key]");
   const expandModel = event.target.closest("[data-expand-model]");
@@ -1707,7 +1747,12 @@ ui.products.addEventListener("click", (event) => {
   const add = event.target.closest("[data-add]");
   const addVariant = event.target.closest("[data-add-variant]");
 
-  if (attributeFilter) {
+  if (configurationToggle) {
+    const key = configurationToggle.dataset.toggleConfiguration;
+    if (state.expandedConfigurations.has(key)) state.expandedConfigurations.delete(key);
+    else state.expandedConfigurations.add(key);
+    renderProducts();
+  } else if (attributeFilter) {
     const key = attributeFilter.dataset.filterKey;
     if (FILTER_KEYS.includes(key)) {
       const clear = attributeFilter.classList.contains("is-active");
@@ -1753,7 +1798,7 @@ ui.products.addEventListener("click", (event) => {
     copyProduct(copy.dataset.copyProduct);
   }
   else if (add) addProduct(add.dataset.add);
-  else if (modelCard) {
+  else if (modelCard && modelSummary) {
     const key = modelCard.dataset.modelKey;
     if (state.expandedModels.has(key)) state.expandedModels.delete(key);
     else state.expandedModels.add(key);
@@ -1808,7 +1853,9 @@ ui.navSearch.addEventListener("click", () => {
   window.setTimeout(() => ui.search.focus({ preventScroll: true }), 250);
 });
 ui.navFilters.addEventListener("click", () => openSheet(ui.filtersSheet));
-ui.openAdmin.addEventListener("click", openAdminPanel);
+ui.openAdmin.addEventListener("click", () => {
+  window.location.href = "./admin.html";
+});
 ui.saveAdmin.addEventListener("click", saveAdminSettings);
 ui.downloadVariables.addEventListener("click", downloadVariablesFile);
 
@@ -1867,3 +1914,11 @@ async function initializeWidget() {
 }
 
 initializeWidget();
+
+window.addEventListener("pageshow", (event) => {
+  if (!event.persisted) return;
+  const saved = readAdminOverrides();
+  if (!saved) return;
+  applyPriceSettings(saved);
+  renderEverything({ refreshFilters: true });
+});

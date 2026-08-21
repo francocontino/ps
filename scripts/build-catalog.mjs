@@ -133,10 +133,19 @@ function getDeviceType(description, category) {
   if (category === "jbl") return /earbuds/.test(text) ? "auriculares" : "parlante";
   if (category === "gaming") {
     if (/playstation|nintendo switch/.test(text)) return "consola";
-    if (/joystick/.test(text)) return "control";
+    if (/joystick/.test(text)) return "joystick";
     return "accesorio_gaming";
   }
   return "otro";
+}
+
+function inferDeviceGroup(deviceType) {
+  if (deviceType === "smartphone") return "Smartphones";
+  if (deviceType === "tablet") return "Tablets";
+  if (["notebook", "laptop", "computadora_escritorio"].includes(deviceType)) return "Computadoras";
+  if (["consola", "control", "accesorio_gaming"].includes(deviceType)) return "Consolas";
+  if (["drone", "accesorio_drone"].includes(deviceType)) return "Drones";
+  return "Accesorios";
 }
 
 function extractMemory(description) {
@@ -342,7 +351,7 @@ for (const original of markdown.split(/\r?\n/)) {
   const memory = extractMemory(description);
   const chip = extractChip(description);
   const colors = extractColors(description);
-  const simMode = extractSimMode(description);
+  const simMode = extractSimMode(description) ?? (brand === "Apple" && deviceType === "smartphone" ? "eSIM" : null);
   const baseId = `${category}-${slug(description.replace(/(?:USD|U\$|\$).*$/i, ""))}`;
   const duplicate = collections[category].filter((item) => item.id.startsWith(baseId)).length;
 
@@ -350,6 +359,7 @@ for (const original of markdown.split(/\r?\n/)) {
     id: duplicate ? `${baseId}-${duplicate + 1}` : baseId,
     category,
     deviceType,
+    deviceGroup: inferDeviceGroup(deviceType),
     brand,
     model,
     family: inferFamily(model, brand, deviceType),

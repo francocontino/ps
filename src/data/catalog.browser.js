@@ -7,6 +7,7 @@ window.STOCK_DB = {
       "id": "apple_new-usb-c-power-adapter-20w-original-recto",
       "category": "apple_new",
       "deviceType": "accesorio",
+      "deviceGroup": "Accesorios",
       "brand": "Apple",
       "model": "USB-C POWER ADAPTER 20W (ORIGINAL) RECTO",
       "family": "USB-C POWER",
@@ -26,20 +27,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 20,
-        "stockQuantity": 8
+        "stockQuantity": 5
       },
       "description": "USB-C POWER ADAPTER 20W (ORIGINAL) RECTO $20",
-      "stockQuantity": 8,
+      "stockQuantity": 5,
       "priceUsd": 20,
       "pricesUsd": [
         20
       ],
-      "raw": "8 | USB-C POWER ADAPTER 20W (ORIGINAL) RECTO $20"
+      "raw": "5 | USB-C POWER ADAPTER 20W (ORIGINAL) RECTO $20"
     },
     {
       "id": "motorola-g06-power-4-64gb-s-cargador",
       "category": "motorola",
       "deviceType": "accesorio",
+      "deviceGroup": "Accesorios",
       "brand": "Motorola",
       "model": "G06 POWER",
       "family": "G06 POWER",
@@ -63,20 +65,21 @@ window.STOCK_DB = {
           "Blue"
         ],
         "priceUsd": 130,
-        "stockQuantity": 4
+        "stockQuantity": 5
       },
       "description": "G06 POWER 4+64GB S/CARGADOR $130 Blue",
-      "stockQuantity": 4,
+      "stockQuantity": 5,
       "priceUsd": 130,
       "pricesUsd": [
         130
       ],
-      "raw": "4 | G06 POWER 4+64GB S/CARGADOR $130 Blue"
+      "raw": "5 | G06 POWER 4+64GB S/CARGADOR $130 Blue"
     },
     {
       "id": "motorola-g06-power-4-64gb-s-cargador-2",
       "category": "motorola",
       "deviceType": "accesorio",
+      "deviceGroup": "Accesorios",
       "brand": "Motorola",
       "model": "G06 POWER",
       "family": "G06 POWER",
@@ -100,20 +103,21 @@ window.STOCK_DB = {
           "Khaki"
         ],
         "priceUsd": 130,
-        "stockQuantity": 3
+        "stockQuantity": 5
       },
       "description": "G06 POWER 4+64GB S/CARGADOR $130 Khaki",
-      "stockQuantity": 3,
+      "stockQuantity": 5,
       "priceUsd": 130,
       "pricesUsd": [
         130
       ],
-      "raw": "3 | G06 POWER 4+64GB S/CARGADOR $130 Khaki"
+      "raw": "5 | G06 POWER 4+64GB S/CARGADOR $130 Khaki"
     },
     {
       "id": "motorola-g15-power-8-256gb-s-cargador",
       "category": "motorola",
       "deviceType": "accesorio",
+      "deviceGroup": "Accesorios",
       "brand": "Motorola",
       "model": "G15 POWER",
       "family": "G15 POWER",
@@ -137,20 +141,21 @@ window.STOCK_DB = {
           "Green"
         ],
         "priceUsd": 185,
-        "stockQuantity": 6
+        "stockQuantity": 0
       },
       "description": "G15 POWER 8+256GB S/CARGADOR $185 Green",
-      "stockQuantity": 6,
+      "stockQuantity": 0,
       "priceUsd": 185,
       "pricesUsd": [
         185
       ],
-      "raw": "6 | G15 POWER 8+256GB S/CARGADOR $185 Green"
+      "raw": "0 | G15 POWER 8+256GB S/CARGADOR $185 Green"
     },
     {
       "id": "motorola-g35-4-128gb-5g-s-cargador",
       "category": "motorola",
       "deviceType": "accesorio",
+      "deviceGroup": "Accesorios",
       "brand": "Motorola",
       "model": "G35",
       "family": "G35",
@@ -174,20 +179,21 @@ window.STOCK_DB = {
           "Black"
         ],
         "priceUsd": 170,
-        "stockQuantity": 4
+        "stockQuantity": 5
       },
       "description": "G35 4+128GB 5G S/CARGADOR $170 Black",
-      "stockQuantity": 4,
+      "stockQuantity": 5,
       "priceUsd": 170,
       "pricesUsd": [
         170
       ],
-      "raw": "4 | G35 4+128GB 5G S/CARGADOR $170 Black"
+      "raw": "5 | G35 4+128GB 5G S/CARGADOR $170 Black"
     },
     {
       "id": "motorola-g57-power-12-256gb-5g-s-cargador",
       "category": "motorola",
       "deviceType": "accesorio",
+      "deviceGroup": "Accesorios",
       "brand": "Motorola",
       "model": "G57 POWER",
       "family": "G57 POWER",
@@ -211,20 +217,21 @@ window.STOCK_DB = {
           "Teal"
         ],
         "priceUsd": 280,
-        "stockQuantity": 5
+        "stockQuantity": 0
       },
       "description": "G57 POWER 12+256GB 5G S/CARGADOR $280 Cyan",
-      "stockQuantity": 5,
+      "stockQuantity": 0,
       "priceUsd": 280,
       "pricesUsd": [
         280
       ],
-      "raw": "5 | G57 POWER 12+256GB 5G S/CARGADOR $280 Cyan"
+      "raw": "0 | G57 POWER 12+256GB 5G S/CARGADOR $280 Cyan"
     },
     {
       "id": "motorola-g57-power-12-256gb-5g-s-cargador-2",
       "category": "motorola",
       "deviceType": "accesorio",
+      "deviceGroup": "Accesorios",
       "brand": "Motorola",
       "model": "G57 POWER",
       "family": "G57 POWER",
@@ -248,20 +255,21 @@ window.STOCK_DB = {
           "Green"
         ],
         "priceUsd": 280,
-        "stockQuantity": 3
+        "stockQuantity": 0
       },
       "description": "G57 POWER 12+256GB 5G S/CARGADOR $280 Green",
-      "stockQuantity": 3,
+      "stockQuantity": 0,
       "priceUsd": 280,
       "pricesUsd": [
         280
       ],
-      "raw": "3 | G57 POWER 12+256GB 5G S/CARGADOR $280 Green"
+      "raw": "0 | G57 POWER 12+256GB 5G S/CARGADOR $280 Green"
     },
     {
       "id": "drones-dji-avata2-fly-smart-combo-3-bat-drone-goggles-n3-rcm3",
       "category": "drones",
       "deviceType": "accesorio_drone",
+      "deviceGroup": "Drones",
       "brand": "DJI",
       "model": "Avata2 Fly Smart Combo 3 Bat Drone+Goggles.N3+RCM3",
       "family": "Avata2 Fly",
@@ -281,20 +289,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 1020,
-        "stockQuantity": 8
+        "stockQuantity": 5
       },
       "description": "DJI Avata2 Fly Smart Combo 3 Bat Drone+Goggles.N3+RCM3 $1020",
-      "stockQuantity": 8,
+      "stockQuantity": 5,
       "priceUsd": 1020,
       "pricesUsd": [
         1020
       ],
-      "raw": "8 | DJI Avata2 Fly Smart Combo 3 Bat Drone+Goggles.N3+RCM3 $1020"
+      "raw": "5 | DJI Avata2 Fly Smart Combo 3 Bat Drone+Goggles.N3+RCM3 $1020"
     },
     {
       "id": "drones-dji-goggles-integra",
       "category": "drones",
       "deviceType": "accesorio_drone",
+      "deviceGroup": "Drones",
       "brand": "DJI",
       "model": "Goggles Integra",
       "family": "Goggles Integra",
@@ -314,20 +323,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 430,
-        "stockQuantity": 3
+        "stockQuantity": 5
       },
       "description": "DJI Goggles Integra $430",
-      "stockQuantity": 3,
+      "stockQuantity": 5,
       "priceUsd": 430,
       "pricesUsd": [
         430
       ],
-      "raw": "3 | DJI Goggles Integra $430"
+      "raw": "5 | DJI Goggles Integra $430"
     },
     {
       "id": "gaming-g29-logitech-driving-force-racing-wheel-and-pedals",
       "category": "gaming",
       "deviceType": "accesorio_gaming",
+      "deviceGroup": "Consolas",
       "brand": "Logitech",
       "model": "G29 Logitech Driving Force Racing Wheel and Pedals",
       "family": "G29 Logitech",
@@ -347,20 +357,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 370,
-        "stockQuantity": 3
+        "stockQuantity": 5
       },
       "description": "G29 Logitech Driving Force Racing Wheel and Pedals $370",
-      "stockQuantity": 3,
+      "stockQuantity": 5,
       "priceUsd": 370,
       "pricesUsd": [
         370
       ],
-      "raw": "3 | G29 Logitech Driving Force Racing Wheel and Pedals $370*"
+      "raw": "5 | G29 Logitech Driving Force Racing Wheel and Pedals $370"
     },
     {
       "id": "gaming-memoria-extraible-ps5-wd-black-nvme-ssd-2tb",
       "category": "gaming",
       "deviceType": "accesorio_gaming",
+      "deviceGroup": "Consolas",
       "brand": "WD_Black",
       "model": "Memoria extraíble PS5 - WD_Black NVMe SSD",
       "family": "Memoria extraíble",
@@ -384,20 +395,21 @@ window.STOCK_DB = {
           "Black"
         ],
         "priceUsd": 390,
-        "stockQuantity": 6
+        "stockQuantity": 5
       },
       "description": "Memoria extraíble PS5 - WD_Black NVMe SSD 2TB $390",
-      "stockQuantity": 6,
+      "stockQuantity": 5,
       "priceUsd": 390,
       "pricesUsd": [
         390
       ],
-      "raw": "6 | Memoria extraíble PS5 - WD_Black NVMe SSD 2TB **$390**"
+      "raw": "5 | Memoria extraíble PS5 - WD_Black NVMe SSD 2TB $390"
     },
     {
       "id": "smart_glasses-oakley-meta-vanguard",
       "category": "smart_glasses",
       "deviceType": "anteojos_inteligentes",
+      "deviceGroup": "Accesorios",
       "brand": "Oakley",
       "model": "Meta Vanguard",
       "family": "Meta Vanguard",
@@ -421,20 +433,21 @@ window.STOCK_DB = {
           "Black"
         ],
         "priceUsd": 560,
-        "stockQuantity": 6
+        "stockQuantity": 0
       },
       "description": "Oakley Meta Vanguard $560 - T120 S52 · Black/Prizm 24K $560",
-      "stockQuantity": 6,
+      "stockQuantity": 0,
       "priceUsd": 560,
       "pricesUsd": [
         560
       ],
-      "raw": "6 | Black/Prizm 24K"
+      "raw": "0 | Black/Prizm 24K"
     },
     {
       "id": "smart_glasses-oakley-meta-vanguard-2",
       "category": "smart_glasses",
       "deviceType": "anteojos_inteligentes",
+      "deviceGroup": "Accesorios",
       "brand": "Oakley",
       "model": "Meta Vanguard",
       "family": "Meta Vanguard",
@@ -458,20 +471,21 @@ window.STOCK_DB = {
           "Black"
         ],
         "priceUsd": 560,
-        "stockQuantity": 4
+        "stockQuantity": 0
       },
       "description": "Oakley Meta Vanguard $560 - T120 S52 · Black/Prizm Black $560",
-      "stockQuantity": 4,
+      "stockQuantity": 0,
       "priceUsd": 560,
       "pricesUsd": [
         560
       ],
-      "raw": "4 | Black/Prizm Black"
+      "raw": "0 | Black/Prizm Black"
     },
     {
       "id": "smart_glasses-oakley-meta-vanguard-3",
       "category": "smart_glasses",
       "deviceType": "anteojos_inteligentes",
+      "deviceGroup": "Accesorios",
       "brand": "Oakley",
       "model": "Meta Vanguard",
       "family": "Meta Vanguard",
@@ -495,20 +509,21 @@ window.STOCK_DB = {
           "Black"
         ],
         "priceUsd": 560,
-        "stockQuantity": 8
+        "stockQuantity": 0
       },
       "description": "Oakley Meta Vanguard $560 - T120 S52 · Black/Prizm Road $560",
-      "stockQuantity": 8,
+      "stockQuantity": 0,
       "priceUsd": 560,
       "pricesUsd": [
         560
       ],
-      "raw": "8 | Black/Prizm Road"
+      "raw": "0 | Black/Prizm Road"
     },
     {
       "id": "smart_glasses-oakley-meta-vanguard-4",
       "category": "smart_glasses",
       "deviceType": "anteojos_inteligentes",
+      "deviceGroup": "Accesorios",
       "brand": "Oakley",
       "model": "Meta Vanguard",
       "family": "Meta Vanguard",
@@ -534,20 +549,21 @@ window.STOCK_DB = {
           "White"
         ],
         "priceUsd": 560,
-        "stockQuantity": 3
+        "stockQuantity": 0
       },
       "description": "Oakley Meta Vanguard $560 - T120 S52 · White/Prizm Black $560",
-      "stockQuantity": 3,
+      "stockQuantity": 0,
       "priceUsd": 560,
       "pricesUsd": [
         560
       ],
-      "raw": "3 | White/Prizm Black"
+      "raw": "0 | White/Prizm Black"
     },
     {
       "id": "smart_glasses-oakley-meta-vanguard-5",
       "category": "smart_glasses",
       "deviceType": "anteojos_inteligentes",
+      "deviceGroup": "Accesorios",
       "brand": "Oakley",
       "model": "Meta Vanguard",
       "family": "Meta Vanguard",
@@ -571,20 +587,133 @@ window.STOCK_DB = {
           "White"
         ],
         "priceUsd": 560,
-        "stockQuantity": 5
+        "stockQuantity": 0
       },
       "description": "Oakley Meta Vanguard $560 - T120 S52 · White/Sapphire $560",
+      "stockQuantity": 0,
+      "priceUsd": 560,
+      "pricesUsd": [
+        560
+      ],
+      "raw": "0 | White/Sapphire"
+    },
+    {
+      "id": "smart_glasses-oakley-meta-vanguard-t120-s52",
+      "category": "smart_glasses",
+      "deviceType": "anteojos_inteligentes",
+      "deviceGroup": "Accesorios",
+      "brand": "Oakley",
+      "model": "Meta Vanguard - T120 S52",
+      "family": "Meta Vanguard",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": null,
+        "colors": [],
+        "priceUsd": 560,
+        "stockQuantity": 5
+      },
+      "description": "Oakley Meta Vanguard - T120 S52 $560",
       "stockQuantity": 5,
       "priceUsd": 560,
       "pricesUsd": [
         560
       ],
-      "raw": "5 | White/Sapphire"
+      "raw": "5 | Oakley Meta Vanguard - T120 S52 $560"
+    },
+    {
+      "id": "smart_glasses-oakley-meta-vanguard-t120-s52-black-prizm-24k",
+      "category": "smart_glasses",
+      "deviceType": "anteojos_inteligentes",
+      "deviceGroup": "Accesorios",
+      "brand": "Oakley",
+      "model": "Meta Vanguard - T120 S52 Black/Prizm 24K",
+      "family": "Meta Vanguard",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [
+        "Black"
+      ],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Black",
+        "colors": [
+          "Black"
+        ],
+        "priceUsd": 560,
+        "stockQuantity": 5
+      },
+      "description": "Oakley Meta Vanguard - T120 S52 Black/Prizm 24K $560 Black",
+      "stockQuantity": 5,
+      "priceUsd": 560,
+      "pricesUsd": [
+        560
+      ],
+      "raw": "5 | Oakley Meta Vanguard - T120 S52 Black/Prizm 24K $560 Black"
+    },
+    {
+      "id": "smart_glasses-oakley-meta-vanguard-t120-s52-white-prizm-black",
+      "category": "smart_glasses",
+      "deviceType": "anteojos_inteligentes",
+      "deviceGroup": "Accesorios",
+      "brand": "Oakley",
+      "model": "Meta Vanguard - T120 S52 White/Prizm",
+      "family": "Meta Vanguard",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": null,
+        "colors": [
+          "Black",
+          "White"
+        ],
+        "priceUsd": 560,
+        "stockQuantity": 5
+      },
+      "description": "Oakley Meta Vanguard - T120 S52 White/Prizm Black $560 White",
+      "stockQuantity": 5,
+      "priceUsd": 560,
+      "pricesUsd": [
+        560
+      ],
+      "raw": "5 | Oakley Meta Vanguard - T120 S52 White/Prizm Black $560 White"
     },
     {
       "id": "smart_glasses-rayban-meta-gen2-skyler",
       "category": "smart_glasses",
       "deviceType": "anteojos_inteligentes",
+      "deviceGroup": "Accesorios",
       "brand": "Ray-Ban",
       "model": "Meta Gen2 Skyler",
       "family": "Meta Gen2",
@@ -608,20 +737,21 @@ window.STOCK_DB = {
           "Gray"
         ],
         "priceUsd": 540,
-        "stockQuantity": 4
+        "stockQuantity": 0
       },
       "description": "Rayban Meta Gen2 Skyler $540 · Shiny Chalky Grey/Transitions Shapphire - T150 S52 $540",
-      "stockQuantity": 4,
+      "stockQuantity": 0,
       "priceUsd": 540,
       "pricesUsd": [
         540
       ],
-      "raw": "4 | Shiny Chalky Grey/Transitions Shapphire - T150 S52"
+      "raw": "0 | Shiny Chalky Grey/Transitions Shapphire - T150 S52"
     },
     {
       "id": "smart_glasses-rayban-meta-gen2-skyler-2",
       "category": "smart_glasses",
       "deviceType": "anteojos_inteligentes",
+      "deviceGroup": "Accesorios",
       "brand": "Ray-Ban",
       "model": "Meta Gen2 Skyler",
       "family": "Meta Gen2",
@@ -647,20 +777,21 @@ window.STOCK_DB = {
           "Green"
         ],
         "priceUsd": 540,
-        "stockQuantity": 7
+        "stockQuantity": 0
       },
       "description": "Rayban Meta Gen2 Skyler $540 · Shiny Black/Transitions Graph Green - T150 S52 $540",
-      "stockQuantity": 7,
+      "stockQuantity": 0,
       "priceUsd": 540,
       "pricesUsd": [
         540
       ],
-      "raw": "7 | Shiny Black/Transitions Graph Green - T150 S52"
+      "raw": "0 | Shiny Black/Transitions Graph Green - T150 S52"
     },
     {
       "id": "smart_glasses-rayban-meta-gen2-skyler-3",
       "category": "smart_glasses",
       "deviceType": "anteojos_inteligentes",
+      "deviceGroup": "Accesorios",
       "brand": "Ray-Ban",
       "model": "Meta Gen2 Skyler",
       "family": "Meta Gen2",
@@ -684,20 +815,21 @@ window.STOCK_DB = {
           "Black"
         ],
         "priceUsd": 540,
-        "stockQuantity": 3
+        "stockQuantity": 0
       },
       "description": "Rayban Meta Gen2 Skyler $540 · Shiny Black/Transitions Amethyst - T150 S52 $540",
-      "stockQuantity": 3,
+      "stockQuantity": 0,
       "priceUsd": 540,
       "pricesUsd": [
         540
       ],
-      "raw": "3 | Shiny Black/Transitions Amethyst - T150 S52"
+      "raw": "0 | Shiny Black/Transitions Amethyst - T150 S52"
     },
     {
       "id": "smart_glasses-rayban-meta-gen2-skyler-4",
       "category": "smart_glasses",
       "deviceType": "anteojos_inteligentes",
+      "deviceGroup": "Accesorios",
       "brand": "Ray-Ban",
       "model": "Meta Gen2 Skyler",
       "family": "Meta Gen2",
@@ -721,20 +853,21 @@ window.STOCK_DB = {
           "Purple"
         ],
         "priceUsd": 540,
-        "stockQuantity": 5
+        "stockQuantity": 0
       },
       "description": "Rayban Meta Gen2 Skyler $540 · Shiny Mystic Violet/Transitions Amethyst - T150 S52 $540",
-      "stockQuantity": 5,
+      "stockQuantity": 0,
       "priceUsd": 540,
       "pricesUsd": [
         540
       ],
-      "raw": "5 | Shiny Mystic Violet/Transitions Amethyst - T150 S52"
+      "raw": "0 | Shiny Mystic Violet/Transitions Amethyst - T150 S52"
     },
     {
       "id": "apple_accessories-airpods-3rd-gen-lightning-charging-case",
       "category": "apple_accessories",
       "deviceType": "auriculares",
+      "deviceGroup": "Accesorios",
       "brand": "Apple",
       "model": "AirPods 3rd Gen LIGHTNING CHARGING CASE",
       "family": "AirPods",
@@ -754,20 +887,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 120,
-        "stockQuantity": 8
+        "stockQuantity": 5
       },
       "description": "AirPods 3rd Gen LIGHTNING CHARGING CASE $120",
-      "stockQuantity": 8,
+      "stockQuantity": 5,
       "priceUsd": 120,
       "pricesUsd": [
         120
       ],
-      "raw": "8 | AirPods 3rd Gen LIGHTNING CHARGING CASE $120"
+      "raw": "5 | AirPods 3rd Gen LIGHTNING CHARGING CASE $120"
     },
     {
       "id": "apple_accessories-airpods-3rd-gen-magsafe-charging-case",
       "category": "apple_accessories",
       "deviceType": "auriculares",
+      "deviceGroup": "Accesorios",
       "brand": "Apple",
       "model": "AirPods 3rd Gen MAGSAFE CHARGING CASE",
       "family": "AirPods",
@@ -787,20 +921,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 120,
-        "stockQuantity": 5
+        "stockQuantity": 0
       },
       "description": "AirPods 3rd Gen MAGSAFE CHARGING CASE $120",
-      "stockQuantity": 5,
+      "stockQuantity": 0,
       "priceUsd": 120,
       "pricesUsd": [
         120
       ],
-      "raw": "5 | AirPods 3rd Gen MAGSAFE CHARGING CASE $120"
+      "raw": "0 | AirPods 3rd Gen MAGSAFE CHARGING CASE $120"
     },
     {
       "id": "apple_accessories-airpods-4",
       "category": "apple_accessories",
       "deviceType": "auriculares",
+      "deviceGroup": "Accesorios",
       "brand": "Apple",
       "model": "AirPods 4",
       "family": "AirPods",
@@ -820,20 +955,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 155,
-        "stockQuantity": 3
+        "stockQuantity": 5
       },
       "description": "AirPods 4▸ $155",
-      "stockQuantity": 3,
+      "stockQuantity": 5,
       "priceUsd": 155,
       "pricesUsd": [
         155
       ],
-      "raw": "3 | AirPods 4▸ $155"
+      "raw": "5 | AirPods 4▸ $155"
     },
     {
       "id": "apple_accessories-airpods-4-noise-cancelling",
       "category": "apple_accessories",
       "deviceType": "auriculares",
+      "deviceGroup": "Accesorios",
       "brand": "Apple",
       "model": "AirPods 4 Noise Cancelling",
       "family": "AirPods",
@@ -852,21 +988,60 @@ window.STOCK_DB = {
       "variant": {
         "color": null,
         "colors": [],
-        "priceUsd": 210,
-        "stockQuantity": 6
+        "priceUsd": 195,
+        "stockQuantity": 5
       },
-      "description": "AirPods 4 Noise Cancelling ▸ $210",
-      "stockQuantity": 6,
-      "priceUsd": 210,
+      "description": "AirPods 4 Noise Cancelling ▸ $195",
+      "stockQuantity": 5,
+      "priceUsd": 195,
       "pricesUsd": [
-        210
+        195
       ],
-      "raw": "6 | AirPods 4 Noise Cancelling ▸ $210"
+      "raw": "5 | AirPods 4 Noise Cancelling ▸ $195"
+    },
+    {
+      "id": "apple_accessories-airpods-max-2-4",
+      "category": "apple_accessories",
+      "deviceType": "auriculares",
+      "deviceGroup": "Accesorios",
+      "brand": "Apple",
+      "model": "AIRPODS MAX 2",
+      "family": "AIRPODS MAX",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [
+        "Starlight"
+      ],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Starlight",
+        "colors": [
+          "Starlight"
+        ],
+        "priceUsd": 560,
+        "stockQuantity": 5
+      },
+      "description": "AIRPODS MAX 2 $560 Starlight",
+      "stockQuantity": 5,
+      "priceUsd": 560,
+      "pricesUsd": [
+        560
+      ],
+      "raw": "5 | AIRPODS MAX 2 $560 Starlight"
     },
     {
       "id": "apple_accessories-airpods-max-2-2026-midnight",
       "category": "apple_accessories",
       "deviceType": "auriculares",
+      "deviceGroup": "Accesorios",
       "brand": "Apple",
       "model": "AirPods MAX 2 (2026)",
       "family": "AirPods MAX",
@@ -890,20 +1065,21 @@ window.STOCK_DB = {
           "Midnight"
         ],
         "priceUsd": 560,
-        "stockQuantity": 4
+        "stockQuantity": 5
       },
       "description": "AirPods MAX 2 (2026) Midnight $560",
-      "stockQuantity": 4,
+      "stockQuantity": 5,
       "priceUsd": 560,
       "pricesUsd": [
         560
       ],
-      "raw": "4 | AirPods MAX 2 (2026) Midnight $560"
+      "raw": "5 | AirPods MAX 2 (2026) Midnight $560"
     },
     {
       "id": "apple_accessories-airpods-max-2-2026-blue",
       "category": "apple_accessories",
       "deviceType": "auriculares",
+      "deviceGroup": "Accesorios",
       "brand": "Apple",
       "model": "AirPods MAX 2 (2026)",
       "family": "AirPods MAX",
@@ -927,20 +1103,21 @@ window.STOCK_DB = {
           "Blue"
         ],
         "priceUsd": 560,
-        "stockQuantity": 7
+        "stockQuantity": 0
       },
       "description": "AirPods MAX 2 (2026) Blue $560",
-      "stockQuantity": 7,
+      "stockQuantity": 0,
       "priceUsd": 560,
       "pricesUsd": [
         560
       ],
-      "raw": "7 | AirPods MAX 2 (2026) Blue $560"
+      "raw": "0 | AirPods MAX 2 (2026) Blue $560"
     },
     {
       "id": "apple_accessories-airpods-max-2-2026-orange",
       "category": "apple_accessories",
       "deviceType": "auriculares",
+      "deviceGroup": "Accesorios",
       "brand": "Apple",
       "model": "AirPods MAX 2 (2026)",
       "family": "AirPods MAX",
@@ -964,20 +1141,21 @@ window.STOCK_DB = {
           "Orange"
         ],
         "priceUsd": 560,
-        "stockQuantity": 2
+        "stockQuantity": 5
       },
       "description": "AirPods MAX 2 (2026) Orange $560",
-      "stockQuantity": 2,
+      "stockQuantity": 5,
       "priceUsd": 560,
       "pricesUsd": [
         560
       ],
-      "raw": "2 | AirPods MAX 2 (2026) Orange $560"
+      "raw": "5 | AirPods MAX 2 (2026) Orange $560"
     },
     {
       "id": "apple_accessories-airpods-pro-3",
       "category": "apple_accessories",
       "deviceType": "auriculares",
+      "deviceGroup": "Accesorios",
       "brand": "Apple",
       "model": "AirPods PRO 3",
       "family": "AirPods PRO",
@@ -997,20 +1175,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 245,
-        "stockQuantity": 4
+        "stockQuantity": 5
       },
       "description": "AirPods PRO 3 $245",
-      "stockQuantity": 4,
+      "stockQuantity": 5,
       "priceUsd": 245,
       "pricesUsd": [
         245
       ],
-      "raw": "4 | AirPods PRO 3 $245"
+      "raw": "5 | AirPods PRO 3 $245"
     },
     {
       "id": "jbl-earbuds-jbl-tune-flex-wireless-nc-white",
       "category": "jbl",
       "deviceType": "auriculares",
+      "deviceGroup": "Accesorios",
       "brand": "JBL",
       "model": "Earbuds JBL Tune Flex Wireless NC",
       "family": "Earbuds JBL",
@@ -1042,12 +1221,13 @@ window.STOCK_DB = {
       "pricesUsd": [
         65
       ],
-      "raw": "5 | Earbuds JBL Tune Flex Wireless NC White **$65**"
+      "raw": "5 | Earbuds JBL Tune Flex Wireless NC White $65"
     },
     {
       "id": "samsung_watches-galaxy-buds-3-pro",
       "category": "samsung_watches",
       "deviceType": "auriculares",
+      "deviceGroup": "Accesorios",
       "brand": "Samsung",
       "model": "Galaxy Buds 3 PRO",
       "family": "Galaxy Buds",
@@ -1071,20 +1251,21 @@ window.STOCK_DB = {
           "Silver"
         ],
         "priceUsd": 140,
-        "stockQuantity": 4
+        "stockQuantity": 0
       },
       "description": "Galaxy Buds 3 PRO $140 Silver",
-      "stockQuantity": 4,
+      "stockQuantity": 0,
       "priceUsd": 140,
       "pricesUsd": [
         140
       ],
-      "raw": "4 | Galaxy Buds 3 PRO $140 Silver"
+      "raw": "0 | Galaxy Buds 3 PRO $140 Silver"
     },
     {
       "id": "cameras-dji-osmo-action-6-adventure-combo",
       "category": "cameras",
       "deviceType": "camara",
+      "deviceGroup": "Accesorios",
       "brand": "DJI",
       "model": "Osmo Action 6 Adventure Combo",
       "family": "Osmo Action",
@@ -1104,20 +1285,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 670,
-        "stockQuantity": 6
+        "stockQuantity": 5
       },
       "description": "DJI Osmo Action 6 Adventure Combo $670",
-      "stockQuantity": 6,
+      "stockQuantity": 5,
       "priceUsd": 670,
       "pricesUsd": [
         670
       ],
-      "raw": "6 | DJI Osmo Action 6 Adventure Combo $670"
+      "raw": "5 | DJI Osmo Action 6 Adventure Combo $670"
     },
     {
       "id": "cameras-dji-osmo-pocket-4-creator-combo",
       "category": "cameras",
       "deviceType": "camara",
+      "deviceGroup": "Accesorios",
       "brand": "DJI",
       "model": "Osmo Pocket 4 Creator Combo",
       "family": "Osmo Pocket",
@@ -1136,21 +1318,22 @@ window.STOCK_DB = {
       "variant": {
         "color": null,
         "colors": [],
-        "priceUsd": 770,
-        "stockQuantity": 4
+        "priceUsd": 755,
+        "stockQuantity": 5
       },
-      "description": "DJI Osmo Pocket 4 Creator Combo $770",
-      "stockQuantity": 4,
-      "priceUsd": 770,
+      "description": "DJI Osmo Pocket 4 Creator Combo $755",
+      "stockQuantity": 5,
+      "priceUsd": 755,
       "pricesUsd": [
-        770
+        755
       ],
-      "raw": "4 | DJI Osmo Pocket 4 Creator Combo $770"
+      "raw": "5 | DJI Osmo Pocket 4 Creator Combo $755"
     },
     {
       "id": "cameras-gopro-hero-13-black",
       "category": "cameras",
       "deviceType": "camara",
+      "deviceGroup": "Accesorios",
       "brand": "GoPro",
       "model": "Hero 13",
       "family": "Hero 13",
@@ -1174,20 +1357,21 @@ window.STOCK_DB = {
           "Black"
         ],
         "priceUsd": 400,
-        "stockQuantity": 7
+        "stockQuantity": 5
       },
       "description": "GoPRO Hero 13 Black $400",
-      "stockQuantity": 7,
+      "stockQuantity": 5,
       "priceUsd": 400,
       "pricesUsd": [
         400
       ],
-      "raw": "7 | GoPRO Hero 13 Black $400*"
+      "raw": "5 | GoPRO Hero 13 Black $400"
     },
     {
       "id": "cameras-insta360-ace-pro-2-8k-black",
       "category": "cameras",
       "deviceType": "camara",
+      "deviceGroup": "Accesorios",
       "brand": "INSTA360",
       "model": "Ace PRO 2 8K",
       "family": "Ace PRO",
@@ -1211,20 +1395,21 @@ window.STOCK_DB = {
           "Black"
         ],
         "priceUsd": 520,
-        "stockQuantity": 3
+        "stockQuantity": 5
       },
       "description": "INSTA360 Ace PRO 2 8K Black $520",
-      "stockQuantity": 3,
+      "stockQuantity": 5,
       "priceUsd": 520,
       "pricesUsd": [
         520
       ],
-      "raw": "3 | INSTA360 Ace PRO 2 8K Black $520"
+      "raw": "5 | INSTA360 Ace PRO 2 8K Black $520"
     },
     {
       "id": "mac-mac-mini-m4-16gb-256gb",
       "category": "mac",
       "deviceType": "computadora_escritorio",
+      "deviceGroup": "Computadoras",
       "brand": "Apple",
       "model": "Mac MINI M4",
       "family": "Mac MINI",
@@ -1244,20 +1429,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 850,
-        "stockQuantity": 5
+        "stockQuantity": 0
       },
       "description": "Mac MINI M4 16GB 256GB $850",
-      "stockQuantity": 5,
+      "stockQuantity": 0,
       "priceUsd": 850,
       "pricesUsd": [
         850
       ],
-      "raw": "5 | Mac MINI M4 16GB 256GB $850"
+      "raw": "0 | Mac MINI M4 16GB 256GB $850"
     },
     {
       "id": "gaming-nintendo-switch-64gb-oled-neon",
       "category": "gaming",
       "deviceType": "consola",
+      "deviceGroup": "Consolas",
       "brand": "Nintendo",
       "model": "Switch",
       "family": "Switch",
@@ -1277,20 +1463,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 440,
-        "stockQuantity": 8
+        "stockQuantity": 5
       },
       "description": "Nintendo Switch 64GB OLED Neon $440",
-      "stockQuantity": 8,
+      "stockQuantity": 5,
       "priceUsd": 440,
       "pricesUsd": [
         440
       ],
-      "raw": "8 | Nintendo Switch 64GB OLED Neon $440*"
+      "raw": "5 | Nintendo Switch 64GB OLED Neon $440"
     },
     {
       "id": "gaming-nintendo-switch-2-mario-kart-us",
       "category": "gaming",
       "deviceType": "consola",
+      "deviceGroup": "Consolas",
       "brand": "Nintendo",
       "model": "Switch 2 + Mario Kart US",
       "family": "Switch 2",
@@ -1318,12 +1505,13 @@ window.STOCK_DB = {
       "pricesUsd": [
         650
       ],
-      "raw": "5 | Nintendo Switch 2 + Mario Kart US $650*"
+      "raw": "5 | Nintendo Switch 2 + Mario Kart US $650"
     },
     {
       "id": "gaming-sony-playstation-5-digital-slim-825gb",
       "category": "gaming",
       "deviceType": "consola",
+      "deviceGroup": "Consolas",
       "brand": "Sony",
       "model": "PlayStation 5 Digital Slim",
       "family": "PlayStation 5",
@@ -1343,205 +1531,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 750,
-        "stockQuantity": 7
+        "stockQuantity": 0
       },
       "description": "Sony PlayStation 5 Digital Slim · 825GB $750",
-      "stockQuantity": 7,
+      "stockQuantity": 0,
       "priceUsd": 750,
       "pricesUsd": [
         750
       ],
-      "raw": "7 | Sony PlayStation 5 Digital Slim · 825GB $750"
-    },
-    {
-      "id": "gaming-joystick-ps5-blanco",
-      "category": "gaming",
-      "deviceType": "control",
-      "brand": "Sony",
-      "model": "JOYSTICK PS5 Blanco",
-      "family": "JOYSTICK PS5",
-      "memory": {
-        "ramGb": null,
-        "storageGb": null
-      },
-      "chip": null,
-      "colors": [
-        "White"
-      ],
-      "configuration": {
-        "storageGb": null,
-        "ramGb": null,
-        "chip": null,
-        "simMode": null
-      },
-      "variant": {
-        "color": "White",
-        "colors": [
-          "White"
-        ],
-        "priceUsd": 95,
-        "stockQuantity": 5
-      },
-      "description": "JOYSTICK PS5 Blanco $95",
-      "stockQuantity": 5,
-      "priceUsd": 95,
-      "pricesUsd": [
-        95
-      ],
-      "raw": "5 | JOYSTICK PS5 Blanco $95"
-    },
-    {
-      "id": "gaming-joystick-ps5-celeste",
-      "category": "gaming",
-      "deviceType": "control",
-      "brand": "Sony",
-      "model": "JOYSTICK PS5 Celeste",
-      "family": "JOYSTICK PS5",
-      "memory": {
-        "ramGb": null,
-        "storageGb": null
-      },
-      "chip": null,
-      "colors": [
-        "Blue"
-      ],
-      "configuration": {
-        "storageGb": null,
-        "ramGb": null,
-        "chip": null,
-        "simMode": null
-      },
-      "variant": {
-        "color": "Blue",
-        "colors": [
-          "Blue"
-        ],
-        "priceUsd": 95,
-        "stockQuantity": 2
-      },
-      "description": "JOYSTICK PS5 Celeste $95",
-      "stockQuantity": 2,
-      "priceUsd": 95,
-      "pricesUsd": [
-        95
-      ],
-      "raw": "2 | JOYSTICK PS5 Celeste $95"
-    },
-    {
-      "id": "gaming-joystick-ps5-negro",
-      "category": "gaming",
-      "deviceType": "control",
-      "brand": "Sony",
-      "model": "JOYSTICK PS5 Negro",
-      "family": "JOYSTICK PS5",
-      "memory": {
-        "ramGb": null,
-        "storageGb": null
-      },
-      "chip": null,
-      "colors": [
-        "Black"
-      ],
-      "configuration": {
-        "storageGb": null,
-        "ramGb": null,
-        "chip": null,
-        "simMode": null
-      },
-      "variant": {
-        "color": "Black",
-        "colors": [
-          "Black"
-        ],
-        "priceUsd": 95,
-        "stockQuantity": 3
-      },
-      "description": "JOYSTICK PS5 Negro $95",
-      "stockQuantity": 3,
-      "priceUsd": 95,
-      "pricesUsd": [
-        95
-      ],
-      "raw": "3 | JOYSTICK PS5 Negro $95"
-    },
-    {
-      "id": "gaming-joystick-ps5-rojo",
-      "category": "gaming",
-      "deviceType": "control",
-      "brand": "Sony",
-      "model": "JOYSTICK PS5 Rojo",
-      "family": "JOYSTICK PS5",
-      "memory": {
-        "ramGb": null,
-        "storageGb": null
-      },
-      "chip": null,
-      "colors": [
-        "Red"
-      ],
-      "configuration": {
-        "storageGb": null,
-        "ramGb": null,
-        "chip": null,
-        "simMode": null
-      },
-      "variant": {
-        "color": "Red",
-        "colors": [
-          "Red"
-        ],
-        "priceUsd": 95,
-        "stockQuantity": 6
-      },
-      "description": "JOYSTICK PS5 Rojo $95",
-      "stockQuantity": 6,
-      "priceUsd": 95,
-      "pricesUsd": [
-        95
-      ],
-      "raw": "6 | JOYSTICK PS5 Rojo $95"
-    },
-    {
-      "id": "gaming-joystick-ps5-violeta",
-      "category": "gaming",
-      "deviceType": "control",
-      "brand": "Sony",
-      "model": "JOYSTICK PS5 Violeta",
-      "family": "JOYSTICK PS5",
-      "memory": {
-        "ramGb": null,
-        "storageGb": null
-      },
-      "chip": null,
-      "colors": [
-        "Purple"
-      ],
-      "configuration": {
-        "storageGb": null,
-        "ramGb": null,
-        "chip": null,
-        "simMode": null
-      },
-      "variant": {
-        "color": "Purple",
-        "colors": [
-          "Purple"
-        ],
-        "priceUsd": 95,
-        "stockQuantity": 4
-      },
-      "description": "JOYSTICK PS5 Violeta $95",
-      "stockQuantity": 4,
-      "priceUsd": 95,
-      "pricesUsd": [
-        95
-      ],
-      "raw": "4 | JOYSTICK PS5 Violeta $95"
+      "raw": "0 | Sony PlayStation 5 Digital Slim · 825GB $750"
     },
     {
       "id": "drones-dji-avata-360-fly-more-combo-dji-rc2",
       "category": "drones",
       "deviceType": "drone",
+      "deviceGroup": "Drones",
       "brand": "DJI",
       "model": "Avata 360 Fly More Combo (DJI RC2)",
       "family": "Avata 360",
@@ -1561,20 +1565,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 1270,
-        "stockQuantity": 4
+        "stockQuantity": 5
       },
       "description": "DJI Avata 360 Fly More Combo (DJI RC2) $1270",
-      "stockQuantity": 4,
+      "stockQuantity": 5,
       "priceUsd": 1270,
       "pricesUsd": [
         1270
       ],
-      "raw": "4 | DJI Avata 360 Fly More Combo (DJI RC2) $1270"
+      "raw": "5 | DJI Avata 360 Fly More Combo (DJI RC2) $1270"
     },
     {
       "id": "drones-dji-mini-5-pro-fly-more-combo-plus-w-rc",
       "category": "drones",
       "deviceType": "drone",
+      "deviceGroup": "Drones",
       "brand": "DJI",
       "model": "Mini 5 PRO Fly More Combo Plus W/RC",
       "family": "Mini 5",
@@ -1594,20 +1599,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 1420,
-        "stockQuantity": 6
+        "stockQuantity": 5
       },
       "description": "DJI Mini 5 PRO Fly More Combo Plus W/RC $1420",
-      "stockQuantity": 6,
+      "stockQuantity": 5,
       "priceUsd": 1420,
       "pricesUsd": [
         1420
       ],
-      "raw": "6 | DJI Mini 5 PRO Fly More Combo Plus W/RC $1420"
+      "raw": "5 | DJI Mini 5 PRO Fly More Combo Plus W/RC $1420"
     },
     {
       "id": "drones-dji-neo-2-motion-fly-more-combo",
       "category": "drones",
       "deviceType": "drone",
+      "deviceGroup": "Drones",
       "brand": "DJI",
       "model": "Neo 2 Motion Fly More Combo",
       "family": "Neo 2",
@@ -1638,9 +1644,200 @@ window.STOCK_DB = {
       "raw": "5 | DJI Neo 2 Motion Fly More Combo $770"
     },
     {
+      "id": "gaming-joystick-ps5-blanco",
+      "category": "gaming",
+      "deviceType": "joystick",
+      "deviceGroup": "Accesorios",
+      "brand": "Sony",
+      "model": "JOYSTICK PS5 Blanco",
+      "family": "JOYSTICK PS5",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [
+        "White"
+      ],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "White",
+        "colors": [
+          "White"
+        ],
+        "priceUsd": 95,
+        "stockQuantity": 0
+      },
+      "description": "JOYSTICK PS5 Blanco $95",
+      "stockQuantity": 0,
+      "priceUsd": 95,
+      "pricesUsd": [
+        95
+      ],
+      "raw": "0 | JOYSTICK PS5 Blanco $95"
+    },
+    {
+      "id": "gaming-joystick-ps5-celeste",
+      "category": "gaming",
+      "deviceType": "joystick",
+      "deviceGroup": "Accesorios",
+      "brand": "Sony",
+      "model": "JOYSTICK PS5 Celeste",
+      "family": "JOYSTICK PS5",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [
+        "Blue"
+      ],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Blue",
+        "colors": [
+          "Blue"
+        ],
+        "priceUsd": 95,
+        "stockQuantity": 0
+      },
+      "description": "JOYSTICK PS5 Celeste $95",
+      "stockQuantity": 0,
+      "priceUsd": 95,
+      "pricesUsd": [
+        95
+      ],
+      "raw": "0 | JOYSTICK PS5 Celeste $95"
+    },
+    {
+      "id": "gaming-joystick-ps5-negro",
+      "category": "gaming",
+      "deviceType": "joystick",
+      "deviceGroup": "Accesorios",
+      "brand": "Sony",
+      "model": "JOYSTICK PS5 Negro",
+      "family": "JOYSTICK PS5",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [
+        "Black"
+      ],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Black",
+        "colors": [
+          "Black"
+        ],
+        "priceUsd": 95,
+        "stockQuantity": 0
+      },
+      "description": "JOYSTICK PS5 Negro $95",
+      "stockQuantity": 0,
+      "priceUsd": 95,
+      "pricesUsd": [
+        95
+      ],
+      "raw": "0 | JOYSTICK PS5 Negro $95"
+    },
+    {
+      "id": "gaming-joystick-ps5-rojo",
+      "category": "gaming",
+      "deviceType": "joystick",
+      "deviceGroup": "Accesorios",
+      "brand": "Sony",
+      "model": "JOYSTICK PS5 Rojo",
+      "family": "JOYSTICK PS5",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [
+        "Red"
+      ],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Red",
+        "colors": [
+          "Red"
+        ],
+        "priceUsd": 95,
+        "stockQuantity": 0
+      },
+      "description": "JOYSTICK PS5 Rojo $95",
+      "stockQuantity": 0,
+      "priceUsd": 95,
+      "pricesUsd": [
+        95
+      ],
+      "raw": "0 | JOYSTICK PS5 Rojo $95"
+    },
+    {
+      "id": "gaming-joystick-ps5-violeta",
+      "category": "gaming",
+      "deviceType": "joystick",
+      "deviceGroup": "Accesorios",
+      "brand": "Sony",
+      "model": "JOYSTICK PS5 Violeta",
+      "family": "JOYSTICK PS5",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [
+        "Purple"
+      ],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Purple",
+        "colors": [
+          "Purple"
+        ],
+        "priceUsd": 95,
+        "stockQuantity": 0
+      },
+      "description": "JOYSTICK PS5 Violeta $95",
+      "stockQuantity": 0,
+      "priceUsd": 95,
+      "pricesUsd": [
+        95
+      ],
+      "raw": "0 | JOYSTICK PS5 Violeta $95"
+    },
+    {
       "id": "apple_accessories-airtag-x1",
       "category": "apple_accessories",
       "deviceType": "localizador",
+      "deviceGroup": "Accesorios",
       "brand": "Apple",
       "model": "AirTag x1",
       "family": "AirTag x1",
@@ -1660,20 +1857,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 55,
-        "stockQuantity": 9
+        "stockQuantity": 5
       },
       "description": "AirTag▸ x1 $55",
-      "stockQuantity": 9,
+      "stockQuantity": 5,
       "priceUsd": 55,
       "pricesUsd": [
         55
       ],
-      "raw": "9 | AirTag▸ x1 $55"
+      "raw": "5 | AirTag▸ x1 $55"
     },
     {
       "id": "apple_accessories-airtag-x4",
       "category": "apple_accessories",
       "deviceType": "localizador",
+      "deviceGroup": "Accesorios",
       "brand": "Apple",
       "model": "AirTag x4",
       "family": "AirTag x4",
@@ -1693,20 +1891,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 105,
-        "stockQuantity": 6
+        "stockQuantity": 5
       },
       "description": "AirTag▸ x4 $105",
-      "stockQuantity": 6,
+      "stockQuantity": 5,
       "priceUsd": 105,
       "pricesUsd": [
         105
       ],
-      "raw": "6 | AirTag▸ x4 $105"
+      "raw": "5 | AirTag▸ x4 $105"
     },
     {
       "id": "microphones-dji-mic-3-wireless-microphone",
       "category": "microphones",
       "deviceType": "microfono",
+      "deviceGroup": "Accesorios",
       "brand": "DJI",
       "model": "Mic 3 Wireless Microphone",
       "family": "Mic 3",
@@ -1726,20 +1925,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 390,
-        "stockQuantity": 4
+        "stockQuantity": 5
       },
       "description": "DJI Mic 3 Wireless Microphone $390",
-      "stockQuantity": 4,
+      "stockQuantity": 5,
       "priceUsd": 390,
       "pricesUsd": [
         390
       ],
-      "raw": "4 | DJI Mic 3 Wireless Microphone $390"
+      "raw": "5 | DJI Mic 3 Wireless Microphone $390"
     },
     {
       "id": "microphones-dji-mic-mini-mobile",
       "category": "microphones",
       "deviceType": "microfono",
+      "deviceGroup": "Accesorios",
       "brand": "DJI",
       "model": "Mic Mini Mobile",
       "family": "Mic Mini",
@@ -1759,20 +1959,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 95,
-        "stockQuantity": 7
+        "stockQuantity": 5
       },
       "description": "DJI Mic Mini Mobile $95",
-      "stockQuantity": 7,
+      "stockQuantity": 5,
       "priceUsd": 95,
       "pricesUsd": [
         95
       ],
-      "raw": "7 | DJI Mic Mini Mobile $95"
+      "raw": "5 | DJI Mic Mini Mobile $95"
     },
     {
       "id": "microphones-dji-mic-mini-wireless-microphone-x2",
       "category": "microphones",
       "deviceType": "microfono",
+      "deviceGroup": "Accesorios",
       "brand": "DJI",
       "model": "Mic Mini Wireless Microphone x2",
       "family": "Mic Mini",
@@ -1806,6 +2007,7 @@ window.STOCK_DB = {
       "id": "notebooks-acer-aspire-go-15-6-amd-ryzen-7-7730u-radeon-graph-16-512ssd-sil",
       "category": "notebooks",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Acer",
       "model": "Aspire Go 15.6 Amd Ryzen 7 7730U Radeon Graph",
       "family": "Aspire Go",
@@ -1828,21 +2030,22 @@ window.STOCK_DB = {
         "colors": [
           "Silver"
         ],
-        "priceUsd": 650,
-        "stockQuantity": 2
+        "priceUsd": 640,
+        "stockQuantity": 5
       },
-      "description": "Acer Aspire Go 15.6 Amd Ryzen 7 7730U Radeon Graph 16/512SSD Silver $650",
-      "stockQuantity": 2,
-      "priceUsd": 650,
+      "description": "Acer Aspire Go 15.6 Amd Ryzen 7 7730U Radeon Graph 16/512SSD Silver $640",
+      "stockQuantity": 5,
+      "priceUsd": 640,
       "pricesUsd": [
-        650
+        640
       ],
-      "raw": "2 | Acer Aspire Go 15.6 Amd Ryzen 7 7730U Radeon Graph 16/512SSD Silver **$650**"
+      "raw": "5 | Acer Aspire Go 15.6 Amd Ryzen 7 7730U Radeon Graph 16/512SSD Silver $640"
     },
     {
       "id": "mac-macbook-air-15-3-m5-16-512gb-10cpu-10gpu-starlight",
       "category": "mac",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Apple",
       "model": "MacBook Air 15.3\" M5",
       "family": "MacBook Air",
@@ -1866,20 +2069,21 @@ window.STOCK_DB = {
           "Starlight"
         ],
         "priceUsd": 1570,
-        "stockQuantity": 7
+        "stockQuantity": 5
       },
       "description": "MacBook Air 15.3” M5 16/512GB 10CPU/10GPU Starlight $1570",
-      "stockQuantity": 7,
+      "stockQuantity": 5,
       "priceUsd": 1570,
       "pricesUsd": [
         1570
       ],
-      "raw": "7 | MacBook Air 15.3” M5 16/512GB 10CPU/10GPU Starlight $1570"
+      "raw": "5 | MacBook Air 15.3” M5 16/512GB 10CPU/10GPU Starlight $1570"
     },
     {
       "id": "mac-macbook-air-15-3-m5-16-512gb-10cpu-10gpu-silver",
       "category": "mac",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Apple",
       "model": "MacBook Air 15.3\" M5",
       "family": "MacBook Air",
@@ -1902,21 +2106,60 @@ window.STOCK_DB = {
         "colors": [
           "Silver"
         ],
-        "priceUsd": 1580,
-        "stockQuantity": 3
+        "priceUsd": 1570,
+        "stockQuantity": 5
       },
-      "description": "MacBook Air 15.3” M5 16/512GB 10CPU/10GPU Silver $1580",
-      "stockQuantity": 3,
-      "priceUsd": 1580,
+      "description": "MacBook Air 15.3” M5 16/512GB 10CPU/10GPU Silver $1570",
+      "stockQuantity": 5,
+      "priceUsd": 1570,
       "pricesUsd": [
-        1580
+        1570
       ],
-      "raw": "3 | MacBook Air 15.3” M5 16/512GB 10CPU/10GPU Silver $1580"
+      "raw": "5 | MacBook Air 15.3” M5 16/512GB 10CPU/10GPU Silver $1570"
+    },
+    {
+      "id": "mac-macbook-air-15-3-m5-16-512gb-10cpu-10gpu-3",
+      "category": "mac",
+      "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
+      "brand": "Apple",
+      "model": "MACBOOK AIR 15.3\" M5",
+      "family": "MACBOOK AIR",
+      "memory": {
+        "ramGb": 16,
+        "storageGb": 512
+      },
+      "chip": "M5",
+      "colors": [
+        "Sky Blue"
+      ],
+      "configuration": {
+        "storageGb": 512,
+        "ramGb": 16,
+        "chip": "M5",
+        "simMode": null
+      },
+      "variant": {
+        "color": "Sky Blue",
+        "colors": [
+          "Sky Blue"
+        ],
+        "priceUsd": 1570,
+        "stockQuantity": 5
+      },
+      "description": "MACBOOK AIR 15.3” M5 16/512GB 10CPU/10GPU - $1570 Sky Blue",
+      "stockQuantity": 5,
+      "priceUsd": 1570,
+      "pricesUsd": [
+        1570
+      ],
+      "raw": "5 | MACBOOK AIR 15.3” M5 16/512GB 10CPU/10GPU - $1570 Sky Blue"
     },
     {
       "id": "mac-macbook-air-m5-13-16gb-512gb-10cpu-8gpu-silver",
       "category": "mac",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Apple",
       "model": "MacBook Air M5 13\"",
       "family": "MacBook Air",
@@ -1940,20 +2183,21 @@ window.STOCK_DB = {
           "Silver"
         ],
         "priceUsd": 1310,
-        "stockQuantity": 8
+        "stockQuantity": 0
       },
       "description": "MacBook Air M5 13\" · 16GB / 512GB 10CPU/8GPU Silver $1310",
-      "stockQuantity": 8,
+      "stockQuantity": 0,
       "priceUsd": 1310,
       "pricesUsd": [
         1310
       ],
-      "raw": "8 | MacBook Air M5 13\" · 16GB / 512GB 10CPU/8GPU Silver $1310"
+      "raw": "0 | MacBook Air M5 13\" · 16GB / 512GB 10CPU/8GPU Silver $1310"
     },
     {
       "id": "mac-macbook-air-m5-13-16gb-512gb-10cpu-8gpu-starlight",
       "category": "mac",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Apple",
       "model": "MacBook Air M5 13\"",
       "family": "MacBook Air",
@@ -1977,20 +2221,21 @@ window.STOCK_DB = {
           "Starlight"
         ],
         "priceUsd": 1310,
-        "stockQuantity": 5
+        "stockQuantity": 0
       },
       "description": "MacBook Air M5 13\" · 16GB / 512GB 10CPU/8GPU Starlight $1310",
-      "stockQuantity": 5,
+      "stockQuantity": 0,
       "priceUsd": 1310,
       "pricesUsd": [
         1310
       ],
-      "raw": "5 | MacBook Air M5 13\" · 16GB / 512GB 10CPU/8GPU Starlight $1310"
+      "raw": "0 | MacBook Air M5 13\" · 16GB / 512GB 10CPU/8GPU Starlight $1310"
     },
     {
       "id": "mac-macbook-air-m5-13-16gb-512gb-10cpu-8gpu-sky-blue",
       "category": "mac",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Apple",
       "model": "MacBook Air M5 13\"",
       "family": "MacBook Air",
@@ -2013,21 +2258,22 @@ window.STOCK_DB = {
         "colors": [
           "Sky Blue"
         ],
-        "priceUsd": 1310,
-        "stockQuantity": 3
+        "priceUsd": 1350,
+        "stockQuantity": 5
       },
-      "description": "MacBook Air M5 13\" · 16GB / 512GB 10CPU/8GPU Sky Blue $1310",
-      "stockQuantity": 3,
-      "priceUsd": 1310,
+      "description": "MacBook Air M5 13\" · 16GB / 512GB 10CPU/8GPU Sky Blue $1350",
+      "stockQuantity": 5,
+      "priceUsd": 1350,
       "pricesUsd": [
-        1310
+        1350
       ],
-      "raw": "3 | MacBook Air M5 13\" · 16GB / 512GB 10CPU/8GPU Sky Blue $1310"
+      "raw": "5 | MacBook Air M5 13\" · 16GB / 512GB 10CPU/8GPU Sky Blue $1350"
     },
     {
       "id": "mac-macbook-air-m5-13-16gb-512gb-10cpu-8gpu-midnight",
       "category": "mac",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Apple",
       "model": "MacBook Air M5 13\"",
       "family": "MacBook Air",
@@ -2051,20 +2297,21 @@ window.STOCK_DB = {
           "Midnight"
         ],
         "priceUsd": 1355,
-        "stockQuantity": 6
+        "stockQuantity": 0
       },
       "description": "MacBook Air M5 13\" · 16GB / 512GB 10CPU/8GPU Midnight $1355",
-      "stockQuantity": 6,
+      "stockQuantity": 0,
       "priceUsd": 1355,
       "pricesUsd": [
         1355
       ],
-      "raw": "6 | MacBook Air M5 13\" · 16GB / 512GB 10CPU/8GPU Midnight $1355"
+      "raw": "0 | MacBook Air M5 13\" · 16GB / 512GB 10CPU/8GPU Midnight $1355"
     },
     {
       "id": "mac-macbook-air-m5-13-16gb-1tb-10cpu-10gpu-starlight",
       "category": "mac",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Apple",
       "model": "MacBook Air M5 13\"",
       "family": "MacBook Air",
@@ -2087,21 +2334,136 @@ window.STOCK_DB = {
         "colors": [
           "Starlight"
         ],
-        "priceUsd": 1470,
-        "stockQuantity": 4
+        "priceUsd": 1530,
+        "stockQuantity": 5
       },
-      "description": "MacBook Air M5 13\" · 16GB / 1TB · 10CPU/10GPU Starlight $1470",
-      "stockQuantity": 4,
-      "priceUsd": 1470,
+      "description": "MacBook Air M5 13\" · 16GB / 1TB · 10CPU/10GPU Starlight $1530",
+      "stockQuantity": 5,
+      "priceUsd": 1530,
       "pricesUsd": [
-        1470
+        1530
       ],
-      "raw": "4 | MacBook Air M5 13\" · 16GB / 1TB · 10CPU/10GPU Starlight $1470"
+      "raw": "5 | MacBook Air M5 13\" · 16GB / 1TB · 10CPU/10GPU Starlight $1530"
+    },
+    {
+      "id": "mac-macbook-air-m5-13-16gb-1tb-10cpu-10gpu-2",
+      "category": "mac",
+      "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
+      "brand": "Apple",
+      "model": "MACBOOK Air M5 13\"",
+      "family": "MACBOOK Air",
+      "memory": {
+        "ramGb": 16,
+        "storageGb": 1024
+      },
+      "chip": "M5",
+      "colors": [
+        "Sky Blue"
+      ],
+      "configuration": {
+        "storageGb": 1024,
+        "ramGb": 16,
+        "chip": "M5",
+        "simMode": null
+      },
+      "variant": {
+        "color": "Sky Blue",
+        "colors": [
+          "Sky Blue"
+        ],
+        "priceUsd": 1530,
+        "stockQuantity": 5
+      },
+      "description": "MACBOOK Air M5 13\" 16GB / 1TB 10CPU/10GPU $1530 Sky Blue",
+      "stockQuantity": 5,
+      "priceUsd": 1530,
+      "pricesUsd": [
+        1530
+      ],
+      "raw": "5 | MACBOOK Air M5 13\" 16GB / 1TB 10CPU/10GPU $1530 Sky Blue"
+    },
+    {
+      "id": "mac-macbook-air-m5-13-16gb-1tb-10cpu-10gpu-3",
+      "category": "mac",
+      "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
+      "brand": "Apple",
+      "model": "MACBOOK Air M5 13\"",
+      "family": "MACBOOK Air",
+      "memory": {
+        "ramGb": 16,
+        "storageGb": 1024
+      },
+      "chip": "M5",
+      "colors": [
+        "Midnight"
+      ],
+      "configuration": {
+        "storageGb": 1024,
+        "ramGb": 16,
+        "chip": "M5",
+        "simMode": null
+      },
+      "variant": {
+        "color": "Midnight",
+        "colors": [
+          "Midnight"
+        ],
+        "priceUsd": 1530,
+        "stockQuantity": 5
+      },
+      "description": "MACBOOK Air M5 13\" 16GB / 1TB 10CPU/10GPU $1530 Midnight",
+      "stockQuantity": 5,
+      "priceUsd": 1530,
+      "pricesUsd": [
+        1530
+      ],
+      "raw": "5 | MACBOOK Air M5 13\" 16GB / 1TB 10CPU/10GPU $1530 Midnight"
+    },
+    {
+      "id": "mac-macbook-neo-13-6c-5g-8-512ssd-teclado-espanol",
+      "category": "mac",
+      "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
+      "brand": "Apple",
+      "model": "Macbook Neo 13 6C 5G",
+      "family": "Macbook Neo",
+      "memory": {
+        "ramGb": 8,
+        "storageGb": 512
+      },
+      "chip": null,
+      "colors": [
+        "Silver"
+      ],
+      "configuration": {
+        "storageGb": 512,
+        "ramGb": 8,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Silver",
+        "colors": [
+          "Silver"
+        ],
+        "priceUsd": 930,
+        "stockQuantity": 5
+      },
+      "description": "Macbook Neo 13 6C 5G 8/512SSD Teclado Español $930 Silver",
+      "stockQuantity": 5,
+      "priceUsd": 930,
+      "pricesUsd": [
+        930
+      ],
+      "raw": "5 | Macbook Neo 13 6C 5G 8/512SSD Teclado Español $930 Silver"
     },
     {
       "id": "mac-macbook-neo-13-8-256gb-citrus",
       "category": "mac",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Apple",
       "model": "MacBook Neo 13\"",
       "family": "MacBook Neo",
@@ -2124,21 +2486,22 @@ window.STOCK_DB = {
         "colors": [
           "Citrus"
         ],
-        "priceUsd": 770,
-        "stockQuantity": 4
+        "priceUsd": 760,
+        "stockQuantity": 5
       },
-      "description": "MacBook Neo 13” 8/256GB Citrus 💸 $770",
-      "stockQuantity": 4,
-      "priceUsd": 770,
+      "description": "MacBook Neo 13” 8/256GB Citrus 💸 $760",
+      "stockQuantity": 5,
+      "priceUsd": 760,
       "pricesUsd": [
-        770
+        760
       ],
-      "raw": "4 | MacBook Neo 13” 8/256GB Citrus* 💸 $770"
+      "raw": "5 | MacBook Neo 13” 8/256GB Citrus 💸 $760"
     },
     {
       "id": "mac-macbook-neo-13-8-256gb-indigo",
       "category": "mac",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Apple",
       "model": "MacBook Neo 13\"",
       "family": "MacBook Neo",
@@ -2161,21 +2524,22 @@ window.STOCK_DB = {
         "colors": [
           "Indigo"
         ],
-        "priceUsd": 780,
-        "stockQuantity": 3
+        "priceUsd": 795,
+        "stockQuantity": 5
       },
-      "description": "MacBook Neo 13” 8/256GB Índigo $780",
-      "stockQuantity": 3,
-      "priceUsd": 780,
+      "description": "MacBook Neo 13” 8/256GB Índigo $795",
+      "stockQuantity": 5,
+      "priceUsd": 795,
       "pricesUsd": [
-        780
+        795
       ],
-      "raw": "3 | MacBook Neo 13” 8/256GB Índigo $780"
+      "raw": "5 | MacBook Neo 13” 8/256GB Índigo $795"
     },
     {
       "id": "mac-macbook-neo-13-8-256gb-silver",
       "category": "mac",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Apple",
       "model": "MacBook Neo 13\"",
       "family": "MacBook Neo",
@@ -2198,21 +2562,22 @@ window.STOCK_DB = {
         "colors": [
           "Silver"
         ],
-        "priceUsd": 800,
-        "stockQuantity": 7
+        "priceUsd": 790,
+        "stockQuantity": 5
       },
-      "description": "MacBook Neo 13” 8/256GB Silver $800",
-      "stockQuantity": 7,
-      "priceUsd": 800,
+      "description": "MacBook Neo 13” 8/256GB Silver $790",
+      "stockQuantity": 5,
+      "priceUsd": 790,
       "pricesUsd": [
-        800
+        790
       ],
-      "raw": "7 | MacBook Neo 13” 8/256GB Silver $800"
+      "raw": "5 | MacBook Neo 13” 8/256GB Silver $790"
     },
     {
       "id": "mac-macbook-neo-13-8-256gb-blush",
       "category": "mac",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Apple",
       "model": "MacBook Neo 13\"",
       "family": "MacBook Neo",
@@ -2235,21 +2600,22 @@ window.STOCK_DB = {
         "colors": [
           "Blush"
         ],
-        "priceUsd": 800,
-        "stockQuantity": 2
+        "priceUsd": 795,
+        "stockQuantity": 5
       },
-      "description": "MacBook Neo 13” 8/256GB Blush $800",
-      "stockQuantity": 2,
-      "priceUsd": 800,
+      "description": "MacBook Neo 13” 8/256GB Blush $795",
+      "stockQuantity": 5,
+      "priceUsd": 795,
       "pricesUsd": [
-        800
+        795
       ],
-      "raw": "2 | MacBook Neo 13” 8/256GB Blush $800"
+      "raw": "5 | MacBook Neo 13” 8/256GB Blush $795"
     },
     {
       "id": "mac-macbook-neo-13-8gb-256gb-6cpu-5gpu-teclado-espanol-enchufe-argen",
       "category": "mac",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Apple",
       "model": "MacBook Neo 13\"",
       "family": "MacBook Neo",
@@ -2272,21 +2638,22 @@ window.STOCK_DB = {
         "colors": [
           "Blush"
         ],
-        "priceUsd": 810,
-        "stockQuantity": 6
+        "priceUsd": 795,
+        "stockQuantity": 5
       },
-      "description": "MacBook Neo 13\" · 8GB / 256GB · 6CPU/5GPU · Teclado Español - Enchufe Argentina ▸ Blush $810",
-      "stockQuantity": 6,
-      "priceUsd": 810,
+      "description": "MacBook Neo 13\" · 8GB / 256GB · 6CPU/5GPU · Teclado Español - Enchufe Argentina ▸ Blush $795",
+      "stockQuantity": 5,
+      "priceUsd": 795,
       "pricesUsd": [
-        810
+        795
       ],
-      "raw": "6 | MacBook Neo 13\" · 8GB / 256GB · 6CPU/5GPU · Teclado Español - Enchufe Argentina ▸ Blush $810"
+      "raw": "5 | MacBook Neo 13\" · 8GB / 256GB · 6CPU/5GPU · Teclado Español - Enchufe Argentina ▸ Blush $795"
     },
     {
       "id": "mac-macbook-neo-13-8gb-256gb-6cpu-5gpu-teclado-espanol-enchufe-argen-2",
       "category": "mac",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Apple",
       "model": "MacBook Neo 13\"",
       "family": "MacBook Neo",
@@ -2309,21 +2676,22 @@ window.STOCK_DB = {
         "colors": [
           "Citrus"
         ],
-        "priceUsd": 810,
-        "stockQuantity": 4
+        "priceUsd": 795,
+        "stockQuantity": 5
       },
-      "description": "MacBook Neo 13\" · 8GB / 256GB · 6CPU/5GPU · Teclado Español - Enchufe Argentina ▸ Citrus $810",
-      "stockQuantity": 4,
-      "priceUsd": 810,
+      "description": "MacBook Neo 13\" · 8GB / 256GB · 6CPU/5GPU · Teclado Español - Enchufe Argentina ▸ Citrus $795",
+      "stockQuantity": 5,
+      "priceUsd": 795,
       "pricesUsd": [
-        810
+        795
       ],
-      "raw": "4 | MacBook Neo 13\" · 8GB / 256GB · 6CPU/5GPU · Teclado Español - Enchufe Argentina ▸ Citrus $810"
+      "raw": "5 | MacBook Neo 13\" · 8GB / 256GB · 6CPU/5GPU · Teclado Español - Enchufe Argentina ▸ Citrus $795"
     },
     {
       "id": "mac-macbook-neo-13-8gb-256gb-6cpu-5gpu-teclado-espanol-enchufe-argen-3",
       "category": "mac",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Apple",
       "model": "MacBook Neo 13\"",
       "family": "MacBook Neo",
@@ -2346,21 +2714,22 @@ window.STOCK_DB = {
         "colors": [
           "Indigo"
         ],
-        "priceUsd": 810,
-        "stockQuantity": 8
+        "priceUsd": 795,
+        "stockQuantity": 5
       },
-      "description": "MacBook Neo 13\" · 8GB / 256GB · 6CPU/5GPU · Teclado Español - Enchufe Argentina ▸ Indigo $810",
-      "stockQuantity": 8,
-      "priceUsd": 810,
+      "description": "MacBook Neo 13\" · 8GB / 256GB · 6CPU/5GPU · Teclado Español - Enchufe Argentina ▸ Indigo $795",
+      "stockQuantity": 5,
+      "priceUsd": 795,
       "pricesUsd": [
-        810
+        795
       ],
-      "raw": "8 | MacBook Neo 13\" · 8GB / 256GB · 6CPU/5GPU · Teclado Español - Enchufe Argentina ▸ Indigo $810"
+      "raw": "5 | MacBook Neo 13\" · 8GB / 256GB · 6CPU/5GPU · Teclado Español - Enchufe Argentina ▸ Indigo $795"
     },
     {
       "id": "mac-macbook-neo-13-8gb-256gb-6cpu-5gpu-teclado-espanol-enchufe-argen-4",
       "category": "mac",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Apple",
       "model": "MacBook Neo 13\"",
       "family": "MacBook Neo",
@@ -2383,21 +2752,22 @@ window.STOCK_DB = {
         "colors": [
           "Silver"
         ],
-        "priceUsd": 810,
-        "stockQuantity": 3
+        "priceUsd": 795,
+        "stockQuantity": 5
       },
-      "description": "MacBook Neo 13\" · 8GB / 256GB · 6CPU/5GPU · Teclado Español - Enchufe Argentina ▸ Silver $810",
-      "stockQuantity": 3,
-      "priceUsd": 810,
+      "description": "MacBook Neo 13\" · 8GB / 256GB · 6CPU/5GPU · Teclado Español - Enchufe Argentina ▸ Silver $795",
+      "stockQuantity": 5,
+      "priceUsd": 795,
       "pricesUsd": [
-        810
+        795
       ],
-      "raw": "3 | MacBook Neo 13\" · 8GB / 256GB · 6CPU/5GPU · Teclado Español - Enchufe Argentina ▸ Silver $810"
+      "raw": "5 | MacBook Neo 13\" · 8GB / 256GB · 6CPU/5GPU · Teclado Español - Enchufe Argentina ▸ Silver $795"
     },
     {
       "id": "mac-macbook-neo-13-8gb-512gb-6cpu-5gpu-blush",
       "category": "mac",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Apple",
       "model": "MacBook Neo 13\"",
       "family": "MacBook Neo",
@@ -2421,20 +2791,21 @@ window.STOCK_DB = {
           "Blush"
         ],
         "priceUsd": 910,
-        "stockQuantity": 5
+        "stockQuantity": 0
       },
       "description": "MacBook Neo 13\" · 8GB / 512GB · 6CPU/5GPU Blush $910",
-      "stockQuantity": 5,
+      "stockQuantity": 0,
       "priceUsd": 910,
       "pricesUsd": [
         910
       ],
-      "raw": "5 | MacBook Neo 13\" · 8GB / 512GB · 6CPU/5GPU Blush $910"
+      "raw": "0 | MacBook Neo 13\" · 8GB / 512GB · 6CPU/5GPU Blush $910"
     },
     {
       "id": "mac-macbook-neo-13-8gb-512gb-6cpu-5gpu-citrus",
       "category": "mac",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Apple",
       "model": "MacBook Neo 13\"",
       "family": "MacBook Neo",
@@ -2457,21 +2828,22 @@ window.STOCK_DB = {
         "colors": [
           "Citrus"
         ],
-        "priceUsd": 910,
-        "stockQuantity": 7
+        "priceUsd": 895,
+        "stockQuantity": 5
       },
-      "description": "MacBook Neo 13\" · 8GB / 512GB · 6CPU/5GPU Citrus $910",
-      "stockQuantity": 7,
-      "priceUsd": 910,
+      "description": "MacBook Neo 13\" · 8GB / 512GB · 6CPU/5GPU Citrus $895",
+      "stockQuantity": 5,
+      "priceUsd": 895,
       "pricesUsd": [
-        910
+        895
       ],
-      "raw": "7 | MacBook Neo 13\" · 8GB / 512GB · 6CPU/5GPU Citrus $910"
+      "raw": "5 | MacBook Neo 13\" · 8GB / 512GB · 6CPU/5GPU Citrus $895"
     },
     {
       "id": "mac-macbook-neo-13-8gb-512gb-6cpu-5gpu-indigo",
       "category": "mac",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Apple",
       "model": "MacBook Neo 13\"",
       "family": "MacBook Neo",
@@ -2494,21 +2866,22 @@ window.STOCK_DB = {
         "colors": [
           "Indigo"
         ],
-        "priceUsd": 910,
-        "stockQuantity": 3
+        "priceUsd": 895,
+        "stockQuantity": 5
       },
-      "description": "MacBook Neo 13\" · 8GB / 512GB · 6CPU/5GPU Indigo $910",
-      "stockQuantity": 3,
-      "priceUsd": 910,
+      "description": "MacBook Neo 13\" · 8GB / 512GB · 6CPU/5GPU Indigo $895",
+      "stockQuantity": 5,
+      "priceUsd": 895,
       "pricesUsd": [
-        910
+        895
       ],
-      "raw": "3 | MacBook Neo 13\" · 8GB / 512GB · 6CPU/5GPU Indigo $910"
+      "raw": "5 | MacBook Neo 13\" · 8GB / 512GB · 6CPU/5GPU Indigo $895"
     },
     {
       "id": "mac-macbook-neo-13-8gb-512gb-6cpu-5gpu-teclado-espanol-enchufe-argen",
       "category": "mac",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Apple",
       "model": "MacBook Neo 13\"",
       "family": "MacBook Neo",
@@ -2532,20 +2905,21 @@ window.STOCK_DB = {
           "Citrus"
         ],
         "priceUsd": 920,
-        "stockQuantity": 6
+        "stockQuantity": 0
       },
       "description": "MacBook Neo 13\" · 8GB / 512GB · 6CPU/5GPU · Teclado Español Enchufe Argentina ▸ Citrus $920",
-      "stockQuantity": 6,
+      "stockQuantity": 0,
       "priceUsd": 920,
       "pricesUsd": [
         920
       ],
-      "raw": "6 | MacBook Neo 13\" · 8GB / 512GB · 6CPU/5GPU · Teclado Español Enchufe Argentina ▸ Citrus $920"
+      "raw": "0 | MacBook Neo 13\" · 8GB / 512GB · 6CPU/5GPU · Teclado Español Enchufe Argentina ▸ Citrus $920"
     },
     {
       "id": "mac-macbook-neo-13-8gb-512gb-6cpu-5gpu-teclado-espanol-enchufe-argen-2",
       "category": "mac",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Apple",
       "model": "MacBook Neo 13\"",
       "family": "MacBook Neo",
@@ -2569,20 +2943,211 @@ window.STOCK_DB = {
           "Silver"
         ],
         "priceUsd": 920,
-        "stockQuantity": 4
+        "stockQuantity": 0
       },
       "description": "MacBook Neo 13\" · 8GB / 512GB · 6CPU/5GPU · Teclado Español Enchufe Argentina ▸ Silver $920",
-      "stockQuantity": 4,
+      "stockQuantity": 0,
       "priceUsd": 920,
       "pricesUsd": [
         920
       ],
-      "raw": "4 | MacBook Neo 13\" · 8GB / 512GB · 6CPU/5GPU · Teclado Español Enchufe Argentina ▸ Silver $920"
+      "raw": "0 | MacBook Neo 13\" · 8GB / 512GB · 6CPU/5GPU · Teclado Español Enchufe Argentina ▸ Silver $920"
+    },
+    {
+      "id": "mac-macbook-pro-14-2-m5-24gb-1tb",
+      "category": "mac",
+      "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
+      "brand": "Apple",
+      "model": "MACBOOK PRO 14.2\" M5",
+      "family": "MACBOOK PRO",
+      "memory": {
+        "ramGb": 24,
+        "storageGb": 1024
+      },
+      "chip": "M5",
+      "colors": [
+        "Space Black"
+      ],
+      "configuration": {
+        "storageGb": 1024,
+        "ramGb": 24,
+        "chip": "M5",
+        "simMode": null
+      },
+      "variant": {
+        "color": "Space Black",
+        "colors": [
+          "Space Black"
+        ],
+        "priceUsd": 2355,
+        "stockQuantity": 5
+      },
+      "description": "MACBOOK PRO 14.2\" M5 24GB 1TB $2355 Space Black",
+      "stockQuantity": 5,
+      "priceUsd": 2355,
+      "pricesUsd": [
+        2355
+      ],
+      "raw": "5 | MACBOOK PRO 14.2\" M5 24GB 1TB $2355 Space Black"
+    },
+    {
+      "id": "mac-macbook-pro-14-2-m5-24gb-1tb-2",
+      "category": "mac",
+      "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
+      "brand": "Apple",
+      "model": "MACBOOK PRO 14.2\" M5",
+      "family": "MACBOOK PRO",
+      "memory": {
+        "ramGb": 24,
+        "storageGb": 1024
+      },
+      "chip": "M5",
+      "colors": [
+        "Silver"
+      ],
+      "configuration": {
+        "storageGb": 1024,
+        "ramGb": 24,
+        "chip": "M5",
+        "simMode": null
+      },
+      "variant": {
+        "color": "Silver",
+        "colors": [
+          "Silver"
+        ],
+        "priceUsd": 2355,
+        "stockQuantity": 5
+      },
+      "description": "MACBOOK PRO 14.2\" M5 24GB 1TB $2355 Silver",
+      "stockQuantity": 5,
+      "priceUsd": 2355,
+      "pricesUsd": [
+        2355
+      ],
+      "raw": "5 | MACBOOK PRO 14.2\" M5 24GB 1TB $2355 Silver"
+    },
+    {
+      "id": "mac-macbook-pro-14-2-m5-pro-24gb-1tb",
+      "category": "mac",
+      "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
+      "brand": "Apple",
+      "model": "MACBOOK PRO 14.2\" M5 PRO",
+      "family": "MACBOOK PRO",
+      "memory": {
+        "ramGb": 24,
+        "storageGb": 1024
+      },
+      "chip": "M5",
+      "colors": [
+        "Space Black"
+      ],
+      "configuration": {
+        "storageGb": 1024,
+        "ramGb": 24,
+        "chip": "M5",
+        "simMode": null
+      },
+      "variant": {
+        "color": "Space Black",
+        "colors": [
+          "Space Black"
+        ],
+        "priceUsd": 2690,
+        "stockQuantity": 5
+      },
+      "description": "MACBOOK PRO 14.2\" M5 PRO 24GB 1TB $2690 Space Black",
+      "stockQuantity": 5,
+      "priceUsd": 2690,
+      "pricesUsd": [
+        2690
+      ],
+      "raw": "5 | MACBOOK PRO 14.2\" M5 PRO 24GB 1TB $2690 Space Black"
+    },
+    {
+      "id": "mac-macbook-pro-14-2-m5-pro-24gb-1tb-2",
+      "category": "mac",
+      "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
+      "brand": "Apple",
+      "model": "MACBOOK PRO 14.2\" M5 PRO",
+      "family": "MACBOOK PRO",
+      "memory": {
+        "ramGb": 24,
+        "storageGb": 1024
+      },
+      "chip": "M5",
+      "colors": [
+        "Silver"
+      ],
+      "configuration": {
+        "storageGb": 1024,
+        "ramGb": 24,
+        "chip": "M5",
+        "simMode": null
+      },
+      "variant": {
+        "color": "Silver",
+        "colors": [
+          "Silver"
+        ],
+        "priceUsd": 2690,
+        "stockQuantity": 5
+      },
+      "description": "MACBOOK PRO 14.2\" M5 PRO 24GB 1TB $2690 Silver",
+      "stockQuantity": 5,
+      "priceUsd": 2690,
+      "pricesUsd": [
+        2690
+      ],
+      "raw": "5 | MACBOOK PRO 14.2\" M5 PRO 24GB 1TB $2690 Silver"
+    },
+    {
+      "id": "mac-macbook-pro-m2-13-16gb-256gb-8cpu-10gpu-touch-bar",
+      "category": "mac",
+      "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
+      "brand": "Apple",
+      "model": "MACBOOK Pro M2 13\"",
+      "family": "MACBOOK Pro",
+      "memory": {
+        "ramGb": 16,
+        "storageGb": 256
+      },
+      "chip": "M2",
+      "colors": [
+        "Space Gray"
+      ],
+      "configuration": {
+        "storageGb": 256,
+        "ramGb": 16,
+        "chip": "M2",
+        "simMode": null
+      },
+      "variant": {
+        "color": "Space Gray",
+        "colors": [
+          "Space Gray"
+        ],
+        "priceUsd": 1045,
+        "stockQuantity": 5
+      },
+      "description": "MACBOOK Pro M2 13\" · 16GB / 256GB · 8CPU/10GPU · Touch Bar $1045 Space Gray",
+      "stockQuantity": 5,
+      "priceUsd": 1045,
+      "pricesUsd": [
+        1045
+      ],
+      "raw": "5 | MACBOOK Pro M2 13\" · 16GB / 256GB · 8CPU/10GPU · Touch Bar $1045 Space Gray"
     },
     {
       "id": "mac-macbook-pro-m5-14-16gb-1tb-10cpu-10gpu-space-black",
       "category": "mac",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Apple",
       "model": "MacBook PRO M5 14\"",
       "family": "MacBook PRO",
@@ -2605,21 +3170,22 @@ window.STOCK_DB = {
         "colors": [
           "Space Black"
         ],
-        "priceUsd": 2040,
-        "stockQuantity": 6
+        "priceUsd": 2045,
+        "stockQuantity": 5
       },
-      "description": "MacBook PRO M5 14\" · 16GB / 1TB · 10CPU/10GPU ▸ Space Black $2040",
-      "stockQuantity": 6,
-      "priceUsd": 2040,
+      "description": "MacBook PRO M5 14\" · 16GB / 1TB · 10CPU/10GPU ▸ Space Black $2045",
+      "stockQuantity": 5,
+      "priceUsd": 2045,
       "pricesUsd": [
-        2040
+        2045
       ],
-      "raw": "6 | MacBook PRO M5 14\" · 16GB / 1TB · 10CPU/10GPU ▸ Space Black $2040"
+      "raw": "5 | MacBook PRO M5 14\" · 16GB / 1TB · 10CPU/10GPU ▸ Space Black $2045"
     },
     {
       "id": "mac-macbook-pro-m5-14-16gb-1tb-10cpu-10gpu-silver",
       "category": "mac",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Apple",
       "model": "MacBook PRO M5 14\"",
       "family": "MacBook PRO",
@@ -2642,21 +3208,22 @@ window.STOCK_DB = {
         "colors": [
           "Silver"
         ],
-        "priceUsd": 2040,
-        "stockQuantity": 4
+        "priceUsd": 2045,
+        "stockQuantity": 5
       },
-      "description": "MacBook PRO M5 14\" · 16GB / 1TB · 10CPU/10GPU ▸ Silver $2040",
-      "stockQuantity": 4,
-      "priceUsd": 2040,
+      "description": "MacBook PRO M5 14\" · 16GB / 1TB · 10CPU/10GPU ▸ Silver $2045",
+      "stockQuantity": 5,
+      "priceUsd": 2045,
       "pricesUsd": [
-        2040
+        2045
       ],
-      "raw": "4 | MacBook PRO M5 14\" · 16GB / 1TB · 10CPU/10GPU ▸ Silver $2040"
+      "raw": "5 | MacBook PRO M5 14\" · 16GB / 1TB · 10CPU/10GPU ▸ Silver $2045"
     },
     {
       "id": "notebooks-asus-vivobook-14-intel-core-i3-1315u-8-128ssd-blue",
       "category": "notebooks",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Asus",
       "model": "Vivobook 14 Intel Core i3-1315U",
       "family": "Vivobook 14",
@@ -2680,20 +3247,21 @@ window.STOCK_DB = {
           "Blue"
         ],
         "priceUsd": 400,
-        "stockQuantity": 6
+        "stockQuantity": 0
       },
       "description": "Asus Vivobook 14 Intel Core i3-1315U 8/128SSD Blue $400",
-      "stockQuantity": 6,
+      "stockQuantity": 0,
       "priceUsd": 400,
       "pricesUsd": [
         400
       ],
-      "raw": "6 | Asus Vivobook 14 Intel Core i3-1315U 8/128SSD Blue **$400**"
+      "raw": "0 | Asus Vivobook 14 Intel Core i3-1315U 8/128SSD Blue **$400**"
     },
     {
       "id": "notebooks-asus-vivobook-16-i7-1355u-fhd-16-512ssd-win11-black",
       "category": "notebooks",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Asus",
       "model": "Vivobook 16 I7-1355U FHD",
       "family": "Vivobook 16",
@@ -2716,21 +3284,22 @@ window.STOCK_DB = {
         "colors": [
           "Black"
         ],
-        "priceUsd": 800,
-        "stockQuantity": 3
+        "priceUsd": 770,
+        "stockQuantity": 5
       },
-      "description": "Asus Vivobook 16 I7-1355U FHD 16/512SSD Win11 Black $800",
-      "stockQuantity": 3,
-      "priceUsd": 800,
+      "description": "Asus Vivobook 16 I7-1355U FHD 16/512SSD Win11 Black $770",
+      "stockQuantity": 5,
+      "priceUsd": 770,
       "pricesUsd": [
-        800
+        770
       ],
-      "raw": "3 | Asus Vivobook 16 I7-1355U FHD 16/512SSD Win11 Black **$800**"
+      "raw": "5 | Asus Vivobook 16 I7-1355U FHD 16/512SSD Win11 Black $770"
     },
     {
       "id": "notebooks-asus-vivobook-16-i9-13900h-16-1tssd-win11-silver",
       "category": "notebooks",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Asus",
       "model": "VivoBook 16 I9-13900H 16/1TSSD Win11",
       "family": "VivoBook 16",
@@ -2753,21 +3322,60 @@ window.STOCK_DB = {
         "colors": [
           "Silver"
         ],
-        "priceUsd": 1000,
-        "stockQuantity": 8
+        "priceUsd": 990,
+        "stockQuantity": 5
       },
-      "description": "Asus VivoBook 16 I9-13900H 16/1TSSD Win11 Silver $1000",
-      "stockQuantity": 8,
-      "priceUsd": 1000,
+      "description": "Asus VivoBook 16 I9-13900H 16/1TSSD Win11 Silver $990",
+      "stockQuantity": 5,
+      "priceUsd": 990,
       "pricesUsd": [
-        1000
+        990
       ],
-      "raw": "8 | Asus VivoBook 16 I9-13900H 16/1TSSD Win11 Silver **$1000**"
+      "raw": "5 | Asus VivoBook 16 I9-13900H 16/1TSSD Win11 Silver $990"
+    },
+    {
+      "id": "notebooks-asus-vivobook-go-15-6-ryzen-5-8-512ssd-radeon-graph",
+      "category": "notebooks",
+      "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
+      "brand": "Asus",
+      "model": "VivoBook GO 15.6 Ryzen 5",
+      "family": "VivoBook GO",
+      "memory": {
+        "ramGb": 8,
+        "storageGb": 512
+      },
+      "chip": "Ryzen 5 8",
+      "colors": [
+        "Black"
+      ],
+      "configuration": {
+        "storageGb": 512,
+        "ramGb": 8,
+        "chip": "Ryzen 5 8",
+        "simMode": null
+      },
+      "variant": {
+        "color": "Black",
+        "colors": [
+          "Black"
+        ],
+        "priceUsd": 510,
+        "stockQuantity": 5
+      },
+      "description": "Asus VivoBook GO 15.6 Ryzen 5 8/512SSD Radeon Graph $510 Black",
+      "stockQuantity": 5,
+      "priceUsd": 510,
+      "pricesUsd": [
+        510
+      ],
+      "raw": "5 | Asus VivoBook GO 15.6 Ryzen 5 8/512SSD Radeon Graph $510 Black"
     },
     {
       "id": "notebooks-asus-zenbook-16-ryzen-ai-9-365-3k-oled-touch-copilot-pc-24-1tb-w",
       "category": "notebooks",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Asus",
       "model": "Zenbook 16 Ryzen Ai 9 365 3K Oled Touch COpilot+PC",
       "family": "Zenbook 16",
@@ -2790,21 +3398,22 @@ window.STOCK_DB = {
         "colors": [
           "White"
         ],
-        "priceUsd": 1375,
+        "priceUsd": 1325,
         "stockQuantity": 5
       },
-      "description": "Asus Zenbook 16 Ryzen Ai 9 365 3K Oled Touch COpilot+PC 24/1TB White $1375",
+      "description": "Asus Zenbook 16 Ryzen Ai 9 365 3K Oled Touch COpilot+PC 24/1TB White $1325",
       "stockQuantity": 5,
-      "priceUsd": 1375,
+      "priceUsd": 1325,
       "pricesUsd": [
-        1375
+        1325
       ],
-      "raw": "5 | Asus Zenbook 16 Ryzen Ai 9 365 3K Oled Touch COpilot+PC 24/1TB White **$1375**"
+      "raw": "5 | Asus Zenbook 16 Ryzen Ai 9 365 3K Oled Touch COpilot+PC 24/1TB White $1325"
     },
     {
       "id": "notebooks-asus-zenbook-duo-14-intel-ultra-9-285h-32-2tssd-touch-w11-gray",
       "category": "notebooks",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Asus",
       "model": "Zenbook Duo 14 Intel Ultra 9 285H 32/2TSSD Touch W11",
       "family": "Zenbook Duo",
@@ -2827,21 +3436,22 @@ window.STOCK_DB = {
         "colors": [
           "Gray"
         ],
-        "priceUsd": 1975,
-        "stockQuantity": 4
+        "priceUsd": 1930,
+        "stockQuantity": 5
       },
-      "description": "Asus Zenbook Duo 14 Intel Ultra 9 285H 32/2TSSD Touch W11 Gray $1975",
-      "stockQuantity": 4,
-      "priceUsd": 1975,
+      "description": "Asus Zenbook Duo 14 Intel Ultra 9 285H 32/2TSSD Touch W11 Gray $1930",
+      "stockQuantity": 5,
+      "priceUsd": 1930,
       "pricesUsd": [
-        1975
+        1930
       ],
-      "raw": "4 | Asus Zenbook Duo 14 Intel Ultra 9 285H 32/2TSSD Touch W11 Gray **$1975**"
+      "raw": "5 | Asus Zenbook Duo 14 Intel Ultra 9 285H 32/2TSSD Touch W11 Gray $1930"
     },
     {
       "id": "notebooks-dell-inspiron-15-6-core-i3-1215u-uhd-8-512ssd-win11-black",
       "category": "notebooks",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Dell",
       "model": "Inspiron 15.6 Core I3-1215U UHD",
       "family": "Inspiron 15",
@@ -2865,20 +3475,21 @@ window.STOCK_DB = {
           "Black"
         ],
         "priceUsd": 520,
-        "stockQuantity": 7
+        "stockQuantity": 5
       },
       "description": "Dell Inspiron 15.6 Core I3-1215U UHD 8/512SSD Win11 Black $520",
-      "stockQuantity": 7,
+      "stockQuantity": 5,
       "priceUsd": 520,
       "pricesUsd": [
         520
       ],
-      "raw": "7 | Dell Inspiron 15.6 Core I3-1215U UHD 8/512SSD Win11 Black **$520**"
+      "raw": "5 | Dell Inspiron 15.6 Core I3-1215U UHD 8/512SSD Win11 Black $520"
     },
     {
       "id": "notebooks-hp-15-6-core-ultra-7-225u-touch-16-512ssd-natural",
       "category": "notebooks",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "HP",
       "model": "15.6 Core Ultra 7 225U Touch",
       "family": "15 6",
@@ -2897,21 +3508,22 @@ window.STOCK_DB = {
       "variant": {
         "color": null,
         "colors": [],
-        "priceUsd": 810,
+        "priceUsd": 910,
         "stockQuantity": 5
       },
-      "description": "HP 15.6 Core Ultra 7 225U Touch 16/512SSD Natural $810",
+      "description": "HP 15.6 Core Ultra 7 225U Touch 16/512SSD Natural $910",
       "stockQuantity": 5,
-      "priceUsd": 810,
+      "priceUsd": 910,
       "pricesUsd": [
-        810
+        910
       ],
-      "raw": "5 | HP 15.6 Core Ultra 7 225U Touch 16/512SSD Natural **$810**"
+      "raw": "5 | HP 15.6 Core Ultra 7 225U Touch 16/512SSD Natural $910"
     },
     {
       "id": "notebooks-hp-probook-460-g11-16-ultra-5-125u-16-256ssd-silver",
       "category": "notebooks",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "HP",
       "model": "PROBook 460 G11 16 Ultra 5 125U",
       "family": "PROBook 460",
@@ -2934,21 +3546,22 @@ window.STOCK_DB = {
         "colors": [
           "Silver"
         ],
-        "priceUsd": 770,
-        "stockQuantity": 4
+        "priceUsd": 750,
+        "stockQuantity": 5
       },
-      "description": "HP PROBook 460 G11 16 Ultra 5 125U 16/256SSD Silver $770",
-      "stockQuantity": 4,
-      "priceUsd": 770,
+      "description": "HP PROBook 460 G11 16 Ultra 5 125U 16/256SSD Silver $750",
+      "stockQuantity": 5,
+      "priceUsd": 750,
       "pricesUsd": [
-        770
+        750
       ],
-      "raw": "4 | HP PROBook 460 G11 16 Ultra 5 125U 16/256SSD Silver **$770**"
+      "raw": "5 | HP PROBook 460 G11 16 Ultra 5 125U 16/256SSD Silver $750"
     },
     {
       "id": "notebooks-lenovo-14-intel-core-i7-13620h-16-512ssd-black",
       "category": "notebooks",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Lenovo",
       "model": "14 Intel Core i7-13620H",
       "family": "14 Intel",
@@ -2972,20 +3585,21 @@ window.STOCK_DB = {
           "Black"
         ],
         "priceUsd": 720,
-        "stockQuantity": 3
+        "stockQuantity": 5
       },
       "description": "Lenovo 14 Intel Core i7-13620H 16/512SSD Black $720",
-      "stockQuantity": 3,
+      "stockQuantity": 5,
       "priceUsd": 720,
       "pricesUsd": [
         720
       ],
-      "raw": "3 | Lenovo 14 Intel Core i7-13620H 16/512SSD Black **$720**"
+      "raw": "5 | Lenovo 14 Intel Core i7-13620H 16/512SSD Black $720"
     },
     {
       "id": "notebooks-lenovo-legion-5-16-gaming-i9-14900hx-32-1tb-rtx4060-win11",
       "category": "notebooks",
       "deviceType": "notebook",
+      "deviceGroup": "Computadoras",
       "brand": "Lenovo",
       "model": "Legion 5 16 Gaming i9-14900HX",
       "family": "Legion 5",
@@ -3005,20 +3619,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 1775,
-        "stockQuantity": 6
+        "stockQuantity": 0
       },
       "description": "Lenovo Legion 5 16 Gaming i9-14900HX 32/1TB RTX4060 Win11 $1775",
-      "stockQuantity": 6,
+      "stockQuantity": 0,
       "priceUsd": 1775,
       "pricesUsd": [
         1775
       ],
-      "raw": "6 | Lenovo Legion 5 16 Gaming i9-14900HX 32/1TB RTX4060 Win11 $1775*"
+      "raw": "0 | Lenovo Legion 5 16 Gaming i9-14900HX 32/1TB RTX4060 Win11 $1775*"
     },
     {
       "id": "jbl-jbl-charge-6-bluetooth-camo",
       "category": "jbl",
       "deviceType": "parlante",
+      "deviceGroup": "Accesorios",
       "brand": "JBL",
       "model": "Charge 6 - Bluetooth",
       "family": "Charge 6",
@@ -3042,20 +3657,427 @@ window.STOCK_DB = {
           "Camo"
         ],
         "priceUsd": 175,
-        "stockQuantity": 8
+        "stockQuantity": 5
       },
       "description": "JBL Charge 6 - Bluetooth Camo $175",
-      "stockQuantity": 8,
+      "stockQuantity": 5,
       "priceUsd": 175,
       "pricesUsd": [
         175
       ],
-      "raw": "8 | JBL Charge 6 - Bluetooth Camo $175*"
+      "raw": "5 | JBL Charge 6 - Bluetooth Camo $175"
+    },
+    {
+      "id": "jbl-epix-pro-gen2-42mm-saphire-multisport-watch",
+      "category": "jbl",
+      "deviceType": "parlante",
+      "deviceGroup": "Accesorios",
+      "brand": "JBL",
+      "model": "EPIX PRO Gen2 42mm Saphire Multisport Watch",
+      "family": "EPIX PRO",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [
+        "White"
+      ],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "White",
+        "colors": [
+          "White"
+        ],
+        "priceUsd": 520,
+        "stockQuantity": 5
+      },
+      "description": "EPIX PRO Gen2 42mm Saphire Multisport Watch $520 White",
+      "stockQuantity": 5,
+      "priceUsd": 520,
+      "pricesUsd": [
+        520
+      ],
+      "raw": "5 | EPIX PRO Gen2 42mm Saphire Multisport Watch $520 White"
+    },
+    {
+      "id": "apple_new-15-plus-128",
+      "category": "apple_new",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Apple",
+      "model": "15 Plus 128",
+      "family": "15 Plus",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [
+        "Yellow"
+      ],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": "eSIM"
+      },
+      "variant": {
+        "color": "Yellow",
+        "colors": [
+          "Yellow"
+        ],
+        "priceUsd": 700,
+        "stockQuantity": 5
+      },
+      "description": "15 Plus 128 $700 Yellow",
+      "stockQuantity": 5,
+      "priceUsd": 700,
+      "pricesUsd": [
+        700
+      ],
+      "raw": "5 | 15 Plus 128 $700 Yellow"
+    },
+    {
+      "id": "apple_new-15-plus-128-2",
+      "category": "apple_new",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Apple",
+      "model": "15 Plus 128",
+      "family": "15 Plus",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [
+        "Black"
+      ],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": "eSIM"
+      },
+      "variant": {
+        "color": "Black",
+        "colors": [
+          "Black"
+        ],
+        "priceUsd": 720,
+        "stockQuantity": 5
+      },
+      "description": "15 Plus 128 $720 Black",
+      "stockQuantity": 5,
+      "priceUsd": 720,
+      "pricesUsd": [
+        720
+      ],
+      "raw": "5 | 15 Plus 128 $720 Black"
+    },
+    {
+      "id": "apple_new-16-pro-max-1tb",
+      "category": "apple_new",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Apple",
+      "model": "16 Pro Max",
+      "family": "16 Pro",
+      "memory": {
+        "ramGb": null,
+        "storageGb": 1024
+      },
+      "chip": null,
+      "colors": [],
+      "configuration": {
+        "storageGb": 1024,
+        "ramGb": null,
+        "chip": null,
+        "simMode": "eSIM"
+      },
+      "variant": {
+        "color": null,
+        "colors": [],
+        "priceUsd": 1370,
+        "stockQuantity": 5
+      },
+      "description": "16 Pro Max 1TB $1370 Desert",
+      "stockQuantity": 5,
+      "priceUsd": 1370,
+      "pricesUsd": [
+        1370
+      ],
+      "raw": "5 | 16 Pro Max 1TB $1370 Desert"
+    },
+    {
+      "id": "apple_new-17-256gb",
+      "category": "apple_new",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Apple",
+      "model": "17",
+      "family": "17",
+      "memory": {
+        "ramGb": null,
+        "storageGb": 256
+      },
+      "chip": null,
+      "colors": [
+        "White"
+      ],
+      "configuration": {
+        "storageGb": 256,
+        "ramGb": null,
+        "chip": null,
+        "simMode": "eSIM"
+      },
+      "variant": {
+        "color": "White",
+        "colors": [
+          "White"
+        ],
+        "priceUsd": 920,
+        "stockQuantity": 5
+      },
+      "description": "17 256GB $920 White",
+      "stockQuantity": 5,
+      "priceUsd": 920,
+      "pricesUsd": [
+        920
+      ],
+      "raw": "5 | 17 256GB $920 White"
+    },
+    {
+      "id": "apple_new-17-256gb-2",
+      "category": "apple_new",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Apple",
+      "model": "17",
+      "family": "17",
+      "memory": {
+        "ramGb": null,
+        "storageGb": 256
+      },
+      "chip": null,
+      "colors": [
+        "Blue"
+      ],
+      "configuration": {
+        "storageGb": 256,
+        "ramGb": null,
+        "chip": null,
+        "simMode": "eSIM"
+      },
+      "variant": {
+        "color": "Blue",
+        "colors": [
+          "Blue"
+        ],
+        "priceUsd": 920,
+        "stockQuantity": 5
+      },
+      "description": "17 256GB $920 Blue",
+      "stockQuantity": 5,
+      "priceUsd": 920,
+      "pricesUsd": [
+        920
+      ],
+      "raw": "5 | 17 256GB $920 Blue"
+    },
+    {
+      "id": "apple_new-17-256gb-sim",
+      "category": "apple_new",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Apple",
+      "model": "17",
+      "family": "17",
+      "memory": {
+        "ramGb": null,
+        "storageGb": 256
+      },
+      "chip": null,
+      "colors": [
+        "Blue"
+      ],
+      "configuration": {
+        "storageGb": 256,
+        "ramGb": null,
+        "chip": null,
+        "simMode": "SIM física"
+      },
+      "variant": {
+        "color": "Blue",
+        "colors": [
+          "Blue"
+        ],
+        "priceUsd": 940,
+        "stockQuantity": 5
+      },
+      "description": "17 256GB SIM / / / $940 Blue",
+      "stockQuantity": 5,
+      "priceUsd": 940,
+      "pricesUsd": [
+        940
+      ],
+      "raw": "5 | 17 256GB SIM / / / $940 Blue"
+    },
+    {
+      "id": "apple_new-17-256gb-sim-2",
+      "category": "apple_new",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Apple",
+      "model": "17",
+      "family": "17",
+      "memory": {
+        "ramGb": null,
+        "storageGb": 256
+      },
+      "chip": null,
+      "colors": [],
+      "configuration": {
+        "storageGb": 256,
+        "ramGb": null,
+        "chip": null,
+        "simMode": "SIM física"
+      },
+      "variant": {
+        "color": null,
+        "colors": [],
+        "priceUsd": 940,
+        "stockQuantity": 5
+      },
+      "description": "17 256GB SIM / / / $940 Sage",
+      "stockQuantity": 5,
+      "priceUsd": 940,
+      "pricesUsd": [
+        940
+      ],
+      "raw": "5 | 17 256GB SIM / / / $940 Sage"
+    },
+    {
+      "id": "apple_new-17-512-esim-esim",
+      "category": "apple_new",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Apple",
+      "model": "17 512 Esim Esim",
+      "family": "17 512",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": "eSIM"
+      },
+      "variant": {
+        "color": null,
+        "colors": [],
+        "priceUsd": 1080,
+        "stockQuantity": 5
+      },
+      "description": "17 512 Esim Esim $1080 Sage",
+      "stockQuantity": 5,
+      "priceUsd": 1080,
+      "pricesUsd": [
+        1080
+      ],
+      "raw": "5 | 17 512 Esim Esim $1080 Sage"
+    },
+    {
+      "id": "apple_new-17-pro-1tb",
+      "category": "apple_new",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Apple",
+      "model": "17 Pro",
+      "family": "17 Pro",
+      "memory": {
+        "ramGb": null,
+        "storageGb": 1024
+      },
+      "chip": null,
+      "colors": [
+        "Silver"
+      ],
+      "configuration": {
+        "storageGb": 1024,
+        "ramGb": null,
+        "chip": null,
+        "simMode": "eSIM"
+      },
+      "variant": {
+        "color": "Silver",
+        "colors": [
+          "Silver"
+        ],
+        "priceUsd": 1550,
+        "stockQuantity": 5
+      },
+      "description": "17 PRO 1TB $1550 Silver",
+      "stockQuantity": 5,
+      "priceUsd": 1550,
+      "pricesUsd": [
+        1550
+      ],
+      "raw": "5 | 17 PRO 1TB $1550 Silver"
+    },
+    {
+      "id": "apple_new-17-pro-max-2tb",
+      "category": "apple_new",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Apple",
+      "model": "17 Pro Max",
+      "family": "17 Pro",
+      "memory": {
+        "ramGb": null,
+        "storageGb": 2048
+      },
+      "chip": null,
+      "colors": [
+        "Blue"
+      ],
+      "configuration": {
+        "storageGb": 2048,
+        "ramGb": null,
+        "chip": null,
+        "simMode": "eSIM"
+      },
+      "variant": {
+        "color": "Blue",
+        "colors": [
+          "Blue"
+        ],
+        "priceUsd": 2025,
+        "stockQuantity": 5
+      },
+      "description": "17 Pro Max 2TB $2025 Blue",
+      "stockQuantity": 5,
+      "priceUsd": 2025,
+      "pricesUsd": [
+        2025
+      ],
+      "raw": "5 | 17 Pro Max 2TB $2025 Blue"
     },
     {
       "id": "apple_new-iphone-15-128gb",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 15",
       "family": "iPhone 15",
@@ -3071,28 +4093,29 @@ window.STOCK_DB = {
         "storageGb": 128,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Black",
         "colors": [
           "Black"
         ],
-        "priceUsd": 700,
+        "priceUsd": 695,
         "stockQuantity": 5
       },
-      "description": "iPhone 15 128GB $700 Black",
+      "description": "iPhone 15 128GB $695 Black",
       "stockQuantity": 5,
-      "priceUsd": 700,
+      "priceUsd": 695,
       "pricesUsd": [
-        700
+        695
       ],
-      "raw": "5 | iPhone 15 128GB $700 Black"
+      "raw": "5 | iPhone 15 128GB $695 Black"
     },
     {
       "id": "apple_new-iphone-15-128gb-2",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 15",
       "family": "iPhone 15",
@@ -3108,28 +4131,29 @@ window.STOCK_DB = {
         "storageGb": 128,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Blue",
         "colors": [
           "Blue"
         ],
-        "priceUsd": 700,
-        "stockQuantity": 3
+        "priceUsd": 695,
+        "stockQuantity": 5
       },
-      "description": "iPhone 15 128GB $700 Blue",
-      "stockQuantity": 3,
-      "priceUsd": 700,
+      "description": "iPhone 15 128GB $695 Blue",
+      "stockQuantity": 5,
+      "priceUsd": 695,
       "pricesUsd": [
-        700
+        695
       ],
-      "raw": "3 | iPhone 15 128GB $700 Blue"
+      "raw": "5 | iPhone 15 128GB $695 Blue"
     },
     {
       "id": "apple_new-iphone-16-128gb",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 16",
       "family": "iPhone 16",
@@ -3145,28 +4169,29 @@ window.STOCK_DB = {
         "storageGb": 128,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Ultramarine",
         "colors": [
           "Ultramarine"
         ],
-        "priceUsd": 810,
-        "stockQuantity": 2
+        "priceUsd": 790,
+        "stockQuantity": 5
       },
-      "description": "iPhone 16 128GB $810 Ultramarine",
-      "stockQuantity": 2,
-      "priceUsd": 810,
+      "description": "iPhone 16 128GB $790 Ultramarine",
+      "stockQuantity": 5,
+      "priceUsd": 790,
       "pricesUsd": [
-        810
+        790
       ],
-      "raw": "2 | iPhone 16 128GB $810 Ultramarine"
+      "raw": "5 | iPhone 16 128GB $790 Ultramarine"
     },
     {
       "id": "apple_new-iphone-16-128gb-2",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 16",
       "family": "iPhone 16",
@@ -3182,28 +4207,29 @@ window.STOCK_DB = {
         "storageGb": 128,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Black",
         "colors": [
           "Black"
         ],
-        "priceUsd": 810,
-        "stockQuantity": 1
+        "priceUsd": 790,
+        "stockQuantity": 5
       },
-      "description": "iPhone 16 128GB $810 Black",
-      "stockQuantity": 1,
-      "priceUsd": 810,
+      "description": "iPhone 16 128GB $790 Black",
+      "stockQuantity": 5,
+      "priceUsd": 790,
       "pricesUsd": [
-        810
+        790
       ],
-      "raw": "1 | iPhone 16 128GB $810 Black"
+      "raw": "5 | iPhone 16 128GB $790 Black"
     },
     {
       "id": "apple_new-iphone-16-128gb-3",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 16",
       "family": "iPhone 16",
@@ -3219,28 +4245,29 @@ window.STOCK_DB = {
         "storageGb": 128,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "White",
         "colors": [
           "White"
         ],
-        "priceUsd": 810,
-        "stockQuantity": 4
+        "priceUsd": 790,
+        "stockQuantity": 5
       },
-      "description": "iPhone 16 128GB $810 White",
-      "stockQuantity": 4,
-      "priceUsd": 810,
+      "description": "iPhone 16 128GB $790 White",
+      "stockQuantity": 5,
+      "priceUsd": 790,
       "pricesUsd": [
-        810
+        790
       ],
-      "raw": "4 | iPhone 16 128GB $810 White"
+      "raw": "5 | iPhone 16 128GB $790 White"
     },
     {
       "id": "apple_new-iphone-16-128gb-4",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 16",
       "family": "iPhone 16",
@@ -3256,28 +4283,29 @@ window.STOCK_DB = {
         "storageGb": 128,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Teal",
         "colors": [
           "Teal"
         ],
-        "priceUsd": 810,
-        "stockQuantity": 3
+        "priceUsd": 790,
+        "stockQuantity": 5
       },
-      "description": "iPhone 16 128GB $810 Teal",
-      "stockQuantity": 3,
-      "priceUsd": 810,
+      "description": "iPhone 16 128GB $790 Teal",
+      "stockQuantity": 5,
+      "priceUsd": 790,
       "pricesUsd": [
-        810
+        790
       ],
-      "raw": "3 | iPhone 16 128GB $810 Teal"
+      "raw": "5 | iPhone 16 128GB $790 Teal"
     },
     {
       "id": "apple_new-iphone-16-128gb-5",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 16",
       "family": "iPhone 16",
@@ -3293,28 +4321,29 @@ window.STOCK_DB = {
         "storageGb": 128,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Pink",
         "colors": [
           "Pink"
         ],
-        "priceUsd": 810,
-        "stockQuantity": 2
+        "priceUsd": 790,
+        "stockQuantity": 5
       },
-      "description": "iPhone 16 128GB $810 Pink",
-      "stockQuantity": 2,
-      "priceUsd": 810,
+      "description": "iPhone 16 128GB $790 Pink",
+      "stockQuantity": 5,
+      "priceUsd": 790,
       "pricesUsd": [
-        810
+        790
       ],
-      "raw": "2 | iPhone 16 128GB $810 Pink"
+      "raw": "5 | iPhone 16 128GB $790 Pink"
     },
     {
       "id": "apple_cpo-iphone-16-pro-512gb-esim",
       "category": "apple_cpo",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 16 Pro",
       "family": "iPhone 16",
@@ -3334,20 +4363,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 1020,
-        "stockQuantity": 3
+        "stockQuantity": 0
       },
       "description": "iPhone 16 PRO 512GB ESIM $1020 Desert",
-      "stockQuantity": 3,
+      "stockQuantity": 0,
       "priceUsd": 1020,
       "pricesUsd": [
         1020
       ],
-      "raw": "3 | iPhone 16 PRO 512GB ESIM $1020 Desert"
+      "raw": "0 | iPhone 16 PRO 512GB ESIM $1020 Desert"
     },
     {
       "id": "apple_cpo-iphone-16-pro-512gb-esim-2",
       "category": "apple_cpo",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 16 Pro",
       "family": "iPhone 16",
@@ -3367,20 +4397,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 1020,
-        "stockQuantity": 5
+        "stockQuantity": 0
       },
       "description": "iPhone 16 PRO 512GB ESIM $1020 Natural",
-      "stockQuantity": 5,
+      "stockQuantity": 0,
       "priceUsd": 1020,
       "pricesUsd": [
         1020
       ],
-      "raw": "5 | iPhone 16 PRO 512GB ESIM $1020 Natural"
+      "raw": "0 | iPhone 16 PRO 512GB ESIM $1020 Natural"
     },
     {
       "id": "apple_cpo-iphone-16-pro-512gb-esim-3",
       "category": "apple_cpo",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 16 Pro",
       "family": "iPhone 16",
@@ -3404,20 +4435,21 @@ window.STOCK_DB = {
           "White"
         ],
         "priceUsd": 1020,
-        "stockQuantity": 2
+        "stockQuantity": 5
       },
       "description": "iPhone 16 PRO 512GB ESIM $1020 White",
-      "stockQuantity": 2,
+      "stockQuantity": 5,
       "priceUsd": 1020,
       "pricesUsd": [
         1020
       ],
-      "raw": "2 | iPhone 16 PRO 512GB ESIM $1020 White"
+      "raw": "5 | iPhone 16 PRO 512GB ESIM $1020 White"
     },
     {
       "id": "apple_cpo-iphone-16-pro-max-256gb-esim",
       "category": "apple_cpo",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 16 Pro Max",
       "family": "iPhone 16",
@@ -3437,20 +4469,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 1080,
-        "stockQuantity": 4
+        "stockQuantity": 5
       },
       "description": "iPhone 16 PRO MAX 256GB Esim $1080 Desert",
-      "stockQuantity": 4,
+      "stockQuantity": 5,
       "priceUsd": 1080,
       "pricesUsd": [
         1080
       ],
-      "raw": "4 | iPhone 16 PRO MAX 256GB Esim $1080 Desert"
+      "raw": "5 | iPhone 16 PRO MAX 256GB Esim $1080 Desert"
     },
     {
       "id": "apple_new-iphone-16-e-128gb",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 16E",
       "family": "iPhone 16",
@@ -3466,7 +4499,7 @@ window.STOCK_DB = {
         "storageGb": 128,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Black",
@@ -3474,20 +4507,21 @@ window.STOCK_DB = {
           "Black"
         ],
         "priceUsd": 580,
-        "stockQuantity": 4
+        "stockQuantity": 5
       },
       "description": "iPhone 16 E 128GB $580 Black",
-      "stockQuantity": 4,
+      "stockQuantity": 5,
       "priceUsd": 580,
       "pricesUsd": [
         580
       ],
-      "raw": "4 | iPhone 16 E 128GB $580 Black"
+      "raw": "5 | iPhone 16 E 128GB $580 Black"
     },
     {
       "id": "apple_new-iphone-17-256gb",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 17",
       "family": "iPhone 17",
@@ -3503,28 +4537,29 @@ window.STOCK_DB = {
         "storageGb": 256,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Black",
         "colors": [
           "Black"
         ],
-        "priceUsd": 930,
+        "priceUsd": 920,
         "stockQuantity": 5
       },
-      "description": "iPhone 17 256GB $930 Black",
+      "description": "iPhone 17 256GB $920 Black",
       "stockQuantity": 5,
-      "priceUsd": 930,
+      "priceUsd": 920,
       "pricesUsd": [
-        930
+        920
       ],
-      "raw": "5 | iPhone 17 256GB $930 Black"
+      "raw": "5 | iPhone 17 256GB $920 Black"
     },
     {
       "id": "apple_new-iphone-17-256gb-2",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 17",
       "family": "iPhone 17",
@@ -3540,7 +4575,7 @@ window.STOCK_DB = {
         "storageGb": 256,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Mist Blue",
@@ -3548,20 +4583,21 @@ window.STOCK_DB = {
           "Mist Blue"
         ],
         "priceUsd": 930,
-        "stockQuantity": 3
+        "stockQuantity": 0
       },
       "description": "iPhone 17 256GB $930 Mist Blue",
-      "stockQuantity": 3,
+      "stockQuantity": 0,
       "priceUsd": 930,
       "pricesUsd": [
         930
       ],
-      "raw": "3 | iPhone 17 256GB $930 Mist Blue"
+      "raw": "0 | iPhone 17 256GB $930 Mist Blue"
     },
     {
       "id": "apple_new-iphone-17-256gb-3",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 17",
       "family": "iPhone 17",
@@ -3577,28 +4613,29 @@ window.STOCK_DB = {
         "storageGb": 256,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Lavender",
         "colors": [
           "Lavender"
         ],
-        "priceUsd": 930,
-        "stockQuantity": 6
+        "priceUsd": 920,
+        "stockQuantity": 5
       },
-      "description": "iPhone 17 256GB $930 Lavender",
-      "stockQuantity": 6,
-      "priceUsd": 930,
+      "description": "iPhone 17 256GB $920 Lavender",
+      "stockQuantity": 5,
+      "priceUsd": 920,
       "pricesUsd": [
-        930
+        920
       ],
-      "raw": "6 | iPhone 17 256GB $930 Lavender"
+      "raw": "5 | iPhone 17 256GB $920 Lavender"
     },
     {
       "id": "apple_new-iphone-17-256gb-4",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 17",
       "family": "iPhone 17",
@@ -3612,26 +4649,27 @@ window.STOCK_DB = {
         "storageGb": 256,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": null,
         "colors": [],
-        "priceUsd": 930,
-        "stockQuantity": 2
+        "priceUsd": 920,
+        "stockQuantity": 5
       },
-      "description": "iPhone 17 256GB $930 Sage",
-      "stockQuantity": 2,
-      "priceUsd": 930,
+      "description": "iPhone 17 256GB $920 Sage",
+      "stockQuantity": 5,
+      "priceUsd": 920,
       "pricesUsd": [
-        930
+        920
       ],
-      "raw": "2 | iPhone 17 256GB $930 Sage"
+      "raw": "5 | iPhone 17 256GB $920 Sage"
     },
     {
       "id": "apple_new-iphone-17-256gb-sim",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 17",
       "family": "iPhone 17",
@@ -3655,20 +4693,21 @@ window.STOCK_DB = {
           "White"
         ],
         "priceUsd": 940,
-        "stockQuantity": 4
+        "stockQuantity": 5
       },
       "description": "iPhone 17 256GB SIM $940 White",
-      "stockQuantity": 4,
+      "stockQuantity": 5,
       "priceUsd": 940,
       "pricesUsd": [
         940
       ],
-      "raw": "4 | iPhone 17 256GB SIM $940 White"
+      "raw": "5 | iPhone 17 256GB SIM $940 White"
     },
     {
       "id": "apple_new-iphone-17-256gb-sim-2",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 17",
       "family": "iPhone 17",
@@ -3692,20 +4731,21 @@ window.STOCK_DB = {
           "Black"
         ],
         "priceUsd": 940,
-        "stockQuantity": 2
+        "stockQuantity": 5
       },
       "description": "iPhone 17 256GB SIM $940 Black",
-      "stockQuantity": 2,
+      "stockQuantity": 5,
       "priceUsd": 940,
       "pricesUsd": [
         940
       ],
-      "raw": "2 | iPhone 17 256GB SIM $940 Black"
+      "raw": "5 | iPhone 17 256GB SIM $940 Black"
     },
     {
       "id": "apple_new-iphone-17-256gb-sim-3",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 17",
       "family": "iPhone 17",
@@ -3729,20 +4769,21 @@ window.STOCK_DB = {
           "Sage Green"
         ],
         "priceUsd": 940,
-        "stockQuantity": 5
+        "stockQuantity": 0
       },
       "description": "iPhone 17 256GB SIM $940 Sage Green",
-      "stockQuantity": 5,
+      "stockQuantity": 0,
       "priceUsd": 940,
       "pricesUsd": [
         940
       ],
-      "raw": "5 | iPhone 17 256GB SIM $940 Sage Green"
+      "raw": "0 | iPhone 17 256GB SIM $940 Sage Green"
     },
     {
       "id": "apple_new-iphone-17-256gb-sim-4",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 17",
       "family": "iPhone 17",
@@ -3766,20 +4807,21 @@ window.STOCK_DB = {
           "Mist Blue"
         ],
         "priceUsd": 940,
-        "stockQuantity": 3
+        "stockQuantity": 0
       },
       "description": "iPhone 17 256GB SIM $940 Mist Blue",
-      "stockQuantity": 3,
+      "stockQuantity": 0,
       "priceUsd": 940,
       "pricesUsd": [
         940
       ],
-      "raw": "3 | iPhone 17 256GB SIM $940 Mist Blue"
+      "raw": "0 | iPhone 17 256GB SIM $940 Mist Blue"
     },
     {
       "id": "apple_new-iphone-17-256gb-sim-5",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 17",
       "family": "iPhone 17",
@@ -3803,20 +4845,21 @@ window.STOCK_DB = {
           "Lavender"
         ],
         "priceUsd": 940,
-        "stockQuantity": 1
+        "stockQuantity": 5
       },
       "description": "iPhone 17 256GB SIM $940 Lavender",
-      "stockQuantity": 1,
+      "stockQuantity": 5,
       "priceUsd": 940,
       "pricesUsd": [
         940
       ],
-      "raw": "1 | iPhone 17 256GB SIM $940 Lavender"
+      "raw": "5 | iPhone 17 256GB SIM $940 Lavender"
     },
     {
       "id": "apple_new-iphone-17-pro-256gb",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 17 Pro",
       "family": "iPhone 17",
@@ -3832,28 +4875,29 @@ window.STOCK_DB = {
         "storageGb": 256,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Orange",
         "colors": [
           "Orange"
         ],
-        "priceUsd": 1150,
-        "stockQuantity": 6
+        "priceUsd": 1145,
+        "stockQuantity": 5
       },
-      "description": "iPhone 17 PRO 256GB $1150 Orange",
-      "stockQuantity": 6,
-      "priceUsd": 1150,
+      "description": "iPhone 17 PRO 256GB $1145 Orange",
+      "stockQuantity": 5,
+      "priceUsd": 1145,
       "pricesUsd": [
-        1150
+        1145
       ],
-      "raw": "6 | iPhone 17 PRO 256GB $1150 Orange"
+      "raw": "5 | iPhone 17 PRO 256GB $1145 Orange"
     },
     {
       "id": "apple_new-iphone-17-pro-256gb-2",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 17 Pro",
       "family": "iPhone 17",
@@ -3869,28 +4913,29 @@ window.STOCK_DB = {
         "storageGb": 256,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Blue",
         "colors": [
           "Blue"
         ],
-        "priceUsd": 1200,
-        "stockQuantity": 2
+        "priceUsd": 1145,
+        "stockQuantity": 5
       },
-      "description": "iPhone 17 PRO 256GB $1200 Blue",
-      "stockQuantity": 2,
-      "priceUsd": 1200,
+      "description": "iPhone 17 PRO 256GB $1145 Blue",
+      "stockQuantity": 5,
+      "priceUsd": 1145,
       "pricesUsd": [
-        1200
+        1145
       ],
-      "raw": "2 | iPhone 17 PRO 256GB $1200 Blue"
+      "raw": "5 | iPhone 17 PRO 256GB $1145 Blue"
     },
     {
       "id": "apple_new-iphone-17-pro-256gb-3",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 17 Pro",
       "family": "iPhone 17",
@@ -3906,28 +4951,29 @@ window.STOCK_DB = {
         "storageGb": 256,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Silver",
         "colors": [
           "Silver"
         ],
-        "priceUsd": 1200,
-        "stockQuantity": 4
+        "priceUsd": 1155,
+        "stockQuantity": 5
       },
-      "description": "iPhone 17 PRO 256GB $1200 Silver",
-      "stockQuantity": 4,
-      "priceUsd": 1200,
+      "description": "iPhone 17 PRO 256GB $1155 Silver",
+      "stockQuantity": 5,
+      "priceUsd": 1155,
       "pricesUsd": [
-        1200
+        1155
       ],
-      "raw": "4 | iPhone 17 PRO 256GB $1200 Silver"
+      "raw": "5 | iPhone 17 PRO 256GB $1155 Silver"
     },
     {
       "id": "apple_new-iphone-17-pro-256gb-sim-fisica-esim",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 17 Pro",
       "family": "iPhone 17",
@@ -3951,20 +4997,21 @@ window.STOCK_DB = {
           "Blue"
         ],
         "priceUsd": 1300,
-        "stockQuantity": 3
+        "stockQuantity": 5
       },
       "description": "iPhone 17 PRO 256GB SIM física + eSIM $1300 Blue",
-      "stockQuantity": 3,
+      "stockQuantity": 5,
       "priceUsd": 1300,
       "pricesUsd": [
         1300
       ],
-      "raw": "3 | iPhone 17 PRO 256GB SIM física + eSIM $1300 Blue"
+      "raw": "5 | iPhone 17 PRO 256GB SIM física + eSIM $1300 Blue"
     },
     {
       "id": "apple_new-iphone-17-pro-512gb",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 17 Pro",
       "family": "iPhone 17",
@@ -3980,7 +5027,7 @@ window.STOCK_DB = {
         "storageGb": 512,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Blue",
@@ -3988,20 +5035,21 @@ window.STOCK_DB = {
           "Blue"
         ],
         "priceUsd": 1340,
-        "stockQuantity": 5
+        "stockQuantity": 0
       },
       "description": "iPhone 17 PRO 512GB $1340 Blue",
-      "stockQuantity": 5,
+      "stockQuantity": 0,
       "priceUsd": 1340,
       "pricesUsd": [
         1340
       ],
-      "raw": "5 | iPhone 17 PRO 512GB $1340 Blue"
+      "raw": "0 | iPhone 17 PRO 512GB $1340 Blue"
     },
     {
       "id": "apple_new-iphone-17-pro-512gb-2",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 17 Pro",
       "family": "iPhone 17",
@@ -4017,7 +5065,7 @@ window.STOCK_DB = {
         "storageGb": 512,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Orange",
@@ -4025,20 +5073,21 @@ window.STOCK_DB = {
           "Orange"
         ],
         "priceUsd": 1340,
-        "stockQuantity": 2
+        "stockQuantity": 0
       },
       "description": "iPhone 17 PRO 512GB $1340 Orange",
-      "stockQuantity": 2,
+      "stockQuantity": 0,
       "priceUsd": 1340,
       "pricesUsd": [
         1340
       ],
-      "raw": "2 | iPhone 17 PRO 512GB $1340 Orange"
+      "raw": "0 | iPhone 17 PRO 512GB $1340 Orange"
     },
     {
       "id": "apple_new-iphone-17-pro-512gb-3",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 17 Pro",
       "family": "iPhone 17",
@@ -4054,7 +5103,7 @@ window.STOCK_DB = {
         "storageGb": 512,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Silver",
@@ -4062,20 +5111,21 @@ window.STOCK_DB = {
           "Silver"
         ],
         "priceUsd": 1360,
-        "stockQuantity": 3
+        "stockQuantity": 0
       },
       "description": "iPhone 17 PRO 512GB $1360 Silver",
-      "stockQuantity": 3,
+      "stockQuantity": 0,
       "priceUsd": 1360,
       "pricesUsd": [
         1360
       ],
-      "raw": "3 | iPhone 17 PRO 512GB $1360 Silver"
+      "raw": "0 | iPhone 17 PRO 512GB $1360 Silver"
     },
     {
       "id": "apple_new-iphone-17-pro-1tb",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 17 Pro",
       "family": "iPhone 17",
@@ -4091,7 +5141,7 @@ window.STOCK_DB = {
         "storageGb": 1024,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Orange",
@@ -4099,20 +5149,21 @@ window.STOCK_DB = {
           "Orange"
         ],
         "priceUsd": 1610,
-        "stockQuantity": 4
+        "stockQuantity": 0
       },
       "description": "iPhone 17 PRO 1TB $1610 Orange",
-      "stockQuantity": 4,
+      "stockQuantity": 0,
       "priceUsd": 1610,
       "pricesUsd": [
         1610
       ],
-      "raw": "4 | iPhone 17 PRO 1TB $1610 Orange"
+      "raw": "0 | iPhone 17 PRO 1TB $1610 Orange"
     },
     {
       "id": "apple_new-iphone-17-pro-max-256gb",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 17 Pro Max",
       "family": "iPhone 17",
@@ -4128,28 +5179,29 @@ window.STOCK_DB = {
         "storageGb": 256,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Blue",
         "colors": [
           "Blue"
         ],
-        "priceUsd": 1255,
-        "stockQuantity": 6
+        "priceUsd": 1265,
+        "stockQuantity": 5
       },
-      "description": "iPhone 17 PRO MAX 256GB $1255 Blue",
-      "stockQuantity": 6,
-      "priceUsd": 1255,
+      "description": "iPhone 17 PRO MAX 256GB $1265 Blue",
+      "stockQuantity": 5,
+      "priceUsd": 1265,
       "pricesUsd": [
-        1255
+        1265
       ],
-      "raw": "6 | iPhone 17 PRO MAX 256GB $1255 Blue"
+      "raw": "5 | iPhone 17 PRO MAX 256GB $1265 Blue"
     },
     {
       "id": "apple_new-iphone-17-pro-max-256gb-2",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 17 Pro Max",
       "family": "iPhone 17",
@@ -4165,28 +5217,29 @@ window.STOCK_DB = {
         "storageGb": 256,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Orange",
         "colors": [
           "Orange"
         ],
-        "priceUsd": 1255,
-        "stockQuantity": 3
+        "priceUsd": 1265,
+        "stockQuantity": 5
       },
-      "description": "iPhone 17 PRO MAX 256GB $1255 Orange",
-      "stockQuantity": 3,
-      "priceUsd": 1255,
+      "description": "iPhone 17 PRO MAX 256GB $1265 Orange",
+      "stockQuantity": 5,
+      "priceUsd": 1265,
       "pricesUsd": [
-        1255
+        1265
       ],
-      "raw": "3 | iPhone 17 PRO MAX 256GB $1255 Orange"
+      "raw": "5 | iPhone 17 PRO MAX 256GB $1265 Orange"
     },
     {
       "id": "apple_new-iphone-17-pro-max-256gb-3",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 17 Pro Max",
       "family": "iPhone 17",
@@ -4202,28 +5255,29 @@ window.STOCK_DB = {
         "storageGb": 256,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Silver",
         "colors": [
           "Silver"
         ],
-        "priceUsd": 1255,
-        "stockQuantity": 2
+        "priceUsd": 1265,
+        "stockQuantity": 5
       },
-      "description": "iPhone 17 PRO MAX 256GB $1255 Silver",
-      "stockQuantity": 2,
-      "priceUsd": 1255,
+      "description": "iPhone 17 PRO MAX 256GB $1265 Silver",
+      "stockQuantity": 5,
+      "priceUsd": 1265,
       "pricesUsd": [
-        1255
+        1265
       ],
-      "raw": "2 | iPhone 17 PRO MAX 256GB $1255 Silver"
+      "raw": "5 | iPhone 17 PRO MAX 256GB $1265 Silver"
     },
     {
       "id": "apple_new-iphone-17-pro-max-256gb-sim-fisica-esim",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 17 Pro Max",
       "family": "iPhone 17",
@@ -4246,21 +5300,22 @@ window.STOCK_DB = {
         "colors": [
           "Orange"
         ],
-        "priceUsd": 1420,
+        "priceUsd": 1300,
         "stockQuantity": 5
       },
-      "description": "iPhone 17 PRO MAX 256GB SIM física + eSIM $1420 Orange",
+      "description": "iPhone 17 PRO MAX 256GB SIM física + eSIM $1300 Orange",
       "stockQuantity": 5,
-      "priceUsd": 1420,
+      "priceUsd": 1300,
       "pricesUsd": [
-        1420
+        1300
       ],
-      "raw": "5 | iPhone 17 PRO MAX 256GB SIM física + eSIM $1420 Orange"
+      "raw": "5 | iPhone 17 PRO MAX 256GB SIM física + eSIM $1300 Orange"
     },
     {
       "id": "apple_new-iphone-17-pro-max-512gb",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 17 Pro Max",
       "family": "iPhone 17",
@@ -4276,28 +5331,29 @@ window.STOCK_DB = {
         "storageGb": 512,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Orange",
         "colors": [
           "Orange"
         ],
-        "priceUsd": 1420,
-        "stockQuantity": 4
+        "priceUsd": 1440,
+        "stockQuantity": 5
       },
-      "description": "iPhone 17 PRO MAX 512GB $1420 Orange",
-      "stockQuantity": 4,
-      "priceUsd": 1420,
+      "description": "iPhone 17 PRO MAX 512GB $1440 Orange",
+      "stockQuantity": 5,
+      "priceUsd": 1440,
       "pricesUsd": [
-        1420
+        1440
       ],
-      "raw": "4 | iPhone 17 PRO MAX 512GB $1420 Orange"
+      "raw": "5 | iPhone 17 PRO MAX 512GB $1440 Orange"
     },
     {
       "id": "apple_new-iphone-17-pro-max-512gb-2",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 17 Pro Max",
       "family": "iPhone 17",
@@ -4313,28 +5369,29 @@ window.STOCK_DB = {
         "storageGb": 512,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Blue",
         "colors": [
           "Blue"
         ],
-        "priceUsd": 1420,
-        "stockQuantity": 6
+        "priceUsd": 1440,
+        "stockQuantity": 5
       },
-      "description": "iPhone 17 PRO MAX 512GB $1420 Blue",
-      "stockQuantity": 6,
-      "priceUsd": 1420,
+      "description": "iPhone 17 PRO MAX 512GB $1440 Blue",
+      "stockQuantity": 5,
+      "priceUsd": 1440,
       "pricesUsd": [
-        1420
+        1440
       ],
-      "raw": "6 | iPhone 17 PRO MAX 512GB $1420 Blue"
+      "raw": "5 | iPhone 17 PRO MAX 512GB $1440 Blue"
     },
     {
       "id": "apple_new-iphone-17-pro-max-512gb-3",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 17 Pro Max",
       "family": "iPhone 17",
@@ -4350,28 +5407,29 @@ window.STOCK_DB = {
         "storageGb": 512,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Silver",
         "colors": [
           "Silver"
         ],
-        "priceUsd": 1450,
-        "stockQuantity": 2
+        "priceUsd": 1440,
+        "stockQuantity": 5
       },
-      "description": "iPhone 17 PRO MAX 512GB $1450 Silver",
-      "stockQuantity": 2,
-      "priceUsd": 1450,
+      "description": "iPhone 17 PRO MAX 512GB $1440 Silver",
+      "stockQuantity": 5,
+      "priceUsd": 1440,
       "pricesUsd": [
-        1450
+        1440
       ],
-      "raw": "2 | iPhone 17 PRO MAX 512GB $1450 Silver"
+      "raw": "5 | iPhone 17 PRO MAX 512GB $1440 Silver"
     },
     {
       "id": "apple_new-iphone-17-pro-max-1tb",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 17 Pro Max",
       "family": "iPhone 17",
@@ -4387,7 +5445,7 @@ window.STOCK_DB = {
         "storageGb": 1024,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Orange",
@@ -4395,20 +5453,21 @@ window.STOCK_DB = {
           "Orange"
         ],
         "priceUsd": 1620,
-        "stockQuantity": 3
+        "stockQuantity": 5
       },
       "description": "iPhone 17 PRO MAX 1TB $1620 Orange",
-      "stockQuantity": 3,
+      "stockQuantity": 5,
       "priceUsd": 1620,
       "pricesUsd": [
         1620
       ],
-      "raw": "3 | iPhone 17 PRO MAX 1TB $1620 Orange"
+      "raw": "5 | iPhone 17 PRO MAX 1TB $1620 Orange"
     },
     {
       "id": "apple_new-iphone-17-pro-max-1tb-2",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 17 Pro Max",
       "family": "iPhone 17",
@@ -4424,7 +5483,7 @@ window.STOCK_DB = {
         "storageGb": 1024,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Blue",
@@ -4446,6 +5505,7 @@ window.STOCK_DB = {
       "id": "apple_new-iphone-17-pro-max-1tb-3",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 17 Pro Max",
       "family": "iPhone 17",
@@ -4461,7 +5521,7 @@ window.STOCK_DB = {
         "storageGb": 1024,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Silver",
@@ -4469,20 +5529,21 @@ window.STOCK_DB = {
           "Silver"
         ],
         "priceUsd": 1620,
-        "stockQuantity": 2
+        "stockQuantity": 5
       },
       "description": "iPhone 17 PRO MAX 1TB $1620 Silver",
-      "stockQuantity": 2,
+      "stockQuantity": 5,
       "priceUsd": 1620,
       "pricesUsd": [
         1620
       ],
-      "raw": "2 | iPhone 17 PRO MAX 1TB $1620 Silver"
+      "raw": "5 | iPhone 17 PRO MAX 1TB $1620 Silver"
     },
     {
       "id": "apple_new-iphone-17-pro-max-2tb",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone 17 Pro Max",
       "family": "iPhone 17",
@@ -4498,28 +5559,29 @@ window.STOCK_DB = {
         "storageGb": 2048,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Orange",
         "colors": [
           "Orange"
         ],
-        "priceUsd": 2120,
-        "stockQuantity": 4
+        "priceUsd": 2025,
+        "stockQuantity": 5
       },
-      "description": "iPhone 17 PRO MAX 2TB $2120 Orange",
-      "stockQuantity": 4,
-      "priceUsd": 2120,
+      "description": "iPhone 17 PRO MAX 2TB $2025 Orange",
+      "stockQuantity": 5,
+      "priceUsd": 2025,
       "pricesUsd": [
-        2120
+        2025
       ],
-      "raw": "4 | iPhone 17 PRO MAX 2TB $2120 Orange"
+      "raw": "5 | iPhone 17 PRO MAX 2TB $2025 Orange"
     },
     {
       "id": "apple_new-iphone-air-256gb",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone Air",
       "family": "iPhone Air",
@@ -4535,7 +5597,7 @@ window.STOCK_DB = {
         "storageGb": 256,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Blue",
@@ -4543,20 +5605,21 @@ window.STOCK_DB = {
           "Blue"
         ],
         "priceUsd": 980,
-        "stockQuantity": 3
+        "stockQuantity": 0
       },
       "description": "iPhone AIR 256GB USD 980 Blue",
-      "stockQuantity": 3,
+      "stockQuantity": 0,
       "priceUsd": 980,
       "pricesUsd": [
         980
       ],
-      "raw": "3 | iPhone AIR 256GB USD 980 Blue"
+      "raw": "0 | iPhone AIR 256GB USD 980 Blue"
     },
     {
       "id": "apple_new-iphone-air-256gb-2",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone Air",
       "family": "iPhone Air",
@@ -4572,7 +5635,7 @@ window.STOCK_DB = {
         "storageGb": 256,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "White",
@@ -4580,20 +5643,21 @@ window.STOCK_DB = {
           "White"
         ],
         "priceUsd": 980,
-        "stockQuantity": 2
+        "stockQuantity": 5
       },
-      "description": "iPhone AIR 256GB USD 980 White",
-      "stockQuantity": 2,
+      "description": "iPhone AIR 256GB $980 White",
+      "stockQuantity": 5,
       "priceUsd": 980,
       "pricesUsd": [
         980
       ],
-      "raw": "2 | iPhone AIR 256GB USD 980 White"
+      "raw": "5 | iPhone AIR 256GB $980 White"
     },
     {
       "id": "apple_new-iphone-air-512gb",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone Air",
       "family": "iPhone Air",
@@ -4609,7 +5673,7 @@ window.STOCK_DB = {
         "storageGb": 512,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Blue",
@@ -4617,20 +5681,21 @@ window.STOCK_DB = {
           "Blue"
         ],
         "priceUsd": 1110,
-        "stockQuantity": 4
+        "stockQuantity": 0
       },
       "description": "iPhone AIR 512GB USD1110 Blue",
-      "stockQuantity": 4,
+      "stockQuantity": 0,
       "priceUsd": 1110,
       "pricesUsd": [
         1110
       ],
-      "raw": "4 | iPhone AIR 512GB USD1110 Blue"
+      "raw": "0 | iPhone AIR 512GB USD1110 Blue"
     },
     {
       "id": "apple_new-iphone-air-512gb-2",
       "category": "apple_new",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Apple",
       "model": "iPhone Air",
       "family": "iPhone Air",
@@ -4646,7 +5711,7 @@ window.STOCK_DB = {
         "storageGb": 512,
         "ramGb": null,
         "chip": null,
-        "simMode": null
+        "simMode": "eSIM"
       },
       "variant": {
         "color": "Gold",
@@ -4654,20 +5719,21 @@ window.STOCK_DB = {
           "Gold"
         ],
         "priceUsd": 1110,
-        "stockQuantity": 2
+        "stockQuantity": 0
       },
       "description": "iPhone AIR 512GB USD1110 Gold",
-      "stockQuantity": 2,
+      "stockQuantity": 0,
       "priceUsd": 1110,
       "pricesUsd": [
         1110
       ],
-      "raw": "2 | iPhone AIR 512GB USD1110 Gold"
+      "raw": "0 | iPhone AIR 512GB USD1110 Gold"
     },
     {
       "id": "motorola-edge-60-fusion-8-256-5g",
       "category": "motorola",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Motorola",
       "model": "Edge 60 Fusion",
       "family": "Motorola Edge",
@@ -4691,20 +5757,21 @@ window.STOCK_DB = {
           "Blue"
         ],
         "priceUsd": 290,
-        "stockQuantity": 3
+        "stockQuantity": 0
       },
       "description": "Edge 60 Fusion 8+256 5G $290 Azul",
-      "stockQuantity": 3,
+      "stockQuantity": 0,
       "priceUsd": 290,
       "pricesUsd": [
         290
       ],
-      "raw": "3 | Edge 60 Fusion 8+256 5G $290 Azul"
+      "raw": "0 | Edge 60 Fusion 8+256 5G $290 Azul"
     },
     {
       "id": "motorola-edge-60-fusion-8-256-5g-2",
       "category": "motorola",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Motorola",
       "model": "Edge 60 Fusion",
       "family": "Motorola Edge",
@@ -4728,20 +5795,21 @@ window.STOCK_DB = {
           "Gray"
         ],
         "priceUsd": 290,
-        "stockQuantity": 5
+        "stockQuantity": 0
       },
       "description": "Edge 60 Fusion 8+256 5G $290 Gray",
-      "stockQuantity": 5,
+      "stockQuantity": 0,
       "priceUsd": 290,
       "pricesUsd": [
         290
       ],
-      "raw": "5 | Edge 60 Fusion 8+256 5G $290 Gray"
+      "raw": "0 | Edge 60 Fusion 8+256 5G $290 Gray"
     },
     {
       "id": "motorola-edge-60-fusion-8-256-5g-3",
       "category": "motorola",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Motorola",
       "model": "Edge 60 Fusion",
       "family": "Motorola Edge",
@@ -4765,20 +5833,59 @@ window.STOCK_DB = {
           "Green"
         ],
         "priceUsd": 290,
-        "stockQuantity": 2
+        "stockQuantity": 0
       },
       "description": "Edge 60 Fusion 8+256 5G $290 Verde",
-      "stockQuantity": 2,
+      "stockQuantity": 0,
       "priceUsd": 290,
       "pricesUsd": [
         290
       ],
-      "raw": "2 | Edge 60 Fusion 8+256 5G $290 Verde"
+      "raw": "0 | Edge 60 Fusion 8+256 5G $290 Verde"
+    },
+    {
+      "id": "motorola-edge-60-pro-12-512-5g",
+      "category": "motorola",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Motorola",
+      "model": "Edge 60 Pro",
+      "family": "Motorola Edge",
+      "memory": {
+        "ramGb": 12,
+        "storageGb": 512
+      },
+      "chip": null,
+      "colors": [
+        "Purple"
+      ],
+      "configuration": {
+        "storageGb": 512,
+        "ramGb": 12,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Purple",
+        "colors": [
+          "Purple"
+        ],
+        "priceUsd": 470,
+        "stockQuantity": 5
+      },
+      "description": "Edge 60 Pro 12+512 5G $470 Purple",
+      "stockQuantity": 5,
+      "priceUsd": 470,
+      "pricesUsd": [
+        470
+      ],
+      "raw": "5 | Edge 60 Pro 12+512 5G $470 Purple"
     },
     {
       "id": "motorola-edge-70-fusion-8-256-5g",
       "category": "motorola",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Motorola",
       "model": "Edge 70 Fusion",
       "family": "Motorola Edge",
@@ -4798,20 +5905,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 455,
-        "stockQuantity": 4
+        "stockQuantity": 0
       },
       "description": "Edge 70 Fusion 8+256 5G $455 Fifa2026",
-      "stockQuantity": 4,
+      "stockQuantity": 0,
       "priceUsd": 455,
       "pricesUsd": [
         455
       ],
-      "raw": "4 | Edge 70 Fusion 8+256 5G $455 Fifa2026"
+      "raw": "0 | Edge 70 Fusion 8+256 5G $455 Fifa2026"
     },
     {
       "id": "motorola-g06-4-128b-165-azul",
       "category": "motorola",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Motorola",
       "model": "G06",
       "family": "Moto G",
@@ -4849,6 +5957,7 @@ window.STOCK_DB = {
       "id": "motorola-g15-4-128gb",
       "category": "motorola",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Motorola",
       "model": "G15",
       "family": "Moto G",
@@ -4872,20 +5981,21 @@ window.STOCK_DB = {
           "Gray"
         ],
         "priceUsd": 165,
-        "stockQuantity": 4
+        "stockQuantity": 5
       },
       "description": "G15 4+128GB $165 Gray",
-      "stockQuantity": 4,
+      "stockQuantity": 5,
       "priceUsd": 165,
       "pricesUsd": [
         165
       ],
-      "raw": "4 | G15 4+128GB $165 Gray"
+      "raw": "5 | G15 4+128GB $165 Gray"
     },
     {
       "id": "motorola-g15-4-512gb",
       "category": "motorola",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Motorola",
       "model": "G15",
       "family": "Moto G",
@@ -4909,20 +6019,21 @@ window.STOCK_DB = {
           "Blue"
         ],
         "priceUsd": 195,
-        "stockQuantity": 3
+        "stockQuantity": 5
       },
       "description": "G15 4+512GB $195 Blue",
-      "stockQuantity": 3,
+      "stockQuantity": 5,
       "priceUsd": 195,
       "pricesUsd": [
         195
       ],
-      "raw": "3 | G15 4+512GB $195 Blue"
+      "raw": "5 | G15 4+512GB $195 Blue"
     },
     {
       "id": "motorola-g17-4-256gb",
       "category": "motorola",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Motorola",
       "model": "G17",
       "family": "Moto G",
@@ -4946,20 +6057,21 @@ window.STOCK_DB = {
           "Red"
         ],
         "priceUsd": 220,
-        "stockQuantity": 3
+        "stockQuantity": 5
       },
       "description": "G17 4+256GB $220 Arándano",
-      "stockQuantity": 3,
+      "stockQuantity": 5,
       "priceUsd": 220,
       "pricesUsd": [
         220
       ],
-      "raw": "3 | G17 4+256GB $220 Arándano"
+      "raw": "5 | G17 4+256GB $220 Arándano"
     },
     {
       "id": "motorola-g17-4-256gb-2",
       "category": "motorola",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Motorola",
       "model": "G17",
       "family": "Moto G",
@@ -4997,6 +6109,7 @@ window.STOCK_DB = {
       "id": "motorola-g35-8-128gb-5g",
       "category": "motorola",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Motorola",
       "model": "G35",
       "family": "Moto G",
@@ -5019,21 +6132,22 @@ window.STOCK_DB = {
         "colors": [
           "Black"
         ],
-        "priceUsd": 180,
+        "priceUsd": 175,
         "stockQuantity": 5
       },
-      "description": "G35 8+128GB 5G $180 Black",
+      "description": "G35 8+128GB 5G $175 Black",
       "stockQuantity": 5,
-      "priceUsd": 180,
+      "priceUsd": 175,
       "pricesUsd": [
-        180
+        175
       ],
-      "raw": "5 | G35 8+128GB 5G $180 Black"
+      "raw": "5 | G35 8+128GB 5G $175 Black"
     },
     {
       "id": "motorola-g35-4-256gb",
       "category": "motorola",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Motorola",
       "model": "G35",
       "family": "Moto G",
@@ -5057,20 +6171,21 @@ window.STOCK_DB = {
           "Black"
         ],
         "priceUsd": 195,
-        "stockQuantity": 3
+        "stockQuantity": 5
       },
       "description": "G35 4+256GB $195 Negro",
-      "stockQuantity": 3,
+      "stockQuantity": 5,
       "priceUsd": 195,
       "pricesUsd": [
         195
       ],
-      "raw": "3 | G35 4+256GB $195 Negro"
+      "raw": "5 | G35 4+256GB $195 Negro"
     },
     {
       "id": "motorola-g56-12-256gb-5g",
       "category": "motorola",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Motorola",
       "model": "G56",
       "family": "Moto G",
@@ -5093,21 +6208,22 @@ window.STOCK_DB = {
         "colors": [
           "Blue"
         ],
-        "priceUsd": 260,
-        "stockQuantity": 4
+        "priceUsd": 275,
+        "stockQuantity": 5
       },
-      "description": "G56 12+256GB 5G $260 Blue",
-      "stockQuantity": 4,
-      "priceUsd": 260,
+      "description": "G56 12+256GB 5G $275 Blue",
+      "stockQuantity": 5,
+      "priceUsd": 275,
       "pricesUsd": [
-        260
+        275
       ],
-      "raw": "4 | G56 12+256GB 5G $260 Blue"
+      "raw": "5 | G56 12+256GB 5G $275 Blue"
     },
     {
       "id": "motorola-g56-12-256gb-5g-2",
       "category": "motorola",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Motorola",
       "model": "G56",
       "family": "Moto G",
@@ -5130,21 +6246,22 @@ window.STOCK_DB = {
         "colors": [
           "Green"
         ],
-        "priceUsd": 260,
-        "stockQuantity": 2
+        "priceUsd": 275,
+        "stockQuantity": 5
       },
-      "description": "G56 12+256GB 5G $260 Green",
-      "stockQuantity": 2,
-      "priceUsd": 260,
+      "description": "G56 12+256GB 5G $275 Green",
+      "stockQuantity": 5,
+      "priceUsd": 275,
       "pricesUsd": [
-        260
+        275
       ],
-      "raw": "2 | G56 12+256GB 5G $260 Green"
+      "raw": "5 | G56 12+256GB 5G $275 Green"
     },
     {
       "id": "motorola-g67-4-256gb",
       "category": "motorola",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Motorola",
       "model": "G67",
       "family": "Moto G",
@@ -5168,20 +6285,59 @@ window.STOCK_DB = {
           "Gray"
         ],
         "priceUsd": 285,
-        "stockQuantity": 4
+        "stockQuantity": 0
       },
       "description": "G67 4+256GB $285 Gris",
-      "stockQuantity": 4,
+      "stockQuantity": 0,
       "priceUsd": 285,
       "pricesUsd": [
         285
       ],
-      "raw": "4 | G67 4+256GB $285 Gris"
+      "raw": "0 | G67 4+256GB $285 Gris"
+    },
+    {
+      "id": "motorola-g67-4-256-2",
+      "category": "motorola",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Motorola",
+      "model": "G67",
+      "family": "Moto G",
+      "memory": {
+        "ramGb": 4,
+        "storageGb": 256
+      },
+      "chip": null,
+      "colors": [
+        "Gray"
+      ],
+      "configuration": {
+        "storageGb": 256,
+        "ramGb": 4,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Gray",
+        "colors": [
+          "Gray"
+        ],
+        "priceUsd": 285,
+        "stockQuantity": 5
+      },
+      "description": "G67 4+256 $285 Gray",
+      "stockQuantity": 5,
+      "priceUsd": 285,
+      "pricesUsd": [
+        285
+      ],
+      "raw": "5 | G67 4+256 $285 Gray"
     },
     {
       "id": "motorola-g86-power-8-256gb-5g",
       "category": "motorola",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Motorola",
       "model": "G86 POWER",
       "family": "Moto G",
@@ -5204,21 +6360,22 @@ window.STOCK_DB = {
         "colors": [
           "Red"
         ],
-        "priceUsd": 275,
+        "priceUsd": 270,
         "stockQuantity": 5
       },
-      "description": "G86 POWER 8+256GB 5G $275 Cereza",
+      "description": "G86 POWER 8+256GB 5G $270 Cereza",
       "stockQuantity": 5,
-      "priceUsd": 275,
+      "priceUsd": 270,
       "pricesUsd": [
-        275
+        270
       ],
-      "raw": "5 | G86 POWER 8+256GB 5G $275 Cereza"
+      "raw": "5 | G86 POWER 8+256GB 5G $270 Cereza"
     },
     {
       "id": "samsung-a16-4-128gb-ds-black-165",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "A16",
       "family": "Galaxy A",
@@ -5256,6 +6413,7 @@ window.STOCK_DB = {
       "id": "samsung-a17-4-128gb-gray-185",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "A17",
       "family": "Galaxy A",
@@ -5279,20 +6437,21 @@ window.STOCK_DB = {
           "Gray"
         ],
         "priceUsd": 185,
-        "stockQuantity": 3
+        "stockQuantity": 5
       },
       "description": "A17 4+128GB Gray 185",
-      "stockQuantity": 3,
+      "stockQuantity": 5,
       "priceUsd": 185,
       "pricesUsd": [
         185
       ],
-      "raw": "3 | A17 4+128GB Gray 185"
+      "raw": "5 | A17 4+128GB Gray 185"
     },
     {
       "id": "samsung-a17-4-128gb-black-185",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "A17",
       "family": "Galaxy A",
@@ -5316,20 +6475,21 @@ window.STOCK_DB = {
           "Black"
         ],
         "priceUsd": 185,
-        "stockQuantity": 4
+        "stockQuantity": 5
       },
       "description": "A17 4+128GB Black 185",
-      "stockQuantity": 4,
+      "stockQuantity": 5,
       "priceUsd": 185,
       "pricesUsd": [
         185
       ],
-      "raw": "4 | A17 4+128GB Black 185"
+      "raw": "5 | A17 4+128GB Black 185"
     },
     {
       "id": "samsung-a17-4-128gb-light-blue-185",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "A17",
       "family": "Galaxy A",
@@ -5353,20 +6513,59 @@ window.STOCK_DB = {
           "Light Blue"
         ],
         "priceUsd": 185,
-        "stockQuantity": 2
+        "stockQuantity": 0
       },
       "description": "A17 4+128GB LIGHT Blue 185",
-      "stockQuantity": 2,
+      "stockQuantity": 0,
       "priceUsd": 185,
       "pricesUsd": [
         185
       ],
-      "raw": "2 | A17 4+128GB LIGHT Blue 185"
+      "raw": "0 | A17 4+128GB LIGHT Blue 185"
+    },
+    {
+      "id": "samsung-a17-4-128gb-4",
+      "category": "samsung",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Samsung",
+      "model": "A17",
+      "family": "Galaxy A",
+      "memory": {
+        "ramGb": 4,
+        "storageGb": 128
+      },
+      "chip": "A17",
+      "colors": [
+        "Blue"
+      ],
+      "configuration": {
+        "storageGb": 128,
+        "ramGb": 4,
+        "chip": "A17",
+        "simMode": null
+      },
+      "variant": {
+        "color": "Blue",
+        "colors": [
+          "Blue"
+        ],
+        "priceUsd": 195,
+        "stockQuantity": 5
+      },
+      "description": "A17 4+128GB / $195 Blue",
+      "stockQuantity": 5,
+      "priceUsd": 195,
+      "pricesUsd": [
+        195
+      ],
+      "raw": "5 | A17 4+128GB / $195 Blue"
     },
     {
       "id": "samsung-a26-8-256gb-5g-white-285",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "A26",
       "family": "Galaxy A",
@@ -5390,20 +6589,21 @@ window.STOCK_DB = {
           "White"
         ],
         "priceUsd": 285,
-        "stockQuantity": 6
+        "stockQuantity": 0
       },
       "description": "A26 8+256GB 5G White 285",
-      "stockQuantity": 6,
+      "stockQuantity": 0,
       "priceUsd": 285,
       "pricesUsd": [
         285
       ],
-      "raw": "6 | A26 8+256GB 5G White 285"
+      "raw": "0 | A26 8+256GB 5G White 285"
     },
     {
       "id": "samsung-a27-6-128gb-5g-285",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "A27",
       "family": "Galaxy A",
@@ -5427,20 +6627,21 @@ window.STOCK_DB = {
           "Black"
         ],
         "priceUsd": 285,
-        "stockQuantity": 5
+        "stockQuantity": 0
       },
       "description": "A27 6+128GB 5G 285USD Black",
-      "stockQuantity": 5,
+      "stockQuantity": 0,
       "priceUsd": 285,
       "pricesUsd": [
         285
       ],
-      "raw": "5 | A27 6+128GB 5G 285USD Black"
+      "raw": "0 | A27 6+128GB 5G 285USD Black"
     },
     {
       "id": "samsung-a27-6-128gb-5g-285-2",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "A27",
       "family": "Galaxy A",
@@ -5464,20 +6665,21 @@ window.STOCK_DB = {
           "Blue"
         ],
         "priceUsd": 285,
-        "stockQuantity": 2
+        "stockQuantity": 0
       },
       "description": "A27 6+128GB 5G 285USD Blue",
-      "stockQuantity": 2,
+      "stockQuantity": 0,
       "priceUsd": 285,
       "pricesUsd": [
         285
       ],
-      "raw": "2 | A27 6+128GB 5G 285USD Blue"
+      "raw": "0 | A27 6+128GB 5G 285USD Blue"
     },
     {
       "id": "samsung-a27-6-128gb-5g-285-3",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "A27",
       "family": "Galaxy A",
@@ -5501,20 +6703,21 @@ window.STOCK_DB = {
           "Pink"
         ],
         "priceUsd": 285,
-        "stockQuantity": 4
+        "stockQuantity": 0
       },
       "description": "A27 6+128GB 5G 285USD Pink",
-      "stockQuantity": 4,
+      "stockQuantity": 0,
       "priceUsd": 285,
       "pricesUsd": [
         285
       ],
-      "raw": "4 | A27 6+128GB 5G 285USD Pink"
+      "raw": "0 | A27 6+128GB 5G 285USD Pink"
     },
     {
       "id": "samsung-a27-8-256gb-5g-360",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "A27",
       "family": "Galaxy A",
@@ -5538,20 +6741,21 @@ window.STOCK_DB = {
           "Black"
         ],
         "priceUsd": 360,
-        "stockQuantity": 3
+        "stockQuantity": 0
       },
       "description": "A27 8+256GB 5G 360USD Black",
-      "stockQuantity": 3,
+      "stockQuantity": 0,
       "priceUsd": 360,
       "pricesUsd": [
         360
       ],
-      "raw": "3 | A27 8+256GB 5G 360USD Black"
+      "raw": "0 | A27 8+256GB 5G 360USD Black"
     },
     {
       "id": "samsung-a36-8-256gb-5g",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "A36",
       "family": "Galaxy A",
@@ -5575,20 +6779,21 @@ window.STOCK_DB = {
           "White"
         ],
         "priceUsd": 330,
-        "stockQuantity": 4
+        "stockQuantity": 5
       },
       "description": "A36 8+256GB 5G $330 White",
-      "stockQuantity": 4,
+      "stockQuantity": 5,
       "priceUsd": 330,
       "pricesUsd": [
         330
       ],
-      "raw": "4 | A36 8+256GB 5G $330 White"
+      "raw": "5 | A36 8+256GB 5G $330 White"
     },
     {
       "id": "samsung-a36-8-256gb-5g-2",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "A36",
       "family": "Galaxy A",
@@ -5612,20 +6817,21 @@ window.STOCK_DB = {
           "Lavender"
         ],
         "priceUsd": 330,
-        "stockQuantity": 2
+        "stockQuantity": 0
       },
       "description": "A36 8+256GB 5G $330 Lavender",
-      "stockQuantity": 2,
+      "stockQuantity": 0,
       "priceUsd": 330,
       "pricesUsd": [
         330
       ],
-      "raw": "2 | A36 8+256GB 5G $330 Lavender"
+      "raw": "0 | A36 8+256GB 5G $330 Lavender"
     },
     {
       "id": "samsung-a36-8-256gb-5g-3",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "A36",
       "family": "Galaxy A",
@@ -5663,6 +6869,7 @@ window.STOCK_DB = {
       "id": "samsung-a37-6-128gb-5g-310",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "A37",
       "family": "Galaxy A",
@@ -5682,20 +6889,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 310,
-        "stockQuantity": 3
+        "stockQuantity": 0
       },
       "description": "A37 6+128GB 5G 310USD Graygreen",
-      "stockQuantity": 3,
+      "stockQuantity": 0,
       "priceUsd": 310,
       "pricesUsd": [
         310
       ],
-      "raw": "3 | A37 6+128GB 5G 310USD Graygreen"
+      "raw": "0 | A37 6+128GB 5G 310USD Graygreen"
     },
     {
       "id": "samsung-a37-6-128gb-5g-310-2",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "A37",
       "family": "Galaxy A",
@@ -5715,20 +6923,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 310,
-        "stockQuantity": 4
+        "stockQuantity": 0
       },
       "description": "A37 6+128GB 5G 310USD Charcoal",
-      "stockQuantity": 4,
+      "stockQuantity": 0,
       "priceUsd": 310,
       "pricesUsd": [
         310
       ],
-      "raw": "4 | A37 6+128GB 5G 310USD Charcoal"
+      "raw": "0 | A37 6+128GB 5G 310USD Charcoal"
     },
     {
       "id": "samsung-a37-8-256gb-5g-390",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "A37",
       "family": "Galaxy A",
@@ -5748,20 +6957,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 390,
-        "stockQuantity": 6
+        "stockQuantity": 0
       },
       "description": "A37 8+256GB 5G 390USD Charcoal",
-      "stockQuantity": 6,
+      "stockQuantity": 0,
       "priceUsd": 390,
       "pricesUsd": [
         390
       ],
-      "raw": "6 | A37 8+256GB 5G 390USD Charcoal"
+      "raw": "0 | A37 8+256GB 5G 390USD Charcoal"
     },
     {
       "id": "samsung-a56-12gb-256gb",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "A56",
       "family": "Galaxy A",
@@ -5784,21 +6994,56 @@ window.STOCK_DB = {
         "colors": [
           "Light Gray"
         ],
-        "priceUsd": 420,
-        "stockQuantity": 2
+        "priceUsd": 415,
+        "stockQuantity": 5
       },
-      "description": "A56 12GB+256GB $420 Lightgray",
-      "stockQuantity": 2,
-      "priceUsd": 420,
+      "description": "A56 12GB+256GB $415 Lightgray",
+      "stockQuantity": 5,
+      "priceUsd": 415,
       "pricesUsd": [
-        420
+        415
       ],
-      "raw": "2 | A56 12GB+256GB $420 Lightgray"
+      "raw": "5 | A56 12GB+256GB $415 Lightgray"
+    },
+    {
+      "id": "samsung-a56-12gb-256gb-2",
+      "category": "samsung",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Samsung",
+      "model": "A56",
+      "family": "Galaxy A",
+      "memory": {
+        "ramGb": 12,
+        "storageGb": 256
+      },
+      "chip": "A56",
+      "colors": [],
+      "configuration": {
+        "storageGb": 256,
+        "ramGb": 12,
+        "chip": "A56",
+        "simMode": null
+      },
+      "variant": {
+        "color": null,
+        "colors": [],
+        "priceUsd": 415,
+        "stockQuantity": 5
+      },
+      "description": "A56 12GB+256GB $415 Olive",
+      "stockQuantity": 5,
+      "priceUsd": 415,
+      "pricesUsd": [
+        415
+      ],
+      "raw": "5 | A56 12GB+256GB $415 Olive"
     },
     {
       "id": "samsung-a57-8-128-5g",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "A57",
       "family": "Galaxy A",
@@ -5822,20 +7067,21 @@ window.STOCK_DB = {
           "Blue"
         ],
         "priceUsd": 400,
-        "stockQuantity": 4
+        "stockQuantity": 5
       },
-      "description": "A57 8+128 5G USD400 Blue",
-      "stockQuantity": 4,
+      "description": "A57 8+128 5G $400 Blue",
+      "stockQuantity": 5,
       "priceUsd": 400,
       "pricesUsd": [
         400
       ],
-      "raw": "4 | A57 8+128 5G USD400 Blue"
+      "raw": "5 | A57 8+128 5G $400 Blue"
     },
     {
       "id": "samsung-a57-8-128-5g-2",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "A57",
       "family": "Galaxy A",
@@ -5859,20 +7105,21 @@ window.STOCK_DB = {
           "Gray"
         ],
         "priceUsd": 400,
-        "stockQuantity": 2
+        "stockQuantity": 0
       },
       "description": "A57 8+128 5G USD400 Gray",
-      "stockQuantity": 2,
+      "stockQuantity": 0,
       "priceUsd": 400,
       "pricesUsd": [
         400
       ],
-      "raw": "2 | A57 8+128 5G USD400 Gray"
+      "raw": "0 | A57 8+128 5G USD400 Gray"
     },
     {
       "id": "samsung-a57-8-128-5g-3",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "A57",
       "family": "Galaxy A",
@@ -5898,18 +7145,19 @@ window.STOCK_DB = {
         "priceUsd": 400,
         "stockQuantity": 5
       },
-      "description": "A57 8+128 5G USD400 Lilac",
+      "description": "A57 8+128 5G $400 Lilac",
       "stockQuantity": 5,
       "priceUsd": 400,
       "pricesUsd": [
         400
       ],
-      "raw": "5 | A57 8+128 5G USD400 Lilac"
+      "raw": "5 | A57 8+128 5G $400 Lilac"
     },
     {
       "id": "samsung-a57-8-128-5g-4",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "A57",
       "family": "Galaxy A",
@@ -5933,20 +7181,21 @@ window.STOCK_DB = {
           "Navy"
         ],
         "priceUsd": 400,
-        "stockQuantity": 3
+        "stockQuantity": 5
       },
-      "description": "A57 8+128 5G USD400 Navy",
-      "stockQuantity": 3,
+      "description": "A57 8+128 5G $400 Navy",
+      "stockQuantity": 5,
       "priceUsd": 400,
       "pricesUsd": [
         400
       ],
-      "raw": "3 | A57 8+128 5G USD400 Navy"
+      "raw": "5 | A57 8+128 5G $400 Navy"
     },
     {
       "id": "samsung-a57-8-256gb-5g",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "A57",
       "family": "Galaxy A",
@@ -5970,20 +7219,21 @@ window.STOCK_DB = {
           "Gray"
         ],
         "priceUsd": 415,
-        "stockQuantity": 6
+        "stockQuantity": 5
       },
       "description": "A57 8/256GB 5G $415 Gray",
-      "stockQuantity": 6,
+      "stockQuantity": 5,
       "priceUsd": 415,
       "pricesUsd": [
         415
       ],
-      "raw": "6 | A57 8/256GB 5G $415 Gray"
+      "raw": "5 | A57 8/256GB 5G $415 Gray"
     },
     {
       "id": "samsung-a57-8-256gb-5g-2",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "A57",
       "family": "Galaxy A",
@@ -6007,20 +7257,59 @@ window.STOCK_DB = {
           "Purple"
         ],
         "priceUsd": 430,
-        "stockQuantity": 2
+        "stockQuantity": 0
       },
       "description": "A57 8/256GB 5G $430 Lilac",
-      "stockQuantity": 2,
+      "stockQuantity": 0,
       "priceUsd": 430,
       "pricesUsd": [
         430
       ],
-      "raw": "2 | A57 8/256GB 5G $430 Lilac"
+      "raw": "0 | A57 8/256GB 5G $430 Lilac"
+    },
+    {
+      "id": "samsung-band-47mm",
+      "category": "samsung",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Samsung",
+      "model": "Band 47mm",
+      "family": "Band 47mm",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [
+        "Black"
+      ],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Black",
+        "colors": [
+          "Black"
+        ],
+        "priceUsd": 15,
+        "stockQuantity": 5
+      },
+      "description": "Band 47mm $15 Black",
+      "stockQuantity": 5,
+      "priceUsd": 15,
+      "pricesUsd": [
+        15
+      ],
+      "raw": "5 | Band 47mm $15 Black"
     },
     {
       "id": "samsung-s25-12-128gb-5g",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S25",
       "family": "Galaxy S",
@@ -6043,21 +7332,22 @@ window.STOCK_DB = {
         "colors": [
           "Navy"
         ],
-        "priceUsd": 645,
-        "stockQuantity": 4
+        "priceUsd": 640,
+        "stockQuantity": 5
       },
-      "description": "S25 12+128GB 5G $645 Navy",
-      "stockQuantity": 4,
-      "priceUsd": 645,
+      "description": "S25 12+128GB 5G $640 Navy",
+      "stockQuantity": 5,
+      "priceUsd": 640,
       "pricesUsd": [
-        645
+        640
       ],
-      "raw": "4 | S25 12+128GB 5G $645 Navy"
+      "raw": "5 | S25 12+128GB 5G $640 Navy"
     },
     {
       "id": "samsung-s25-12-128gb-5g-2",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S25",
       "family": "Galaxy S",
@@ -6081,20 +7371,21 @@ window.STOCK_DB = {
           "Silver"
         ],
         "priceUsd": 645,
-        "stockQuantity": 2
+        "stockQuantity": 0
       },
       "description": "S25 12+128GB 5G $645 Silver",
-      "stockQuantity": 2,
+      "stockQuantity": 0,
       "priceUsd": 645,
       "pricesUsd": [
         645
       ],
-      "raw": "2 | S25 12+128GB 5G $645 Silver"
+      "raw": "0 | S25 12+128GB 5G $645 Silver"
     },
     {
       "id": "samsung-s25-12-256gb-5g",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S25",
       "family": "Galaxy S",
@@ -6117,21 +7408,22 @@ window.STOCK_DB = {
         "colors": [
           "Silver"
         ],
-        "priceUsd": 690,
-        "stockQuantity": 3
+        "priceUsd": 685,
+        "stockQuantity": 5
       },
-      "description": "S25 12+256GB 5G USD690 Silver",
-      "stockQuantity": 3,
-      "priceUsd": 690,
+      "description": "S25 12+256GB 5G $685 Silver",
+      "stockQuantity": 5,
+      "priceUsd": 685,
       "pricesUsd": [
-        690
+        685
       ],
-      "raw": "3 | S25 12+256GB 5G USD690 Silver"
+      "raw": "5 | S25 12+256GB 5G $685 Silver"
     },
     {
       "id": "samsung-s25-12-256gb-5g-2",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S25",
       "family": "Galaxy S",
@@ -6154,21 +7446,22 @@ window.STOCK_DB = {
         "colors": [
           "Navy"
         ],
-        "priceUsd": 690,
+        "priceUsd": 685,
         "stockQuantity": 5
       },
-      "description": "S25 12+256GB 5G USD690 Navy",
+      "description": "S25 12+256GB 5G $685 Navy",
       "stockQuantity": 5,
-      "priceUsd": 690,
+      "priceUsd": 685,
       "pricesUsd": [
-        690
+        685
       ],
-      "raw": "5 | S25 12+256GB 5G USD690 Navy"
+      "raw": "5 | S25 12+256GB 5G $685 Navy"
     },
     {
       "id": "samsung-s25-fe-8-256-5g",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S25 FE",
       "family": "Galaxy S",
@@ -6202,6 +7495,7 @@ window.STOCK_DB = {
       "id": "samsung-s25-ultra-1tb-12gb-5g",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S25 ULTRA",
       "family": "Galaxy S",
@@ -6226,21 +7520,22 @@ window.STOCK_DB = {
           "Blue",
           "Silver"
         ],
-        "priceUsd": 950,
+        "priceUsd": 960,
         "stockQuantity": 5
       },
-      "description": "S25 ULTRA 1TB+12GB 5G USD950 Silver Blue",
+      "description": "S25 ULTRA 1TB+12GB 5G $960 Silver Blue",
       "stockQuantity": 5,
-      "priceUsd": 950,
+      "priceUsd": 960,
       "pricesUsd": [
-        950
+        960
       ],
-      "raw": "5 | S25 ULTRA 1TB+12GB 5G USD950 Silver Blue"
+      "raw": "5 | S25 ULTRA 1TB+12GB 5G $960 Silver Blue"
     },
     {
       "id": "samsung-s25-ultra-1tb-12gb-5g-2",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S25 ULTRA",
       "family": "Galaxy S",
@@ -6264,20 +7559,99 @@ window.STOCK_DB = {
           "White"
         ],
         "priceUsd": 950,
-        "stockQuantity": 3
+        "stockQuantity": 0
       },
       "description": "S25 ULTRA 1TB+12GB 5G USD950 White",
-      "stockQuantity": 3,
+      "stockQuantity": 0,
       "priceUsd": 950,
       "pricesUsd": [
         950
       ],
-      "raw": "3 | S25 ULTRA 1TB+12GB 5G USD950 White"
+      "raw": "0 | S25 ULTRA 1TB+12GB 5G USD950 White"
+    },
+    {
+      "id": "samsung-s25-ultra-1tb-12gb-5g-3",
+      "category": "samsung",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Samsung",
+      "model": "S25 ULTRA",
+      "family": "Galaxy S",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [
+        "White",
+        "Silver"
+      ],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": null,
+        "colors": [
+          "White",
+          "Silver"
+        ],
+        "priceUsd": 960,
+        "stockQuantity": 5
+      },
+      "description": "S25 ULTRA 1TB+12GB 5G / $960 White Silver",
+      "stockQuantity": 5,
+      "priceUsd": 960,
+      "pricesUsd": [
+        960
+      ],
+      "raw": "5 | S25 ULTRA 1TB+12GB 5G / $960 White Silver"
+    },
+    {
+      "id": "samsung-s25-ultra-1tb-12gb-5g-4",
+      "category": "samsung",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Samsung",
+      "model": "S25 ULTRA",
+      "family": "Galaxy S",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [
+        "Gray"
+      ],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Gray",
+        "colors": [
+          "Gray"
+        ],
+        "priceUsd": 960,
+        "stockQuantity": 5
+      },
+      "description": "S25 ULTRA 1TB+12GB 5G / $960 Gray",
+      "stockQuantity": 5,
+      "priceUsd": 960,
+      "pricesUsd": [
+        960
+      ],
+      "raw": "5 | S25 ULTRA 1TB+12GB 5G / $960 Gray"
     },
     {
       "id": "samsung-s25-ultra-256gb-12gb-5g",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S25 ULTRA",
       "family": "Galaxy S",
@@ -6300,21 +7674,22 @@ window.STOCK_DB = {
         "colors": [
           "White"
         ],
-        "priceUsd": 830,
-        "stockQuantity": 4
+        "priceUsd": 820,
+        "stockQuantity": 5
       },
-      "description": "S25 ULTRA 256GB+12GB 5G $830 White",
-      "stockQuantity": 4,
-      "priceUsd": 830,
+      "description": "S25 ULTRA 256GB+12GB 5G $820 White",
+      "stockQuantity": 5,
+      "priceUsd": 820,
       "pricesUsd": [
-        830
+        820
       ],
-      "raw": "4 | S25 ULTRA 256GB+12GB 5G $830 White"
+      "raw": "5 | S25 ULTRA 256GB+12GB 5G $820 White"
     },
     {
       "id": "samsung-s25-ultra-256gb-12gb-5g-2",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S25 ULTRA",
       "family": "Galaxy S",
@@ -6337,21 +7712,22 @@ window.STOCK_DB = {
         "colors": [
           "Blue"
         ],
-        "priceUsd": 830,
-        "stockQuantity": 3
+        "priceUsd": 820,
+        "stockQuantity": 5
       },
-      "description": "S25 ULTRA 256GB+12GB 5G $830 Blue",
-      "stockQuantity": 3,
-      "priceUsd": 830,
+      "description": "S25 ULTRA 256GB+12GB 5G $820 Blue",
+      "stockQuantity": 5,
+      "priceUsd": 820,
       "pricesUsd": [
-        830
+        820
       ],
-      "raw": "3 | S25 ULTRA 256GB+12GB 5G $830 Blue"
+      "raw": "5 | S25 ULTRA 256GB+12GB 5G $820 Blue"
     },
     {
       "id": "samsung-s25-ultra-512gb-12gb-5g",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S25 ULTRA",
       "family": "Galaxy S",
@@ -6375,20 +7751,21 @@ window.STOCK_DB = {
           "Gray"
         ],
         "priceUsd": 905,
-        "stockQuantity": 6
+        "stockQuantity": 0
       },
       "description": "S25 ULTRA 512GB+12GB 5G $905 Gray",
-      "stockQuantity": 6,
+      "stockQuantity": 0,
       "priceUsd": 905,
       "pricesUsd": [
         905
       ],
-      "raw": "6 | S25 ULTRA 512GB+12GB 5G $905 Gray"
+      "raw": "0 | S25 ULTRA 512GB+12GB 5G $905 Gray"
     },
     {
       "id": "samsung-s25-ultra-512gb-12gb-5g-2",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S25 ULTRA",
       "family": "Galaxy S",
@@ -6412,20 +7789,21 @@ window.STOCK_DB = {
           "Black"
         ],
         "priceUsd": 905,
-        "stockQuantity": 4
+        "stockQuantity": 0
       },
       "description": "S25 ULTRA 512GB+12GB 5G $905 Black",
-      "stockQuantity": 4,
+      "stockQuantity": 0,
       "priceUsd": 905,
       "pricesUsd": [
         905
       ],
-      "raw": "4 | S25 ULTRA 512GB+12GB 5G $905 Black"
+      "raw": "0 | S25 ULTRA 512GB+12GB 5G $905 Black"
     },
     {
       "id": "samsung-s25-ultra-512gb-12gb-5g-3",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S25 ULTRA",
       "family": "Galaxy S",
@@ -6449,20 +7827,101 @@ window.STOCK_DB = {
           "White"
         ],
         "priceUsd": 905,
-        "stockQuantity": 2
+        "stockQuantity": 0
       },
       "description": "S25 ULTRA 512GB+12GB 5G $905 White",
-      "stockQuantity": 2,
+      "stockQuantity": 0,
       "priceUsd": 905,
       "pricesUsd": [
         905
       ],
-      "raw": "2 | S25 ULTRA 512GB+12GB 5G $905 White"
+      "raw": "0 | S25 ULTRA 512GB+12GB 5G $905 White"
+    },
+    {
+      "id": "samsung-s25-ultra-512gb-12gb-5g-4",
+      "category": "samsung",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Samsung",
+      "model": "S25 ULTRA",
+      "family": "Galaxy S",
+      "memory": {
+        "ramGb": 12,
+        "storageGb": 512
+      },
+      "chip": null,
+      "colors": [
+        "White",
+        "Silver"
+      ],
+      "configuration": {
+        "storageGb": 512,
+        "ramGb": 12,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": null,
+        "colors": [
+          "White",
+          "Silver"
+        ],
+        "priceUsd": 905,
+        "stockQuantity": 5
+      },
+      "description": "S25 ULTRA 512GB+12GB 5G $905 White Silver",
+      "stockQuantity": 5,
+      "priceUsd": 905,
+      "pricesUsd": [
+        905
+      ],
+      "raw": "5 | S25 ULTRA 512GB+12GB 5G $905 White Silver"
+    },
+    {
+      "id": "samsung-s25-ultra-512gb-12gb-5g-5",
+      "category": "samsung",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Samsung",
+      "model": "S25 ULTRA",
+      "family": "Galaxy S",
+      "memory": {
+        "ramGb": 12,
+        "storageGb": 512
+      },
+      "chip": null,
+      "colors": [
+        "Blue",
+        "Silver"
+      ],
+      "configuration": {
+        "storageGb": 512,
+        "ramGb": 12,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": null,
+        "colors": [
+          "Blue",
+          "Silver"
+        ],
+        "priceUsd": 905,
+        "stockQuantity": 5
+      },
+      "description": "S25 ULTRA 512GB+12GB 5G $905 Silver Blue",
+      "stockQuantity": 5,
+      "priceUsd": 905,
+      "pricesUsd": [
+        905
+      ],
+      "raw": "5 | S25 ULTRA 512GB+12GB 5G $905 Silver Blue"
     },
     {
       "id": "samsung-s26-12-256-5g",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S26",
       "family": "Galaxy S",
@@ -6485,21 +7944,22 @@ window.STOCK_DB = {
         "colors": [
           "White"
         ],
-        "priceUsd": 715,
-        "stockQuantity": 4
+        "priceUsd": 720,
+        "stockQuantity": 5
       },
-      "description": "S26 12+256 5G $715 White",
-      "stockQuantity": 4,
-      "priceUsd": 715,
+      "description": "S26 12+256 5G $720 White",
+      "stockQuantity": 5,
+      "priceUsd": 720,
       "pricesUsd": [
-        715
+        720
       ],
-      "raw": "4 | S26 12+256 5G $715 White"
+      "raw": "5 | S26 12+256 5G $720 White"
     },
     {
       "id": "samsung-s26-12-256-5g-2",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S26",
       "family": "Galaxy S",
@@ -6523,20 +7983,21 @@ window.STOCK_DB = {
           "Black"
         ],
         "priceUsd": 730,
-        "stockQuantity": 3
+        "stockQuantity": 0
       },
       "description": "S26 12+256 5G $730 Black",
-      "stockQuantity": 3,
+      "stockQuantity": 0,
       "priceUsd": 730,
       "pricesUsd": [
         730
       ],
-      "raw": "3 | S26 12+256 5G $730 Black"
+      "raw": "0 | S26 12+256 5G $730 Black"
     },
     {
       "id": "samsung-s26-12-256-5g-3",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S26",
       "family": "Galaxy S",
@@ -6559,21 +8020,22 @@ window.STOCK_DB = {
         "colors": [
           "Blue"
         ],
-        "priceUsd": 730,
-        "stockQuantity": 2
+        "priceUsd": 720,
+        "stockQuantity": 5
       },
-      "description": "S26 12+256 5G $730 Blue",
-      "stockQuantity": 2,
-      "priceUsd": 730,
+      "description": "S26 12+256 5G $720 Blue",
+      "stockQuantity": 5,
+      "priceUsd": 720,
       "pricesUsd": [
-        730
+        720
       ],
-      "raw": "2 | S26 12+256 5G $730 Blue"
+      "raw": "5 | S26 12+256 5G $720 Blue"
     },
     {
       "id": "samsung-s26-12-256-5g-4",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S26",
       "family": "Galaxy S",
@@ -6596,21 +8058,100 @@ window.STOCK_DB = {
         "colors": [
           "Purple"
         ],
-        "priceUsd": 730,
+        "priceUsd": 720,
         "stockQuantity": 5
       },
-      "description": "S26 12+256 5G $730 Violet",
+      "description": "S26 12+256 5G $720 Violet",
       "stockQuantity": 5,
-      "priceUsd": 730,
+      "priceUsd": 720,
       "pricesUsd": [
-        730
+        720
       ],
-      "raw": "5 | S26 12+256 5G $730 Violet"
+      "raw": "5 | S26 12+256 5G $720 Violet"
+    },
+    {
+      "id": "samsung-s26-12-256-5g-5",
+      "category": "samsung",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Samsung",
+      "model": "S26",
+      "family": "Galaxy S",
+      "memory": {
+        "ramGb": 12,
+        "storageGb": 256
+      },
+      "chip": null,
+      "colors": [
+        "Pink",
+        "Gold"
+      ],
+      "configuration": {
+        "storageGb": 256,
+        "ramGb": 12,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": null,
+        "colors": [
+          "Pink",
+          "Gold"
+        ],
+        "priceUsd": 720,
+        "stockQuantity": 5
+      },
+      "description": "S26 12+256 5G $720 Pink Gold",
+      "stockQuantity": 5,
+      "priceUsd": 720,
+      "pricesUsd": [
+        720
+      ],
+      "raw": "5 | S26 12+256 5G $720 Pink Gold"
+    },
+    {
+      "id": "samsung-s26-12-256-5g-6",
+      "category": "samsung",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Samsung",
+      "model": "S26",
+      "family": "Galaxy S",
+      "memory": {
+        "ramGb": 12,
+        "storageGb": 256
+      },
+      "chip": null,
+      "colors": [
+        "Silver"
+      ],
+      "configuration": {
+        "storageGb": 256,
+        "ramGb": 12,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Silver",
+        "colors": [
+          "Silver"
+        ],
+        "priceUsd": 720,
+        "stockQuantity": 5
+      },
+      "description": "S26 12+256 5G $720 Silver",
+      "stockQuantity": 5,
+      "priceUsd": 720,
+      "pricesUsd": [
+        720
+      ],
+      "raw": "5 | S26 12+256 5G $720 Silver"
     },
     {
       "id": "samsung-s26-12-512gb-5g",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S26",
       "family": "Galaxy S",
@@ -6633,21 +8174,22 @@ window.STOCK_DB = {
         "colors": [
           "White"
         ],
-        "priceUsd": 850,
-        "stockQuantity": 6
+        "priceUsd": 835,
+        "stockQuantity": 5
       },
-      "description": "S26 12+512GB 5G $850 White",
-      "stockQuantity": 6,
-      "priceUsd": 850,
+      "description": "S26 12+512GB 5G $835 White",
+      "stockQuantity": 5,
+      "priceUsd": 835,
       "pricesUsd": [
-        850
+        835
       ],
-      "raw": "6 | S26 12+512GB 5G $850 White"
+      "raw": "5 | S26 12+512GB 5G $835 White"
     },
     {
       "id": "samsung-s26-12-512gb-5g-2",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S26",
       "family": "Galaxy S",
@@ -6670,21 +8212,22 @@ window.STOCK_DB = {
         "colors": [
           "Black"
         ],
-        "priceUsd": 850,
-        "stockQuantity": 4
+        "priceUsd": 835,
+        "stockQuantity": 5
       },
-      "description": "S26 12+512GB 5G $850 Black",
-      "stockQuantity": 4,
-      "priceUsd": 850,
+      "description": "S26 12+512GB 5G $835 Black",
+      "stockQuantity": 5,
+      "priceUsd": 835,
       "pricesUsd": [
-        850
+        835
       ],
-      "raw": "4 | S26 12+512GB 5G $850 Black"
+      "raw": "5 | S26 12+512GB 5G $835 Black"
     },
     {
       "id": "samsung-s26-12-512gb-5g-3",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S26",
       "family": "Galaxy S",
@@ -6707,21 +8250,22 @@ window.STOCK_DB = {
         "colors": [
           "Purple"
         ],
-        "priceUsd": 850,
-        "stockQuantity": 2
+        "priceUsd": 835,
+        "stockQuantity": 5
       },
-      "description": "S26 12+512GB 5G $850 Violet",
-      "stockQuantity": 2,
-      "priceUsd": 850,
+      "description": "S26 12+512GB 5G $835 Violet",
+      "stockQuantity": 5,
+      "priceUsd": 835,
       "pricesUsd": [
-        850
+        835
       ],
-      "raw": "2 | S26 12+512GB 5G $850 Violet"
+      "raw": "5 | S26 12+512GB 5G $835 Violet"
     },
     {
       "id": "samsung-s26-12-512gb-5g-4",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S26",
       "family": "Galaxy S",
@@ -6745,20 +8289,21 @@ window.STOCK_DB = {
           "Sky Blue"
         ],
         "priceUsd": 850,
-        "stockQuantity": 3
+        "stockQuantity": 0
       },
       "description": "S26 12+512GB 5G $850 Sky Blue",
-      "stockQuantity": 3,
+      "stockQuantity": 0,
       "priceUsd": 850,
       "pricesUsd": [
         850
       ],
-      "raw": "3 | S26 12+512GB 5G $850 Sky Blue"
+      "raw": "0 | S26 12+512GB 5G $850 Sky Blue"
     },
     {
       "id": "samsung-s26-plus-12-256gb-5g",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S26 PLUS",
       "family": "Galaxy S",
@@ -6781,21 +8326,22 @@ window.STOCK_DB = {
         "colors": [
           "White"
         ],
-        "priceUsd": 890,
+        "priceUsd": 880,
         "stockQuantity": 5
       },
-      "description": "S26 PLUS 12+256GB 5G USD890 White",
+      "description": "S26 PLUS 12+256GB 5G $880 White",
       "stockQuantity": 5,
-      "priceUsd": 890,
+      "priceUsd": 880,
       "pricesUsd": [
-        890
+        880
       ],
-      "raw": "5 | S26 PLUS 12+256GB 5G USD890 White"
+      "raw": "5 | S26 PLUS 12+256GB 5G $880 White"
     },
     {
       "id": "samsung-s26-plus-12-256gb-5g-2",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S26 PLUS",
       "family": "Galaxy S",
@@ -6818,21 +8364,60 @@ window.STOCK_DB = {
         "colors": [
           "Purple"
         ],
-        "priceUsd": 890,
-        "stockQuantity": 2
+        "priceUsd": 880,
+        "stockQuantity": 5
       },
-      "description": "S26 PLUS 12+256GB 5G USD890 Violet",
-      "stockQuantity": 2,
-      "priceUsd": 890,
+      "description": "S26 PLUS 12+256GB 5G $880 Violet",
+      "stockQuantity": 5,
+      "priceUsd": 880,
       "pricesUsd": [
-        890
+        880
       ],
-      "raw": "2 | S26 PLUS 12+256GB 5G USD890 Violet"
+      "raw": "5 | S26 PLUS 12+256GB 5G $880 Violet"
+    },
+    {
+      "id": "samsung-s26-plus-12-256gb-5g-3",
+      "category": "samsung",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Samsung",
+      "model": "S26 PLUS",
+      "family": "Galaxy S",
+      "memory": {
+        "ramGb": 12,
+        "storageGb": 256
+      },
+      "chip": null,
+      "colors": [
+        "Blue"
+      ],
+      "configuration": {
+        "storageGb": 256,
+        "ramGb": 12,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Blue",
+        "colors": [
+          "Blue"
+        ],
+        "priceUsd": 880,
+        "stockQuantity": 5
+      },
+      "description": "S26 PLUS 12+256GB 5G / $880 Blue",
+      "stockQuantity": 5,
+      "priceUsd": 880,
+      "pricesUsd": [
+        880
+      ],
+      "raw": "5 | S26 PLUS 12+256GB 5G / $880 Blue"
     },
     {
       "id": "samsung-s26-plus-12-512gb-5g",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S26 PLUS",
       "family": "Galaxy S",
@@ -6855,21 +8440,22 @@ window.STOCK_DB = {
         "colors": [
           "White"
         ],
-        "priceUsd": 1005,
-        "stockQuantity": 4
+        "priceUsd": 1000,
+        "stockQuantity": 5
       },
-      "description": "S26 PLUS 12+512GB 5G USD1005 White",
-      "stockQuantity": 4,
-      "priceUsd": 1005,
+      "description": "S26 PLUS 12+512GB 5G $1000 White",
+      "stockQuantity": 5,
+      "priceUsd": 1000,
       "pricesUsd": [
-        1005
+        1000
       ],
-      "raw": "4 | S26 PLUS 12+512GB 5G USD1005 White"
+      "raw": "5 | S26 PLUS 12+512GB 5G $1000 White"
     },
     {
       "id": "samsung-s26-plus-12-512gb-5g-2",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S26 PLUS",
       "family": "Galaxy S",
@@ -6893,20 +8479,21 @@ window.STOCK_DB = {
           "Sky Blue"
         ],
         "priceUsd": 1005,
-        "stockQuantity": 3
+        "stockQuantity": 0
       },
       "description": "S26 PLUS 12+512GB 5G USD1005 Sky Blue",
-      "stockQuantity": 3,
+      "stockQuantity": 0,
       "priceUsd": 1005,
       "pricesUsd": [
         1005
       ],
-      "raw": "3 | S26 PLUS 12+512GB 5G USD1005 Sky Blue"
+      "raw": "0 | S26 PLUS 12+512GB 5G USD1005 Sky Blue"
     },
     {
       "id": "samsung-s26-ultra-12-256gb",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S26 ULTRA",
       "family": "Galaxy S",
@@ -6929,21 +8516,22 @@ window.STOCK_DB = {
         "colors": [
           "Black"
         ],
-        "priceUsd": 965,
+        "priceUsd": 940,
         "stockQuantity": 5
       },
-      "description": "S26 ULTRA 12+256GB $965 Black",
+      "description": "S26 ULTRA 12+256GB $940 Black",
       "stockQuantity": 5,
-      "priceUsd": 965,
+      "priceUsd": 940,
       "pricesUsd": [
-        965
+        940
       ],
-      "raw": "5 | S26 ULTRA 12+256GB $965 Black"
+      "raw": "5 | S26 ULTRA 12+256GB $940 Black"
     },
     {
       "id": "samsung-s26-ultra-12-256gb-2",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S26 ULTRA",
       "family": "Galaxy S",
@@ -6967,20 +8555,21 @@ window.STOCK_DB = {
           "Blue"
         ],
         "priceUsd": 965,
-        "stockQuantity": 3
+        "stockQuantity": 0
       },
       "description": "S26 ULTRA 12+256GB $965 Blue",
-      "stockQuantity": 3,
+      "stockQuantity": 0,
       "priceUsd": 965,
       "pricesUsd": [
         965
       ],
-      "raw": "3 | S26 ULTRA 12+256GB $965 Blue"
+      "raw": "0 | S26 ULTRA 12+256GB $965 Blue"
     },
     {
       "id": "samsung-s26-ultra-12-256gb-3",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S26 ULTRA",
       "family": "Galaxy S",
@@ -7003,21 +8592,22 @@ window.STOCK_DB = {
         "colors": [
           "Purple"
         ],
-        "priceUsd": 965,
-        "stockQuantity": 2
+        "priceUsd": 940,
+        "stockQuantity": 5
       },
-      "description": "S26 ULTRA 12+256GB $965 Violet",
-      "stockQuantity": 2,
-      "priceUsd": 965,
+      "description": "S26 ULTRA 12+256GB $940 Violet",
+      "stockQuantity": 5,
+      "priceUsd": 940,
       "pricesUsd": [
-        965
+        940
       ],
-      "raw": "2 | S26 ULTRA 12+256GB $965 Violet"
+      "raw": "5 | S26 ULTRA 12+256GB $940 Violet"
     },
     {
       "id": "samsung-s26-ultra-12-256gb-4",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S26 ULTRA",
       "family": "Galaxy S",
@@ -7040,21 +8630,22 @@ window.STOCK_DB = {
         "colors": [
           "White"
         ],
-        "priceUsd": 950,
-        "stockQuantity": 4
+        "priceUsd": 940,
+        "stockQuantity": 5
       },
-      "description": "S26 ULTRA 12+256GB $950 White",
-      "stockQuantity": 4,
-      "priceUsd": 950,
+      "description": "S26 ULTRA 12+256GB $940 White",
+      "stockQuantity": 5,
+      "priceUsd": 940,
       "pricesUsd": [
-        950
+        940
       ],
-      "raw": "4 | S26 ULTRA 12+256GB $950 White"
+      "raw": "5 | S26 ULTRA 12+256GB $940 White"
     },
     {
       "id": "samsung-s26-ultra-12-512gb",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S26 ULTRA",
       "family": "Galaxy S",
@@ -7077,21 +8668,22 @@ window.STOCK_DB = {
         "colors": [
           "Black"
         ],
-        "priceUsd": 1115,
-        "stockQuantity": 6
+        "priceUsd": 1110,
+        "stockQuantity": 5
       },
-      "description": "S26 ULTRA 12+512GB $1.115 Black",
-      "stockQuantity": 6,
-      "priceUsd": 1115,
+      "description": "S26 ULTRA 12+512GB $1110 Black",
+      "stockQuantity": 5,
+      "priceUsd": 1110,
       "pricesUsd": [
-        1115
+        1110
       ],
-      "raw": "6 | S26 ULTRA 12+512GB $1.115 Black"
+      "raw": "5 | S26 ULTRA 12+512GB $1110 Black"
     },
     {
       "id": "samsung-s26-ultra-12-512gb-2",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S26 ULTRA",
       "family": "Galaxy S",
@@ -7114,21 +8706,22 @@ window.STOCK_DB = {
         "colors": [
           "Blue"
         ],
-        "priceUsd": 1115,
-        "stockQuantity": 4
+        "priceUsd": 1110,
+        "stockQuantity": 5
       },
-      "description": "S26 ULTRA 12+512GB $1.115 Blue",
-      "stockQuantity": 4,
-      "priceUsd": 1115,
+      "description": "S26 ULTRA 12+512GB $1110 Blue",
+      "stockQuantity": 5,
+      "priceUsd": 1110,
       "pricesUsd": [
-        1115
+        1110
       ],
-      "raw": "4 | S26 ULTRA 12+512GB $1.115 Blue"
+      "raw": "5 | S26 ULTRA 12+512GB $1110 Blue"
     },
     {
       "id": "samsung-s26-ultra-12-512gb-3",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S26 ULTRA",
       "family": "Galaxy S",
@@ -7151,21 +8744,22 @@ window.STOCK_DB = {
         "colors": [
           "White"
         ],
-        "priceUsd": 1120,
-        "stockQuantity": 2
+        "priceUsd": 1110,
+        "stockQuantity": 5
       },
-      "description": "S26 ULTRA 12+512GB $1.120 White",
-      "stockQuantity": 2,
-      "priceUsd": 1120,
+      "description": "S26 ULTRA 12+512GB $1110 White",
+      "stockQuantity": 5,
+      "priceUsd": 1110,
       "pricesUsd": [
-        1120
+        1110
       ],
-      "raw": "2 | S26 ULTRA 12+512GB $1.120 White"
+      "raw": "5 | S26 ULTRA 12+512GB $1110 White"
     },
     {
       "id": "samsung-s26-ultra-12-512gb-4",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S26 ULTRA",
       "family": "Galaxy S",
@@ -7188,21 +8782,22 @@ window.STOCK_DB = {
         "colors": [
           "Purple"
         ],
-        "priceUsd": 1120,
-        "stockQuantity": 3
+        "priceUsd": 1110,
+        "stockQuantity": 5
       },
-      "description": "S26 ULTRA 12+512GB $1.120 Violet",
-      "stockQuantity": 3,
-      "priceUsd": 1120,
+      "description": "S26 ULTRA 12+512GB $1110 Violet",
+      "stockQuantity": 5,
+      "priceUsd": 1110,
       "pricesUsd": [
-        1120
+        1110
       ],
-      "raw": "3 | S26 ULTRA 12+512GB $1.120 Violet"
+      "raw": "5 | S26 ULTRA 12+512GB $1110 Violet"
     },
     {
       "id": "samsung-s26-ultra-1tb-5g",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S26 ULTRA",
       "family": "Galaxy S",
@@ -7225,21 +8820,22 @@ window.STOCK_DB = {
         "colors": [
           "Blue"
         ],
-        "priceUsd": 1355,
+        "priceUsd": 1350,
         "stockQuantity": 5
       },
-      "description": "S26 ULTRA 1TB 5G $1355 Blue",
+      "description": "S26 ULTRA 1TB 5G $1350 Blue",
       "stockQuantity": 5,
-      "priceUsd": 1355,
+      "priceUsd": 1350,
       "pricesUsd": [
-        1355
+        1350
       ],
-      "raw": "5 | S26 ULTRA 1TB 5G $1355 Blue"
+      "raw": "5 | S26 ULTRA 1TB 5G $1350 Blue"
     },
     {
       "id": "samsung-s26-ultra-1tb-5g-2",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S26 ULTRA",
       "family": "Galaxy S",
@@ -7262,21 +8858,22 @@ window.STOCK_DB = {
         "colors": [
           "White"
         ],
-        "priceUsd": 1355,
-        "stockQuantity": 2
+        "priceUsd": 1350,
+        "stockQuantity": 5
       },
-      "description": "S26 ULTRA 1TB 5G $1355 White",
-      "stockQuantity": 2,
-      "priceUsd": 1355,
+      "description": "S26 ULTRA 1TB 5G $1350 White",
+      "stockQuantity": 5,
+      "priceUsd": 1350,
       "pricesUsd": [
-        1355
+        1350
       ],
-      "raw": "2 | S26 ULTRA 1TB 5G $1355 White"
+      "raw": "5 | S26 ULTRA 1TB 5G $1350 White"
     },
     {
       "id": "samsung-s26-ultra-1tb-5g-3",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "S26 ULTRA",
       "family": "Galaxy S",
@@ -7299,21 +8896,60 @@ window.STOCK_DB = {
         "colors": [
           "Purple"
         ],
-        "priceUsd": 1360,
-        "stockQuantity": 4
+        "priceUsd": 1350,
+        "stockQuantity": 5
       },
-      "description": "S26 ULTRA 1TB 5G $1360 Violet",
-      "stockQuantity": 4,
-      "priceUsd": 1360,
+      "description": "S26 ULTRA 1TB 5G $1350 Violet",
+      "stockQuantity": 5,
+      "priceUsd": 1350,
       "pricesUsd": [
-        1360
+        1350
       ],
-      "raw": "4 | S26 ULTRA 1TB 5G $1360 Violet"
+      "raw": "5 | S26 ULTRA 1TB 5G $1350 Violet"
+    },
+    {
+      "id": "samsung-s26-ultra-1tb-5g-4",
+      "category": "samsung",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Samsung",
+      "model": "S26 ULTRA",
+      "family": "Galaxy S",
+      "memory": {
+        "ramGb": null,
+        "storageGb": 1024
+      },
+      "chip": null,
+      "colors": [
+        "Black"
+      ],
+      "configuration": {
+        "storageGb": 1024,
+        "ramGb": null,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Black",
+        "colors": [
+          "Black"
+        ],
+        "priceUsd": 1350,
+        "stockQuantity": 5
+      },
+      "description": "S26 ULTRA 1TB 5G $1350 Black",
+      "stockQuantity": 5,
+      "priceUsd": 1350,
+      "pricesUsd": [
+        1350
+      ],
+      "raw": "5 | S26 ULTRA 1TB 5G $1350 Black"
     },
     {
       "id": "samsung-z-flip-8-12-512gb",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "Z FLIP 8",
       "family": "Galaxy Z",
@@ -7337,20 +8973,21 @@ window.STOCK_DB = {
           "Graphite"
         ],
         "priceUsd": 1250,
-        "stockQuantity": 2
+        "stockQuantity": 0
       },
       "description": "Z FLIP 8 12/512GB $1250 Graphite",
-      "stockQuantity": 2,
+      "stockQuantity": 0,
       "priceUsd": 1250,
       "pricesUsd": [
         1250
       ],
-      "raw": "2 | Z FLIP 8 12/512GB $1250 Graphite"
+      "raw": "0 | Z FLIP 8 12/512GB $1250 Graphite"
     },
     {
       "id": "samsung-z-fold-8-12-256gb-5g",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "Z FOLD 8",
       "family": "Galaxy Z",
@@ -7374,20 +9011,21 @@ window.STOCK_DB = {
           "Lavender"
         ],
         "priceUsd": 1570,
-        "stockQuantity": 3
+        "stockQuantity": 0
       },
       "description": "Z FOLD 8 12/256GB 5G $1570 Lavender",
-      "stockQuantity": 3,
+      "stockQuantity": 0,
       "priceUsd": 1570,
       "pricesUsd": [
         1570
       ],
-      "raw": "3 | Z FOLD 8 12/256GB 5G $1570 Lavender"
+      "raw": "0 | Z FOLD 8 12/256GB 5G $1570 Lavender"
     },
     {
       "id": "samsung-z-fold-8-ultra-12-256gb",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "Z FOLD 8 ULTRA",
       "family": "Galaxy Z",
@@ -7425,6 +9063,7 @@ window.STOCK_DB = {
       "id": "samsung-z-fold-8-ultra-12-256gb-2",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "Z FOLD 8 ULTRA",
       "family": "Galaxy Z",
@@ -7448,20 +9087,21 @@ window.STOCK_DB = {
           "Cream"
         ],
         "priceUsd": 1830,
-        "stockQuantity": 2
+        "stockQuantity": 5
       },
       "description": "Z FOLD 8 ULTRA 12/256GB $1830 Cream",
-      "stockQuantity": 2,
+      "stockQuantity": 5,
       "priceUsd": 1830,
       "pricesUsd": [
         1830
       ],
-      "raw": "2 | Z FOLD 8 ULTRA 12/256GB $1830 Cream"
+      "raw": "5 | Z FOLD 8 ULTRA 12/256GB $1830 Cream"
     },
     {
       "id": "samsung-z-fold-8-ultra-12-512gb",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "Z FOLD 8 ULTRA",
       "family": "Galaxy Z",
@@ -7485,20 +9125,21 @@ window.STOCK_DB = {
           "Graphite"
         ],
         "priceUsd": 2000,
-        "stockQuantity": 4
+        "stockQuantity": 5
       },
       "description": "Z FOLD 8 ULTRA 12/512GB $2000 Graphite",
-      "stockQuantity": 4,
+      "stockQuantity": 5,
       "priceUsd": 2000,
       "pricesUsd": [
         2000
       ],
-      "raw": "4 | Z FOLD 8 ULTRA 12/512GB $2000 Graphite"
+      "raw": "5 | Z FOLD 8 ULTRA 12/512GB $2000 Graphite"
     },
     {
       "id": "samsung-z-fold-8-ultra-12-512gb-2",
       "category": "samsung",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Samsung",
       "model": "Z FOLD 8 ULTRA",
       "family": "Galaxy Z",
@@ -7522,20 +9163,211 @@ window.STOCK_DB = {
           "Cream"
         ],
         "priceUsd": 2000,
-        "stockQuantity": 3
+        "stockQuantity": 5
       },
       "description": "Z FOLD 8 ULTRA 12/512GB $2000 Cream",
-      "stockQuantity": 3,
+      "stockQuantity": 5,
       "priceUsd": 2000,
       "pricesUsd": [
         2000
       ],
-      "raw": "3 | Z FOLD 8 ULTRA 12/512GB $2000 Cream"
+      "raw": "5 | Z FOLD 8 ULTRA 12/512GB $2000 Cream"
+    },
+    {
+      "id": "samsung-zflip-8-12-256gb-5g",
+      "category": "samsung",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Samsung",
+      "model": "ZFLIP 8",
+      "family": "ZFLIP 8",
+      "memory": {
+        "ramGb": 12,
+        "storageGb": 256
+      },
+      "chip": null,
+      "colors": [
+        "Graphite"
+      ],
+      "configuration": {
+        "storageGb": 256,
+        "ramGb": 12,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Graphite",
+        "colors": [
+          "Graphite"
+        ],
+        "priceUsd": 1100,
+        "stockQuantity": 5
+      },
+      "description": "ZFLIP 8 12/256GB 5G $1100 Graphite",
+      "stockQuantity": 5,
+      "priceUsd": 1100,
+      "pricesUsd": [
+        1100
+      ],
+      "raw": "5 | ZFLIP 8 12/256GB 5G $1100 Graphite"
+    },
+    {
+      "id": "samsung-zflip-8-12-256gb-5g-2",
+      "category": "samsung",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Samsung",
+      "model": "ZFLIP 8",
+      "family": "ZFLIP 8",
+      "memory": {
+        "ramGb": 12,
+        "storageGb": 256
+      },
+      "chip": null,
+      "colors": [
+        "Cream"
+      ],
+      "configuration": {
+        "storageGb": 256,
+        "ramGb": 12,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Cream",
+        "colors": [
+          "Cream"
+        ],
+        "priceUsd": 1100,
+        "stockQuantity": 5
+      },
+      "description": "ZFLIP 8 12/256GB 5G $1100 Cream",
+      "stockQuantity": 5,
+      "priceUsd": 1100,
+      "pricesUsd": [
+        1100
+      ],
+      "raw": "5 | ZFLIP 8 12/256GB 5G $1100 Cream"
+    },
+    {
+      "id": "samsung-zflip-8-12-512gb-5g",
+      "category": "samsung",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Samsung",
+      "model": "ZFLIP 8",
+      "family": "ZFLIP 8",
+      "memory": {
+        "ramGb": 12,
+        "storageGb": 512
+      },
+      "chip": null,
+      "colors": [
+        "Pink"
+      ],
+      "configuration": {
+        "storageGb": 512,
+        "ramGb": 12,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Pink",
+        "colors": [
+          "Pink"
+        ],
+        "priceUsd": 1250,
+        "stockQuantity": 5
+      },
+      "description": "ZFLIP 8 12/512GB 5G $1250 Pink",
+      "stockQuantity": 5,
+      "priceUsd": 1250,
+      "pricesUsd": [
+        1250
+      ],
+      "raw": "5 | ZFLIP 8 12/512GB 5G $1250 Pink"
+    },
+    {
+      "id": "samsung-zfold-8-12-512gb-5g",
+      "category": "samsung",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Samsung",
+      "model": "ZFOLD 8",
+      "family": "ZFOLD 8",
+      "memory": {
+        "ramGb": 12,
+        "storageGb": 512
+      },
+      "chip": null,
+      "colors": [
+        "Graphite"
+      ],
+      "configuration": {
+        "storageGb": 512,
+        "ramGb": 12,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Graphite",
+        "colors": [
+          "Graphite"
+        ],
+        "priceUsd": 1730,
+        "stockQuantity": 5
+      },
+      "description": "ZFOLD 8 12/512GB 5G $1730 Graphite",
+      "stockQuantity": 5,
+      "priceUsd": 1730,
+      "pricesUsd": [
+        1730
+      ],
+      "raw": "5 | ZFOLD 8 12/512GB 5G $1730 Graphite"
+    },
+    {
+      "id": "samsung-zfold-8-12-512gb-5g-2",
+      "category": "samsung",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Samsung",
+      "model": "ZFOLD 8",
+      "family": "ZFOLD 8",
+      "memory": {
+        "ramGb": 12,
+        "storageGb": 512
+      },
+      "chip": null,
+      "colors": [
+        "Cream"
+      ],
+      "configuration": {
+        "storageGb": 512,
+        "ramGb": 12,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Cream",
+        "colors": [
+          "Cream"
+        ],
+        "priceUsd": 1730,
+        "stockQuantity": 5
+      },
+      "description": "ZFOLD 8 12/512GB 5G $1730 Cream",
+      "stockQuantity": 5,
+      "priceUsd": 1730,
+      "pricesUsd": [
+        1730
+      ],
+      "raw": "5 | ZFOLD 8 12/512GB 5G $1730 Cream"
     },
     {
       "id": "xiaomi-17-12-512-5g",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "17",
       "family": "Xiaomi",
@@ -7573,6 +9405,7 @@ window.STOCK_DB = {
       "id": "xiaomi-17-ultra-12-512-5g",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "17 Ultra",
       "family": "Xiaomi",
@@ -7596,20 +9429,21 @@ window.STOCK_DB = {
           "White"
         ],
         "priceUsd": 1270,
-        "stockQuantity": 3
+        "stockQuantity": 5
       },
       "description": "17 Ultra 12+512 5G $1270 White - Sin FILM",
-      "stockQuantity": 3,
+      "stockQuantity": 5,
       "priceUsd": 1270,
       "pricesUsd": [
         1270
       ],
-      "raw": "3 | 17 Ultra 12+512 5G $1270 White - Sin FILM"
+      "raw": "5 | 17 Ultra 12+512 5G $1270 White - Sin FILM"
     },
     {
       "id": "xiaomi-17-ultra-12-512-5g-2",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "17 Ultra",
       "family": "Xiaomi",
@@ -7633,20 +9467,21 @@ window.STOCK_DB = {
           "Black"
         ],
         "priceUsd": 1310,
-        "stockQuantity": 4
+        "stockQuantity": 5
       },
       "description": "17 Ultra 12+512 5G $1310 Black",
-      "stockQuantity": 4,
+      "stockQuantity": 5,
       "priceUsd": 1310,
       "pricesUsd": [
         1310
       ],
-      "raw": "4 | 17 Ultra 12+512 5G $1310 Black"
+      "raw": "5 | 17 Ultra 12+512 5G $1310 Black"
     },
     {
       "id": "xiaomi-17-ultra-12-512-5g-3",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "17 Ultra",
       "family": "Xiaomi",
@@ -7670,20 +9505,21 @@ window.STOCK_DB = {
           "Green"
         ],
         "priceUsd": 1310,
-        "stockQuantity": 2
+        "stockQuantity": 5
       },
       "description": "17 Ultra 12+512 5G $1310 Green",
-      "stockQuantity": 2,
+      "stockQuantity": 5,
       "priceUsd": 1310,
       "pricesUsd": [
         1310
       ],
-      "raw": "2 | 17 Ultra 12+512 5G $1310 Green"
+      "raw": "5 | 17 Ultra 12+512 5G $1310 Green"
     },
     {
       "id": "xiaomi-note-14-pro-plus-8-256gb-5g",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "NOTE 14 PRO PLUS",
       "family": "Redmi",
@@ -7707,20 +9543,21 @@ window.STOCK_DB = {
           "Purple"
         ],
         "priceUsd": 290,
-        "stockQuantity": 4
+        "stockQuantity": 5
       },
       "description": "NOTE 14 PRO PLUS 8+256GB 5G $290 Purple",
-      "stockQuantity": 4,
+      "stockQuantity": 5,
       "priceUsd": 290,
       "pricesUsd": [
         290
       ],
-      "raw": "4 | NOTE 14 PRO PLUS 8+256GB 5G $290 Purple"
+      "raw": "5 | NOTE 14 PRO PLUS 8+256GB 5G $290 Purple"
     },
     {
       "id": "xiaomi-note-14-pro-plus-8-256gb-5g-2",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "NOTE 14 PRO PLUS",
       "family": "Redmi",
@@ -7744,20 +9581,21 @@ window.STOCK_DB = {
           "Blue"
         ],
         "priceUsd": 290,
-        "stockQuantity": 2
+        "stockQuantity": 5
       },
       "description": "NOTE 14 PRO PLUS 8+256GB 5G $290 Blue",
-      "stockQuantity": 2,
+      "stockQuantity": 5,
       "priceUsd": 290,
       "pricesUsd": [
         290
       ],
-      "raw": "2 | NOTE 14 PRO PLUS 8+256GB 5G $290 Blue"
+      "raw": "5 | NOTE 14 PRO PLUS 8+256GB 5G $290 Blue"
     },
     {
       "id": "xiaomi-note-14-pro-plus-8-256gb-5g-3",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "NOTE 14 PRO PLUS",
       "family": "Redmi",
@@ -7795,6 +9633,7 @@ window.STOCK_DB = {
       "id": "xiaomi-note-15-8-256gb",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "NOTE 15",
       "family": "Redmi",
@@ -7817,21 +9656,22 @@ window.STOCK_DB = {
         "colors": [
           "Blue"
         ],
-        "priceUsd": 235,
-        "stockQuantity": 3
+        "priceUsd": 225,
+        "stockQuantity": 5
       },
-      "description": "NOTE 15 8+256GB $235 Blue",
-      "stockQuantity": 3,
-      "priceUsd": 235,
+      "description": "NOTE 15 8+256GB $225 Blue",
+      "stockQuantity": 5,
+      "priceUsd": 225,
       "pricesUsd": [
-        235
+        225
       ],
-      "raw": "3 | NOTE 15 8+256GB $235 Blue"
+      "raw": "5 | NOTE 15 8+256GB $225 Blue"
     },
     {
       "id": "xiaomi-note-15-8-256gb-2",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "NOTE 15",
       "family": "Redmi",
@@ -7854,21 +9694,22 @@ window.STOCK_DB = {
         "colors": [
           "Purple"
         ],
-        "priceUsd": 235,
-        "stockQuantity": 4
+        "priceUsd": 225,
+        "stockQuantity": 5
       },
-      "description": "NOTE 15 8+256GB $235 Purple",
-      "stockQuantity": 4,
-      "priceUsd": 235,
+      "description": "NOTE 15 8+256GB $225 Purple",
+      "stockQuantity": 5,
+      "priceUsd": 225,
       "pricesUsd": [
-        235
+        225
       ],
-      "raw": "4 | NOTE 15 8+256GB $235 Purple"
+      "raw": "5 | NOTE 15 8+256GB $225 Purple"
     },
     {
       "id": "xiaomi-note-15-8-256gb-5g",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "NOTE 15",
       "family": "Redmi",
@@ -7891,21 +9732,22 @@ window.STOCK_DB = {
         "colors": [
           "Blue"
         ],
-        "priceUsd": 275,
+        "priceUsd": 290,
         "stockQuantity": 5
       },
-      "description": "NOTE 15 8+256GB 5G $275 Blue",
+      "description": "NOTE 15 8+256GB 5G $290 Blue",
       "stockQuantity": 5,
-      "priceUsd": 275,
+      "priceUsd": 290,
       "pricesUsd": [
-        275
+        290
       ],
-      "raw": "5 | NOTE 15 8+256GB 5G $275 Blue"
+      "raw": "5 | NOTE 15 8+256GB 5G $290 Blue"
     },
     {
       "id": "xiaomi-note-15-8-256gb-5g-2",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "NOTE 15",
       "family": "Redmi",
@@ -7928,21 +9770,60 @@ window.STOCK_DB = {
         "colors": [
           "Black"
         ],
-        "priceUsd": 275,
-        "stockQuantity": 2
+        "priceUsd": 290,
+        "stockQuantity": 5
       },
-      "description": "NOTE 15 8+256GB 5G $275 Black",
-      "stockQuantity": 2,
-      "priceUsd": 275,
+      "description": "NOTE 15 8+256GB 5G $290 Black",
+      "stockQuantity": 5,
+      "priceUsd": 290,
       "pricesUsd": [
-        275
+        290
       ],
-      "raw": "2 | NOTE 15 8+256GB 5G $275 Black"
+      "raw": "5 | NOTE 15 8+256GB 5G $290 Black"
+    },
+    {
+      "id": "xiaomi-note-15-8gb-256gb",
+      "category": "xiaomi",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Xiaomi",
+      "model": "NOTE 15",
+      "family": "Redmi",
+      "memory": {
+        "ramGb": 8,
+        "storageGb": 256
+      },
+      "chip": null,
+      "colors": [
+        "Black"
+      ],
+      "configuration": {
+        "storageGb": 256,
+        "ramGb": 8,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Black",
+        "colors": [
+          "Black"
+        ],
+        "priceUsd": 225,
+        "stockQuantity": 5
+      },
+      "description": "NOTE 15 8GB 256GB $225 Black",
+      "stockQuantity": 5,
+      "priceUsd": 225,
+      "pricesUsd": [
+        225
+      ],
+      "raw": "5 | NOTE 15 8GB 256GB $225 Black"
     },
     {
       "id": "xiaomi-note-15-pro-8gb-256gb",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "NOTE 15 PRO",
       "family": "Redmi",
@@ -7966,20 +9847,21 @@ window.STOCK_DB = {
           "Black"
         ],
         "priceUsd": 295,
-        "stockQuantity": 4
+        "stockQuantity": 0
       },
       "description": "NOTE 15 PRO 8GB+256GB $295 Black",
-      "stockQuantity": 4,
+      "stockQuantity": 0,
       "priceUsd": 295,
       "pricesUsd": [
         295
       ],
-      "raw": "4 | NOTE 15 PRO 8GB+256GB $295 Black"
+      "raw": "0 | NOTE 15 PRO 8GB+256GB $295 Black"
     },
     {
       "id": "xiaomi-note-15-pro-8gb-256gb-2",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "NOTE 15 PRO",
       "family": "Redmi",
@@ -7999,20 +9881,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 295,
-        "stockQuantity": 3
+        "stockQuantity": 0
       },
       "description": "NOTE 15 PRO 8GB+256GB $295 Titanium",
-      "stockQuantity": 3,
+      "stockQuantity": 0,
       "priceUsd": 295,
       "pricesUsd": [
         295
       ],
-      "raw": "3 | NOTE 15 PRO 8GB+256GB $295 Titanium"
+      "raw": "0 | NOTE 15 PRO 8GB+256GB $295 Titanium"
     },
     {
       "id": "xiaomi-note-15-pro-8gb-256gb-3",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "NOTE 15 PRO",
       "family": "Redmi",
@@ -8035,21 +9918,22 @@ window.STOCK_DB = {
         "colors": [
           "Blue"
         ],
-        "priceUsd": 295,
+        "priceUsd": 300,
         "stockQuantity": 5
       },
-      "description": "NOTE 15 PRO 8GB+256GB $295 Blue",
+      "description": "NOTE 15 PRO 8GB+256GB $300 Blue",
       "stockQuantity": 5,
-      "priceUsd": 295,
+      "priceUsd": 300,
       "pricesUsd": [
-        295
+        300
       ],
-      "raw": "5 | NOTE 15 PRO 8GB+256GB $295 Blue"
+      "raw": "5 | NOTE 15 PRO 8GB+256GB $300 Blue"
     },
     {
       "id": "xiaomi-note-15-pro-8-256gb-5g",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "NOTE 15 PRO",
       "family": "Redmi",
@@ -8072,21 +9956,22 @@ window.STOCK_DB = {
         "colors": [
           "Black"
         ],
-        "priceUsd": 335,
-        "stockQuantity": 6
+        "priceUsd": 350,
+        "stockQuantity": 5
       },
-      "description": "NOTE 15 PRO 8+256GB 5G $335 Black",
-      "stockQuantity": 6,
-      "priceUsd": 335,
+      "description": "NOTE 15 PRO 8+256GB 5G $350 Black",
+      "stockQuantity": 5,
+      "priceUsd": 350,
       "pricesUsd": [
-        335
+        350
       ],
-      "raw": "6 | NOTE 15 PRO 8+256GB 5G $335 Black"
+      "raw": "5 | NOTE 15 PRO 8+256GB 5G $350 Black"
     },
     {
       "id": "xiaomi-note-15-pro-8-512gb-5g-s-cargador",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "NOTE 15 PRO",
       "family": "Redmi",
@@ -8110,20 +9995,21 @@ window.STOCK_DB = {
           "Black"
         ],
         "priceUsd": 345,
-        "stockQuantity": 3
+        "stockQuantity": 0
       },
       "description": "NOTE 15 PRO 8+512GB 5G S/CARGADOR $345 Black",
-      "stockQuantity": 3,
+      "stockQuantity": 0,
       "priceUsd": 345,
       "pricesUsd": [
         345
       ],
-      "raw": "3 | NOTE 15 PRO 8+512GB 5G S/CARGADOR $345 Black"
+      "raw": "0 | NOTE 15 PRO 8+512GB 5G S/CARGADOR $345 Black"
     },
     {
       "id": "xiaomi-note-15-pro-plus-12-512gb-5g",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "NOTE 15 PRO PLUS",
       "family": "Redmi",
@@ -8147,20 +10033,21 @@ window.STOCK_DB = {
           "Blue"
         ],
         "priceUsd": 460,
-        "stockQuantity": 4
+        "stockQuantity": 0
       },
       "description": "NOTE 15 PRO PLUS 12+512GB 5G $460 Blue",
-      "stockQuantity": 4,
+      "stockQuantity": 0,
       "priceUsd": 460,
       "pricesUsd": [
         460
       ],
-      "raw": "4 | NOTE 15 PRO PLUS 12+512GB 5G $460 Blue"
+      "raw": "0 | NOTE 15 PRO PLUS 12+512GB 5G $460 Blue"
     },
     {
       "id": "xiaomi-poco-f8-ultra-12-256gb-5g",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "POCO F8 ULTRA",
       "family": "Poco",
@@ -8184,20 +10071,21 @@ window.STOCK_DB = {
           "Black"
         ],
         "priceUsd": 710,
-        "stockQuantity": 4
+        "stockQuantity": 0
       },
       "description": "POCO F8 ULTRA 12+256GB 5G $710 Black",
-      "stockQuantity": 4,
+      "stockQuantity": 0,
       "priceUsd": 710,
       "pricesUsd": [
         710
       ],
-      "raw": "4 | POCO F8 ULTRA 12+256GB 5G $710 Black"
+      "raw": "0 | POCO F8 ULTRA 12+256GB 5G $710 Black"
     },
     {
       "id": "xiaomi-poco-f8-ultra-12-256gb-5g-2",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "POCO F8 ULTRA",
       "family": "Poco",
@@ -8221,20 +10109,21 @@ window.STOCK_DB = {
           "Blue"
         ],
         "priceUsd": 740,
-        "stockQuantity": 2
+        "stockQuantity": 5
       },
       "description": "POCO F8 ULTRA 12+256GB 5G $740 Blue",
-      "stockQuantity": 2,
+      "stockQuantity": 5,
       "priceUsd": 740,
       "pricesUsd": [
         740
       ],
-      "raw": "2 | POCO F8 ULTRA 12+256GB 5G $740 Blue"
+      "raw": "5 | POCO F8 ULTRA 12+256GB 5G $740 Blue"
     },
     {
       "id": "xiaomi-poco-m8-8-512gb-5g",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "POCO M8",
       "family": "Poco",
@@ -8272,6 +10161,7 @@ window.STOCK_DB = {
       "id": "xiaomi-poco-m8-8-512gb-5g-2",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "POCO M8",
       "family": "Poco",
@@ -8295,20 +10185,21 @@ window.STOCK_DB = {
           "Silver"
         ],
         "priceUsd": 275,
-        "stockQuantity": 3
+        "stockQuantity": 0
       },
       "description": "POCO M8 8+512GB 5G $275 Silver",
-      "stockQuantity": 3,
+      "stockQuantity": 0,
       "priceUsd": 275,
       "pricesUsd": [
         275
       ],
-      "raw": "3 | POCO M8 8+512GB 5G $275 Silver"
+      "raw": "0 | POCO M8 8+512GB 5G $275 Silver"
     },
     {
       "id": "xiaomi-poco-m8s-6-128gb-5g",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "POCO M8S",
       "family": "Poco",
@@ -8332,20 +10223,59 @@ window.STOCK_DB = {
           "White"
         ],
         "priceUsd": 230,
-        "stockQuantity": 4
+        "stockQuantity": 5
       },
       "description": "POCO M8S 6+128GB 5G $230 White",
-      "stockQuantity": 4,
+      "stockQuantity": 5,
       "priceUsd": 230,
       "pricesUsd": [
         230
       ],
-      "raw": "4 | POCO M8S 6+128GB 5G $230 White"
+      "raw": "5 | POCO M8S 6+128GB 5G $230 White"
+    },
+    {
+      "id": "xiaomi-poco-m8s-8-256gb-5g",
+      "category": "xiaomi",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Xiaomi",
+      "model": "POCO M8S",
+      "family": "Poco",
+      "memory": {
+        "ramGb": 8,
+        "storageGb": 256
+      },
+      "chip": null,
+      "colors": [
+        "White"
+      ],
+      "configuration": {
+        "storageGb": 256,
+        "ramGb": 8,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "White",
+        "colors": [
+          "White"
+        ],
+        "priceUsd": 250,
+        "stockQuantity": 5
+      },
+      "description": "POCO M8S 8+256GB 5G $250 White",
+      "stockQuantity": 5,
+      "priceUsd": 250,
+      "pricesUsd": [
+        250
+      ],
+      "raw": "5 | POCO M8S 8+256GB 5G $250 White"
     },
     {
       "id": "xiaomi-poco-x7-pro-12-512gb-5g",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "POCO X7 PRO",
       "family": "Poco",
@@ -8369,20 +10299,21 @@ window.STOCK_DB = {
           "Black"
         ],
         "priceUsd": 395,
-        "stockQuantity": 6
+        "stockQuantity": 0
       },
       "description": "POCO X7 PRO 12+512GB 5G $395 Black",
-      "stockQuantity": 6,
+      "stockQuantity": 0,
       "priceUsd": 395,
       "pricesUsd": [
         395
       ],
-      "raw": "6 | POCO X7 PRO 12+512GB 5G $395 Black"
+      "raw": "0 | POCO X7 PRO 12+512GB 5G $395 Black"
     },
     {
       "id": "xiaomi-poco-x8-pro-8-256gb-5g",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "POCO X8 PRO",
       "family": "Poco",
@@ -8405,21 +10336,22 @@ window.STOCK_DB = {
         "colors": [
           "Green"
         ],
-        "priceUsd": 390,
-        "stockQuantity": 4
+        "priceUsd": 410,
+        "stockQuantity": 5
       },
-      "description": "POCO X8 PRO 8+256GB 5G $390 Green",
-      "stockQuantity": 4,
-      "priceUsd": 390,
+      "description": "POCO X8 PRO 8+256GB 5G $410 Green",
+      "stockQuantity": 5,
+      "priceUsd": 410,
       "pricesUsd": [
-        390
+        410
       ],
-      "raw": "4 | POCO X8 PRO 8+256GB 5G $390 Green"
+      "raw": "5 | POCO X8 PRO 8+256GB 5G $410 Green"
     },
     {
       "id": "xiaomi-poco-x8-pro-12-512gb",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "POCO X8 PRO",
       "family": "Poco",
@@ -8442,21 +10374,22 @@ window.STOCK_DB = {
         "colors": [
           "Black"
         ],
-        "priceUsd": 455,
-        "stockQuantity": 3
+        "priceUsd": 470,
+        "stockQuantity": 5
       },
-      "description": "POCO X8 PRO 12+512GB $455 Black",
-      "stockQuantity": 3,
-      "priceUsd": 455,
+      "description": "POCO X8 PRO 12+512GB $470 Black",
+      "stockQuantity": 5,
+      "priceUsd": 470,
       "pricesUsd": [
-        455
+        470
       ],
-      "raw": "3 | POCO X8 PRO 12+512GB $455 Black"
+      "raw": "5 | POCO X8 PRO 12+512GB $470 Black"
     },
     {
       "id": "xiaomi-poco-x8-pro-12-512gb-2",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "POCO X8 PRO",
       "family": "Poco",
@@ -8479,21 +10412,22 @@ window.STOCK_DB = {
         "colors": [
           "Yellow"
         ],
-        "priceUsd": 455,
+        "priceUsd": 470,
         "stockQuantity": 5
       },
-      "description": "POCO X8 PRO 12+512GB $455 Yellow",
+      "description": "POCO X8 PRO 12+512GB $470 Yellow",
       "stockQuantity": 5,
-      "priceUsd": 455,
+      "priceUsd": 470,
       "pricesUsd": [
-        455
+        470
       ],
-      "raw": "5 | POCO X8 PRO 12+512GB $455 Yellow"
+      "raw": "5 | POCO X8 PRO 12+512GB $470 Yellow"
     },
     {
       "id": "xiaomi-poco-x8-pro-max-12-256gb-5g",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "POCO X8 PRO MAX",
       "family": "Poco",
@@ -8517,20 +10451,59 @@ window.STOCK_DB = {
           "Orange"
         ],
         "priceUsd": 505,
-        "stockQuantity": 6
+        "stockQuantity": 5
       },
       "description": "POCO X8 PRO MAX 12+256GB 5G $505 Orange",
-      "stockQuantity": 6,
+      "stockQuantity": 5,
       "priceUsd": 505,
       "pricesUsd": [
         505
       ],
-      "raw": "6 | POCO X8 PRO MAX 12+256GB 5G $505 Orange"
+      "raw": "5 | POCO X8 PRO MAX 12+256GB 5G $505 Orange"
+    },
+    {
+      "id": "xiaomi-poco-x8-pro-max-12-512gb",
+      "category": "xiaomi",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Xiaomi",
+      "model": "POCO X8 PRO MAX",
+      "family": "Poco",
+      "memory": {
+        "ramGb": 12,
+        "storageGb": 512
+      },
+      "chip": null,
+      "colors": [
+        "Orange"
+      ],
+      "configuration": {
+        "storageGb": 512,
+        "ramGb": 12,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Orange",
+        "colors": [
+          "Orange"
+        ],
+        "priceUsd": 575,
+        "stockQuantity": 5
+      },
+      "description": "POCO X8 PRO MAX 12+512GB $575 Orange",
+      "stockQuantity": 5,
+      "priceUsd": 575,
+      "pricesUsd": [
+        575
+      ],
+      "raw": "5 | POCO X8 PRO MAX 12+512GB $575 Orange"
     },
     {
       "id": "xiaomi-redmi-15-8-256gb",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "REDMI 15",
       "family": "Redmi",
@@ -8553,21 +10526,22 @@ window.STOCK_DB = {
         "colors": [
           "Black"
         ],
-        "priceUsd": 210,
-        "stockQuantity": 3
+        "priceUsd": 215,
+        "stockQuantity": 5
       },
-      "description": "REDMI 15 8+256GB $210 Black",
-      "stockQuantity": 3,
-      "priceUsd": 210,
+      "description": "REDMI 15 8+256GB $215 Black",
+      "stockQuantity": 5,
+      "priceUsd": 215,
       "pricesUsd": [
-        210
+        215
       ],
-      "raw": "3 | REDMI 15 8+256GB $210 Black"
+      "raw": "5 | REDMI 15 8+256GB $215 Black"
     },
     {
       "id": "xiaomi-redmi-15-8-256gb-2",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "REDMI 15",
       "family": "Redmi",
@@ -8590,21 +10564,22 @@ window.STOCK_DB = {
         "colors": [
           "Purple"
         ],
-        "priceUsd": 210,
-        "stockQuantity": 2
+        "priceUsd": 215,
+        "stockQuantity": 5
       },
-      "description": "REDMI 15 8+256GB $210 Purple",
-      "stockQuantity": 2,
-      "priceUsd": 210,
+      "description": "REDMI 15 8+256GB $215 Purple",
+      "stockQuantity": 5,
+      "priceUsd": 215,
       "pricesUsd": [
-        210
+        215
       ],
-      "raw": "2 | REDMI 15 8+256GB $210 Purple"
+      "raw": "5 | REDMI 15 8+256GB $215 Purple"
     },
     {
       "id": "xiaomi-redmi-15c-8-256gb",
       "category": "xiaomi",
       "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
       "brand": "Xiaomi",
       "model": "REDMI 15C",
       "family": "Redmi",
@@ -8627,21 +10602,60 @@ window.STOCK_DB = {
         "colors": [
           "Black"
         ],
-        "priceUsd": 190,
+        "priceUsd": 200,
         "stockQuantity": 5
       },
-      "description": "REDMI 15C 8+256GB $190 Black",
+      "description": "REDMI 15C 8+256GB $200 Black",
       "stockQuantity": 5,
-      "priceUsd": 190,
+      "priceUsd": 200,
       "pricesUsd": [
-        190
+        200
       ],
-      "raw": "5 | REDMI 15C 8+256GB $190 Black"
+      "raw": "5 | REDMI 15C 8+256GB $200 Black"
+    },
+    {
+      "id": "xiaomi-redmi-15c-8-256gb-2",
+      "category": "xiaomi",
+      "deviceType": "smartphone",
+      "deviceGroup": "Smartphones",
+      "brand": "Xiaomi",
+      "model": "REDMI 15C",
+      "family": "Redmi",
+      "memory": {
+        "ramGb": 8,
+        "storageGb": 256
+      },
+      "chip": null,
+      "colors": [
+        "Green"
+      ],
+      "configuration": {
+        "storageGb": 256,
+        "ramGb": 8,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Green",
+        "colors": [
+          "Green"
+        ],
+        "priceUsd": 200,
+        "stockQuantity": 5
+      },
+      "description": "REDMI 15C 8+256GB $200 Green",
+      "stockQuantity": 5,
+      "priceUsd": 200,
+      "pricesUsd": [
+        200
+      ],
+      "raw": "5 | REDMI 15C 8+256GB $200 Green"
     },
     {
       "id": "apple_accessories-iwatch-s11-42mm-gps-rose-gold-light-blush-band-s-m",
       "category": "apple_accessories",
       "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
       "brand": "Apple",
       "model": "iWatch S11 42mm GPS Rose Gold (Light Blush Band) S/M",
       "family": "Apple Watch SE",
@@ -8667,20 +10681,21 @@ window.STOCK_DB = {
           "Blush"
         ],
         "priceUsd": 375,
-        "stockQuantity": 4
+        "stockQuantity": 5
       },
       "description": "iWatch S11 42mm GPS Rose Gold (Light Blush Band) S/M $375",
-      "stockQuantity": 4,
+      "stockQuantity": 5,
       "priceUsd": 375,
       "pricesUsd": [
         375
       ],
-      "raw": "4 | iWatch S11 42mm GPS Rose Gold (Light Blush Band) S/M $375"
+      "raw": "5 | iWatch S11 42mm GPS Rose Gold (Light Blush Band) S/M $375"
     },
     {
       "id": "apple_accessories-iwatch-se-3-40mm-midnight",
       "category": "apple_accessories",
       "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
       "brand": "Apple",
       "model": "iWatch SE 3 40mm",
       "family": "Apple Watch SE",
@@ -8704,20 +10719,21 @@ window.STOCK_DB = {
           "Midnight"
         ],
         "priceUsd": 290,
-        "stockQuantity": 5
+        "stockQuantity": 0
       },
       "description": "iWatch SE 3 40mm ▸ Midnight $290",
-      "stockQuantity": 5,
+      "stockQuantity": 0,
       "priceUsd": 290,
       "pricesUsd": [
         290
       ],
-      "raw": "5 | iWatch SE 3 40mm ▸ Midnight $290"
+      "raw": "0 | iWatch SE 3 40mm ▸ Midnight $290"
     },
     {
       "id": "apple_accessories-iwatch-se-3-40mm-starlight",
       "category": "apple_accessories",
       "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
       "brand": "Apple",
       "model": "iWatch SE 3 40mm",
       "family": "Apple Watch SE",
@@ -8741,20 +10757,21 @@ window.STOCK_DB = {
           "Starlight"
         ],
         "priceUsd": 290,
-        "stockQuantity": 3
+        "stockQuantity": 0
       },
       "description": "iWatch SE 3 40mm ▸ Starlight $290",
-      "stockQuantity": 3,
+      "stockQuantity": 0,
       "priceUsd": 290,
       "pricesUsd": [
         290
       ],
-      "raw": "3 | iWatch SE 3 40mm ▸ Starlight $290"
+      "raw": "0 | iWatch SE 3 40mm ▸ Starlight $290"
     },
     {
       "id": "apple_accessories-iwatch-se-3-44mm-midnight",
       "category": "apple_accessories",
       "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
       "brand": "Apple",
       "model": "iWatch SE 3 44mm",
       "family": "Apple Watch SE",
@@ -8778,20 +10795,21 @@ window.STOCK_DB = {
           "Midnight"
         ],
         "priceUsd": 315,
-        "stockQuantity": 7
+        "stockQuantity": 0
       },
       "description": "iWatch SE 3 44mm Midnight $315",
-      "stockQuantity": 7,
+      "stockQuantity": 0,
       "priceUsd": 315,
       "pricesUsd": [
         315
       ],
-      "raw": "7 | iWatch SE 3 44mm Midnight $315"
+      "raw": "0 | iWatch SE 3 44mm Midnight $315"
     },
     {
       "id": "apple_accessories-iwatch-series-11-42mm-black",
       "category": "apple_accessories",
       "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
       "brand": "Apple",
       "model": "iWatch Series 11 42mm",
       "family": "Apple Watch SE",
@@ -8815,20 +10833,21 @@ window.STOCK_DB = {
           "Black"
         ],
         "priceUsd": 390,
-        "stockQuantity": 8
+        "stockQuantity": 0
       },
       "description": "iWatch Series 11 · 42mm Black $390",
-      "stockQuantity": 8,
+      "stockQuantity": 0,
       "priceUsd": 390,
       "pricesUsd": [
         390
       ],
-      "raw": "8 | iWatch Series 11 · 42mm Black $390"
+      "raw": "0 | iWatch Series 11 · 42mm Black $390"
     },
     {
       "id": "apple_accessories-iwatch-series-11-46mm-silver",
       "category": "apple_accessories",
       "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
       "brand": "Apple",
       "model": "iWatch Series 11 46mm",
       "family": "Apple Watch SE",
@@ -8852,20 +10871,21 @@ window.STOCK_DB = {
           "Silver"
         ],
         "priceUsd": 425,
-        "stockQuantity": 6
+        "stockQuantity": 0
       },
       "description": "iWatch Series 11 · 46mm ▸ Silver $425",
-      "stockQuantity": 6,
+      "stockQuantity": 0,
       "priceUsd": 425,
       "pricesUsd": [
         425
       ],
-      "raw": "6 | iWatch Series 11 · 46mm ▸ Silver $425"
+      "raw": "0 | iWatch Series 11 · 46mm ▸ Silver $425"
     },
     {
       "id": "apple_accessories-iwatch-series-11-46mm-space-gray",
       "category": "apple_accessories",
       "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
       "brand": "Apple",
       "model": "iWatch Series 11 46mm",
       "family": "Apple Watch SE",
@@ -8889,20 +10909,21 @@ window.STOCK_DB = {
           "Space Gray"
         ],
         "priceUsd": 425,
-        "stockQuantity": 3
+        "stockQuantity": 0
       },
       "description": "iWatch Series 11 · 46mm ▸ Space Gray $425",
-      "stockQuantity": 3,
+      "stockQuantity": 0,
       "priceUsd": 425,
       "pricesUsd": [
         425
       ],
-      "raw": "3 | iWatch Series 11 · 46mm ▸ Space Gray $425"
+      "raw": "0 | iWatch Series 11 · 46mm ▸ Space Gray $425"
     },
     {
       "id": "apple_accessories-iwatch-series-11-46mm-rose-gold",
       "category": "apple_accessories",
       "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
       "brand": "Apple",
       "model": "iWatch Series 11 46mm",
       "family": "Apple Watch SE",
@@ -8926,20 +10947,21 @@ window.STOCK_DB = {
           "Rose Gold"
         ],
         "priceUsd": 425,
-        "stockQuantity": 5
+        "stockQuantity": 0
       },
       "description": "iWatch Series 11 · 46mm ▸ Rose Gold $425",
-      "stockQuantity": 5,
+      "stockQuantity": 0,
       "priceUsd": 425,
       "pricesUsd": [
         425
       ],
-      "raw": "5 | iWatch Series 11 · 46mm ▸ Rose Gold $425"
+      "raw": "0 | iWatch Series 11 · 46mm ▸ Rose Gold $425"
     },
     {
       "id": "apple_accessories-iwatch-ultra-3-49mm-gps-cellular-black-alpine-loop-m-black-mf0v4",
       "category": "apple_accessories",
       "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
       "brand": "Apple",
       "model": "iWatch ULTRA 3 49MM (GPS+Cellular) (Black Alpine Loop - M - Black) MF0V4LW/A",
       "family": "Apple Watch Ultra",
@@ -8963,20 +10985,21 @@ window.STOCK_DB = {
           "Black"
         ],
         "priceUsd": 755,
-        "stockQuantity": 7
+        "stockQuantity": 5
       },
       "description": "iWatch ULTRA 3 49MM (GPS+Cellular) (Black Alpine Loop - M - Black) MF0V4LW/A $755",
-      "stockQuantity": 7,
+      "stockQuantity": 5,
       "priceUsd": 755,
       "pricesUsd": [
         755
       ],
-      "raw": "7 | iWatch ULTRA 3 49MM (GPS+Cellular) (Black Alpine Loop - M - Black) MF0V4LW/A $755"
+      "raw": "5 | iWatch ULTRA 3 49MM (GPS+Cellular) (Black Alpine Loop - M - Black) MF0V4LW/A $755"
     },
     {
       "id": "apple_accessories-iwatch-ultra-3-49mm-gps-cellular-black-ti-black-ocean-band-mf0j4",
       "category": "apple_accessories",
       "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
       "brand": "Apple",
       "model": "iWatch ULTRA 3 49MM (GPS+Cellular) (Black Ti Black Ocean Band) MF0J4LW/A",
       "family": "Apple Watch Ultra",
@@ -9000,20 +11023,473 @@ window.STOCK_DB = {
           "Black"
         ],
         "priceUsd": 755,
-        "stockQuantity": 4
+        "stockQuantity": 5
       },
       "description": "iWatch ULTRA 3 49MM (GPS+Cellular) (Black Ti Black Ocean Band) MF0J4LW/A $755",
-      "stockQuantity": 4,
+      "stockQuantity": 5,
       "priceUsd": 755,
       "pricesUsd": [
         755
       ],
-      "raw": "4 | iWatch ULTRA 3 49MM (GPS+Cellular) (Black Ti Black Ocean Band) MF0J4LW/A $755"
+      "raw": "5 | iWatch ULTRA 3 49MM (GPS+Cellular) (Black Ti Black Ocean Band) MF0J4LW/A $755"
+    },
+    {
+      "id": "apple_accessories-apple-watch-s11-42mm-al-case-with-fog-sport-band-s-m",
+      "category": "apple_accessories",
+      "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
+      "brand": "Apple",
+      "model": "Watch S11 42mm AL CASE WITH FOG SPORT BAND - S/M",
+      "family": "Apple Watch SE",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [
+        "Silver"
+      ],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Silver",
+        "colors": [
+          "Silver"
+        ],
+        "priceUsd": 380,
+        "stockQuantity": 5
+      },
+      "description": "Apple Watch S11 42mm AL CASE WITH FOG SPORT BAND - S/M $380 Silver",
+      "stockQuantity": 5,
+      "priceUsd": 380,
+      "pricesUsd": [
+        380
+      ],
+      "raw": "5 | Apple Watch S11 42mm AL CASE WITH FOG SPORT BAND - S/M $380 Silver"
+    },
+    {
+      "id": "apple_accessories-apple-watch-s11-42mm-al-case-with-fog-sport-band-s-m-2",
+      "category": "apple_accessories",
+      "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
+      "brand": "Apple",
+      "model": "Watch S11 42mm AL CASE WITH FOG SPORT BAND - S/M",
+      "family": "Apple Watch SE",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [
+        "Purple"
+      ],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Purple",
+        "colors": [
+          "Purple"
+        ],
+        "priceUsd": 380,
+        "stockQuantity": 5
+      },
+      "description": "Apple Watch S11 42mm AL CASE WITH FOG SPORT BAND - S/M $380 Purple",
+      "stockQuantity": 5,
+      "priceUsd": 380,
+      "pricesUsd": [
+        380
+      ],
+      "raw": "5 | Apple Watch S11 42mm AL CASE WITH FOG SPORT BAND - S/M $380 Purple"
+    },
+    {
+      "id": "apple_accessories-apple-watch-s11-42mm-al-sb-s-m",
+      "category": "apple_accessories",
+      "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
+      "brand": "Apple",
+      "model": "Watch S11 42mm AL SB S/M",
+      "family": "Apple Watch Series",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [
+        "Black"
+      ],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Black",
+        "colors": [
+          "Black"
+        ],
+        "priceUsd": 380,
+        "stockQuantity": 5
+      },
+      "description": "Apple Watch S11 42mm AL SB S/M $380 Jet Black",
+      "stockQuantity": 5,
+      "priceUsd": 380,
+      "pricesUsd": [
+        380
+      ],
+      "raw": "5 | Apple Watch S11 42mm AL SB S/M $380 Jet Black"
+    },
+    {
+      "id": "apple_accessories-apple-watch-s11-42mm-al-sb-s-m-2",
+      "category": "apple_accessories",
+      "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
+      "brand": "Apple",
+      "model": "Watch S11 42mm AL SB S/M",
+      "family": "Apple Watch Series",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [
+        "Black"
+      ],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Black",
+        "colors": [
+          "Black"
+        ],
+        "priceUsd": 380,
+        "stockQuantity": 5
+      },
+      "description": "Apple Watch S11 42mm AL SB S/M $380 Black",
+      "stockQuantity": 5,
+      "priceUsd": 380,
+      "pricesUsd": [
+        380
+      ],
+      "raw": "5 | Apple Watch S11 42mm AL SB S/M $380 Black"
+    },
+    {
+      "id": "apple_accessories-apple-watch-s11-42mm-al-sb-s-m-3",
+      "category": "apple_accessories",
+      "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
+      "brand": "Apple",
+      "model": "Watch S11 42mm AL SB S/M",
+      "family": "Apple Watch Series",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [
+        "Space Gray"
+      ],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Space Gray",
+        "colors": [
+          "Space Gray"
+        ],
+        "priceUsd": 380,
+        "stockQuantity": 5
+      },
+      "description": "Apple Watch S11 42mm AL SB S/M $380 Space Gray",
+      "stockQuantity": 5,
+      "priceUsd": 380,
+      "pricesUsd": [
+        380
+      ],
+      "raw": "5 | Apple Watch S11 42mm AL SB S/M $380 Space Gray"
+    },
+    {
+      "id": "apple_accessories-apple-watch-s11-42mm-light-band-s-m",
+      "category": "apple_accessories",
+      "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
+      "brand": "Apple",
+      "model": "Watch S11 42mm Light band S/M",
+      "family": "Apple Watch Series",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [
+        "Rose Gold"
+      ],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Rose Gold",
+        "colors": [
+          "Rose Gold"
+        ],
+        "priceUsd": 375,
+        "stockQuantity": 5
+      },
+      "description": "Apple Watch S11 42mm Light band S/M $375 Rose Gold",
+      "stockQuantity": 5,
+      "priceUsd": 375,
+      "pricesUsd": [
+        375
+      ],
+      "raw": "5 | Apple Watch S11 42mm Light band S/M $375 Rose Gold"
+    },
+    {
+      "id": "apple_accessories-apple-watch-series-11-46mm-4",
+      "category": "apple_accessories",
+      "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
+      "brand": "Apple",
+      "model": "Watch Series 11 46mm",
+      "family": "Apple Watch SE",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [
+        "Black"
+      ],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Black",
+        "colors": [
+          "Black"
+        ],
+        "priceUsd": 425,
+        "stockQuantity": 5
+      },
+      "description": "Apple Watch Series 11 · 46mm ▸ $425 Jet Black",
+      "stockQuantity": 5,
+      "priceUsd": 425,
+      "pricesUsd": [
+        425
+      ],
+      "raw": "5 | Apple Watch Series 11 · 46mm ▸ $425 Jet Black"
+    },
+    {
+      "id": "apple_accessories-apple-watch-series-11-46mm-al-fog-sb-m-l",
+      "category": "apple_accessories",
+      "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
+      "brand": "Apple",
+      "model": "WATCH SERIES 11 46mm AL FOG SB M/L",
+      "family": "Apple Watch SE",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [
+        "Silver"
+      ],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Silver",
+        "colors": [
+          "Silver"
+        ],
+        "priceUsd": 410,
+        "stockQuantity": 5
+      },
+      "description": "APPLE WATCH SERIES 11 46mm AL FOG SB M/L $410 Silver",
+      "stockQuantity": 5,
+      "priceUsd": 410,
+      "pricesUsd": [
+        410
+      ],
+      "raw": "5 | APPLE WATCH SERIES 11 46mm AL FOG SB M/L $410 Silver"
+    },
+    {
+      "id": "apple_accessories-apple-watch-series-11-46mm-al-fog-sb-m-l-2",
+      "category": "apple_accessories",
+      "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
+      "brand": "Apple",
+      "model": "WATCH SERIES 11 46mm AL FOG SB M/L",
+      "family": "Apple Watch SE",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [
+        "Purple"
+      ],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Purple",
+        "colors": [
+          "Purple"
+        ],
+        "priceUsd": 410,
+        "stockQuantity": 5
+      },
+      "description": "APPLE WATCH SERIES 11 46mm AL FOG SB M/L $410 Purple",
+      "stockQuantity": 5,
+      "priceUsd": 410,
+      "pricesUsd": [
+        410
+      ],
+      "raw": "5 | APPLE WATCH SERIES 11 46mm AL FOG SB M/L $410 Purple"
+    },
+    {
+      "id": "apple_accessories-apple-watch-series-11-46mm-al-lb-sb-m-l",
+      "category": "apple_accessories",
+      "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
+      "brand": "Apple",
+      "model": "WATCH SERIES 11 46mm AL LB SB M/L",
+      "family": "Apple Watch SE",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [
+        "Rose Gold"
+      ],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Rose Gold",
+        "colors": [
+          "Rose Gold"
+        ],
+        "priceUsd": 410,
+        "stockQuantity": 5
+      },
+      "description": "APPLE WATCH SERIES 11 46mm AL LB SB M/L $410 Rose Gold",
+      "stockQuantity": 5,
+      "priceUsd": 410,
+      "pricesUsd": [
+        410
+      ],
+      "raw": "5 | APPLE WATCH SERIES 11 46mm AL LB SB M/L $410 Rose Gold"
+    },
+    {
+      "id": "apple_accessories-apple-watch-series-se-3rd-40mm-al-sb-s-m",
+      "category": "apple_accessories",
+      "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
+      "brand": "Apple",
+      "model": "Watch SERIES SE 3RD 40MM AL SB S/M",
+      "family": "Apple Watch SE",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [
+        "Midnight"
+      ],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Midnight",
+        "colors": [
+          "Midnight"
+        ],
+        "priceUsd": 290,
+        "stockQuantity": 5
+      },
+      "description": "Apple Watch SERIES SE 3RD 40MM AL SB S/M $290 Midnight",
+      "stockQuantity": 5,
+      "priceUsd": 290,
+      "pricesUsd": [
+        290
+      ],
+      "raw": "5 | Apple Watch SERIES SE 3RD 40MM AL SB S/M $290 Midnight"
+    },
+    {
+      "id": "apple_accessories-apple-watch-series-se-3rd-44mm",
+      "category": "apple_accessories",
+      "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
+      "brand": "Apple",
+      "model": "Watch Series SE 3rd 44mm",
+      "family": "Apple Watch SE",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": null,
+        "colors": [],
+        "priceUsd": 315,
+        "stockQuantity": 5
+      },
+      "description": "Apple Watch Series SE 3rd 44mm $315",
+      "stockQuantity": 5,
+      "priceUsd": 315,
+      "pricesUsd": [
+        315
+      ],
+      "raw": "5 | Apple Watch Series SE 3rd 44mm $315"
     },
     {
       "id": "garmin-approach-s70-42mm-golf-watch-black-ceramic-black-peach",
       "category": "garmin",
       "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
       "brand": "Garmin",
       "model": "APPROACH S70 42mm Golf Watch Black Ceramic/Black Peach",
       "family": "APPROACH S70",
@@ -9037,20 +11513,21 @@ window.STOCK_DB = {
           "Black"
         ],
         "priceUsd": 550,
-        "stockQuantity": 6
+        "stockQuantity": 5
       },
       "description": "APPROACH S70 42mm Golf Watch Black Ceramic/Black Peach $550",
-      "stockQuantity": 6,
+      "stockQuantity": 5,
       "priceUsd": 550,
       "pricesUsd": [
         550
       ],
-      "raw": "6 | APPROACH S70 42mm Golf Watch Black Ceramic/Black Peach **$550**"
+      "raw": "5 | APPROACH S70 42mm Golf Watch Black Ceramic/Black Peach $550"
     },
     {
       "id": "garmin-epix-pro-gen2-42mm-saphire-multisport-watch-blanco-oro",
       "category": "garmin",
       "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
       "brand": "Garmin",
       "model": "EPIX PRO Gen2 42mm Saphire Multisport Watch Blanco/Oro",
       "family": "EPIX PRO",
@@ -9084,12 +11561,13 @@ window.STOCK_DB = {
       "pricesUsd": [
         520
       ],
-      "raw": "5 | EPIX PRO Gen2 42mm Saphire Multisport Watch Blanco/Oro **$520**"
+      "raw": "5 | EPIX PRO Gen2 42mm Saphire Multisport Watch Blanco/Oro $520"
     },
     {
       "id": "garmin-epix-pro-gen2-47mm-saphire-multisport-watch-gris",
       "category": "garmin",
       "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
       "brand": "Garmin",
       "model": "EPIX PRO Gen2 47mm Saphire Multisport Watch Gris",
       "family": "EPIX PRO",
@@ -9113,20 +11591,21 @@ window.STOCK_DB = {
           "Gray"
         ],
         "priceUsd": 540,
-        "stockQuantity": 7
+        "stockQuantity": 5
       },
       "description": "EPIX PRO Gen2 47mm Saphire Multisport Watch Gris $540",
-      "stockQuantity": 7,
+      "stockQuantity": 5,
       "priceUsd": 540,
       "pricesUsd": [
         540
       ],
-      "raw": "7 | EPIX PRO Gen2 47mm Saphire Multisport Watch Gris **$540**"
+      "raw": "5 | EPIX PRO Gen2 47mm Saphire Multisport Watch Gris $540"
     },
     {
       "id": "garmin-epix-pro-gen2-51mm-saphire-multisport-watch-blanco",
       "category": "garmin",
       "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
       "brand": "Garmin",
       "model": "EPIX PRO Gen2 51mm Saphire Multisport Watch Blanco",
       "family": "EPIX PRO",
@@ -9150,20 +11629,21 @@ window.STOCK_DB = {
           "White"
         ],
         "priceUsd": 670,
-        "stockQuantity": 2
+        "stockQuantity": 5
       },
       "description": "EPIX PRO Gen2 51mm Saphire Multisport Watch Blanco $670",
-      "stockQuantity": 2,
+      "stockQuantity": 5,
       "priceUsd": 670,
       "pricesUsd": [
         670
       ],
-      "raw": "2 | EPIX PRO Gen2 51mm Saphire Multisport Watch Blanco **$670**"
+      "raw": "5 | EPIX PRO Gen2 51mm Saphire Multisport Watch Blanco $670"
     },
     {
       "id": "garmin-epix-pro-gen2-51mm-saphire-multisport-watch-gris",
       "category": "garmin",
       "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
       "brand": "Garmin",
       "model": "EPIX PRO Gen2 51mm Saphire Multisport Watch Gris",
       "family": "EPIX PRO",
@@ -9187,20 +11667,21 @@ window.STOCK_DB = {
           "Gray"
         ],
         "priceUsd": 670,
-        "stockQuantity": 4
+        "stockQuantity": 5
       },
       "description": "EPIX PRO Gen2 51mm Saphire Multisport Watch Gris $670",
-      "stockQuantity": 4,
+      "stockQuantity": 5,
       "priceUsd": 670,
       "pricesUsd": [
         670
       ],
-      "raw": "4 | EPIX PRO Gen2 51mm Saphire Multisport Watch Gris **$670**"
+      "raw": "5 | EPIX PRO Gen2 51mm Saphire Multisport Watch Gris $670"
     },
     {
       "id": "garmin-forerunner-265s-running-training-pink",
       "category": "garmin",
       "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
       "brand": "Garmin",
       "model": "FORERUNNER 265S RUNNING Training",
       "family": "FORERUNNER 265S",
@@ -9224,20 +11705,21 @@ window.STOCK_DB = {
           "Pink"
         ],
         "priceUsd": 390,
-        "stockQuantity": 6
+        "stockQuantity": 5
       },
       "description": "FORERUNNER 265S RUNNING Training Pink $390",
-      "stockQuantity": 6,
+      "stockQuantity": 5,
       "priceUsd": 390,
       "pricesUsd": [
         390
       ],
-      "raw": "6 | FORERUNNER 265S RUNNING Training Pink **$390**"
+      "raw": "5 | FORERUNNER 265S RUNNING Training Pink $390"
     },
     {
       "id": "garmin-instinct-2s-solar-rugged-smartwatch-grafito",
       "category": "garmin",
       "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
       "brand": "Garmin",
       "model": "INSTINCT 2S SOLAR Rugged Smartwatch Grafito",
       "family": "INSTINCT 2S",
@@ -9257,20 +11739,59 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 280,
-        "stockQuantity": 3
+        "stockQuantity": 5
       },
       "description": "INSTINCT 2S SOLAR Rugged Smartwatch Grafito $280",
-      "stockQuantity": 3,
+      "stockQuantity": 5,
       "priceUsd": 280,
       "pricesUsd": [
         280
       ],
-      "raw": "3 | INSTINCT 2S SOLAR Rugged Smartwatch Grafito **$280**"
+      "raw": "5 | INSTINCT 2S SOLAR Rugged Smartwatch Grafito $280"
+    },
+    {
+      "id": "samsung_watches-galaxy-watch-7-40mm-l300-gps-wifi",
+      "category": "samsung_watches",
+      "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
+      "brand": "Samsung",
+      "model": "Galaxy WATCH 7 40mm L300 GPS WIFI",
+      "family": "Galaxy WATCH",
+      "memory": {
+        "ramGb": null,
+        "storageGb": null
+      },
+      "chip": null,
+      "colors": [
+        "Green"
+      ],
+      "configuration": {
+        "storageGb": null,
+        "ramGb": null,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Green",
+        "colors": [
+          "Green"
+        ],
+        "priceUsd": 290,
+        "stockQuantity": 5
+      },
+      "description": "Galaxy WATCH 7 40mm L300 GPS WIFI $290 Green",
+      "stockQuantity": 5,
+      "priceUsd": 290,
+      "pricesUsd": [
+        290
+      ],
+      "raw": "5 | Galaxy WATCH 7 40mm L300 GPS WIFI $290 Green"
     },
     {
       "id": "samsung_watches-galaxy-watch-8-classic-46mm-l500-gps-wifi",
       "category": "samsung_watches",
       "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
       "brand": "Samsung",
       "model": "Galaxy Watch 8 Classic 46mm L500 GPS Wifi",
       "family": "Galaxy Watch",
@@ -9308,6 +11829,7 @@ window.STOCK_DB = {
       "id": "samsung_watches-galaxy-watch-gps-wifi-l320-s8-40-mm",
       "category": "samsung_watches",
       "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
       "brand": "Samsung",
       "model": "Galaxy Watch GPS/Wifi L320 S8 40 MM",
       "family": "Galaxy Watch",
@@ -9345,6 +11867,7 @@ window.STOCK_DB = {
       "id": "samsung_watches-galaxy-watch-gps-wifi-l320-s8-40-mm-2",
       "category": "samsung_watches",
       "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
       "brand": "Samsung",
       "model": "Galaxy Watch GPS/Wifi L320 S8 40 MM",
       "family": "Galaxy Watch",
@@ -9368,20 +11891,21 @@ window.STOCK_DB = {
           "Graphite"
         ],
         "priceUsd": 245,
-        "stockQuantity": 3
+        "stockQuantity": 5
       },
       "description": "Galaxy Watch GPS/Wifi L320 S8 40 MM $245 Grafite",
-      "stockQuantity": 3,
+      "stockQuantity": 5,
       "priceUsd": 245,
       "pricesUsd": [
         245
       ],
-      "raw": "3 | Galaxy Watch GPS/Wifi L320 S8 40 MM $245 Grafite"
+      "raw": "5 | Galaxy Watch GPS/Wifi L320 S8 40 MM $245 Grafite"
     },
     {
       "id": "samsung_watches-galaxy-watch-gps-wifi-l330-s8-44mm",
       "category": "samsung_watches",
       "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
       "brand": "Samsung",
       "model": "Galaxy Watch GPS/Wifi L330 S8 44MM",
       "family": "Galaxy Watch",
@@ -9405,20 +11929,21 @@ window.STOCK_DB = {
           "Silver"
         ],
         "priceUsd": 260,
-        "stockQuantity": 4
+        "stockQuantity": 5
       },
       "description": "Galaxy Watch GPS/Wifi L330 S8 44MM $260 Silver",
-      "stockQuantity": 4,
+      "stockQuantity": 5,
       "priceUsd": 260,
       "pricesUsd": [
         260
       ],
-      "raw": "4 | Galaxy Watch GPS/Wifi L330 S8 44MM $260 Silver"
+      "raw": "5 | Galaxy Watch GPS/Wifi L330 S8 44MM $260 Silver"
     },
     {
       "id": "samsung_watches-galaxy-watch-ultra-47mm-lte-cell-2025-4-64gb",
       "category": "samsung_watches",
       "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
       "brand": "Samsung",
       "model": "Galaxy Watch ULTRA 47mm LTE/CELL (2025)",
       "family": "Galaxy Watch",
@@ -9438,20 +11963,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 360,
-        "stockQuantity": 7
+        "stockQuantity": 0
       },
       "description": "Galaxy Watch ULTRA 47mm LTE/CELL (2025) 4/64GB $360",
-      "stockQuantity": 7,
+      "stockQuantity": 0,
       "priceUsd": 360,
       "pricesUsd": [
         360
       ],
-      "raw": "7 | Galaxy Watch ULTRA 47mm LTE/CELL (2025) 4/64GB $360"
+      "raw": "0 | Galaxy Watch ULTRA 47mm LTE/CELL (2025) 4/64GB $360"
     },
     {
       "id": "samsung_watches-galaxy-watch-ultra-47mm-lte-cell-2025-4-64gb-2",
       "category": "samsung_watches",
       "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
       "brand": "Samsung",
       "model": "Galaxy Watch ULTRA 47mm LTE/CELL (2025)",
       "family": "Galaxy Watch",
@@ -9477,20 +12003,21 @@ window.STOCK_DB = {
           "Gray"
         ],
         "priceUsd": 360,
-        "stockQuantity": 3
+        "stockQuantity": 0
       },
       "description": "Galaxy Watch ULTRA 47mm LTE/CELL (2025) 4/64GB $360 · Titanium Silver / Gray Band ） SM-L705FZS1GTO $360",
-      "stockQuantity": 3,
+      "stockQuantity": 0,
       "priceUsd": 360,
       "pricesUsd": [
         360
       ],
-      "raw": "3 | Titanium Silver / Gray Band ） SM-L705FZS1GTO"
+      "raw": "0 | Titanium Silver / Gray Band ） SM-L705FZS1GTO"
     },
     {
       "id": "samsung_watches-galaxy-watch-ultra-47mm-lte-cell-2025-4-64gb-3",
       "category": "samsung_watches",
       "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
       "brand": "Samsung",
       "model": "Galaxy Watch ULTRA 47mm LTE/CELL (2025)",
       "family": "Galaxy Watch",
@@ -9516,20 +12043,21 @@ window.STOCK_DB = {
           "Orange"
         ],
         "priceUsd": 360,
-        "stockQuantity": 5
+        "stockQuantity": 0
       },
       "description": "Galaxy Watch ULTRA 47mm LTE/CELL (2025) 4/64GB $360 · Titanium Gary / Orange Band ） SM-L705FZA1GTO $360",
-      "stockQuantity": 5,
+      "stockQuantity": 0,
       "priceUsd": 360,
       "pricesUsd": [
         360
       ],
-      "raw": "5 | Titanium Gary / Orange Band ） SM-L705FZA1GTO"
+      "raw": "0 | Titanium Gary / Orange Band ） SM-L705FZA1GTO"
     },
     {
       "id": "samsung_watches-galaxy-watch-ultra-47mm-lte-cell-2025-4-64gb-4",
       "category": "samsung_watches",
       "deviceType": "smartwatch",
+      "deviceGroup": "Accesorios",
       "brand": "Samsung",
       "model": "Galaxy Watch ULTRA 47mm LTE/CELL (2025)",
       "family": "Galaxy Watch",
@@ -9553,20 +12081,21 @@ window.STOCK_DB = {
           "Blue"
         ],
         "priceUsd": 360,
-        "stockQuantity": 2
+        "stockQuantity": 0
       },
       "description": "Galaxy Watch ULTRA 47mm LTE/CELL (2025) 4/64GB $360 · Titanium Blue / Blue Band ） SM-L705FZB1GTO $360",
-      "stockQuantity": 2,
+      "stockQuantity": 0,
       "priceUsd": 360,
       "pricesUsd": [
         360
       ],
-      "raw": "2 | Titanium Blue / Blue Band ） SM-L705FZB1GTO"
+      "raw": "0 | Titanium Blue / Blue Band ） SM-L705FZB1GTO"
     },
     {
       "id": "apple_accessories-pencil-pro",
       "category": "apple_accessories",
       "deviceType": "stylus",
+      "deviceGroup": "Accesorios",
       "brand": "Apple",
       "model": "Pencil PRO",
       "family": "Pencil PRO",
@@ -9586,20 +12115,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 140,
-        "stockQuantity": 7
+        "stockQuantity": 5
       },
       "description": "Pencil PRO $140",
-      "stockQuantity": 7,
+      "stockQuantity": 5,
       "priceUsd": 140,
       "pricesUsd": [
         140
       ],
-      "raw": "7 | Pencil PRO $140"
+      "raw": "5 | Pencil PRO $140"
     },
     {
       "id": "apple_accessories-pencil-usb-c",
       "category": "apple_accessories",
       "deviceType": "stylus",
+      "deviceGroup": "Accesorios",
       "brand": "Apple",
       "model": "Pencil USB-C",
       "family": "Pencil USB-C",
@@ -9619,20 +12149,21 @@ window.STOCK_DB = {
         "color": null,
         "colors": [],
         "priceUsd": 105,
-        "stockQuantity": 3
+        "stockQuantity": 5
       },
       "description": "Pencil USB-C $105",
-      "stockQuantity": 3,
+      "stockQuantity": 5,
       "priceUsd": 105,
       "pricesUsd": [
         105
       ],
-      "raw": "3 | Pencil USB-C $105"
+      "raw": "5 | Pencil USB-C $105"
     },
     {
       "id": "apple_accessories-ipad-11-a16-128gb-yellow",
       "category": "apple_accessories",
       "deviceType": "tablet",
+      "deviceGroup": "Tablets",
       "brand": "Apple",
       "model": "iPad 11\" (A16)",
       "family": "iPad",
@@ -9656,20 +12187,21 @@ window.STOCK_DB = {
           "Yellow"
         ],
         "priceUsd": 480,
-        "stockQuantity": 6
+        "stockQuantity": 0
       },
       "description": "iPad 11\" (A16) 128GB Yellow $480",
-      "stockQuantity": 6,
+      "stockQuantity": 0,
       "priceUsd": 480,
       "pricesUsd": [
         480
       ],
-      "raw": "6 | iPad 11\" (A16) 128GB Yellow $480"
+      "raw": "0 | iPad 11\" (A16) 128GB Yellow $480"
     },
     {
       "id": "apple_accessories-ipad-11-a16-128gb-silver",
       "category": "apple_accessories",
       "deviceType": "tablet",
+      "deviceGroup": "Tablets",
       "brand": "Apple",
       "model": "iPad 11\" (A16)",
       "family": "iPad",
@@ -9693,20 +12225,21 @@ window.STOCK_DB = {
           "Silver"
         ],
         "priceUsd": 480,
-        "stockQuantity": 3
+        "stockQuantity": 0
       },
       "description": "iPad 11\" (A16) 128GB Silver $480",
-      "stockQuantity": 3,
+      "stockQuantity": 0,
       "priceUsd": 480,
       "pricesUsd": [
         480
       ],
-      "raw": "3 | iPad 11\" (A16) 128GB Silver $480"
+      "raw": "0 | iPad 11\" (A16) 128GB Silver $480"
     },
     {
       "id": "apple_accessories-ipad-11-a16-128gb-blue",
       "category": "apple_accessories",
       "deviceType": "tablet",
+      "deviceGroup": "Tablets",
       "brand": "Apple",
       "model": "iPad 11\" (A16)",
       "family": "iPad",
@@ -9730,20 +12263,21 @@ window.STOCK_DB = {
           "Blue"
         ],
         "priceUsd": 480,
-        "stockQuantity": 8
+        "stockQuantity": 5
       },
       "description": "iPad 11\" (A16) 128GB Blue $480",
-      "stockQuantity": 8,
+      "stockQuantity": 5,
       "priceUsd": 480,
       "pricesUsd": [
         480
       ],
-      "raw": "8 | iPad 11\" (A16) 128GB Blue $480"
+      "raw": "5 | iPad 11\" (A16) 128GB Blue $480"
     },
     {
       "id": "apple_accessories-ipad-11-a16-128gb-pink",
       "category": "apple_accessories",
       "deviceType": "tablet",
+      "deviceGroup": "Tablets",
       "brand": "Apple",
       "model": "iPad 11\" (A16)",
       "family": "iPad",
@@ -9767,20 +12301,21 @@ window.STOCK_DB = {
           "Pink"
         ],
         "priceUsd": 480,
-        "stockQuantity": 4
+        "stockQuantity": 0
       },
       "description": "iPad 11\" (A16) 128GB Pink $480",
-      "stockQuantity": 4,
+      "stockQuantity": 0,
       "priceUsd": 480,
       "pricesUsd": [
         480
       ],
-      "raw": "4 | iPad 11\" (A16) 128GB Pink $480"
+      "raw": "0 | iPad 11\" (A16) 128GB Pink $480"
     },
     {
       "id": "apple_accessories-ipad-11-a16-256gb-silver",
       "category": "apple_accessories",
       "deviceType": "tablet",
+      "deviceGroup": "Tablets",
       "brand": "Apple",
       "model": "iPad 11\" (A16)",
       "family": "iPad",
@@ -9803,21 +12338,22 @@ window.STOCK_DB = {
         "colors": [
           "Silver"
         ],
-        "priceUsd": 585,
+        "priceUsd": 615,
         "stockQuantity": 5
       },
-      "description": "iPad 11\" (A16) 256GB Silver $585",
+      "description": "iPad 11\" (A16) 256GB Silver $615",
       "stockQuantity": 5,
-      "priceUsd": 585,
+      "priceUsd": 615,
       "pricesUsd": [
-        585
+        615
       ],
-      "raw": "5 | iPad 11\" (A16) 256GB Silver $585"
+      "raw": "5 | iPad 11\" (A16) 256GB Silver $615"
     },
     {
       "id": "apple_accessories-ipad-11-a16-256gb-blue",
       "category": "apple_accessories",
       "deviceType": "tablet",
+      "deviceGroup": "Tablets",
       "brand": "Apple",
       "model": "iPad 11\" (A16)",
       "family": "iPad",
@@ -9840,21 +12376,22 @@ window.STOCK_DB = {
         "colors": [
           "Blue"
         ],
-        "priceUsd": 585,
-        "stockQuantity": 7
+        "priceUsd": 580,
+        "stockQuantity": 5
       },
-      "description": "iPad 11\" (A16) 256GB Blue $585",
-      "stockQuantity": 7,
-      "priceUsd": 585,
+      "description": "iPad 11\" (A16) 256GB Blue $580",
+      "stockQuantity": 5,
+      "priceUsd": 580,
       "pricesUsd": [
-        585
+        580
       ],
-      "raw": "7 | iPad 11\" (A16) 256GB Blue $585"
+      "raw": "5 | iPad 11\" (A16) 256GB Blue $580"
     },
     {
       "id": "apple_accessories-ipad-11-a16-256gb-pink",
       "category": "apple_accessories",
       "deviceType": "tablet",
+      "deviceGroup": "Tablets",
       "brand": "Apple",
       "model": "iPad 11\" (A16)",
       "family": "iPad",
@@ -9877,21 +12414,22 @@ window.STOCK_DB = {
         "colors": [
           "Pink"
         ],
-        "priceUsd": 585,
-        "stockQuantity": 3
+        "priceUsd": 580,
+        "stockQuantity": 5
       },
-      "description": "iPad 11\" (A16) 256GB Pink $585",
-      "stockQuantity": 3,
-      "priceUsd": 585,
+      "description": "iPad 11\" (A16) 256GB Pink $580",
+      "stockQuantity": 5,
+      "priceUsd": 580,
       "pricesUsd": [
-        585
+        580
       ],
-      "raw": "3 | iPad 11\" (A16) 256GB Pink $585"
+      "raw": "5 | iPad 11\" (A16) 256GB Pink $580"
     },
     {
       "id": "apple_accessories-ipad-air-13-m4-128gb-wifi-space-gray",
       "category": "apple_accessories",
       "deviceType": "tablet",
+      "deviceGroup": "Tablets",
       "brand": "Apple",
       "model": "iPad AIR 13 M4",
       "family": "iPad AIR",
@@ -9914,21 +12452,60 @@ window.STOCK_DB = {
         "colors": [
           "Space Gray"
         ],
-        "priceUsd": 1020,
-        "stockQuantity": 7
+        "priceUsd": 950,
+        "stockQuantity": 5
       },
-      "description": "iPad AIR 13 M4 128GB WIFI Space Gray $1020",
-      "stockQuantity": 7,
-      "priceUsd": 1020,
+      "description": "iPad AIR 13 M4 128GB WIFI Space Gray $950",
+      "stockQuantity": 5,
+      "priceUsd": 950,
       "pricesUsd": [
-        1020
+        950
       ],
-      "raw": "7 | iPad AIR 13 M4 128GB WIFI Space Gray $1020"
+      "raw": "5 | iPad AIR 13 M4 128GB WIFI Space Gray $950"
+    },
+    {
+      "id": "apple_accessories-ipad-air-13-m4-128gb-2",
+      "category": "apple_accessories",
+      "deviceType": "tablet",
+      "deviceGroup": "Tablets",
+      "brand": "Apple",
+      "model": "IPAD AIR 13 M4",
+      "family": "IPAD AIR",
+      "memory": {
+        "ramGb": null,
+        "storageGb": 128
+      },
+      "chip": "M4",
+      "colors": [
+        "Starlight"
+      ],
+      "configuration": {
+        "storageGb": 128,
+        "ramGb": null,
+        "chip": "M4",
+        "simMode": null
+      },
+      "variant": {
+        "color": "Starlight",
+        "colors": [
+          "Starlight"
+        ],
+        "priceUsd": 950,
+        "stockQuantity": 5
+      },
+      "description": "IPAD AIR 13 M4 128GB $950 Starlight",
+      "stockQuantity": 5,
+      "priceUsd": 950,
+      "pricesUsd": [
+        950
+      ],
+      "raw": "5 | IPAD AIR 13 M4 128GB $950 Starlight"
     },
     {
       "id": "apple_accessories-ipad-air-m4-11-128gb-blue",
       "category": "apple_accessories",
       "deviceType": "tablet",
+      "deviceGroup": "Tablets",
       "brand": "Apple",
       "model": "iPad AIR M4 11\"",
       "family": "iPad AIR",
@@ -9951,21 +12528,22 @@ window.STOCK_DB = {
         "colors": [
           "Blue"
         ],
-        "priceUsd": 735,
-        "stockQuantity": 4
+        "priceUsd": 790,
+        "stockQuantity": 5
       },
-      "description": "iPad AIR M4 11\" 128GB Blue $735",
-      "stockQuantity": 4,
-      "priceUsd": 735,
+      "description": "iPad AIR M4 11\" 128GB Blue $790",
+      "stockQuantity": 5,
+      "priceUsd": 790,
       "pricesUsd": [
-        735
+        790
       ],
-      "raw": "4 | iPad AIR M4 11\" 128GB Blue $735"
+      "raw": "5 | iPad AIR M4 11\" 128GB Blue $790"
     },
     {
       "id": "apple_accessories-ipad-air-m4-11-128gb-starlight",
       "category": "apple_accessories",
       "deviceType": "tablet",
+      "deviceGroup": "Tablets",
       "brand": "Apple",
       "model": "iPad AIR M4 11\"",
       "family": "iPad AIR",
@@ -9989,20 +12567,21 @@ window.STOCK_DB = {
           "Starlight"
         ],
         "priceUsd": 735,
-        "stockQuantity": 6
+        "stockQuantity": 0
       },
       "description": "iPad AIR M4 11\" 128GB Starlight $735",
-      "stockQuantity": 6,
+      "stockQuantity": 0,
       "priceUsd": 735,
       "pricesUsd": [
         735
       ],
-      "raw": "6 | iPad AIR M4 11\" 128GB Starlight $735"
+      "raw": "0 | iPad AIR M4 11\" 128GB Starlight $735"
     },
     {
       "id": "apple_accessories-ipad-air-m4-11-128gb-purple",
       "category": "apple_accessories",
       "deviceType": "tablet",
+      "deviceGroup": "Tablets",
       "brand": "Apple",
       "model": "iPad AIR M4 11\"",
       "family": "iPad AIR",
@@ -10025,21 +12604,22 @@ window.STOCK_DB = {
         "colors": [
           "Purple"
         ],
-        "priceUsd": 820,
-        "stockQuantity": 3
+        "priceUsd": 790,
+        "stockQuantity": 5
       },
-      "description": "iPad AIR M4 11” 128GB Purple $820",
-      "stockQuantity": 3,
-      "priceUsd": 820,
+      "description": "iPad AIR M4 11” 128GB Purple $790",
+      "stockQuantity": 5,
+      "priceUsd": 790,
       "pricesUsd": [
-        820
+        790
       ],
-      "raw": "3 | iPad AIR M4 11” 128GB Purple $820"
+      "raw": "5 | iPad AIR M4 11” 128GB Purple $790"
     },
     {
       "id": "apple_accessories-ipad-air-m4-11-128gb-starlight-2",
       "category": "apple_accessories",
       "deviceType": "tablet",
+      "deviceGroup": "Tablets",
       "brand": "Apple",
       "model": "iPad AIR M4 11\"",
       "family": "iPad AIR",
@@ -10063,20 +12643,135 @@ window.STOCK_DB = {
           "Starlight"
         ],
         "priceUsd": 820,
-        "stockQuantity": 5
+        "stockQuantity": 0
       },
       "description": "iPad AIR M4 11” 128GB Starlight $820",
-      "stockQuantity": 5,
+      "stockQuantity": 0,
       "priceUsd": 820,
       "pricesUsd": [
         820
       ],
-      "raw": "5 | iPad AIR M4 11” 128GB Starlight $820"
+      "raw": "0 | iPad AIR M4 11” 128GB Starlight $820"
+    },
+    {
+      "id": "apple_accessories-ipad-air-m4-11-128gb-cellular",
+      "category": "apple_accessories",
+      "deviceType": "tablet",
+      "deviceGroup": "Tablets",
+      "brand": "Apple",
+      "model": "iPad Air M4 11\"",
+      "family": "iPad Air",
+      "memory": {
+        "ramGb": null,
+        "storageGb": 128
+      },
+      "chip": "M4",
+      "colors": [
+        "Space Gray"
+      ],
+      "configuration": {
+        "storageGb": 128,
+        "ramGb": null,
+        "chip": "M4",
+        "simMode": null
+      },
+      "variant": {
+        "color": "Space Gray",
+        "colors": [
+          "Space Gray"
+        ],
+        "priceUsd": 815,
+        "stockQuantity": 5
+      },
+      "description": "iPad Air M4 11\" 128GB Cellular $815 Space Gray",
+      "stockQuantity": 5,
+      "priceUsd": 815,
+      "pricesUsd": [
+        815
+      ],
+      "raw": "5 | iPad Air M4 11\" 128GB Cellular $815 Space Gray"
+    },
+    {
+      "id": "apple_accessories-ipad-air-m4-11-256gb-cellular",
+      "category": "apple_accessories",
+      "deviceType": "tablet",
+      "deviceGroup": "Tablets",
+      "brand": "Apple",
+      "model": "iPad Air M4 11\"",
+      "family": "iPad Air",
+      "memory": {
+        "ramGb": null,
+        "storageGb": 256
+      },
+      "chip": "M4",
+      "colors": [
+        "Space Gray"
+      ],
+      "configuration": {
+        "storageGb": 256,
+        "ramGb": null,
+        "chip": "M4",
+        "simMode": null
+      },
+      "variant": {
+        "color": "Space Gray",
+        "colors": [
+          "Space Gray"
+        ],
+        "priceUsd": 915,
+        "stockQuantity": 5
+      },
+      "description": "iPad Air M4 11\" 256GB Cellular $915 Space Gray",
+      "stockQuantity": 5,
+      "priceUsd": 915,
+      "pricesUsd": [
+        915
+      ],
+      "raw": "5 | iPad Air M4 11\" 256GB Cellular $915 Space Gray"
+    },
+    {
+      "id": "apple_accessories-ipad-pro-11-m5-256gb-wifi",
+      "category": "apple_accessories",
+      "deviceType": "tablet",
+      "deviceGroup": "Tablets",
+      "brand": "Apple",
+      "model": "IPAD PRO 11 M5",
+      "family": "IPAD PRO",
+      "memory": {
+        "ramGb": null,
+        "storageGb": 256
+      },
+      "chip": "M5",
+      "colors": [
+        "Black"
+      ],
+      "configuration": {
+        "storageGb": 256,
+        "ramGb": null,
+        "chip": "M5",
+        "simMode": null
+      },
+      "variant": {
+        "color": "Black",
+        "colors": [
+          "Black"
+        ],
+        "priceUsd": 1250,
+        "stockQuantity": 5
+      },
+      "description": "IPAD PRO 11 M5 256GB WIFI $1250 Black",
+      "stockQuantity": 5,
+      "priceUsd": 1250,
+      "pricesUsd": [
+        1250
+      ],
+      "raw": "5 | IPAD PRO 11 M5 256GB WIFI $1250 Black"
     },
     {
       "id": "apple_accessories-ipad-pro-13-m5-256gb-space-black",
       "category": "apple_accessories",
       "deviceType": "tablet",
+      "deviceGroup": "Tablets",
       "brand": "Apple",
       "model": "iPad PRO 13\" M5",
       "family": "iPad PRO",
@@ -10099,21 +12794,22 @@ window.STOCK_DB = {
         "colors": [
           "Space Black"
         ],
-        "priceUsd": 1375,
-        "stockQuantity": 6
+        "priceUsd": 1320,
+        "stockQuantity": 5
       },
-      "description": "iPad PRO 13” M5 256GB Space Black $1375",
-      "stockQuantity": 6,
-      "priceUsd": 1375,
+      "description": "iPad PRO 13” M5 256GB Space Black $1320",
+      "stockQuantity": 5,
+      "priceUsd": 1320,
       "pricesUsd": [
-        1375
+        1320
       ],
-      "raw": "6 | iPad PRO 13” M5 256GB Space Black $1375"
+      "raw": "5 | iPad PRO 13” M5 256GB Space Black $1320"
     },
     {
       "id": "apple_accessories-ipad-pro-m5-11-256gb-silver",
       "category": "apple_accessories",
       "deviceType": "tablet",
+      "deviceGroup": "Tablets",
       "brand": "Apple",
       "model": "iPad PRO M5 11\"",
       "family": "iPad PRO",
@@ -10136,21 +12832,22 @@ window.STOCK_DB = {
         "colors": [
           "Silver"
         ],
-        "priceUsd": 1225,
+        "priceUsd": 1250,
         "stockQuantity": 5
       },
-      "description": "iPad PRO M5 11\" · 256GB ▸ Silver $1225",
+      "description": "iPad PRO M5 11\" · 256GB ▸ Silver $1250",
       "stockQuantity": 5,
-      "priceUsd": 1225,
+      "priceUsd": 1250,
       "pricesUsd": [
-        1225
+        1250
       ],
-      "raw": "5 | iPad PRO M5 11\" · 256GB ▸ Silver $1225"
+      "raw": "5 | iPad PRO M5 11\" · 256GB ▸ Silver $1250"
     },
     {
       "id": "apple_accessories-ipad-pro-m5-11-256gb-space-black",
       "category": "apple_accessories",
       "deviceType": "tablet",
+      "deviceGroup": "Tablets",
       "brand": "Apple",
       "model": "iPad PRO M5 11\"",
       "family": "iPad PRO",
@@ -10174,20 +12871,21 @@ window.STOCK_DB = {
           "Space Black"
         ],
         "priceUsd": 1225,
-        "stockQuantity": 3
+        "stockQuantity": 0
       },
       "description": "iPad PRO M5 11\" · 256GB ▸ Space Black $1225",
-      "stockQuantity": 3,
+      "stockQuantity": 0,
       "priceUsd": 1225,
       "pricesUsd": [
         1225
       ],
-      "raw": "3 | iPad PRO M5 11\" · 256GB ▸ Space Black $1225"
+      "raw": "0 | iPad PRO M5 11\" · 256GB ▸ Space Black $1225"
     },
     {
       "id": "samsung_tablets-x133-a11-8-7-4-64",
       "category": "samsung_tablets",
       "deviceType": "tablet",
+      "deviceGroup": "Tablets",
       "brand": "Samsung",
       "model": "X133 A11 8.7\"",
       "family": "X133 A11",
@@ -10206,21 +12904,22 @@ window.STOCK_DB = {
       "variant": {
         "color": null,
         "colors": [],
-        "priceUsd": 185,
-        "stockQuantity": 2
+        "priceUsd": 170,
+        "stockQuantity": 5
       },
-      "description": "X133 A11 8.7\" 4/64 $185",
-      "stockQuantity": 2,
-      "priceUsd": 185,
+      "description": "X133 A11 8.7\" 4/64 $170",
+      "stockQuantity": 5,
+      "priceUsd": 170,
       "pricesUsd": [
-        185
+        170
       ],
-      "raw": "2 | X133 A11 8.7\" 4/64 $185"
+      "raw": "5 | X133 A11 8.7\" 4/64 $170"
     },
     {
       "id": "samsung_tablets-x400-s10-lite-10-9-6-128gb-wifi",
       "category": "samsung_tablets",
       "deviceType": "tablet",
+      "deviceGroup": "Tablets",
       "brand": "Samsung",
       "model": "X400 S10 Lite 10.9\"",
       "family": "X400 S10",
@@ -10244,20 +12943,21 @@ window.STOCK_DB = {
           "Gray"
         ],
         "priceUsd": 390,
-        "stockQuantity": 3
+        "stockQuantity": 0
       },
       "description": "X400 S10 Lite 10.9\" 6+128GB WIFI $390 Gray Incluye Pencil Incluye Funda Original",
-      "stockQuantity": 3,
+      "stockQuantity": 0,
       "priceUsd": 390,
       "pricesUsd": [
         390
       ],
-      "raw": "3 | X400 S10 Lite 10.9\" 6+128GB WIFI $390 Gray ⭐️Incluye Pencil ⭐️Incluye Funda Original"
+      "raw": "0 | X400 S10 Lite 10.9\" 6+128GB WIFI $390 Gray ⭐️Incluye Pencil ⭐️Incluye Funda Original"
     },
     {
       "id": "samsung_tablets-x520-s10-fe-10-9-8-128gb-wifi",
       "category": "samsung_tablets",
       "deviceType": "tablet",
+      "deviceGroup": "Tablets",
       "brand": "Samsung",
       "model": "X520 S10 FE 10.9\"",
       "family": "X520 S10",
@@ -10281,20 +12981,21 @@ window.STOCK_DB = {
           "Gray"
         ],
         "priceUsd": 450,
-        "stockQuantity": 4
+        "stockQuantity": 0
       },
       "description": "X520 S10 FE 10.9\" 8+128GB WIFI $450 Gray Incluye Pencil",
-      "stockQuantity": 4,
+      "stockQuantity": 0,
       "priceUsd": 450,
       "pricesUsd": [
         450
       ],
-      "raw": "4 | X520 S10 FE 10.9\" 8+128GB WIFI $450 Gray ⭐️Incluye Pencil"
+      "raw": "0 | X520 S10 FE 10.9\" 8+128GB WIFI $450 Gray ⭐️Incluye Pencil"
     },
     {
       "id": "samsung_tablets-x526b-galaxy-tab-s10-fe-10-9-8-128gb-5g-pencil-cover-gray",
       "category": "samsung_tablets",
       "deviceType": "tablet",
+      "deviceGroup": "Tablets",
       "brand": "Samsung",
       "model": "X526B GALAXY TAB S10 FE 10.9",
       "family": "X526B GALAXY",
@@ -10318,20 +13019,21 @@ window.STOCK_DB = {
           "Gray"
         ],
         "priceUsd": 540,
-        "stockQuantity": 5
+        "stockQuantity": 0
       },
       "description": "X526B GALAXY TAB S10 FE 10.9 8+128GB - 5G + Pencil + Cover - Gray $540",
-      "stockQuantity": 5,
+      "stockQuantity": 0,
       "priceUsd": 540,
       "pricesUsd": [
         540
       ],
-      "raw": "5 | X526B GALAXY TAB S10 FE 10.9 8+128GB - 5G + Pencil + Cover - Gray $540"
+      "raw": "0 | X526B GALAXY TAB S10 FE 10.9 8+128GB - 5G + Pencil + Cover - Gray $540"
     },
     {
       "id": "samsung_tablets-x930-s11-ultra-14-6-12-256gb-wifi-gray",
       "category": "samsung_tablets",
       "deviceType": "tablet",
+      "deviceGroup": "Tablets",
       "brand": "Samsung",
       "model": "X930 S11 ULTRA 14.6\"",
       "family": "X930 S11",
@@ -10355,20 +13057,21 @@ window.STOCK_DB = {
           "Gray"
         ],
         "priceUsd": 1100,
-        "stockQuantity": 6
+        "stockQuantity": 5
       },
       "description": "X930 S11 ULTRA 14.6\" 12+256GB WIFI Gray $1100 Incluye Pencil",
-      "stockQuantity": 6,
+      "stockQuantity": 5,
       "priceUsd": 1100,
       "pricesUsd": [
         1100
       ],
-      "raw": "6 | X930 S11 ULTRA 14.6\" 12+256GB WIFI Gray $1100 ⭐️Incluye Pencil"
+      "raw": "5 | X930 S11 ULTRA 14.6\" 12+256GB WIFI Gray $1100 Incluye Pencil"
     },
     {
       "id": "xiaomi-redmi-pad-2-11-4-128",
       "category": "xiaomi",
       "deviceType": "tablet",
+      "deviceGroup": "Tablets",
       "brand": "Xiaomi",
       "model": "REDMI Pad 2 11",
       "family": "REDMI Pad",
@@ -10406,6 +13109,7 @@ window.STOCK_DB = {
       "id": "xiaomi-redmi-pad-2-11-4-128-2",
       "category": "xiaomi",
       "deviceType": "tablet",
+      "deviceGroup": "Tablets",
       "brand": "Xiaomi",
       "model": "REDMI Pad 2 11",
       "family": "REDMI Pad",
@@ -10429,15 +13133,53 @@ window.STOCK_DB = {
           "Green"
         ],
         "priceUsd": 230,
-        "stockQuantity": 3
+        "stockQuantity": 5
       },
       "description": "REDMI Pad 2 11 4+128 $230 Verde",
-      "stockQuantity": 3,
+      "stockQuantity": 5,
       "priceUsd": 230,
       "pricesUsd": [
         230
       ],
-      "raw": "3 | REDMI Pad 2 11 4+128 $230 Verde"
+      "raw": "5 | REDMI Pad 2 11 4+128 $230 Verde"
+    },
+    {
+      "id": "xiaomi-redmi-pad-7-8-128gb",
+      "category": "xiaomi",
+      "deviceType": "tablet",
+      "deviceGroup": "Tablets",
+      "brand": "Xiaomi",
+      "model": "Redmi PAD 7",
+      "family": "Redmi PAD",
+      "memory": {
+        "ramGb": 8,
+        "storageGb": 128
+      },
+      "chip": null,
+      "colors": [
+        "Blue"
+      ],
+      "configuration": {
+        "storageGb": 128,
+        "ramGb": 8,
+        "chip": null,
+        "simMode": null
+      },
+      "variant": {
+        "color": "Blue",
+        "colors": [
+          "Blue"
+        ],
+        "priceUsd": 370,
+        "stockQuantity": 5
+      },
+      "description": "Redmi PAD 7 8+128GB $370 Blue",
+      "stockQuantity": 5,
+      "priceUsd": 370,
+      "pricesUsd": [
+        370
+      ],
+      "raw": "5 | Redmi PAD 7 8+128GB $370 Blue"
     }
   ],
   "categoryLabels": {
@@ -10459,5 +13201,5 @@ window.STOCK_DB = {
     "jbl": "JBL",
     "notebooks": "Notebooks"
   },
-  "updatedAt": "2026-08-21T03:53:34.345Z"
+  "updatedAt": "2026-08-21T08:57:16.277Z"
 };

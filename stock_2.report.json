@@ -1,0 +1,900 @@
+{
+  "source": "/Users/apple/Documents/Store/private/texto-6E8227E2D050-1.txt",
+  "output": "/Users/apple/Documents/Store/stock_2.md",
+  "generatedAt": "2026-08-21T08:57:16.243Z",
+  "summary": {
+    "sourceVariantsDetected": 259,
+    "uniqueSourceVariants": 254,
+    "variantsWithStock5": 254,
+    "variantsSetToStock0": 97,
+    "newVariantsAdded": 65,
+    "pricesModified": 98,
+    "possibleDuplicates": 1,
+    "ambiguities": 5
+  },
+  "ambiguities": [
+    {
+      "line": "📱17 512 Esim Esim $1080 Sage",
+      "reason": "Texto eSIM duplicado; normalizado como eSIM"
+    },
+    {
+      "line": "📲S25 ULTRA 512GB+12GB 5G $905 silverblue/whitesilver",
+      "reason": "Color unido interpretado como nombre compuesto"
+    },
+    {
+      "line": "📲S25 ULTRA 1TB+12GB 5G USD960 gray/silverblue/whitesilver",
+      "reason": "Color unido interpretado como nombre compuesto"
+    },
+    {
+      "line": "📱G67 4+256 $285 Gris",
+      "variant": "G67 4+256 / Gray",
+      "reason": "Matching no concluyente",
+      "candidates": [
+        {
+          "score": 0.6666666666666666,
+          "line": "4 | G67 4+256GB $285 Gris"
+        }
+      ]
+    },
+    {
+      "reason": "Posible variante duplicada",
+      "key": "apple_accessories|ipad air m4 11 128gb|starlight",
+      "lines": [
+        "0 | iPad AIR M4 11\" 128GB Starlight $735",
+        "0 | iPad AIR M4 11” 128GB Starlight $820"
+      ]
+    }
+  ],
+  "newVariants": [
+    {
+      "section": "apple_new",
+      "line": "5 | 15 Plus 128 $700 Yellow"
+    },
+    {
+      "section": "apple_new",
+      "line": "5 | 15 Plus 128 $720 Black"
+    },
+    {
+      "section": "apple_new",
+      "line": "5 | 16 Pro Max 1TB $1370 Desert"
+    },
+    {
+      "section": "apple_new",
+      "line": "5 | 17 256GB $920 White"
+    },
+    {
+      "section": "apple_new",
+      "line": "5 | 17 256GB $920 Blue"
+    },
+    {
+      "section": "apple_new",
+      "line": "5 | 17 256GB SIM / / / $940 Blue"
+    },
+    {
+      "section": "apple_new",
+      "line": "5 | 17 256GB SIM / / / $940 Sage"
+    },
+    {
+      "section": "apple_new",
+      "line": "5 | 17 512 Esim Esim $1080 Sage"
+    },
+    {
+      "section": "apple_new",
+      "line": "5 | 17 PRO 1TB $1550 Silver"
+    },
+    {
+      "section": "apple_new",
+      "line": "5 | 17 Pro Max 2TB $2025 Blue"
+    },
+    {
+      "section": "samsung",
+      "line": "5 | A17 4+128GB / $195 Blue"
+    },
+    {
+      "section": "samsung",
+      "line": "5 | A56 12GB+256GB $415 Olive"
+    },
+    {
+      "section": "samsung",
+      "line": "5 | S25 ULTRA 512GB+12GB 5G $905 White Silver"
+    },
+    {
+      "section": "samsung",
+      "line": "5 | S25 ULTRA 512GB+12GB 5G $905 Silver Blue"
+    },
+    {
+      "section": "samsung",
+      "line": "5 | S25 ULTRA 1TB+12GB 5G / $960 White Silver"
+    },
+    {
+      "section": "samsung",
+      "line": "5 | S25 ULTRA 1TB+12GB 5G / $960 Gray"
+    },
+    {
+      "section": "samsung",
+      "line": "5 | S26 12+256 5G $720 Pink Gold"
+    },
+    {
+      "section": "samsung",
+      "line": "5 | S26 12+256 5G $720 Silver"
+    },
+    {
+      "section": "samsung",
+      "line": "5 | S26 PLUS 12+256GB 5G / $880 Blue"
+    },
+    {
+      "section": "samsung",
+      "line": "5 | S26 ULTRA 1TB 5G $1350 Black"
+    },
+    {
+      "section": "samsung",
+      "line": "5 | ZFOLD 8 12/512GB 5G $1730 Graphite"
+    },
+    {
+      "section": "samsung",
+      "line": "5 | ZFOLD 8 12/512GB 5G $1730 Cream"
+    },
+    {
+      "section": "samsung",
+      "line": "5 | ZFLIP 8 12/256GB 5G $1100 Graphite"
+    },
+    {
+      "section": "samsung",
+      "line": "5 | ZFLIP 8 12/256GB 5G $1100 Cream"
+    },
+    {
+      "section": "samsung",
+      "line": "5 | ZFLIP 8 12/512GB 5G $1250 Pink"
+    },
+    {
+      "section": "samsung_watches",
+      "line": "5 | Galaxy WATCH 7 40mm L300 GPS WIFI $290 Green"
+    },
+    {
+      "section": "samsung",
+      "line": "5 | Band 47mm $15 Black"
+    },
+    {
+      "section": "xiaomi",
+      "line": "5 | NOTE 15 8GB 256GB $225 Black"
+    },
+    {
+      "section": "xiaomi",
+      "line": "5 | REDMI 15C 8+256GB $200 Green"
+    },
+    {
+      "section": "xiaomi",
+      "line": "5 | POCO M8S 8+256GB 5G $250 White"
+    },
+    {
+      "section": "xiaomi",
+      "line": "5 | POCO X8 PRO MAX 12+512GB $575 Orange"
+    },
+    {
+      "section": "xiaomi",
+      "line": "5 | Redmi PAD 7 8+128GB $370 Blue"
+    },
+    {
+      "section": "motorola",
+      "line": "5 | G67 4+256 $285 Gray"
+    },
+    {
+      "section": "motorola",
+      "line": "5 | Edge 60 Pro 12+512 5G $470 Purple"
+    },
+    {
+      "section": "apple_accessories",
+      "line": "5 | iPad Air M4 11\" 128GB Cellular $815 Space Gray"
+    },
+    {
+      "section": "apple_accessories",
+      "line": "5 | iPad Air M4 11\" 256GB Cellular $915 Space Gray"
+    },
+    {
+      "section": "apple_accessories",
+      "line": "5 | IPAD AIR 13 M4 128GB $950 Starlight"
+    },
+    {
+      "section": "apple_accessories",
+      "line": "5 | IPAD PRO 11 M5 256GB WIFI $1250 Black"
+    },
+    {
+      "section": "apple_accessories",
+      "line": "5 | AIRPODS MAX 2 $560 Starlight"
+    },
+    {
+      "section": "apple_accessories",
+      "line": "5 | Apple Watch SERIES SE 3RD 40MM AL SB S/M $290 Midnight"
+    },
+    {
+      "section": "apple_accessories",
+      "line": "5 | Apple Watch Series SE 3rd 44mm $315"
+    },
+    {
+      "section": "apple_accessories",
+      "line": "5 | Apple Watch S11 42mm Light band S/M $375 Rose Gold"
+    },
+    {
+      "section": "apple_accessories",
+      "line": "5 | Apple Watch S11 42mm AL SB S/M $380 Jet Black"
+    },
+    {
+      "section": "apple_accessories",
+      "line": "5 | Apple Watch S11 42mm AL SB S/M $380 Black"
+    },
+    {
+      "section": "apple_accessories",
+      "line": "5 | Apple Watch S11 42mm AL CASE WITH FOG SPORT BAND - S/M $380 Silver"
+    },
+    {
+      "section": "apple_accessories",
+      "line": "5 | Apple Watch S11 42mm AL CASE WITH FOG SPORT BAND - S/M $380 Purple"
+    },
+    {
+      "section": "apple_accessories",
+      "line": "5 | Apple Watch S11 42mm AL SB S/M $380 Space Gray"
+    },
+    {
+      "section": "apple_accessories",
+      "line": "5 | APPLE WATCH SERIES 11 46mm AL FOG SB M/L $410 Silver"
+    },
+    {
+      "section": "apple_accessories",
+      "line": "5 | APPLE WATCH SERIES 11 46mm AL FOG SB M/L $410 Purple"
+    },
+    {
+      "section": "apple_accessories",
+      "line": "5 | APPLE WATCH SERIES 11 46mm AL LB SB M/L $410 Rose Gold"
+    },
+    {
+      "section": "apple_accessories",
+      "line": "5 | Apple Watch Series 11 · 46mm ▸ $425 Jet Black"
+    },
+    {
+      "section": "mac",
+      "line": "5 | Macbook Neo 13 6C 5G 8/512SSD Teclado Español $930 Silver"
+    },
+    {
+      "section": "mac",
+      "line": "5 | MACBOOK Air M5 13\" 16GB / 1TB 10CPU/10GPU $1530 Sky Blue"
+    },
+    {
+      "section": "mac",
+      "line": "5 | MACBOOK Air M5 13\" 16GB / 1TB 10CPU/10GPU $1530 Midnight"
+    },
+    {
+      "section": "mac",
+      "line": "5 | MACBOOK AIR 15.3” M5 16/512GB 10CPU/10GPU - $1570 Sky Blue"
+    },
+    {
+      "section": "mac",
+      "line": "5 | MACBOOK Pro M2 13\" · 16GB / 256GB · 8CPU/10GPU · Touch Bar $1045 Space Gray"
+    },
+    {
+      "section": "mac",
+      "line": "5 | MACBOOK PRO 14.2\" M5 24GB 1TB $2355 Space Black"
+    },
+    {
+      "section": "mac",
+      "line": "5 | MACBOOK PRO 14.2\" M5 24GB 1TB $2355 Silver"
+    },
+    {
+      "section": "mac",
+      "line": "5 | MACBOOK PRO 14.2\" M5 PRO 24GB 1TB $2690 Space Black"
+    },
+    {
+      "section": "mac",
+      "line": "5 | MACBOOK PRO 14.2\" M5 PRO 24GB 1TB $2690 Silver"
+    },
+    {
+      "section": "smart_glasses",
+      "line": "5 | Oakley Meta Vanguard - T120 S52 $560"
+    },
+    {
+      "section": "smart_glasses",
+      "line": "5 | Oakley Meta Vanguard - T120 S52 Black/Prizm 24K $560 Black"
+    },
+    {
+      "section": "smart_glasses",
+      "line": "5 | Oakley Meta Vanguard - T120 S52 White/Prizm Black $560 White"
+    },
+    {
+      "section": "garmin",
+      "line": "5 | EPIX PRO Gen2 42mm Saphire Multisport Watch $520 White"
+    },
+    {
+      "section": "notebooks",
+      "line": "5 | Asus VivoBook GO 15.6 Ryzen 5 8/512SSD Radeon Graph $510 Black"
+    }
+  ],
+  "priceChanges": [
+    {
+      "from": 700,
+      "to": 695,
+      "old": "5 | iPhone 15 128GB $700 Black",
+      "source": "📱15 128GB $695 BLACK, BLUE"
+    },
+    {
+      "from": 700,
+      "to": 695,
+      "old": "3 | iPhone 15 128GB $700 Blue",
+      "source": "📱15 128GB $695 BLACK, BLUE"
+    },
+    {
+      "from": 810,
+      "to": 790,
+      "old": "52 | iPhone 16 128GB $810 Ultramarine",
+      "source": "📱16 128GB $790 Pink / Black / White / Ultramarine / Teal"
+    },
+    {
+      "from": 810,
+      "to": 790,
+      "old": "1 | iPhone 16 128GB $810 Black",
+      "source": "📱16 128GB $790 Pink / Black / White / Ultramarine / Teal"
+    },
+    {
+      "from": 810,
+      "to": 790,
+      "old": "4 | iPhone 16 128GB $810 White",
+      "source": "📱16 128GB $790 Pink / Black / White / Ultramarine / Teal"
+    },
+    {
+      "from": 810,
+      "to": 790,
+      "old": "2 | iPhone 16 128GB $810 Pink",
+      "source": "📱16 128GB $790 Pink / Black / White / Ultramarine / Teal"
+    },
+    {
+      "from": 810,
+      "to": 790,
+      "old": "3 | iPhone 16 128GB $810 Teal",
+      "source": "📱16 128GB $790 Pink / Black / White / Ultramarine / Teal"
+    },
+    {
+      "from": 930,
+      "to": 920,
+      "old": "6 | iPhone 17 256GB $930 Lavender",
+      "source": "📱17 256GB $920 Black White Blue Sage  Lavender."
+    },
+    {
+      "from": 930,
+      "to": 920,
+      "old": "5 | iPhone 17 256GB $930 Black",
+      "source": "📱17 256GB $920 Black White Blue Sage  Lavender."
+    },
+    {
+      "from": 930,
+      "to": 920,
+      "old": "2 | iPhone 17 256GB $930 Sage",
+      "source": "📱17 256GB $920 Black White Blue Sage  Lavender."
+    },
+    {
+      "from": 1200,
+      "to": 1155,
+      "old": "4 | iPhone 17 PRO 256GB $1200 Silver",
+      "source": "📱17 PRO 256GB $1145 Orange, Blue (Silver 1155)."
+    },
+    {
+      "from": 1150,
+      "to": 1145,
+      "old": "6 | iPhone 17 PRO 256GB $1150 Orange",
+      "source": "📱17 PRO 256GB $1145 Orange, Blue (Silver 1155)."
+    },
+    {
+      "from": 1200,
+      "to": 1145,
+      "old": "2 | iPhone 17 PRO 256GB $1200 Blue",
+      "source": "📱17 PRO 256GB $1145 Orange, Blue (Silver 1155)."
+    },
+    {
+      "from": 1255,
+      "to": 1265,
+      "old": "2 | iPhone 17 PRO MAX 256GB $1255 Silver",
+      "source": "📱17 PRO MAX 256GB $1265 BLUE (SILVER) (Orange)."
+    },
+    {
+      "from": 1255,
+      "to": 1265,
+      "old": "3 | iPhone 17 PRO MAX 256GB $1255 Orange",
+      "source": "📱17 PRO MAX 256GB $1265 BLUE (SILVER) (Orange)."
+    },
+    {
+      "from": 1255,
+      "to": 1265,
+      "old": "6 | iPhone 17 PRO MAX 256GB $1255 Blue",
+      "source": "📱17 PRO MAX 256GB $1265 BLUE (SILVER) (Orange)."
+    },
+    {
+      "from": 1420,
+      "to": 1300,
+      "old": "5 | iPhone 17 PRO MAX 256GB SIM física + eSIM $1420 Orange",
+      "source": "📱17 Pro Max 256GB,SIM física $1300 (Orange)"
+    },
+    {
+      "from": 1450,
+      "to": 1440,
+      "old": "2 | iPhone 17 PRO MAX 512GB $1450 Silver",
+      "source": "📱17 PRO MAX 512GB $1440 Orange / Blue  (Silver)"
+    },
+    {
+      "from": 1420,
+      "to": 1440,
+      "old": "4 | iPhone 17 PRO MAX 512GB $1420 Orange",
+      "source": "📱17 PRO MAX 512GB $1440 Orange / Blue  (Silver)"
+    },
+    {
+      "from": 1420,
+      "to": 1440,
+      "old": "6 | iPhone 17 PRO MAX 512GB $1420 Blue",
+      "source": "📱17 PRO MAX 512GB $1440 Orange / Blue  (Silver)"
+    },
+    {
+      "from": 2120,
+      "to": 2025,
+      "old": "4 | iPhone 17 PRO MAX 2TB $2120 Orange",
+      "source": "📱17 Pro Max 2TB $2025 Orange/Blue"
+    },
+    {
+      "from": 185,
+      "to": 195,
+      "old": "4 | A17 4+128GB Black 185",
+      "source": "📱A17 4+128GB  Black/Blue/Gray $195"
+    },
+    {
+      "from": 185,
+      "to": 195,
+      "old": "3 | A17 4+128GB Gray 185",
+      "source": "📱A17 4+128GB  Black/Blue/Gray $195"
+    },
+    {
+      "from": 420,
+      "to": 415,
+      "old": "2 | A56 12GB+256GB $420 Lightgray",
+      "source": "📲A56 12GB+256GB $415 (Olive lightgray)"
+    },
+    {
+      "from": 645,
+      "to": 640,
+      "old": "4 | S25 12+128GB 5G $645 Navy",
+      "source": "📲S25 12+128GB 5G $640 navy"
+    },
+    {
+      "from": 690,
+      "to": 685,
+      "old": "3 | S25 12+256GB 5G USD690 Silver",
+      "source": "📲S25 12+256GB 5G USD685 silver/navy"
+    },
+    {
+      "from": 690,
+      "to": 685,
+      "old": "5 | S25 12+256GB 5G USD690 Navy",
+      "source": "📲S25 12+256GB 5G USD685 silver/navy"
+    },
+    {
+      "from": 830,
+      "to": 820,
+      "old": "4 | S25 ULTRA 256GB+12GB 5G $830 White",
+      "source": "📲S25 ULTRA 256GB+12GB 5G $820 (White Blue)"
+    },
+    {
+      "from": 830,
+      "to": 820,
+      "old": "3 | S25 ULTRA 256GB+12GB 5G $830 Blue",
+      "source": "📲S25 ULTRA 256GB+12GB 5G $820 (White Blue)"
+    },
+    {
+      "from": 950,
+      "to": 960,
+      "old": "5 | S25 ULTRA 1TB+12GB 5G USD950 Silver Blue",
+      "source": "📲S25 ULTRA 1TB+12GB 5G USD960 gray/silverblue/whitesilver"
+    },
+    {
+      "from": 730,
+      "to": 720,
+      "old": "5 | S26 12+256 5G $730 Violet",
+      "source": "📱S26 12+256 5G $720 Blue, Silver, Pink Gold (Violet, White)"
+    },
+    {
+      "from": 715,
+      "to": 720,
+      "old": "4 | S26 12+256 5G $715 White",
+      "source": "📱S26 12+256 5G $720 Blue, Silver, Pink Gold (Violet, White)"
+    },
+    {
+      "from": 730,
+      "to": 720,
+      "old": "2 | S26 12+256 5G $730 Blue",
+      "source": "📱S26 12+256 5G $720 Blue, Silver, Pink Gold (Violet, White)"
+    },
+    {
+      "from": 850,
+      "to": 835,
+      "old": "2 | S26 12+512GB 5G $850 Violet",
+      "source": "📲S26 12+512GB 5G $835 white/black/violet"
+    },
+    {
+      "from": 850,
+      "to": 835,
+      "old": "4 | S26 12+512GB 5G $850 Black",
+      "source": "📲S26 12+512GB 5G $835 white/black/violet"
+    },
+    {
+      "from": 850,
+      "to": 835,
+      "old": "6 | S26 12+512GB 5G $850 White",
+      "source": "📲S26 12+512GB 5G $835 white/black/violet"
+    },
+    {
+      "from": 890,
+      "to": 880,
+      "old": "2 | S26 PLUS 12+256GB 5G USD890 Violet",
+      "source": "📲S26 PLUS 12+256GB 5G USD880 Blue/Violet/White "
+    },
+    {
+      "from": 890,
+      "to": 880,
+      "old": "5 | S26 PLUS 12+256GB 5G USD890 White",
+      "source": "📲S26 PLUS 12+256GB 5G USD880 Blue/Violet/White "
+    },
+    {
+      "from": 1005,
+      "to": 1000,
+      "old": "4 | S26 PLUS 12+512GB 5G USD1005 White",
+      "source": "📲S26 PLUS 12+512GB 5G USD1000 white"
+    },
+    {
+      "from": 965,
+      "to": 940,
+      "old": "2 | S26 ULTRA 12+256GB $965 Violet",
+      "source": "📲S26 ULTRA 12+256GB $940 Black white violet"
+    },
+    {
+      "from": 965,
+      "to": 940,
+      "old": "5 | S26 ULTRA 12+256GB $965 Black",
+      "source": "📲S26 ULTRA 12+256GB $940 Black white violet"
+    },
+    {
+      "from": 950,
+      "to": 940,
+      "old": "4 | S26 ULTRA 12+256GB $950 White",
+      "source": "📲S26 ULTRA 12+256GB $940 Black white violet"
+    },
+    {
+      "from": 1120,
+      "to": 1110,
+      "old": "3 | S26 ULTRA 12+512GB $1.120 Violet",
+      "source": "📲S26 ULTRA 12+512GB $1.110 Black, blue ( white violet)"
+    },
+    {
+      "from": 1115,
+      "to": 1110,
+      "old": "6 | S26 ULTRA 12+512GB $1.115 Black",
+      "source": "📲S26 ULTRA 12+512GB $1.110 Black, blue ( white violet)"
+    },
+    {
+      "from": 1120,
+      "to": 1110,
+      "old": "2 | S26 ULTRA 12+512GB $1.120 White",
+      "source": "📲S26 ULTRA 12+512GB $1.110 Black, blue ( white violet)"
+    },
+    {
+      "from": 1115,
+      "to": 1110,
+      "old": "4 | S26 ULTRA 12+512GB $1.115 Blue",
+      "source": "📲S26 ULTRA 12+512GB $1.110 Black, blue ( white violet)"
+    },
+    {
+      "from": 1360,
+      "to": 1350,
+      "old": "4 | S26 ULTRA 1TB 5G $1360 Violet",
+      "source": "📲S26 ULTRA 1TB 5G $1350 White, Black, Blue, Violet."
+    },
+    {
+      "from": 1355,
+      "to": 1350,
+      "old": "2 | S26 ULTRA 1TB 5G $1355 White",
+      "source": "📲S26 ULTRA 1TB 5G $1350 White, Black, Blue, Violet."
+    },
+    {
+      "from": 1355,
+      "to": 1350,
+      "old": "5 | S26 ULTRA 1TB 5G $1355 Blue",
+      "source": "📲S26 ULTRA 1TB 5G $1350 White, Black, Blue, Violet."
+    },
+    {
+      "from": 185,
+      "to": 170,
+      "old": "2 | X133 A11 8.7\" 4/64 $185",
+      "source": "📱TABLET X133 A11 8.7\" 4/64 $170"
+    },
+    {
+      "from": 235,
+      "to": 225,
+      "old": "4 | NOTE 15 8+256GB $235 Purple",
+      "source": "📱NOTE 15 8GB 256GB $225 Black, Blue, Purple."
+    },
+    {
+      "from": 235,
+      "to": 225,
+      "old": "3 | NOTE 15 8+256GB $235 Blue",
+      "source": "📱NOTE 15 8GB 256GB $225 Black, Blue, Purple."
+    },
+    {
+      "from": 275,
+      "to": 290,
+      "old": "2 | NOTE 15 8+256GB 5G $275 Black",
+      "source": "▪️NOTE 15 8+256GB 5G BLUE-BLACK $290"
+    },
+    {
+      "from": 275,
+      "to": 290,
+      "old": "5 | NOTE 15 8+256GB 5G $275 Blue",
+      "source": "▪️NOTE 15 8+256GB 5G BLUE-BLACK $290"
+    },
+    {
+      "from": 295,
+      "to": 300,
+      "old": "5 | NOTE 15 PRO 8GB+256GB $295 Blue",
+      "source": "▪️NOTE 15 PRO 8GB+256GB $300 Blue, Titanium"
+    },
+    {
+      "from": 335,
+      "to": 350,
+      "old": "6 | NOTE 15 PRO 8+256GB 5G $335 Black",
+      "source": "▪️NOTE 15 PRO 8+256GB 5G BLACK $350"
+    },
+    {
+      "from": 190,
+      "to": 200,
+      "old": "5 | REDMI 15C 8+256GB $190 Black",
+      "source": "📱REDMI 15C 8+256GB Black/Green $200"
+    },
+    {
+      "from": 210,
+      "to": 215,
+      "old": "2 | REDMI 15 8+256GB $210 Purple",
+      "source": "▪️REDMI 15 8+256GB BLACK-PURPLE $215"
+    },
+    {
+      "from": 210,
+      "to": 215,
+      "old": "3 | REDMI 15 8+256GB $210 Black",
+      "source": "▪️REDMI 15 8+256GB BLACK-PURPLE $215"
+    },
+    {
+      "from": 390,
+      "to": 410,
+      "old": "4 | POCO X8 PRO 8+256GB 5G $390 Green",
+      "source": "▪️POCO X8 PRO 8+256GB 5G GREEN $410"
+    },
+    {
+      "from": 455,
+      "to": 470,
+      "old": "5 | POCO X8 PRO 12+512GB $455 Yellow",
+      "source": "▪️POCO X8 PRO 12+512GB BLACK-YELLOW $470"
+    },
+    {
+      "from": 455,
+      "to": 470,
+      "old": "3 | POCO X8 PRO 12+512GB $455 Black",
+      "source": "▪️POCO X8 PRO 12+512GB BLACK-YELLOW $470"
+    },
+    {
+      "from": 180,
+      "to": 175,
+      "old": "5 | G35 8+128GB 5G $180 Black",
+      "source": "▪️G35 8+128GB 5G BLACK $175"
+    },
+    {
+      "from": 260,
+      "to": 275,
+      "old": "2 | G56 12+256GB 5G $260 Green",
+      "source": "▪️G56 12+256GB 5G BLUE-GREEN $275"
+    },
+    {
+      "from": 260,
+      "to": 275,
+      "old": "4 | G56 12+256GB 5G $260 Blue",
+      "source": "▪️G56 12+256GB 5G BLUE-GREEN $275"
+    },
+    {
+      "from": 275,
+      "to": 270,
+      "old": "5 | G86 POWER 8+256GB 5G $275 Cereza",
+      "source": "▪️G86 8+256GB 5G CEREZA 270"
+    },
+    {
+      "from": 585,
+      "to": 615,
+      "old": "5 | iPad 11\" (A16) 256GB Silver $585",
+      "source": "📱iPad 11 (A16)  256GB $580 Blue, Pink (SILVER 615)"
+    },
+    {
+      "from": 585,
+      "to": 580,
+      "old": "7 | iPad 11\" (A16) 256GB Blue $585",
+      "source": "📱iPad 11 (A16)  256GB $580 Blue, Pink (SILVER 615)"
+    },
+    {
+      "from": 585,
+      "to": 580,
+      "old": "3 | iPad 11\" (A16) 256GB Pink $585",
+      "source": "📱iPad 11 (A16)  256GB $580 Blue, Pink (SILVER 615)"
+    },
+    {
+      "from": 820,
+      "to": 790,
+      "old": "3 | iPad AIR M4 11” 128GB Purple $820",
+      "source": "📱IPAD AIR M4 11\" 128GB USD790 Blue/Purple/Space"
+    },
+    {
+      "from": 735,
+      "to": 790,
+      "old": "4 | iPad AIR M4 11\" 128GB Blue $735",
+      "source": "📱IPAD AIR M4 11\" 128GB USD790 Blue/Purple/Space"
+    },
+    {
+      "from": 1020,
+      "to": 950,
+      "old": "7 | iPad AIR 13 M4 128GB WIFI Space Gray $1020",
+      "source": "📱IPAD AIR 13 M4 128GB $950 Space Gray, Starlight."
+    },
+    {
+      "from": 1225,
+      "to": 1250,
+      "old": "5 | iPad PRO M5 11\" · 256GB ▸ Silver $1225",
+      "source": "📱IPAD PRO 11 M5 256GB WIFI SILVER / Black $1250"
+    },
+    {
+      "from": 1375,
+      "to": 1320,
+      "old": "6 | iPad PRO 13” M5 256GB Space Black $1375",
+      "source": "📱iPad PRO 13” M5 256GB  Space Black 1320"
+    },
+    {
+      "from": 210,
+      "to": 195,
+      "old": "6 | AirPods 4 Noise Cancelling ▸ $210",
+      "source": "🎧AIRPODS 4 Noise Cancelling USD195"
+    },
+    {
+      "from": 800,
+      "to": 790,
+      "old": "7 | MacBook Neo 13” 8/256GB Silver $800",
+      "source": "💻 *MACBOOK NEO 13” 8/256GB USD760 citrus* ( índigo / blush 795) (SILVER 790)"
+    },
+    {
+      "from": 770,
+      "to": 760,
+      "old": "4 | MacBook Neo 13” 8/256GB Citrus* 💸 $770",
+      "source": "💻 *MACBOOK NEO 13” 8/256GB USD760 citrus* ( índigo / blush 795) (SILVER 790)"
+    },
+    {
+      "from": 780,
+      "to": 795,
+      "old": "3 | MacBook Neo 13” 8/256GB Índigo $780",
+      "source": "💻 *MACBOOK NEO 13” 8/256GB USD760 citrus* ( índigo / blush 795) (SILVER 790)"
+    },
+    {
+      "from": 800,
+      "to": 795,
+      "old": "2 | MacBook Neo 13” 8/256GB Blush $800",
+      "source": "💻 *MACBOOK NEO 13” 8/256GB USD760 citrus* ( índigo / blush 795) (SILVER 790)"
+    },
+    {
+      "from": 810,
+      "to": 795,
+      "old": "3 | MacBook Neo 13\" · 8GB / 256GB · 6CPU/5GPU · Teclado Español - Enchufe Argentina ▸ Silver $810",
+      "source": "💻MACBOOK Neo 13\" · 8GB / 256GB · 6CPU/5GPU · Teclado Español - Enchufe Argentina ▸ Blush / Citrus / Indigo / Silver $795"
+    },
+    {
+      "from": 810,
+      "to": 795,
+      "old": "4 | MacBook Neo 13\" · 8GB / 256GB · 6CPU/5GPU · Teclado Español - Enchufe Argentina ▸ Citrus $810",
+      "source": "💻MACBOOK Neo 13\" · 8GB / 256GB · 6CPU/5GPU · Teclado Español - Enchufe Argentina ▸ Blush / Citrus / Indigo / Silver $795"
+    },
+    {
+      "from": 810,
+      "to": 795,
+      "old": "8 | MacBook Neo 13\" · 8GB / 256GB · 6CPU/5GPU · Teclado Español - Enchufe Argentina ▸ Indigo $810",
+      "source": "💻MACBOOK Neo 13\" · 8GB / 256GB · 6CPU/5GPU · Teclado Español - Enchufe Argentina ▸ Blush / Citrus / Indigo / Silver $795"
+    },
+    {
+      "from": 810,
+      "to": 795,
+      "old": "6 | MacBook Neo 13\" · 8GB / 256GB · 6CPU/5GPU · Teclado Español - Enchufe Argentina ▸ Blush $810",
+      "source": "💻MACBOOK Neo 13\" · 8GB / 256GB · 6CPU/5GPU · Teclado Español - Enchufe Argentina ▸ Blush / Citrus / Indigo / Silver $795"
+    },
+    {
+      "from": 910,
+      "to": 895,
+      "old": "7 | MacBook Neo 13\" · 8GB / 512GB · 6CPU/5GPU Citrus $910",
+      "source": "💻MACBOOK Neo 13\" · 8GB / 512GB · 6CPU/5GPU $895 Citrus / Indigo."
+    },
+    {
+      "from": 910,
+      "to": 895,
+      "old": "3 | MacBook Neo 13\" · 8GB / 512GB · 6CPU/5GPU Indigo $910",
+      "source": "💻MACBOOK Neo 13\" · 8GB / 512GB · 6CPU/5GPU $895 Citrus / Indigo."
+    },
+    {
+      "from": 1310,
+      "to": 1350,
+      "old": "3 | MacBook Air M5 13\" · 16GB / 512GB 10CPU/8GPU Sky Blue $1310",
+      "source": "💻MACBOOK Air M5 13\" 16GB / 512GB 10CPU/8GPU $1350  Sky Blue."
+    },
+    {
+      "from": 1470,
+      "to": 1530,
+      "old": "4 | MacBook Air M5 13\" · 16GB / 1TB · 10CPU/10GPU Starlight $1470",
+      "source": "💻MACBOOK Air M5 13\" 16GB / 1TB 10CPU/10GPU $1530 Midnight, Sky Blue, Starlight."
+    },
+    {
+      "from": 1580,
+      "to": 1570,
+      "old": "3 | MacBook Air 15.3” M5 16/512GB 10CPU/10GPU Silver $1580",
+      "source": "💻MACBOOK AIR 15.3” M5 16/512GB 10CPU/10GPU $1570 Sky Blue - Starlight - silver"
+    },
+    {
+      "from": 2040,
+      "to": 2045,
+      "old": "6 | MacBook PRO M5 14\" · 16GB / 1TB · 10CPU/10GPU ▸ Space Black $2040",
+      "source": "💻MACBOOK Pro M5 14\" · 16GB / 1TB · 10CPU/10GPU ▸ Space Black / Silver $2045"
+    },
+    {
+      "from": 2040,
+      "to": 2045,
+      "old": "4 | MacBook PRO M5 14\" · 16GB / 1TB · 10CPU/10GPU ▸ Silver $2040",
+      "source": "💻MACBOOK Pro M5 14\" · 16GB / 1TB · 10CPU/10GPU ▸ Space Black / Silver $2045"
+    },
+    {
+      "from": 770,
+      "to": 755,
+      "old": "4 | DJI Osmo Pocket 4 Creator Combo $770",
+      "source": "🔥*DJI* Osmo Pocket 4 Creator Combo $755 "
+    },
+    {
+      "from": 650,
+      "to": 640,
+      "old": "2 | Acer Aspire Go 15.6 Amd Ryzen 7 7730U Radeon Graph 16/512SSD Silver **$650**",
+      "source": "💻Acer Aspire Go 15.6 Amd Ryzen 7 7730U Radeon Graph 16/512SSD *$640* Silver"
+    },
+    {
+      "from": 800,
+      "to": 770,
+      "old": "3 | Asus Vivobook 16 I7-1355U FHD 16/512SSD Win11 Black **$800**",
+      "source": "💻Asus Vivobook 16 I7-1355U FHD 16/512SSD Win11 *$770* Black "
+    },
+    {
+      "from": 1000,
+      "to": 990,
+      "old": "8 | Asus VivoBook 16 I9-13900H 16/1TSSD Win11 Silver **$1000**",
+      "source": "💻Asus VivoBook 16 I9-13900H 16/1TSSD Win11 *$990* Silver "
+    },
+    {
+      "from": 1375,
+      "to": 1325,
+      "old": "5 | Asus Zenbook 16 Ryzen Ai 9 365 3K Oled Touch COpilot+PC 24/1TB White **$1375**",
+      "source": "💻Asus Zenbook 16 Ryzen Ai 9 365 3K Oled Touch COpilot+PC 24/1TB *$1325* White"
+    },
+    {
+      "from": 1975,
+      "to": 1930,
+      "old": "4 | Asus Zenbook Duo 14 Intel Ultra 9 285H 32/2TSSD Touch W11 Gray **$1975**",
+      "source": "💻Asus Zenbook Duo 14 Intel Ultra 9 285H 32/2TSSD Touch W11 *$1930* Gray"
+    },
+    {
+      "from": 810,
+      "to": 910,
+      "old": "5 | HP 15.6 Core Ultra 7 225U Touch 16/512SSD Natural **$810**",
+      "source": "💻HP 15.6 Core Ultra 7 225U Touch 16/512SSD *$910* Natural"
+    },
+    {
+      "from": 770,
+      "to": 750,
+      "old": "4 | HP PROBook 460 G11 16 Ultra 5 125U 16/256SSD Silver **$770**",
+      "source": "💻HP ProBook 460 G11 16 Ultra 5 125U 16/256SSD *$750* Silver"
+    }
+  ]
+}
