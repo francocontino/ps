@@ -34,12 +34,28 @@
       button { cursor: pointer; }
       :focus-visible { outline: 3px solid rgba(33, 150, 243, 0.34); outline-offset: 2px; }
       .page { width: min(100%, 680px); margin: 0 auto; }
+      body.auth-locked .page, body.auth-locked .modal-backdrop { display: none; }
+      .auth-screen { position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; padding: 20px; background: radial-gradient(circle at 85% 0%, rgba(129,201,250,.2), transparent 25rem), radial-gradient(circle at 0% 20%, rgba(218,201,223,.35), transparent 24rem), #faf9fb; }
+      .auth-screen[hidden] { display: none; }
+      .login-card { width: min(100%, 390px); padding: 28px; border: 1px solid var(--line); border-radius: 24px; background: rgba(255,255,255,.96); box-shadow: 0 24px 70px rgba(42,31,47,.14); }
+      .login-brand { display: flex; align-items: center; gap: 12px; margin-bottom: 24px; }
+      .login-card h1 { font-size: 1.2rem; }
+      .login-copy { margin: 5px 0 0; color: var(--muted); font-size: .76rem; }
+      .login-form { display: grid; gap: 15px; }
+      .login-field { display: grid; gap: 7px; }
+      .login-field label { color: var(--muted); font-size: .72rem; font-weight: 750; }
+      .login-field input { width: 100%; min-height: 48px; padding: 0 13px; border: 1px solid var(--line); border-radius: 11px; background: #fff; color: #17171a; }
+      .login-error { min-height: 20px; margin: -3px 0 0; color: var(--danger); font-size: .73rem; font-weight: 700; }
+      .login-button { min-height: 48px; border: 0; border-radius: 11px; background: linear-gradient(135deg, #81638b, #6d71bd 52%, #2196f3); color: #fff; font-weight: 850; }
+      .login-button:disabled { cursor: wait; opacity: .7; }
       .topbar { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-bottom: 20px; }
       .brand { display: flex; align-items: center; gap: 11px; }
       .mark { width: 42px; height: 42px; border: 1px solid var(--line); border-radius: 14px; background: #fff url("./ps.png") center/30px no-repeat; }
       h1 { margin: 0; font-size: 1rem; letter-spacing: -.03em; }
       .subtitle { margin: 3px 0 0; color: var(--muted); font-size: .73rem; }
       .back { min-height: 42px; display: inline-flex; align-items: center; padding: 0 13px; border: 1px solid var(--line); border-radius: 11px; background: #fff; color: var(--purple-strong); font-size: .76rem; font-weight: 800; text-decoration: none; }
+      .top-actions { display: flex; gap: 8px; }
+      .logout { min-height: 42px; padding: 0 13px; border: 1px solid var(--line); border-radius: 11px; background: #fff; color: var(--danger); font-size: .76rem; font-weight: 800; }
       #adminSheet { margin-top: 18px; overflow: hidden; border: 1px solid var(--line); border-radius: 22px; background: rgba(255,255,255,.94); box-shadow: 0 18px 48px rgba(42,31,47,.1); }
       .sheet-header { padding: 0; border-bottom: 1px solid var(--line); }
       .sheet-header h2 { margin: 0; font-size: 1.15rem; }
@@ -114,11 +130,22 @@
       }
     </style>
   </head>
-  <body>
+  <body class="auth-locked">
+    <section id="authScreen" class="auth-screen" aria-labelledby="loginTitle">
+      <div class="login-card">
+        <div class="login-brand"><div class="mark" aria-hidden="true"></div><div><h1 id="loginTitle">Acceso administrativo</h1><p class="login-copy">Ingresá tus credenciales para continuar.</p></div></div>
+        <form id="loginForm" class="login-form">
+          <div class="login-field"><label for="loginUser">Usuario</label><input id="loginUser" name="username" type="text" autocomplete="username" required autofocus /></div>
+          <div class="login-field"><label for="loginPassword">Contraseña</label><input id="loginPassword" name="password" type="password" autocomplete="current-password" required /></div>
+          <p id="loginError" class="login-error" role="alert" aria-live="polite"></p>
+          <button id="loginButton" class="login-button" type="submit">Ingresar</button>
+        </form>
+      </div>
+    </section>
     <main class="page">
       <header class="topbar">
         <div class="brand"><div class="mark" aria-hidden="true"></div><div><h1>Prime Store</h1><p class="subtitle">Administración del catálogo</p></div></div>
-        <a class="back" href="./stock-widget.html">← Volver</a>
+        <div class="top-actions"><a class="back" href="./stock-widget.html">← Volver</a><button id="logoutButton" class="logout" type="button">Salir</button></div>
       </header>
 
 
@@ -161,6 +188,40 @@
         <div id="stockDetail" class="detail-grid"></div><pre id="stockRaw" class="detail-raw"></pre>
       </article>
     </div>
+    <script>
+      const AUTH_SESSION_KEY = "prime-store-admin-authenticated";
+      const AUTH_USER_HASH = "2fe840e13244a9d748883574c1f1b7b1d7020eb39d0735b8f91ef5cf6f35173e";
+      const AUTH_PASSWORD_HASH = "fbb68c10326c37999937ef072ea7d4669055db9bade44466c5f99fbb0c237040";
+      const authScreen = document.querySelector("#authScreen");
+      const loginForm = document.querySelector("#loginForm");
+      const loginError = document.querySelector("#loginError");
+      const loginButton = document.querySelector("#loginButton");
+
+      async function sha256(value) {
+        const data = new TextEncoder().encode(value);
+        const digest = await crypto.subtle.digest("SHA-256", data);
+        return [...new Uint8Array(digest)].map((byte) => byte.toString(16).padStart(2, "0")).join("");
+      }
+      function unlockAdmin() {
+        document.body.classList.remove("auth-locked");
+        authScreen.hidden = true;
+      }
+      if (sessionStorage.getItem(AUTH_SESSION_KEY) === "yes") unlockAdmin();
+      loginForm.addEventListener("submit", async (event) => {
+        event.preventDefault(); loginError.textContent = ""; loginButton.disabled = true;
+        try {
+          const [userHash, passwordHash] = await Promise.all([sha256(document.querySelector("#loginUser").value), sha256(document.querySelector("#loginPassword").value)]);
+          if (userHash !== AUTH_USER_HASH || passwordHash !== AUTH_PASSWORD_HASH) {
+            loginError.textContent = "Usuario o contraseña incorrectos.";
+            document.querySelector("#loginPassword").value = ""; document.querySelector("#loginPassword").focus(); return;
+          }
+          sessionStorage.setItem(AUTH_SESSION_KEY, "yes"); unlockAdmin();
+        } catch {
+          loginError.textContent = "No se pudo validar el acceso en este navegador.";
+        } finally { loginButton.disabled = false; }
+      });
+      document.querySelector("#logoutButton").addEventListener("click", () => { sessionStorage.removeItem(AUTH_SESSION_KEY); window.location.reload(); });
+    </script>
     <script src="./src/data/catalog.browser.js"></script>
     <script>
       const STORAGE_KEY = "prime-store-price-settings";
