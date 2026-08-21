@@ -16,5 +16,5 @@ Elige si el widget muestra o no las unidades disponibles para cada modelo. ejemp
 
 [ganancia]: 20
 [suma_fija]: S
-[mostrar_precio]: S
+[mostrar_precio]: N
 [mostrar_uds_dispo]: N
