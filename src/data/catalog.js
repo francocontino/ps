@@ -37,374 +37,6 @@ export const apple_new = [
     "raw": "5 | USB-C POWER ADAPTER 20W (ORIGINAL) RECTO $20"
   },
   {
-    "id": "apple_new-15-plus-128",
-    "category": "apple_new",
-    "deviceType": "smartphone",
-    "deviceGroup": "Smartphones",
-    "brand": "Apple",
-    "model": "15 Plus 128",
-    "family": "15 Plus",
-    "memory": {
-      "ramGb": null,
-      "storageGb": null
-    },
-    "chip": null,
-    "colors": [
-      "Yellow"
-    ],
-    "configuration": {
-      "storageGb": null,
-      "ramGb": null,
-      "chip": null,
-      "simMode": "eSIM"
-    },
-    "variant": {
-      "color": "Yellow",
-      "colors": [
-        "Yellow"
-      ],
-      "priceUsd": 700,
-      "stockQuantity": 5
-    },
-    "description": "15 Plus 128 $700 Yellow",
-    "stockQuantity": 5,
-    "priceUsd": 700,
-    "pricesUsd": [
-      700
-    ],
-    "raw": "5 | 15 Plus 128 $700 Yellow"
-  },
-  {
-    "id": "apple_new-15-plus-128-2",
-    "category": "apple_new",
-    "deviceType": "smartphone",
-    "deviceGroup": "Smartphones",
-    "brand": "Apple",
-    "model": "15 Plus 128",
-    "family": "15 Plus",
-    "memory": {
-      "ramGb": null,
-      "storageGb": null
-    },
-    "chip": null,
-    "colors": [
-      "Black"
-    ],
-    "configuration": {
-      "storageGb": null,
-      "ramGb": null,
-      "chip": null,
-      "simMode": "eSIM"
-    },
-    "variant": {
-      "color": "Black",
-      "colors": [
-        "Black"
-      ],
-      "priceUsd": 720,
-      "stockQuantity": 5
-    },
-    "description": "15 Plus 128 $720 Black",
-    "stockQuantity": 5,
-    "priceUsd": 720,
-    "pricesUsd": [
-      720
-    ],
-    "raw": "5 | 15 Plus 128 $720 Black"
-  },
-  {
-    "id": "apple_new-16-pro-max-1tb",
-    "category": "apple_new",
-    "deviceType": "smartphone",
-    "deviceGroup": "Smartphones",
-    "brand": "Apple",
-    "model": "16 Pro Max",
-    "family": "16 Pro",
-    "memory": {
-      "ramGb": null,
-      "storageGb": 1024
-    },
-    "chip": null,
-    "colors": [],
-    "configuration": {
-      "storageGb": 1024,
-      "ramGb": null,
-      "chip": null,
-      "simMode": "eSIM"
-    },
-    "variant": {
-      "color": null,
-      "colors": [],
-      "priceUsd": 1370,
-      "stockQuantity": 5
-    },
-    "description": "16 Pro Max 1TB $1370 Desert",
-    "stockQuantity": 5,
-    "priceUsd": 1370,
-    "pricesUsd": [
-      1370
-    ],
-    "raw": "5 | 16 Pro Max 1TB $1370 Desert"
-  },
-  {
-    "id": "apple_new-17-256gb",
-    "category": "apple_new",
-    "deviceType": "smartphone",
-    "deviceGroup": "Smartphones",
-    "brand": "Apple",
-    "model": "17",
-    "family": "17",
-    "memory": {
-      "ramGb": null,
-      "storageGb": 256
-    },
-    "chip": null,
-    "colors": [
-      "White"
-    ],
-    "configuration": {
-      "storageGb": 256,
-      "ramGb": null,
-      "chip": null,
-      "simMode": "eSIM"
-    },
-    "variant": {
-      "color": "White",
-      "colors": [
-        "White"
-      ],
-      "priceUsd": 920,
-      "stockQuantity": 5
-    },
-    "description": "17 256GB $920 White",
-    "stockQuantity": 5,
-    "priceUsd": 920,
-    "pricesUsd": [
-      920
-    ],
-    "raw": "5 | 17 256GB $920 White"
-  },
-  {
-    "id": "apple_new-17-256gb-2",
-    "category": "apple_new",
-    "deviceType": "smartphone",
-    "deviceGroup": "Smartphones",
-    "brand": "Apple",
-    "model": "17",
-    "family": "17",
-    "memory": {
-      "ramGb": null,
-      "storageGb": 256
-    },
-    "chip": null,
-    "colors": [
-      "Blue"
-    ],
-    "configuration": {
-      "storageGb": 256,
-      "ramGb": null,
-      "chip": null,
-      "simMode": "eSIM"
-    },
-    "variant": {
-      "color": "Blue",
-      "colors": [
-        "Blue"
-      ],
-      "priceUsd": 920,
-      "stockQuantity": 5
-    },
-    "description": "17 256GB $920 Blue",
-    "stockQuantity": 5,
-    "priceUsd": 920,
-    "pricesUsd": [
-      920
-    ],
-    "raw": "5 | 17 256GB $920 Blue"
-  },
-  {
-    "id": "apple_new-17-256gb-sim",
-    "category": "apple_new",
-    "deviceType": "smartphone",
-    "deviceGroup": "Smartphones",
-    "brand": "Apple",
-    "model": "17",
-    "family": "17",
-    "memory": {
-      "ramGb": null,
-      "storageGb": 256
-    },
-    "chip": null,
-    "colors": [
-      "Blue"
-    ],
-    "configuration": {
-      "storageGb": 256,
-      "ramGb": null,
-      "chip": null,
-      "simMode": "SIM física"
-    },
-    "variant": {
-      "color": "Blue",
-      "colors": [
-        "Blue"
-      ],
-      "priceUsd": 940,
-      "stockQuantity": 5
-    },
-    "description": "17 256GB SIM / / / $940 Blue",
-    "stockQuantity": 5,
-    "priceUsd": 940,
-    "pricesUsd": [
-      940
-    ],
-    "raw": "5 | 17 256GB SIM / / / $940 Blue"
-  },
-  {
-    "id": "apple_new-17-256gb-sim-2",
-    "category": "apple_new",
-    "deviceType": "smartphone",
-    "deviceGroup": "Smartphones",
-    "brand": "Apple",
-    "model": "17",
-    "family": "17",
-    "memory": {
-      "ramGb": null,
-      "storageGb": 256
-    },
-    "chip": null,
-    "colors": [],
-    "configuration": {
-      "storageGb": 256,
-      "ramGb": null,
-      "chip": null,
-      "simMode": "SIM física"
-    },
-    "variant": {
-      "color": null,
-      "colors": [],
-      "priceUsd": 940,
-      "stockQuantity": 5
-    },
-    "description": "17 256GB SIM / / / $940 Sage",
-    "stockQuantity": 5,
-    "priceUsd": 940,
-    "pricesUsd": [
-      940
-    ],
-    "raw": "5 | 17 256GB SIM / / / $940 Sage"
-  },
-  {
-    "id": "apple_new-17-512-esim-esim",
-    "category": "apple_new",
-    "deviceType": "smartphone",
-    "deviceGroup": "Smartphones",
-    "brand": "Apple",
-    "model": "17 512 Esim Esim",
-    "family": "17 512",
-    "memory": {
-      "ramGb": null,
-      "storageGb": null
-    },
-    "chip": null,
-    "colors": [],
-    "configuration": {
-      "storageGb": null,
-      "ramGb": null,
-      "chip": null,
-      "simMode": "eSIM"
-    },
-    "variant": {
-      "color": null,
-      "colors": [],
-      "priceUsd": 1080,
-      "stockQuantity": 5
-    },
-    "description": "17 512 Esim Esim $1080 Sage",
-    "stockQuantity": 5,
-    "priceUsd": 1080,
-    "pricesUsd": [
-      1080
-    ],
-    "raw": "5 | 17 512 Esim Esim $1080 Sage"
-  },
-  {
-    "id": "apple_new-17-pro-1tb",
-    "category": "apple_new",
-    "deviceType": "smartphone",
-    "deviceGroup": "Smartphones",
-    "brand": "Apple",
-    "model": "17 Pro",
-    "family": "17 Pro",
-    "memory": {
-      "ramGb": null,
-      "storageGb": 1024
-    },
-    "chip": null,
-    "colors": [
-      "Silver"
-    ],
-    "configuration": {
-      "storageGb": 1024,
-      "ramGb": null,
-      "chip": null,
-      "simMode": "eSIM"
-    },
-    "variant": {
-      "color": "Silver",
-      "colors": [
-        "Silver"
-      ],
-      "priceUsd": 1550,
-      "stockQuantity": 5
-    },
-    "description": "17 PRO 1TB $1550 Silver",
-    "stockQuantity": 5,
-    "priceUsd": 1550,
-    "pricesUsd": [
-      1550
-    ],
-    "raw": "5 | 17 PRO 1TB $1550 Silver"
-  },
-  {
-    "id": "apple_new-17-pro-max-2tb",
-    "category": "apple_new",
-    "deviceType": "smartphone",
-    "deviceGroup": "Smartphones",
-    "brand": "Apple",
-    "model": "17 Pro Max",
-    "family": "17 Pro",
-    "memory": {
-      "ramGb": null,
-      "storageGb": 2048
-    },
-    "chip": null,
-    "colors": [
-      "Blue"
-    ],
-    "configuration": {
-      "storageGb": 2048,
-      "ramGb": null,
-      "chip": null,
-      "simMode": "eSIM"
-    },
-    "variant": {
-      "color": "Blue",
-      "colors": [
-        "Blue"
-      ],
-      "priceUsd": 2025,
-      "stockQuantity": 5
-    },
-    "description": "17 Pro Max 2TB $2025 Blue",
-    "stockQuantity": 5,
-    "priceUsd": 2025,
-    "pricesUsd": [
-      2025
-    ],
-    "raw": "5 | 17 Pro Max 2TB $2025 Blue"
-  },
-  {
     "id": "apple_new-iphone-15-128gb",
     "category": "apple_new",
     "deviceType": "smartphone",
@@ -479,6 +111,82 @@ export const apple_new = [
       695
     ],
     "raw": "5 | iPhone 15 128GB $695 Blue"
+  },
+  {
+    "id": "apple_new-iphone-15-plus-128",
+    "category": "apple_new",
+    "deviceType": "smartphone",
+    "deviceGroup": "Smartphones",
+    "brand": "Apple",
+    "model": "iPhone 15 Plus 128",
+    "family": "iPhone 15",
+    "memory": {
+      "ramGb": null,
+      "storageGb": null
+    },
+    "chip": null,
+    "colors": [
+      "Yellow"
+    ],
+    "configuration": {
+      "storageGb": null,
+      "ramGb": null,
+      "chip": null,
+      "simMode": "eSIM"
+    },
+    "variant": {
+      "color": "Yellow",
+      "colors": [
+        "Yellow"
+      ],
+      "priceUsd": 700,
+      "stockQuantity": 5
+    },
+    "description": "iPhone 15 Plus 128 $700 Yellow",
+    "stockQuantity": 5,
+    "priceUsd": 700,
+    "pricesUsd": [
+      700
+    ],
+    "raw": "5 | iPhone 15 Plus 128 $700 Yellow"
+  },
+  {
+    "id": "apple_new-iphone-15-plus-128-2",
+    "category": "apple_new",
+    "deviceType": "smartphone",
+    "deviceGroup": "Smartphones",
+    "brand": "Apple",
+    "model": "iPhone 15 Plus 128",
+    "family": "iPhone 15",
+    "memory": {
+      "ramGb": null,
+      "storageGb": null
+    },
+    "chip": null,
+    "colors": [
+      "Black"
+    ],
+    "configuration": {
+      "storageGb": null,
+      "ramGb": null,
+      "chip": null,
+      "simMode": "eSIM"
+    },
+    "variant": {
+      "color": "Black",
+      "colors": [
+        "Black"
+      ],
+      "priceUsd": 720,
+      "stockQuantity": 5
+    },
+    "description": "iPhone 15 Plus 128 $720 Black",
+    "stockQuantity": 5,
+    "priceUsd": 720,
+    "pricesUsd": [
+      720
+    ],
+    "raw": "5 | iPhone 15 Plus 128 $720 Black"
   },
   {
     "id": "apple_new-iphone-16-128gb",
@@ -669,6 +377,40 @@ export const apple_new = [
       790
     ],
     "raw": "5 | iPhone 16 128GB $790 Pink"
+  },
+  {
+    "id": "apple_new-iphone-16-pro-max-1tb",
+    "category": "apple_new",
+    "deviceType": "smartphone",
+    "deviceGroup": "Smartphones",
+    "brand": "Apple",
+    "model": "iPhone 16 Pro Max",
+    "family": "iPhone 16",
+    "memory": {
+      "ramGb": null,
+      "storageGb": 1024
+    },
+    "chip": null,
+    "colors": [],
+    "configuration": {
+      "storageGb": 1024,
+      "ramGb": null,
+      "chip": null,
+      "simMode": "eSIM"
+    },
+    "variant": {
+      "color": null,
+      "colors": [],
+      "priceUsd": 1370,
+      "stockQuantity": 5
+    },
+    "description": "iPhone 16 Pro Max 1TB $1370 Desert",
+    "stockQuantity": 5,
+    "priceUsd": 1370,
+    "pricesUsd": [
+      1370
+    ],
+    "raw": "5 | iPhone 16 Pro Max 1TB $1370 Desert"
   },
   {
     "id": "apple_new-iphone-16-e-128gb",
@@ -1047,6 +789,188 @@ export const apple_new = [
     "raw": "5 | iPhone 17 256GB SIM $940 Lavender"
   },
   {
+    "id": "apple_new-iphone-17-256gb-10",
+    "category": "apple_new",
+    "deviceType": "smartphone",
+    "deviceGroup": "Smartphones",
+    "brand": "Apple",
+    "model": "iPhone 17",
+    "family": "iPhone 17",
+    "memory": {
+      "ramGb": null,
+      "storageGb": 256
+    },
+    "chip": null,
+    "colors": [
+      "White"
+    ],
+    "configuration": {
+      "storageGb": 256,
+      "ramGb": null,
+      "chip": null,
+      "simMode": "eSIM"
+    },
+    "variant": {
+      "color": "White",
+      "colors": [
+        "White"
+      ],
+      "priceUsd": 920,
+      "stockQuantity": 5
+    },
+    "description": "iPhone 17 256GB $920 White",
+    "stockQuantity": 5,
+    "priceUsd": 920,
+    "pricesUsd": [
+      920
+    ],
+    "raw": "5 | iPhone 17 256GB $920 White"
+  },
+  {
+    "id": "apple_new-iphone-17-256gb-11",
+    "category": "apple_new",
+    "deviceType": "smartphone",
+    "deviceGroup": "Smartphones",
+    "brand": "Apple",
+    "model": "iPhone 17",
+    "family": "iPhone 17",
+    "memory": {
+      "ramGb": null,
+      "storageGb": 256
+    },
+    "chip": null,
+    "colors": [
+      "Blue"
+    ],
+    "configuration": {
+      "storageGb": 256,
+      "ramGb": null,
+      "chip": null,
+      "simMode": "eSIM"
+    },
+    "variant": {
+      "color": "Blue",
+      "colors": [
+        "Blue"
+      ],
+      "priceUsd": 920,
+      "stockQuantity": 5
+    },
+    "description": "iPhone 17 256GB $920 Blue",
+    "stockQuantity": 5,
+    "priceUsd": 920,
+    "pricesUsd": [
+      920
+    ],
+    "raw": "5 | iPhone 17 256GB $920 Blue"
+  },
+  {
+    "id": "apple_new-iphone-17-256gb-sim-6",
+    "category": "apple_new",
+    "deviceType": "smartphone",
+    "deviceGroup": "Smartphones",
+    "brand": "Apple",
+    "model": "iPhone 17",
+    "family": "iPhone 17",
+    "memory": {
+      "ramGb": null,
+      "storageGb": 256
+    },
+    "chip": null,
+    "colors": [
+      "Blue"
+    ],
+    "configuration": {
+      "storageGb": 256,
+      "ramGb": null,
+      "chip": null,
+      "simMode": "SIM física"
+    },
+    "variant": {
+      "color": "Blue",
+      "colors": [
+        "Blue"
+      ],
+      "priceUsd": 940,
+      "stockQuantity": 5
+    },
+    "description": "iPhone 17 256GB SIM / / / $940 Blue",
+    "stockQuantity": 5,
+    "priceUsd": 940,
+    "pricesUsd": [
+      940
+    ],
+    "raw": "5 | iPhone 17 256GB SIM / / / $940 Blue"
+  },
+  {
+    "id": "apple_new-iphone-17-256gb-sim-7",
+    "category": "apple_new",
+    "deviceType": "smartphone",
+    "deviceGroup": "Smartphones",
+    "brand": "Apple",
+    "model": "iPhone 17",
+    "family": "iPhone 17",
+    "memory": {
+      "ramGb": null,
+      "storageGb": 256
+    },
+    "chip": null,
+    "colors": [],
+    "configuration": {
+      "storageGb": 256,
+      "ramGb": null,
+      "chip": null,
+      "simMode": "SIM física"
+    },
+    "variant": {
+      "color": null,
+      "colors": [],
+      "priceUsd": 940,
+      "stockQuantity": 5
+    },
+    "description": "iPhone 17 256GB SIM / / / $940 Sage",
+    "stockQuantity": 5,
+    "priceUsd": 940,
+    "pricesUsd": [
+      940
+    ],
+    "raw": "5 | iPhone 17 256GB SIM / / / $940 Sage"
+  },
+  {
+    "id": "apple_new-iphone-17-512-esim-esim",
+    "category": "apple_new",
+    "deviceType": "smartphone",
+    "deviceGroup": "Smartphones",
+    "brand": "Apple",
+    "model": "iPhone 17 512 Esim Esim",
+    "family": "iPhone 17",
+    "memory": {
+      "ramGb": null,
+      "storageGb": null
+    },
+    "chip": null,
+    "colors": [],
+    "configuration": {
+      "storageGb": null,
+      "ramGb": null,
+      "chip": null,
+      "simMode": "eSIM"
+    },
+    "variant": {
+      "color": null,
+      "colors": [],
+      "priceUsd": 1080,
+      "stockQuantity": 5
+    },
+    "description": "iPhone 17 512 Esim Esim $1080 Sage",
+    "stockQuantity": 5,
+    "priceUsd": 1080,
+    "pricesUsd": [
+      1080
+    ],
+    "raw": "5 | iPhone 17 512 Esim Esim $1080 Sage"
+  },
+  {
     "id": "apple_new-iphone-17-pro-256gb",
     "category": "apple_new",
     "deviceType": "smartphone",
@@ -1349,6 +1273,44 @@ export const apple_new = [
       1610
     ],
     "raw": "0 | iPhone 17 PRO 1TB $1610 Orange"
+  },
+  {
+    "id": "apple_new-iphone-17-pro-1tb-2",
+    "category": "apple_new",
+    "deviceType": "smartphone",
+    "deviceGroup": "Smartphones",
+    "brand": "Apple",
+    "model": "iPhone 17 Pro",
+    "family": "iPhone 17",
+    "memory": {
+      "ramGb": null,
+      "storageGb": 1024
+    },
+    "chip": null,
+    "colors": [
+      "Silver"
+    ],
+    "configuration": {
+      "storageGb": 1024,
+      "ramGb": null,
+      "chip": null,
+      "simMode": "eSIM"
+    },
+    "variant": {
+      "color": "Silver",
+      "colors": [
+        "Silver"
+      ],
+      "priceUsd": 1550,
+      "stockQuantity": 5
+    },
+    "description": "iPhone 17 PRO 1TB $1550 Silver",
+    "stockQuantity": 5,
+    "priceUsd": 1550,
+    "pricesUsd": [
+      1550
+    ],
+    "raw": "5 | iPhone 17 PRO 1TB $1550 Silver"
   },
   {
     "id": "apple_new-iphone-17-pro-max-256gb",
@@ -1767,6 +1729,44 @@ export const apple_new = [
       2025
     ],
     "raw": "5 | iPhone 17 PRO MAX 2TB $2025 Orange"
+  },
+  {
+    "id": "apple_new-iphone-17-pro-max-2tb-2",
+    "category": "apple_new",
+    "deviceType": "smartphone",
+    "deviceGroup": "Smartphones",
+    "brand": "Apple",
+    "model": "iPhone 17 Pro Max",
+    "family": "iPhone 17",
+    "memory": {
+      "ramGb": null,
+      "storageGb": 2048
+    },
+    "chip": null,
+    "colors": [
+      "Blue"
+    ],
+    "configuration": {
+      "storageGb": 2048,
+      "ramGb": null,
+      "chip": null,
+      "simMode": "eSIM"
+    },
+    "variant": {
+      "color": "Blue",
+      "colors": [
+        "Blue"
+      ],
+      "priceUsd": 2025,
+      "stockQuantity": 5
+    },
+    "description": "iPhone 17 Pro Max 2TB $2025 Blue",
+    "stockQuantity": 5,
+    "priceUsd": 2025,
+    "pricesUsd": [
+      2025
+    ],
+    "raw": "5 | iPhone 17 Pro Max 2TB $2025 Blue"
   },
   {
     "id": "apple_new-iphone-air-256gb",

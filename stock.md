@@ -62,16 +62,16 @@ ____________________________________________________________
 
 5 | USB-C POWER ADAPTER 20W (ORIGINAL) RECTO $20
 
-5 | 15 Plus 128 $700 Yellow
-5 | 15 Plus 128 $720 Black
-5 | 16 Pro Max 1TB $1370 Desert
-5 | 17 256GB $920 White
-5 | 17 256GB $920 Blue
-5 | 17 256GB SIM / / / $940 Blue
-5 | 17 256GB SIM / / / $940 Sage
-5 | 17 512 Esim Esim $1080 Sage
-5 | 17 PRO 1TB $1550 Silver
-5 | 17 Pro Max 2TB $2025 Blue
+5 | iPhone 15 Plus 128 $700 Yellow
+5 | iPhone 15 Plus 128 $720 Black
+5 | iPhone 16 Pro Max 1TB $1370 Desert
+5 | iPhone 17 256GB $920 White
+5 | iPhone 17 256GB $920 Blue
+5 | iPhone 17 256GB SIM / / / $940 Blue
+5 | iPhone 17 256GB SIM / / / $940 Sage
+5 | iPhone 17 512 Esim Esim $1080 Sage
+5 | iPhone 17 PRO 1TB $1550 Silver
+5 | iPhone 17 Pro Max 2TB $2025 Blue
 
 **UNA VEZ RETIRADO, LA GARANTÍA ES OFICIAL 1 AÑO**
 
