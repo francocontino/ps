@@ -1,4 +1,4 @@
-import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { readFile, writeFile, mkdir, stat } from "node:fs/promises";
 import { resolve } from "node:path";
 
 const root = resolve(import.meta.dirname, "..");
@@ -28,6 +28,32 @@ const subSections = new Map([
   ["*Tablet*", "samsung_tablets"],
   ["*SmartWatch Samsung*", "samsung_watches"],
 ]);
+
+function detectSection(line, currentCategory) {
+  const heading = String(line)
+    .replace(/[📱📲🎧⌚💻🎮💥👓🔥✅🖊⭐]/gu, " ")
+    .replace(/[\*_]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toUpperCase();
+  if (/^APPLE NEW$/.test(heading)) return "apple_new";
+  if (/^IPHONES? \(REACONDICIONADOS/.test(heading)) return "apple_cpo";
+  if (/^SAMSUNG\b/.test(heading)) return "samsung";
+  if (heading === "TABLET" && currentCategory?.startsWith("samsung")) return "samsung_tablets";
+  if (heading === "SMARTWATCH SAMSUNG") return "samsung_watches";
+  if (heading === "XIAOMI") return "xiaomi";
+  if (heading === "MOTOROLA") return "motorola";
+  if (/^IPADS?-AIRPODS-WATCH$/.test(heading)) return "apple_accessories";
+  if (heading === "MACBOOK") return "mac";
+  if (/^CONSOLAS\b/.test(heading)) return "gaming";
+  if ((/RAYBAN META/.test(heading) || /OAKLEY META/.test(heading)) && !/(?:USD|U\$|\$)\s*[\d.]+/i.test(line)) return "smart_glasses";
+  if (heading === "CÁMARAS DEPORTIVAS") return "cameras";
+  if (heading === "DRONES") return "drones";
+  if (heading === "MICRÓFONOS INALÁMBRICOS") return "microphones";
+  if (heading === "RELOJES GARMIN") return "garmin";
+  if (heading === "NOTEBOOK") return "notebooks";
+  return null;
+}
 
 const categoryLabels = {
   apple_new: "Apple nuevos",
@@ -83,12 +109,14 @@ function getBrand(description, category) {
 function getDeviceType(description, category) {
   const text = description.toLowerCase();
   if (["apple_new", "apple_cpo", "samsung", "motorola"].includes(category)) {
+    if (/adapter|cargador|cable|case\b/.test(text)) return "accesorio";
     if (/buds/.test(text)) return "auriculares";
     return "smartphone";
   }
   if (category === "xiaomi") return /pad/.test(text) ? "tablet" : "smartphone";
   if (category === "samsung_tablets") return "tablet";
-  if (["samsung_watches", "garmin"].includes(category)) return "smartwatch";
+  if (category === "samsung_watches") return /buds/.test(text) ? "auriculares" : "smartwatch";
+  if (category === "garmin") return "smartwatch";
   if (category === "apple_accessories") {
     if (/ipad/.test(text)) return "tablet";
     if (/airpods/.test(text)) return "auriculares";
@@ -149,6 +177,17 @@ function extractChip(description) {
   return patterns.map((pattern) => description.match(pattern)?.[0]).find(Boolean) ?? null;
 }
 
+function extractSimMode(description) {
+  const text = description.toLowerCase();
+  const esim = /\besim\b/.test(text);
+  const physical = /sim\s*f[ií]sica|physical\s*sim/.test(text);
+  if (esim && physical) return "SIM física + eSIM";
+  if (/\bdual\s*sim\b|\bds\b/.test(text)) return "Dual SIM";
+  if (esim) return "eSIM";
+  if (physical || /\bsim\b/.test(text)) return "SIM física";
+  return null;
+}
+
 function extractColors(description) {
   const normalized = ` ${description.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase()} `;
   return Object.entries(colorAliases)
@@ -169,7 +208,48 @@ function extractModel(description, deviceType, brand) {
   return model.replace(/[·▸-]+$/g, "").trim();
 }
 
+function canonicalModel(model, brand, deviceType) {
+  let value = String(model).replace(/[“”]/g, '"').replace(/[·▸]+/g, " ").replace(/\s+/g, " ").trim();
+  value = value.replace(/\s+\d+\s*[+/]\s*\d+B\b.*$/i, "").trim();
+  const colorWords = Object.keys(colorAliases).sort((a, b) => b.length - a.length).join("|");
+  value = value.replace(new RegExp(`\\s+(?:${colorWords})(?:\\s+Band)?$`, "i"), "").trim();
+  if (brand === "Apple" && deviceType === "smartphone") {
+    value = value.replace(/^iPhone\s*/i, "iPhone ").replace(/\b16\s+E\b/i, "16E");
+    value = value.replace(/\b(PRO MAX|PRO|AIR)\b/gi, (part) => part.toLowerCase().replace(/\b\w/g, (char) => char.toUpperCase()));
+  }
+  return value;
+}
+
+function inferFamily(model, brand, deviceType) {
+  const value = String(model).trim();
+  if (brand === "Apple" && deviceType === "smartphone") {
+    const generation = value.match(/^iPhone\s+(\d+)/i)?.[1];
+    if (generation) return `iPhone ${generation}`;
+    if (/^iPhone\s+Air\b/i.test(value)) return "iPhone Air";
+  }
+  if (brand === "Apple" && deviceType === "notebook")
+    return value.match(/^MacBook\s+(Air|Pro|Neo)/i)?.[0] ?? "MacBook";
+  if (brand === "Samsung" && deviceType === "smartphone") {
+    if (/^S\d+/i.test(value)) return "Galaxy S";
+    if (/^A\d+/i.test(value)) return "Galaxy A";
+    if (/^Z\s/i.test(value)) return "Galaxy Z";
+  }
+  if (brand === "Xiaomi" && deviceType === "smartphone") {
+    if (/^POCO\b/i.test(value)) return "Poco";
+    if (/^(?:REDMI|NOTE)\b/i.test(value)) return "Redmi";
+    return "Xiaomi";
+  }
+  if (brand === "Motorola" && deviceType === "smartphone")
+    return /^EDGE\b/i.test(value) ? "Motorola Edge" : "Moto G";
+  if (brand === "Apple" && deviceType === "tablet") return value.match(/^iPad(?:\s+(?:Air|Pro))?/i)?.[0] ?? "iPad";
+  if (brand === "Apple" && deviceType === "auriculares") return value.match(/^AirPods(?:\s+(?:Pro|Max))?/i)?.[0] ?? "AirPods";
+  if (brand === "Apple" && deviceType === "smartwatch") return /ULTRA/i.test(value) ? "Apple Watch Ultra" : /SE/i.test(value) ? "Apple Watch SE" : "Apple Watch Series";
+  const words = value.replace(/[^\p{L}\p{N}\s-]/gu, " ").split(/\s+/).filter(Boolean);
+  return words.slice(0, Math.min(2, words.length)).join(" ") || "Otros";
+}
+
 const clean = (line) => line
+  .replace(/^\s*\d+\s*\|\s*/, "")
   .replace(/[📱📲▪️🎧⌚️⌚💻🎮💥👓🔥✅🖊️⭐️⭐]/gu, " ")
   .replace(/\*/g, "")
   .replace(/\s+/g, " ")
@@ -202,16 +282,30 @@ function isProduct(line, category) {
   if (/GARANT[IÍ]A/i.test(line)) return false;
   if (/^(✔️|⭐️Band|🔥Shiny|🔥Black\/|🔥White\/|\(Titanium)/.test(line)) return false;
   if (/^\*[^*]+\*\s*$/.test(line)) return false;
-  return /[\d$]|USD|U\$/i.test(line) && /^[📱📲▪🎧⌚💻🎮💥👓🔥✅🖊]/u.test(line);
+  const hasKnownPrefix = /^[📱📲▪🎧⌚💻🎮💥👓🔥✅🖊]/u.test(line);
+  const hasStockPrefix = /^\d+\s*\|\s*\S/.test(line);
+  return /[\d$]|USD|U\$/i.test(line) && (hasKnownPrefix || hasStockPrefix);
+}
+
+function extractStockQuantity(line) {
+  const match = String(line).match(/^\s*(\d+)\s*\|/);
+  return match ? Number(match[1]) : null;
 }
 
 const markdown = await readFile(sourceFile, "utf8");
 const collections = Object.fromEntries(Object.keys(categoryLabels).map((key) => [key, []]));
 let category = null;
 let pendingDetails = [];
+let pricedContext = null;
 
 for (const original of markdown.split(/\r?\n/)) {
   const line = original.trim();
+  const detectedSection = detectSection(line, category);
+  if (detectedSection) {
+    if (category !== detectedSection) pricedContext = null;
+    category = detectedSection;
+    continue;
+  }
   const exactSection = sectionMarkers.find(([marker]) => line.startsWith(marker));
 
   if (exactSection) {
@@ -225,11 +319,30 @@ for (const original of markdown.split(/\r?\n/)) {
   }
   if (!isProduct(line, category)) continue;
 
-  const description = clean(line);
-  const pricesUsd = extractPrices(description);
+  if (/^\d+\s*\|\s*(?:JBL\b|Earbuds JBL\b)/i.test(line)) category = "jbl";
+
+  const stockQuantity = extractStockQuantity(line);
+  let description = clean(line);
+  let pricesUsd = extractPrices(description);
+  const hasExplicitPrice = pricesUsd.length > 0;
+
+  // Algunas familias anuncian modelo/precio en una línea y las unidades por
+  // color o banda debajo. La línea padre funciona como contexto, no como stock.
+  if (category === "smart_glasses" && stockQuantity == null && pricesUsd.length) {
+    pricedContext = { description, priceUsd: pricesUsd[0] };
+    continue;
+  }
+  if (!pricesUsd.length && stockQuantity != null && pricedContext) {
+    description = `${pricedContext.description} · ${description} $${pricedContext.priceUsd}`;
+    pricesUsd = [pricedContext.priceUsd];
+  }
   const brand = getBrand(description, category);
   const deviceType = getDeviceType(description, category);
+  const model = canonicalModel(extractModel(description, deviceType, brand), brand, deviceType);
   const memory = extractMemory(description);
+  const chip = extractChip(description);
+  const colors = extractColors(description);
+  const simMode = extractSimMode(description);
   const baseId = `${category}-${slug(description.replace(/(?:USD|U\$|\$).*$/i, ""))}`;
   const duplicate = collections[category].filter((item) => item.id.startsWith(baseId)).length;
 
@@ -238,15 +351,30 @@ for (const original of markdown.split(/\r?\n/)) {
     category,
     deviceType,
     brand,
-    model: extractModel(description, deviceType, brand),
+    model,
+    family: inferFamily(model, brand, deviceType),
     memory,
-    chip: extractChip(description),
-    colors: extractColors(description),
+    chip,
+    colors,
+    configuration: {
+      storageGb: memory.storageGb,
+      ramGb: memory.ramGb,
+      chip,
+      simMode,
+    },
+    variant: {
+      color: colors.length === 1 ? colors[0] : null,
+      colors,
+      priceUsd: pricesUsd[0] ?? null,
+      stockQuantity,
+    },
     description,
+    stockQuantity,
     priceUsd: pricesUsd[0] ?? null,
     pricesUsd,
     raw: line,
   });
+  if (hasExplicitPrice) pricedContext = { description, priceUsd: pricesUsd[0] };
 }
 
 const compareProducts = (a, b) =>
@@ -268,9 +396,11 @@ const output = `${banner}${declarations}\n\nexport const category_labels = ${JSO
 await mkdir(resolve(root, "src/data"), { recursive: true });
 await writeFile(outputFile, output);
 const allProducts = Object.values(collections).flat().sort(compareProducts);
+const stockUpdatedAt = (await stat(sourceFile)).mtime.toISOString();
 const browserOutput = `${banner}window.STOCK_DB = ${JSON.stringify({
   products: allProducts,
   categoryLabels,
+  updatedAt: stockUpdatedAt,
 }, null, 2)};\n`;
 await writeFile(browserOutputFile, browserOutput);
 console.log(`Generated ${outputFile} and ${browserOutputFile} with ${allProducts.length} products.`);

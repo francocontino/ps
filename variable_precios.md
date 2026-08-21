@@ -8,6 +8,6 @@ Elige si el widget muestra o no el precio de venta, S es sí mostrar, N es no mo
 
 Elige si el widget muestra o no las unidades disponibles para cada modelo. ejemplo "(3 uds) de Iphone 15 PRO MAX 256 black..."
 
-[ganancia]: 5
+[ganancia]: 0
 [mostrar_precio]: S
-[mostrar_uds_dispo]: N
+[mostrar_uds_dispo]: S
